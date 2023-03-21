@@ -8,7 +8,7 @@ order: 995
 
 HTAN BigQuery tables can be accessed through the [ISB-CGC Table Search UI](https://isb-cgc.appspot.com/) and via the HTAN Data Portal.
 
-For complete documentation regarding ISB-CGC Biq Query functionality, check out their [online documentation](https://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/BigQueryTableSearchUI.html#).
+For complete documentation regarding ISB-CGC BigQuery functionality, check out their [online documentation](https://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/BigQueryTableSearchUI.html#).
 
 !!! Google Accounts
 You must have a Google account to access Google Big Query.
