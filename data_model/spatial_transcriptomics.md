@@ -13,12 +13,7 @@ As with other data model, 10X Visium data levels are provided as follows:
 | Level | Description                                                                                                                              |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | RNA-seq Level 1 | Files contain raw RNA-seq data associated with spot/slide data.                                                                |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | RNA-seq Level 2 | Alignment workflows downstream of Spatial Transcriptomics RNA-seq Level 1.                                                     |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | Auxiliary Files | Auxiliary data associated with spot/slide analysis (aligned Images, quality control files, etc) from Spatial Transcriptomics.  |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | RNA-seq Level 3 | Processed data files based on Spatial Transcriptomics RNA-seq Level 2 and Spatial Transcriptomics Auxiliary files.             |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | RNA-seq Level 4 | Processed data files based on Spatial Transcriptomics RNA-seq Level 3.
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------ |
