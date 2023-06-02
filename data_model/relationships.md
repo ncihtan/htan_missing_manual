@@ -26,8 +26,6 @@ Given the complexity of biospecimen relationships, we've adopted the following n
 
 * **Biospecimen Path**: path of biospecimens from Originating to Assayed; comma-separated
 
-![HTAN ID Provenance Explained: This figure shows the ID Provenance from HTAN center, to participant, down to the file level of assayed biospecimen. The path begins with a participant ID `HTA1_203`. The participant has had a sample collected at HTAN center `HTA1`. Once the sample is collected, it is refered to as a `Biospecimen`. Depending on the stage of processing of the biospecimen, this can be refered to as the `originating` or `assayed biospecimen` (shown on the right-hand side in the flow diagram). In this case, the sample is given an originating biospecimen ID of `HTA1_203_332`. This sample is then subsampled to produce `HTA1_203_3321` and subsequently assayed with scRNA seq to produce files with data file IDs: `HTA1_203_3321026` and `HTA1_203_3321025`. The full Biospecimen path is shown in purple at the bottom of the figure.](../img/provenance1.png)
-
 ## Provenance Table Construction
 As illustrated in the figure above, biospecimens can be subsampled multiple times. However, HTAN metadata tables provide only the immediate parent biospecimen. To assemble the full biospecimen path, we perform a series of joins on the biospecimen table, walking up the parent biospecimen ancestry chain until no further parents are found. 
 

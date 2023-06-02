@@ -8,8 +8,6 @@ Written by the HTAN Data Coordinating Center (DCC), with contributions from Adam
 
 The manual can be found at https://docs.humantumoratlas.org/.
 
-ID_Provenance_Figure_Explained
-
 ## Content Updates
 
 | Date       | Comment                  |
