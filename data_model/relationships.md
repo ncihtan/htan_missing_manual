@@ -8,13 +8,13 @@ Each atlas in HTAN contains data provided by multiple research participants, who
 
 ![HTAN ID Provenance](../img/Slide_Version_ID_Provenance_Figure_Explained.png)
 
-# HTAN ID Provenance
+# HTAN ID Provenance Table
 
 The HTAN DCC has constructed an ID Provenance BigQuery table, which contains upstream biospecimen and participant information for each HTAN data file. The motivation for constructing the table arose from the need for a straightforward method of showcasing how HTAN data files are linked to biospecimens and patients.
 
 Although this information is available in HTAN, connections among assay file levels and parent relationships (both biospecimen and file) were previously only accessible by tracing through parent identifiers. Having all ID information in one place can significantly speed up analyses, exploration, and data sharing.
 
-The Provenance BigQuery table is accessible via ISB-CGC. See [Google BigQuery](../open_access/big_query.md)
+The Provenance BigQuery table is accessible via ISB-CGC. See the [Google BigQuery](../open_access/big_query.md) section for more details. 
 
 ## Biospecimen Attribute Definitions
 
@@ -35,7 +35,7 @@ We then join biospecimen information with file-level annotations to form the fin
 
 ![Provenance Table Columns](../img/provenance2.png)
 
-## Table Structure
+## Table Contents
 
 In addition to upstream biospecimen and participant IDs, the provenance table also includes a number of informational columns, such as `entityId` (Synapse ID of the source file), `HTAN_Center` (text version of center code), and `Data_Release` and `CDS_Release` which indicate which HTAN Portal release and CDS release the file was included in, respectively.
 
