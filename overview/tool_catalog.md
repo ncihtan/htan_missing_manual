@@ -4,9 +4,9 @@ order: 1000
 
 # HTAN Tool Catalog
 
-For the current listing of available tools, [please see the portal.](https://humantumoratlas.org/tools)
+For the most current listing of available tools, [please see the portal.](https://humantumoratlas.org/tools)
 
-The HTAN Network consists of ten research centers, and two pilot projects. The results from each project have been built using an array of computational tools, which are being collected into a catalog, available on the portal.
+The HTAN Network consists of ten research centers, and two pilot projects. The results from each project have been built using an array of computational tools, which are being collected into a catalog, which is available on the portal. These tools are sure to be compatible with HTAN data!
 
 
 | Name                     |  Atlas          |  Type              |  Assay                   |  Publication      |  Homepage                                                 |
