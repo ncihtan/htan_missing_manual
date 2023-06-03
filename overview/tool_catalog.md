@@ -9,8 +9,8 @@ For the current listing of available tools, [please see the portal.](https://hum
 The HTAN Network consists of ten research centers, and two pilot projects. The results from each project have been built using an array of computational tools, which are being collected into a catalog, available on the portal.
 
 
-| Name                     |  Atlas          |  Type              |  Assay                   |  Publication      |  Homepage
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Name                     |  Atlas          |  Type              |  Assay                   |  Publication      |  Homepage                                                 |
+|--------------------------|-----------------|--------------------|--------------------------|-------------------|-----------------------------------------------------------|
 | cBioPortal               |  N/A            |  Web application   |  Bulk DNA, Bulk RNA-seq  |  PMID: 22588877   |  https://cbioportal.org                                   |
 | ISB-CGC Google BigQuery  |  N/A            |  Database          |  scRNA-seq               |                   |  https://isb-cgc.appspot.com/                             |
 | Minerva                  |  HTAN HMS       |  Suite             |  Imaging                 |  PMID: 33768192   |  https://www.cycif.org/software/minerva                   |
