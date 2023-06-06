@@ -52,24 +52,29 @@ We currently host multiple single cell BigQuery tables via ISB-CGC. These tables
 
 When a BigQuery table is available for a given file, a link will be visible in the **View** Column of the HTAN Data Portal.
 
-![HTAN Portal:  Big Query Links](../img/big_query8.png)
+![HTAN Portal:  BigQuery Links](../img/big_query8.png)
 
 This link will take you to the ISB-CGC Table Search UI listing for the selected single cell file. Click the magnifying glass icon under **Open** to launch the table in the BigQuery console.
 
-![Big Query:  Details](../img/big_query9.png)
-![Big Query:  Details](../img/big_query10.png)
+![BigQuery:  Details](../img/big_query9.png)
+![BigQuery:  Details](../img/big_query10.png)
 
 ### Example Query
 
 In this example, we query the single cell RNA seq-derived gene expression data for non-epithelial cells in [colon polyps published by the Vanderbilt HTAN center](<https://www.cell.com/cell/fulltext/S0092-8674(21)01381-7>). We filter cells to those expressing the leukocyte marker CD45, coded by gene PTPRC, and enumerate cells by their identified phenotype (B = B cell, T = T cell, END = endothelial, FIB = fibroblast, MAS = mast cell, MYE = myeloid, PLA = plasma).
 
-![Example Biq Query on Single Cell Data](../img/big_query11.png)
+![Example BiqQuery on Single Cell Data](../img/big_query11.png)
 
-## Biq Query Notebooks
+## Accessing Cell Spatial Data
+We also host a number of tables that contain information on cellular locations and the estimated expression of key marker protein based multiplexed imaging followed by cell segmentation. These tables are available on ISB-CGC and are derived from Imaging Level 4 t-CyCif files submitted by HTAN centers.
+
+![Example BiqQuery Cell Spatial Data](../img/big_query12.png)
+
+
+## BiqQuery Notebooks
 
 ISB-CGC hosts a public repository of community-generated computational notebooks. The HTAN DCC has contributed a number of R and Python notebooks, illustrating how to query, perform analyses, and generate results using the publicly available HTAN BigQuery tables.
 
-To access HTAN R and Python notebooks, visit [Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC)](https://isb-cgc.appspot.com/), select GitHub under “Notebooks” and navigate to the HTAN folder.
+To access HTAN R and Python notebooks, visit the 'HTAN Notebooks' page of the [Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC) documentation](https://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/HTANNotebooks.html)
 
-![ISB-CGC:  Accessing Computational Notebooks hosted on GitHub](../img/notebook1.png)
-![ISB-CGC:  Example HTAN Computational Notebooks hosted on GitHub](../img/notebook2.png)
+![ISB-CGC:  R and Python Computational Notebooks hosted on GitHub](../img/notebook1.png)

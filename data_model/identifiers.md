@@ -6,6 +6,9 @@ order: 999
 
 All research participants, biospecimens and derived data within HTAN are associated with a unique HTAN identifier.
 
+![HTAN ID Provenance](../img/Slide_Version_ID_Provenance_Figure_Explained.png)
+
+
 Research participants are identified with the following pattern:
 
 ```
