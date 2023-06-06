@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.732762187421">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739409240555">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 2.4.0">
+    <meta name="generator" content="Retype 3.0.3">
 
     <!-- Primary Meta Tags -->
     <title>Identifiers</title>
@@ -21,20 +21,22 @@
     <meta property="og:url" content="/data_model/identifiers/">
     <meta property="og:title" content="Identifiers">
     <meta property="og:description" content="All research participants, biospecimens and derived data within HTAN are associated with a unique HTAN identifier.">
+    <meta property="og:image" content="/img/slide_version_id_provenance_figure_explained.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="/data_model/identifiers/">
     <meta property="twitter:title" content="Identifiers">
     <meta property="twitter:description" content="All research participants, biospecimens and derived data within HTAN are associated with a unique HTAN identifier.">
+    <meta property="twitter:image" content="/img/slide_version_id_provenance_figure_explained.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.4.0.732762187421" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.3.739409240555" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.732762187421" data-turbo-eval="false" defer></script>
-    <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.732762187421" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739409240555" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739409240555" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -159,8 +161,8 @@
             <div class="grow min-w-0 dark:bg-dark-850">
                 <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
                 <div class="flex">
-                    <div class="grow min-w-0 px-6 md:px-16">
-                        <main class="relative pt-6 pb-16">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
                             <div class="docs-markdown" id="docs-content">
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
@@ -173,6 +175,11 @@
     </h1>
 </doc-anchor-target>
 <p>All research participants, biospecimens and derived data within HTAN are associated with a unique HTAN identifier.</p>
+<p><figure class="content-center">
+    <img src="../../img/slide_version_id_provenance_figure_explained.png" alt="HTAN ID Provenance" />
+    <figcaption class="caption">HTAN ID Provenance</figcaption>
+</figure>
+</p>
 <p>Research participants are identified with the following pattern:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">&lt;participant_id&gt; ::= &lt;htan_center_id&gt;_integer</code></pre>
