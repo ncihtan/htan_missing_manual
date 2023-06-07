@@ -71,7 +71,7 @@ We also host a number of tables that contain information on cellular locations a
 ![Example BiqQuery Cell Spatial Data](../img/big_query12.png)
 
 
-## BiqQuery Notebooks
+## BigQuery Notebooks
 
 ISB-CGC hosts a public repository of community-generated computational notebooks. The HTAN DCC has contributed a number of R and Python notebooks, illustrating how to query, perform analyses, and generate results using the publicly available HTAN BigQuery tables.
 
