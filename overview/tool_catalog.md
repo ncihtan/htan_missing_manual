@@ -12,7 +12,8 @@ The HTAN Network consists of ten research centers, and two pilot projects. The r
 | Name                     |  Atlas          |  Type              |  Assay                   |  Publication      |  Homepage                                                 |
 |--------------------------|-----------------|--------------------|--------------------------|-------------------|-----------------------------------------------------------|
 | cBioPortal               |  N/A            |  Web application   |  Bulk DNA, Bulk RNA-seq  |  PMID: 22588877   |  https://cbioportal.org                                   |
-| ISB-CGC Google BigQuery  |  N/A            |  Database          |  scRNA-seq               |                   |  https://isb-cgc.appspot.com/                             |
+| ISB-CGC Google BigQuery  |  N/A            |  Database          |  scRNA-seq, Imaging      |                   |  https://isb-cgc.appspot.com/    |
+| ISB-CGC Google BigQuery Notebooks |  N/A   |  Notebook          |  scRNA-seq, Imaging      |                   |  https://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/HTANNotebooks.html  |
 | Minerva                  |  HTAN HMS       |  Suite             |  Imaging                 |  PMID: 33768192   |  https://www.cycif.org/software/minerva                   |
 | Single Cell Toolkit      |  HTAN BU        |  Suite             |  scRNA-seq               |  PMID: 35354805   |  http://camplab.net/sctk                                  |
 | CellXGene                |  N/A            |  Web application   |  scRNA-seq               |                   |  https://cellxgene.cziscience.com/                        |
