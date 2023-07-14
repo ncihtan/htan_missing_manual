@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739564252215">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.742686722636">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Spatial Transcriptomics</title>
     <meta name="title" content="Spatial Transcriptomics">
-    <meta name="description" content="The HTAN data model for spatial transcriptomics data is based upon the both imaging and single cell sequencing data models." />
+    <meta name="description" content="The HTAN data model for spatial transcriptomics data is based upon both imaging and single cell sequencing data models." />
 
     <!-- Canonical -->
     <link rel="canonical" href="/data_model/spatial_transcriptomics/" />
@@ -20,21 +20,21 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="/data_model/spatial_transcriptomics/">
     <meta property="og:title" content="Spatial Transcriptomics">
-    <meta property="og:description" content="The HTAN data model for spatial transcriptomics data is based upon the both imaging and single cell sequencing data models.">
+    <meta property="og:description" content="The HTAN data model for spatial transcriptomics data is based upon both imaging and single cell sequencing data models.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="/data_model/spatial_transcriptomics/">
     <meta property="twitter:title" content="Spatial Transcriptomics">
-    <meta property="twitter:description" content="The HTAN data model for spatial transcriptomics data is based upon the both imaging and single cell sequencing data models.">
+    <meta property="twitter:description" content="The HTAN data model for spatial transcriptomics data is based upon both imaging and single cell sequencing data models.">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.0.3.739564252215" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=3.0.3.742686722636" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.739564252215" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=3.0.3.742686722636" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.739564252215" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=3.0.3.742686722636" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -172,9 +172,9 @@
         <span>Spatial Transcriptomics</span>
     </h1>
 </doc-anchor-target>
-<p>The HTAN data model for spatial transcriptomics data is based upon the both imaging and single cell sequencing data models. These form a collection of  metadata fields where transcriptomic levels (or gene or protein level measures) can be mapped to locations on a tissue slide and were developed in consultation with the data generating centers who are both experts in imaging metadata (e.g., DICOM and OME) and multiple large-scale atlas projects.</p>
-<p>For further information on spatial transcriptomics see the <a href="https://www.10xgenomics.com/spatial-transcriptomics">10X guide on ST</a>. The HTAN data model for spatial transcriptomics was intended initially for 10X Visium, but in the near future more platforms will be supported including Nanostring GeoMX, Pick-Seq,</p>
-<p>As with other data model, 10X Visium data levels are provided as follows:</p>
+<p>The HTAN data model for spatial transcriptomics data is based upon both imaging and single cell sequencing data models. These form a collection of metadata fields where transcriptomic levels (or gene or protein level measures) can be mapped to locations on a tissue slide, and were developed in consultation with the data generating centers who are both experts in imaging metadata (e.g. DICOM and OME) and multiple large-scale atlas projects.</p>
+<p>The HTAN data model currently supports 10X Visium data, but additional platforms will be added in the near future including Nanostring GeoMX and Pick-Seq.</p>
+<p>Spatial transcriptomic datasets are typically comprised of RNA-sequencing data at varying levels, coupled with imaging data and an auxiliary set of files used in or generated by processing workflows for spatial transcriptomics:</p>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -185,24 +185,28 @@
 </thead>
 <tbody>
 <tr>
-<td>RNA-seq Level 1</td>
+<td>Spatial Transcriptomics RNA-seq Level 1</td>
 <td>Files contain raw RNA-seq data associated with spot/slide data.</td>
 </tr>
 <tr>
-<td>RNA-seq Level 2</td>
+<td>Spatial Transcriptomics RNA-seq Level 2</td>
 <td>Alignment workflows downstream of Spatial Transcriptomics RNA-seq Level 1.</td>
 </tr>
 <tr>
-<td>Auxiliary Files</td>
-<td>Auxiliary data associated with spot/slide analysis (aligned Images, quality control files, etc) from Spatial Transcriptomics.</td>
-</tr>
-<tr>
-<td>RNA-seq Level 3</td>
+<td>Spatial Transcriptomics RNA-seq Level 3</td>
 <td>Processed data files based on Spatial Transcriptomics RNA-seq Level 2 and Spatial Transcriptomics Auxiliary files.</td>
 </tr>
 <tr>
-<td>RNA-seq Level 4</td>
+<td>Spatial Transcriptomics RNA-seq Level 4</td>
 <td>Processed data files based on Spatial Transcriptomics RNA-seq Level 3.</td>
+</tr>
+<tr>
+<td>Spatial Transcriptomics Auxiliary Files</td>
+<td>Auxiliary data associated with spot/slide analysis (aligned Images, quality control files, etc) from Spatial Transcriptomics.</td>
+</tr>
+<tr>
+<td>Imaging Level 2</td>
+<td>Imaging data compiled into a single file format, preferably a tiled and pyramidal OME-TIFF.</td>
 </tr>
 </tbody>
 </table>
