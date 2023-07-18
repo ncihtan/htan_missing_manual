@@ -2,7 +2,7 @@
 order: 997
 ---
 
-# Accessing HTAN data via NCI's Cancer Data Service
+# NCI's Cancer Data Service
 
 The [CDS Portal](https://dataservice.datacommons.cancer.gov/), within NCI's Cancer Research Data Commons (CRDC), provides access to both open and controlled access data. 
 
