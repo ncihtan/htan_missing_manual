@@ -54,4 +54,6 @@ If a single data file is generated from one of those samples, that file could ha
 HTA4_1_42
 ```
 
+More detailed information about HTAN Identifiers may be found in the [HTAN Identifiers SOP](https://docs.google.com/document/d/1podtPP8L1UNvVxx9_c_szlDcU1f8n7bige6XA_GoRVM/edit#heading=h.768a6pngjha3). 
+
 Note that the explicit linking of participants to biospecimens to assays is not encoded in the HTAN Identifier. Rather, the linking is encoded in explicit metadata elements (see [Relationship Model](relationships.md)).
