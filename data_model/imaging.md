@@ -18,3 +18,5 @@ As with Sequencing data, the imaging data model is split into data levels as fol
 | 2     | Imaging data compiled into a single file format, preferably a tiled and pyramidal OME-TIFF. Accompanied by a csv file containing channel metadata. |
 | 3     | Segmentation mask, Validated channel metadata, QC checked image.                                                                                   |
 | 4     | An object-by-feature table (typically cell-by-marker) generated from the segmentation mask and image.                                              |
+
+Before preparing imaging data for upload to DCC, please consult [HTAN Imaging Data Requirements](https://docs.google.com/document/d/1iNicigsSytekEQLkmeNJd2NOJ9VTKzBDfYj3BmvGcro/edit#heading=h.b6j67xcu50c2).
