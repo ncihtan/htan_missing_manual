@@ -18,4 +18,6 @@ Complete information regarding the HTAN network is available at: https://humantu
 You can explore all open access data within the HTAN Data Portal at: https://humantumoratlas.org/explore.
 
 A complete list of HTAN Publications is available on [Google Scholar](https://scholar.google.com/citations?hl=en&user=8LS9PNMAAAAJ).
+
+The current status of data uploads (refreshed every 4 hours) is available on the [HTAN Dashboard](http://hdash.website-us-east-1.linodeobjects.com/).
 !!!
