@@ -6,7 +6,7 @@ order: 995
 
 HTAN Imaging Level 2 data is now available through the [NCI Cancer Data Service (CDS)](https://datacommons.cancer.gov/repository/cancer-data-service)
 
-Data access via Seven Bridges Cancer Genomics Cloud (SB-CGC) requires a CGC account [[register here](https://cgc-accounts.sbgenomics.com/auth/register)]
+Data access via Seven Bridges Cancer Genomics Cloud (SB-CGC) requires a CGC account [[register here](https://docs.cancergenomicscloud.org/docs/sign-up-for-the-cgc)]
 
 For further information on using SB-CGC resources, you can explore their [online documentation](https://docs.cancergenomicscloud.org/docs).
 
@@ -30,12 +30,12 @@ This provides a listing of all HTAN Imaging Level 2 data that is currently avail
 
 ## Download Images from CDS
 
-Additional filters are available for further selection including Data format, Site, etc., as well as search fields to search files by Filename, case ID (HTAN Participant ID), and sample ID (HTAN Biospecimen ID).
+Additional filters are available for further selection including Data format, Site, etc., as well as text search fields to search files by Filename, case ID (HTAN Participant ID), and sample ID (HTAN Biospecimen ID).
 
-Once you have filtered to your files of interest, click **Copy to project** to add the selected files to your project. 
+Once you have filtered to your files of interest, click **Copy to project** to add the selected files to the SB-CGC project of your choosing (create a new project if you do not have one set up). 
 
 ![CDS: Add selected files to project](../img/cds_img6.png)
 
-You will be automatically directed to the **Files** tab of your SB-CGC project. From here, check the boxes of the files you would like to save. Clicking **Download** will download the selected images to your local machine.
+You will be automatically re-directed to the **Files** tab of your SB-CGC project. From here, check the boxes of the files you would like to save. Clicking **Download** will download the selected images to your local machine.
 
 ![CDS: Download selected imaging files](../img/cds_img7.png)
