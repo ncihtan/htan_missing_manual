@@ -8,7 +8,6 @@ HTAN Imaging Level 2 data is now available through the [NCI Cancer Data Service 
 
 Data access via Seven Bridges Cancer Genomics Cloud (SB-CGC) requires a CGC account [[register here](https://docs.cancergenomicscloud.org/docs/sign-up-for-the-cgc)]
 
-For further information on using SB-CGC resources, you can explore their [online documentation](https://docs.cancergenomicscloud.org/docs).
 
 ## Filtering for HTAN Images in the CDS File Repository
 
@@ -28,6 +27,7 @@ This provides a listing of all HTAN Imaging Level 2 data that is currently avail
 
 ![CDS: HTAN Imaging Data on CDS](../img/cds_img5.png)
 
+
 ## Download Images from CDS
 
 Additional filters are available for further selection including Data format, Site, etc., as well as text search fields to search files by Filename, case ID (HTAN Participant ID), and sample ID (HTAN Biospecimen ID).
@@ -39,3 +39,6 @@ Once you have filtered to your files of interest, click **Copy to project** to a
 You will be automatically re-directed to the **Files** tab of your SB-CGC project. From here, check the boxes of the files you would like to save. Clicking **Download** will download the selected images to your local machine.
 
 ![CDS: Download selected imaging files](../img/cds_img7.png)
+
+
+For further information on using SB-CGC resources including programmatic download options, you can explore their [online documentation](https://docs.cancergenomicscloud.org/docs).
