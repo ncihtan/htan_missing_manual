@@ -4,7 +4,7 @@ order: 998
 
 # SB-CGC Cancer Data Service (CDS) Explorer
 
-While you are awaiting your dbGap approval, it is recommended that you head to the [Seven Bridges Cancer Genomics Cloud](https://www.cancergenomicscloud.org/), and register a new account. Note that you will do so with the same ERA Commons account used to submit your dbGaP application.
+!!NOTE: dbGaP approval for HTAN study phs002371 is required in order to access HTAN lower-level genomics data, such as RNAseq FASTQ and BAM files.
 
 Once your dbGaP application has been approved, you can access HTAN data via the **Cancer Data Service browser** within the Seven Bridges Cancer Genomics Cloud. To do so, head to [Seven Bridges Cancer Genomics Cloud](https://www.cancergenomicscloud.org/), and log in with your ERA Commons credentials.
 
