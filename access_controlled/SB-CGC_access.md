@@ -2,7 +2,7 @@
 order: 997
 ---
 
-# SB-CGC Cancer Data Service (CDS) Explorer
+# Accessing Sequence Data via SB-CGC Cancer Data Service (CDS) Explorer
 
 !!!
 **NOTE**: dbGaP approval for HTAN study [phs002371](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002371.v3.p1) is required in order to access HTAN lower-level genomics data, such as RNAseq FASTQ and BAM files.
