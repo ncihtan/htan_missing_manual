@@ -4,7 +4,7 @@ order: 998
 
 # SB-CGC Cancer Data Service (CDS) Explorer
 
-!!NOTE: dbGaP approval for HTAN study phs002371 is required in order to access HTAN lower-level genomics data, such as RNAseq FASTQ and BAM files.
+!!NOTE: dbGaP approval for HTAN study phs002371 is required in order to access HTAN lower-level genomics data, such as RNAseq FASTQ and BAM files.!!
 
 Once your dbGaP application has been approved, you can access HTAN data via the **Cancer Data Service browser** within the Seven Bridges Cancer Genomics Cloud. To do so, head to [Seven Bridges Cancer Genomics Cloud](https://www.cancergenomicscloud.org/), and log in with your ERA Commons credentials.
 
