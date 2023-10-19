@@ -2,9 +2,9 @@
 order: 995
 ---
 
-# Accessing Images via Cancer Data Service (CDS)
+# Accessing Images via SB-CGC Cancer Data Service (CDS)
 
-HTAN Imaging Level 2 data is now available through the [NCI SB-CGC Cancer Data Service (CDS)](https://datacommons.cancer.gov/repository/cancer-data-service).
+HTAN Imaging Level 2 data is now available through the [NCI Cancer Data Service (CDS)](https://datacommons.cancer.gov/repository/cancer-data-service).
 
 Data access via Seven Bridges Cancer Genomics Cloud (SB-CGC) requires a CGC account [[register here](https://docs.cancergenomicscloud.org/docs/sign-up-for-the-cgc)]. For further information on using SB-CGC resources including programmatic access options, you can explore their [online documentation](https://docs.cancergenomicscloud.org/docs).
 
