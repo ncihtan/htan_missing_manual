@@ -2,7 +2,7 @@
 order: 998
 ---
 
-# Cancer Data Service and Seven Bridges Genomics
+# SB-CGC Cancer Data Service (CDS) Explorer
 
 While you are awaiting your dbGap approval, it is recommended that you head to the [Seven Bridges Cancer Genomics Cloud](https://www.cancergenomicscloud.org/), and register a new account. Note that you will do so with the same ERA Commons account used to submit your dbGaP application.
 
