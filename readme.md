@@ -1,6 +1,6 @@
 # HTAN: The Missing Manual
 
-Written by the HTAN Data Coordinating Center (DCC), with contributions from Adam Taylor, Clarisse Lau, Vésteinn Thorsson, Ino de Bruijn, David Gibbs, and Ethan Cerami.
+Written by the HTAN Data Coordinating Center (DCC), with contributions from Adam Taylor, Clarisse Lau, Vésteinn Thorsson, Ino de Bruijn, David Gibbs, Ethan Cerami and Alex Lash.
 
 ## About this Manual
 
