@@ -4,7 +4,7 @@ order: 997
 
 # Data Liaisons
 
-Upon joining HTAN, Centers are assigned a data liaison from the DCC;  Trans-Network Projects (TNPs) are also assigned liaisons. The DCC liaisons assist each of the research centers in successfully uploading data and metadata files.  
+Upon joining HTAN, Centers are assigned a data liaison from the DCC.  Trans-Network Projects (TNPs) are also assigned liaisons. The DCC liaisons assist each of the research centers in successfully uploading data and metadata files.  
 
 Here is the current list of centers, their atlases and DCC liaisons:
 
