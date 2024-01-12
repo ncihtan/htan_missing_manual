@@ -8,4 +8,4 @@ Publications are submitted to HTAN via the publications metadata template on Syn
 
 The metadata template will facilitate linking a HTAN publication to the specimen and assay files used in the publication.  
 
-:exclamation: :exclamation: *Please note: In order to support data sharing and public data access, publications should either use HTAN identifiers or provide a lookup table to map publication identifiers to HTAN identifiers.*  
+:exclamation: *Please note: In order to support data sharing and public data access, publications should either use HTAN identifiers or provide a lookup table to map publication identifiers to HTAN identifiers.*  
