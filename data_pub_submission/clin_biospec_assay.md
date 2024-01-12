@@ -13,12 +13,12 @@ This page provides more details regarding those steps.  However, you will also n
 HTAN uses the Synapse [Web Portal](https:/www.synapse.org) and [DCA](https://dca.app.sagebionetworks.org/) to manage clinical, biospecimen and assay data submissions (dataset ingress). In order to submit data, your center should:
 
 1. [Have at least one user with Certified User status on Synapse.](#have-at-least-one-user-with-certified-user-status-on-synapse)
-2. [Contact your Data Liaison](#contact-your-data-liaison-to-set-up-a-project-on-synapse) to:
+2. [Contact your Data Liaison](#contact-your-data-liaison) to:
 
     a. set up a project on Synapse for metadata submission; 
     b. set up a Synapse cloud bucket for dataset uploads; and
     c. create an HTAN atlas ID (only needs to be done once per atlas).
-    
+
 3. [Ensure the assay dataset conforms to the HTAN Data Model, uses HTAN Identifiers and does not contain Protected Health Information (PHI).](#ensure-the-dataset-conforms-to-the-htan-data-model-uses-htan-identifiers-and-does-not-contain-phi)
 4. [Organize the data.](#organize-the-data) 
 5. [Upload your assay dataset to Synapse.](#upload-your-dataset-to-the-synapse-project)
