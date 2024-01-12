@@ -14,9 +14,11 @@ HTAN uses the Synapse [Web Portal](https:/www.synapse.org) and [DCA](https://dca
 
 1. [Have at least one user with Certified User status on Synapse.](#have-at-least-one-user-with-certified-user-status-on-synapse)
 2. [Contact your Data Liaison](#contact-your-data-liaison-to-set-up-a-project-on-synapse) to:
+
     a. set up a project on Synapse for metadata submission; 
     b. set up a Synapse cloud bucket for dataset uploads; and
     c. create an HTAN atlas ID (only needs to be done once per atlas).
+    
 3. [Ensure the assay dataset conforms to the HTAN Data Model, uses HTAN Identifiers and does not contain Protected Health Information (PHI).](#ensure-the-dataset-conforms-to-the-htan-data-model-uses-htan-identifiers-and-does-not-contain-phi)
 4. [Organize the data.](#organize-the-data) 
 5. [Upload your assay dataset to Synapse.](#upload-your-dataset-to-the-synapse-project)
@@ -27,7 +29,7 @@ Please read the rest of this page for more information about each of these steps
 ## Have at least one user with Certified User status on Synapse.
 To upload files to Synapse, you need to be a [certified user](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html). Because Synapse stores data from human subjects research, Sage Bionetworks requires that you demonstrate understanding of and compliance with privacy and security issues. You can complete your certification by taking a [short certification quiz](https://www.synapse.org/#!Quiz:Certification) on Synapse.
 
-## Contact your Data Liaison to set up a project on Synapse.
+## Contact your Data Liaison.
 
 When you are ready to upload data, please contact your [data liaison](add internal link here). Your data liaison will need to know:
 1. Your center
