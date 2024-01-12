@@ -16,13 +16,13 @@ HTAN uses the Synapse [Web Portal](https:/www.synapse.org) and [DCA](https://dca
 2. [Contact your Data Liaison to set up your project and cloud bucket.](#contact-your-data-liaison-to-set-up-your-project-and-cloud-bucket)
 3. [Ensure the assay dataset conforms to the HTAN Data Model, uses HTAN Identifiers and does not contain Protected Health Information (PHI).](#ensure-the-dataset-conforms-to-the-htan-data-model-uses-htan-identifiers-and-does-not-contain-phi)
 4. [Organize the data.](#organize-the-data) 
-5. [Upload your assay dataset to Synapse.](#upload-your-dataset-to-the-synapse-project)
+5. [Upload your dataset to Synapse.](#upload-your-dataset-to-the-synapse-project)
 6. [Validate and submit metadata using the DCA.](#validate-and-submit-metadata-using-synapses-data-curator-app-dca)
 
 Please read the rest of this page for more information about each of these steps.
 
 ## Have at least one user with Certified User status on Synapse.
-To upload files to Synapse, you need to be a [certified user](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html). Because Synapse stores data from human subjects research, Sage Bionetworks requires that you demonstrate understanding of and compliance with privacy and security issues. You can complete your certification by taking a [short certification quiz](https://www.synapse.org/#!Quiz:Certification) on Synapse.
+To upload files to Synapse, you need to be a [certified user](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html). Because Synapse stores data from human subjects research, Sage Bionetworks requires that you demonstrate understanding of and compliance with privacy and security issues. You can complete your certification by taking a short certification quiz. Please see the Synapse [certified user documentation](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html) for more inforamtion.
 
 ## Contact your Data Liaison to set up your project and cloud bucket.
 
