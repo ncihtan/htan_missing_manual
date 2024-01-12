@@ -39,7 +39,7 @@ With the above information, the DCC will initialize your Synapse project for met
 
 The HTAN Data Model is built upon data standards described on the ["Data Standards"](https://data.humantumoratlas.org/standards) page. All HTAN Centers are required to encode their clinical, biospecimen and assay data and metadata using the HTAN Data Model. If you have a new data type which is not currently represented in the HTAN Data Model, please contact your data liaison.
 
-A concrete way to understand the expectations for data submissions is to view the metadata templates for clinical, biospecimen and assay data available in Synapse's Data Curator App ([DCA](https://dca-docs.scrollhelp.site/DCA/Working-version/HTAN/)). For any given dataset, you may be submitting:
+A concrete way to understand the expectations for data submissions is to view the metadata templates for clinical, biospecimen and assay data available in Synapse's Data Curator App ([DCA](https://dca.app.sagebionetworks.org/)). For any given dataset, you may be submitting:
 
 - clinical data metadata template(s)
 - biospecimen metadata template(s)
