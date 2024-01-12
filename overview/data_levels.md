@@ -2,7 +2,7 @@
 order: 998
 ---
 
-# HTAN Data Levels
+# HTAN Data Access Levels
 
 HTAN data is categorized into **two data access levels**:
 
