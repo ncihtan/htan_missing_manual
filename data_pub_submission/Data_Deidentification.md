@@ -16,7 +16,9 @@ By signing the HTAN DMSA, HTAN members’ institutional signing officials and PI
 
     (c) all data are consistent with applicable U.S. laws, regulations, and its institutional policies; and 
 
-    (d) that an IRB/Privacy Board or equivalent body has assured that submission and subsequent sharing of data are consistent with the Informed Consent of the Data Subject(s) from whom the data were obtained. In addition, the data will be protected by the NIH Certificate of Confidentiality.
+    (d) that an IRB/Privacy Board or equivalent body has assured that submission and subsequent sharing
+     of data are consistent with the Informed Consent of the Data Subject(s) from whom the data were obtained. 
+     In addition, the data will be protected by the NIH Certificate of Confidentiality.
 
 Prior to transferring data to the HTAN DCC, members are responsible for fully deidentifying the data being transferred. Full deidentification of data includes confirmation that data file names do not contain any information that could be used to re-identify that data subject. 
 
