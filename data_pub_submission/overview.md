@@ -7,7 +7,7 @@ Only HTAN Centers and Associate Members can submit data to the HTAN Network's re
 
 :exclamation: *Prior to submitting data, all data must be de-identified.  Please see [Data Deidentification](../data_pub_submission/Data_Deidentification.md) for more information.*
 
-Data Submission Involves Two Key Steps:
+Data Submission involves two key steps:
 1. Uploading data files to Synapse; and
 2. Completing and validating manifests using the Data Curator App (DCA).
 
