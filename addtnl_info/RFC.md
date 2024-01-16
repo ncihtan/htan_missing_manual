@@ -13,7 +13,7 @@ The status of current RFCs is provided in the [RFC Overview](https://docs.google
 - Get a sense of new assays being considered.
 - Look at old RFCs & get a sense of past discussions/considerations.
 
-!!! 
+!!! Note:
 The links to specific RFC documents within the RFC Overview do **not** represent the final data model.  Once an RFC is closed and an assay is available on the Data Curator App (DCA), the metadata template on the DCA represents the final data model.  Details regarding the data model are also available on HTAN's [Data Standards page](https://humantumoratlas.org/standards) and HTAN's [data-models repository](https://github.com/ncihtan/data-models) on github.
 !!!
 
@@ -44,12 +44,3 @@ Once a new assay type or a set of needed Data Model changes are identified, the 
 3. *The RFC is open for public comment*. All HTAN members can provide suggestions by adding comments directly to the document.
 4. After a designated period of time, the *RFC is closed*.  Feedback from HTAN community is no longer accepted. The content of the RFC will be reflected in the respective version of the HTAN Data Model used for validating metadata files uploaded to the DCC.
 5. *The metadata template is available on the [Data Curator App (DCA)](https://dca.app.sagebionetworks.org/).*
-
-
-
-
-
-
- 
-
-
