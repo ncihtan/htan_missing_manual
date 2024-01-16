@@ -50,7 +50,7 @@ The first three items will be validated and submitted using the Data Curator App
 
 All data should be identified using HTAN identifiers. Please see the [HTAN Identifier SOP](https://docs.google.com/document/d/1podtPP8L1UNvVxx9_c_szlDcU1f8n7bige6XA_GoRVM/edit?usp=sharing) for detailed instructions regarding assigning HTAN Identifiers.
 
-!!! :warning: *Please review your data to ensure that it does not contain PHI.*
+!!! *Please review your data to ensure that it does not contain PHI.*
 !!!
 
 ## Organize the data
