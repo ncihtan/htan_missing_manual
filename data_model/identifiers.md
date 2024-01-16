@@ -15,24 +15,8 @@ Research participants are identified with the following pattern:
 <participant_id> ::= <htan_center_id>_integer
 ```
 
-Where the `htan_center_id` is derived from the identifier prefix table below.
+Where the `htan_center_id` is the HTAN Center Prefix. (e.g. HTA1, HTA2) Please see [HTAN Centers](../overview/centers.md) for a full list of HTAN Center prefixes.
 
-| HTAN Center ID | Pilot Project or Contact PI Institution |
-| -------------- | --------------------------------------- |
-| HTA1           | HTAPP Pilot Project                     |
-| HTA2           | PCAPP Pilot Project                     |
-| HTA3           | Boston University                       |
-| HTA4           | Children's Hospital of Philadelphia     |
-| HTA5           | Dana-Farber Cancer Institute            |
-| HTA6           | Duke University                         |
-| HTA7           | Harvard Medical School                  |
-| HTA8           | Memorial Sloan Kettering Cancer Center  |
-| HTA9           | Oregon Health Sciences University       |
-| HTA10          | Stanford University                     |
-| HTA11          | Vanderbilt University                   |
-| HTA12          | Washington University                   |
-| HTA13          | TNP SARDANA                             |
-| HTA14          | TNP TMA                                 |
 
 Derivative data includes anything derived from a research participant, including biospecimens such as samples, tissue blocks, slides, aliquots, analytes, and data files that result from assaying those biospecimens. These identifiers follow the pattern:
 
@@ -40,7 +24,7 @@ Derivative data includes anything derived from a research participant, including
 <derivative_entity_id>	::= <participant_id>_integer
 ```
 
-For example, if research participant 1 within the CHOP project has provided three samples, you would have three HTAN IDs, such as:
+For example, if research participant 1 within the CHOP project (HTA4) shas provided three samples, you would have three HTAN IDs, such as:
 
 ```
 HTA4_1_1

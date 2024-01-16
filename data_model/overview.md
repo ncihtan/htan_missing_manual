@@ -9,5 +9,5 @@ All HTAN Centers are required to encode their data and metadata in the **common 
 As much as possible, the HTAN Data Model leverages previously defined data standards across the scientific research community, including the [NCI Genomic Data Commons](https://gdc.cancer.gov/), the [Human Cell Atlas](https://www.humancellatlas.org/), the [Human Biomolecular Atlas Program (HuBMAP)](https://hubmapconsortium.org/) and the [Minimum Information about Tissue Imaging (MITI)](https://www.miti-consortium.org/) reporting guidelines.
 
 !!! Data Standards
-Complete information regarding the HTAN Data Model is available at: https://data.humantumoratlas.org/standards.
+Complete information regarding the HTAN Data Model and specific data elements is available at: https://data.humantumoratlas.org/standards.
 !!!
