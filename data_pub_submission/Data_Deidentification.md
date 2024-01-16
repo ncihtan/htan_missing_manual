@@ -4,8 +4,7 @@ order: 998
 
 # Data De-identification
 
-!!! :exclamation: Important :exclamation:
-**HTAN Centers are responsible for data deidentification.**
+!!! **HTAN Centers are responsible for data deidentification.**
 !!!
 
 As outlined in the HTAN [DMSA](https://docs.google.com/document/d/1RPFm9MBJv8DjZmYZyIv0jbjtNJ8fnwGjYDjlK4lL4nc/edit#heading=h.gjdgxs), data submitted to the Data Coordinating Center (DCC) must be fully de-identified.
