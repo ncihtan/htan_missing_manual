@@ -11,6 +11,6 @@ Data Submission involves two key steps:
 1. Uploading data files to Synapse; and
 2. Completing and validating manifests using the Data Curator App (DCA).
 
-The DCA is also used to submit HTAN-associated publications. 
+HTAN-associated publications are also submitted by completing and validating a manifest using the DCA.
 
-Specific details regarding uploading data files and the DCA are included in later sections of this manial.  Please contact your [Data Liaison](../data_pub_submission/Data_Liaisons.md) if you have any questions or issues.  Please also keep your data liaison informed of any data or publication submissions.
+Specific details regarding data submission and the DCA are included in later sections of this manial.  Please contact your [Data Liaison](../data_pub_submission/Data_Liaisons.md) if you have any questions or issues.  Please also keep your data liaison informed of any data or publication submissions.
