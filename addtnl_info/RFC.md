@@ -13,7 +13,7 @@ The status of current RFCs is provided in the [RFC Overview](https://docs.google
 - Get a sense of new assays being considered.
 - Look at old RFCs & get a sense of past discussions/considerations.
 
-:exclamation::exclamation: The links to specific RFC documents within the RFC Overview do **not** represent the final data model.  Once an RFC is available on the Data Curator App (DCA), the metadata template available on the DCA and HTAN's [Data Standards page](https://humantumoratlas.org/standards) contain the current data model.
+:exclamation::exclamation: The links to specific RFC documents within the RFC Overview do **not** represent the final data model.  Once an RFC is closed and an assay is available on the Data Curator App (DCA), the metadata template on the DCA represents the final data model.  Details regarding the data model are also available on HTAN's [Data Standards page](https://humantumoratlas.org/standards) and HTAN's [data-models repository](https://github.com/ncihtan/data-models) on github.
 
 ## Data Model Changes
 New assays or data types do not always require data model changes and an RFC.
