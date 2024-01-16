@@ -4,7 +4,7 @@ order: 998
 
 # Data De-identification
 
-!!! :warning: Important :warning:
+!!! :exclamation: Important :exclamation:
 **HTAN Centers are responsible for data deidentification.**
 !!!
 
