@@ -2,5 +2,52 @@
 order: 997
 ---
 
-# The RFC Process
+# The RFC Process and Data Model Changes
+
+## RFC Overview
+The HTAN Data Model is expected to evolve with advances in science.  This evolution is a community-driven, peer-reviewed process, where members of a working group will first assess established community data standards and create a request for comment (RFC) document soliciting community feedback.
+
+The status of current RFCs is provided in [The RFC Overview](https://docs.google.com/document/d/1dJ7NUoVCtewdtny8bITwtWnzItB4IibL5kJO3ZNh0go/edit?usp=sharing) document.  The RFC Overview can be used to:
+
+- Get a sense of what is available in DCA.
+- Get a sense of new assays being considered.
+- Look at old RFCs & get a sense of past discussions/considerations.
+
+:exclamation: The links to specific RFC documents within the RFC Overview do **not** represent the final data model.  Once an RFC is available on the Data Curator App (DCA), the metadata template available on the DCA and HTAN's [Data Standards page](https://humantumoratlas.org/standards) contain the current data model.
+
+## Data Model Changes
+New assays or data types do not always require data model changes and an RFC.
+
+The following generally do not require a change to the Data Model:
+
+- New assays which are specific to only one center or will only be used in a limited capacity. These can often be accommodated as “Other Assay”.
+- Additional, optional free text metadata fields.  Additional columns can be added to your copy of the metadata template if they do not require validation by the Data Curator App.
+
+The following require changes to the Data Model and would need to undergo the Request for Comments (RFC) process:
+
+- New assay types which are expected to be used frequently by multiple centers.
+- New metadata templates or additional required metadata fields which should be validated.
+
+Please contact your [data liaison](../data_pub_submission/Data_Liaisons.md) for help determining whether a Data Model change is needed and how to make a Data Model change request.
+
+## RFC Process 
+
+Once a new assay type or a set of needed Data Model changes are identified, the following steps are taken:
+
+1. A working group is organized* by the Data Coordinating Center (DCC).  As a part of this process, the following people are also designated:
+    * A *DCC Owner*, who is responsible for finalizing the RFC and overall accepting/rejecting/integrating community feedback.  The DCC Owner is also the primary point of contact for the specified RFC.
+    * A *single DCC PI*, to monitor progress towards completion.
+    * One or more *Co-Authors* from one or more HTAN centers, to help draft the RFC. Representatives from each HTAN center help identify individuals at their center who can contribute to a particular RFC.
+2. A first draft of an RFC Google Document is created* based upon feedback from the working group.
+3. *The RFC is open for public comment*. All HTAN members can provide suggestions by adding comments directly to the document.
+4. After a designated period of time, the *RFC is closed*.  Feedback from HTAN community is no longer accepted. The content of the RFC will be reflected in the respective version of the HTAN Data Model used for validating metadata files uploaded to the DCC.
+5. The *metadata template is available on the [Data Curator App (DCA)*](https://dca.app.sagebionetworks.org/).
+
+
+
+
+
+
+ 
+
 
