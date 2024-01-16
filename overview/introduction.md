@@ -13,7 +13,9 @@ Each research center is responsible for gathering and processing samples, and ru
 All centers are required to submit their clinical, biospecimen and assay data to the HTAN DCC using a **common HTAN Data Model**. The DCC makes HTAN data available to the wider scientific community.
 
 !!! :zap: Important Links :zap:
-Complete information regarding the HTAN network is available at: https://humantumoratlas.org/.
+Complete information regarding HTAN is available at: https://humantumoratlas.org/.
+
+Please see [HTAN Data: A Gentle Introduction](https://cancerai.substack.com/p/htan-data-a-gentle-introduction) for an overview of HTAN Data.
 
 You can explore all open access data within the HTAN Data Portal at: https://humantumoratlas.org/explore.
 
