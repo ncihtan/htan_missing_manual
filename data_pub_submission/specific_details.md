@@ -8,6 +8,8 @@ Please see [Data Standards](https://data.humantumoratlas.org/standards) for an o
 
 !!! under development.  
 :construction: Please see Sequencing Data and Accessory Files below for example google docs with specific submission details.
+
+:eyes: Note this page demonstrates a different way to embed links where the url is included and links open in a separate tab.
 !!!
 
 [!ref target="blank" text="Accessory Files"](https://docs.google.com/document/d/1pCzpf1s7Oh91V9tIwTovvrQfBWRnUJHqe1XBz3K8NfM/edit?usp=sharing)
