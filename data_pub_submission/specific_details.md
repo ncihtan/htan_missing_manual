@@ -10,7 +10,7 @@ Please see [Data Standards](https://data.humantumoratlas.org/standards) for an o
 Please see Sequencing Data and Accessory Files below for example google docs with specific submission details.
 !!!
 
-[!ref Accessory Files](https://docs.google.com/document/d/1pCzpf1s7Oh91V9tIwTovvrQfBWRnUJHqe1XBz3K8NfM/edit?usp=sharing)
+[!ref target="blank" text="Accessory Files"](https://docs.google.com/document/d/1pCzpf1s7Oh91V9tIwTovvrQfBWRnUJHqe1XBz3K8NfM/edit?usp=sharing)
 
 Biospecimen
 
@@ -20,7 +20,7 @@ Imaging
 
 RPPR
 
-[!ref Sequencing Data](https://docs.google.com/document/d/1IvK3LIFYqUcDb1YrBUFXvKZWmhdJl2m9Oa6LHDOPdcE/edit?usp=sharing)
+[target="blank" text="Sequencing Data"](https://docs.google.com/document/d/1IvK3LIFYqUcDb1YrBUFXvKZWmhdJl2m9Oa6LHDOPdcE/edit?usp=sharing)
 
 Spatial Transcriptomics
 
