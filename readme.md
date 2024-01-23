@@ -13,6 +13,6 @@ The manual can be found at https://docs.humantumoratlas.org/.
 | Date       | Comment                  | Changes summary |
 |------------|--------------------------|-----------------|
 | :exclamation::exclamation:           | Third version of manual  | Simplified Data Model section; added "Data Publication Submissions" and "Additional Information" Sections |
-| 2023-06-01 | Second version of manual | Content Updates |
+| 2023-06-01 | Second version of manual |  |
 | 2022-09-28 | First version of manual  | |
 
