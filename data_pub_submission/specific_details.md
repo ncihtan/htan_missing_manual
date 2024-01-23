@@ -6,7 +6,7 @@ order: 995
 
 Please see [Data Standards](https://data.humantumoratlas.org/standards) for an overview of HTAN Data Levels and Metadata Attributes for each data type. The following links provide specific submission details for each data type.  
 
-!!! :warning: under development.  
+!!! :construction: under development.  
 Please see Sequencing Data and Accessory Files below for example google docs with specific submission details.
 !!!
 
