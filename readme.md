@@ -12,7 +12,7 @@ The manual can be found at https://docs.humantumoratlas.org/.
 
 | Date       | Comment                  |
 |------------|--------------------------|
-|            | Third version of manual  |
+| :exclamation::exclamation:           | Third version of manual  |
 | 2023-06-01 | Second version of manual |
 | 2022-09-28 | First version of manual  |
 
