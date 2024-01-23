@@ -20,7 +20,7 @@ Imaging
 
 RPPR
 
-[target="blank" text="Sequencing Data"](https://docs.google.com/document/d/1IvK3LIFYqUcDb1YrBUFXvKZWmhdJl2m9Oa6LHDOPdcE/edit?usp=sharing)
+[!ref target="blank" text="Sequencing Data"](https://docs.google.com/document/d/1IvK3LIFYqUcDb1YrBUFXvKZWmhdJl2m9Oa6LHDOPdcE/edit?usp=sharing)
 
 Spatial Transcriptomics
 
