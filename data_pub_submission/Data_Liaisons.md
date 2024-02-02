@@ -27,6 +27,3 @@ Here is the current list of centers, their atlases and DCC liaisons:
 | TNP SRRS | HTA15 | Clarisse Lau | clau@systemsbiology.org |
 || HTA15 | Jennifer Altreuter (snRNAseq) | jennifer@ds.dfci.harvard.edu |
 | TNP CASI | HTA16 | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu |
-
-
-
