@@ -24,7 +24,7 @@ Derivative data includes anything derived from a research participant, including
 <derivative_entity_id>	::= <participant_id>_integer
 ```
 
-For example, if research participant 1 within the CHOP project (HTA4) shas provided three samples, you would have three HTAN IDs, such as:
+For example, if research participant 1 within the CHOP project (HTA4) has provided three samples, you would have three HTAN IDs, such as:
 
 ```
 HTA4_1_1
@@ -36,6 +36,22 @@ If a single data file is generated from one of those samples, that file could ha
 
 ```
 HTA4_1_42
+```
+
+If a single data file is derived from more than one participant, the file identifier may contain a wildcard string e.g. ‘0000’, after the HTAN center identifier. For example:
+
+```
+HTA4_0000_1
+HTA4_0000_2
+HTA4_0000_3
+```
+
+If a data file is derived from an external control participant, the biospecimen and file identifiers will contain the string ‘EXT’ before the external control participant integer.  For example:
+
+```
+HTA4_EXT1_1
+HTA4_EXT2_2
+HTA4_EXT3_3
 ```
 
 More detailed information about HTAN Identifiers may be found in the [HTAN Identifiers SOP](https://docs.google.com/document/d/1podtPP8L1UNvVxx9_c_szlDcU1f8n7bige6XA_GoRVM/edit#heading=h.768a6pngjha3). 
