@@ -26,9 +26,9 @@ The HTAN Data Portal provides an overview of all publicly released data and link
 - Google BigQuery tables. 
 - cBioPortal 
 
-Open Access Images can be downloaded from SB-CGC.
+Open Access Images can be accessed and downloaded from SB-CGC as well as the IDC.
 
-Google BigQuery Access provides direct access to a subset of assay data (mainly level 4 files) on a cloud platform.  The Google BigQuery tables provide an easy way to build cohorts using spcific data fields.  
+Google BigQuery Access provides direct access to a subset of assay data (mainly level 4 files) on a cloud platform.  The Google BigQuery tables provide an easy way to build cohorts using specific data fields.  HTAN also provides sample code for working with the data in Google BigQuery.
 
-!!! For more detailed information about the HTAN Portal, CellxGene, Visualizing Images, Accessing Images and/or Using Google BigQuery, please see the next sections of this manual.
+!!! For more detailed information about the HTAN Portal, CellxGene, Visualizing Images, Accessing Images via SB-CGC and/or Using Google BigQuery, please see the next sections of this manual.
 !!!
