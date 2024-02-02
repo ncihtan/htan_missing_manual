@@ -8,7 +8,7 @@ Open access HTAN data is available via the following services and tools:
 
 [!ref target="blank" text="HTAN Data Portal"](https://data.humantumoratlas.org/explore)
 
-[!ref target="blank" text="Synapse"](https://synapse.org)  :exclamation: data portal has "Synapse" as data access -- where is the data for public users of synapse?
+[!ref target="blank" text="Synapse?"](https://synapse.org)  :exclamation: data portal has "Synapse" as data access -- where is the data for public users of synapse?
 
 [!ref target="blank" text="CellxGene"](https://cellxgene.cziscience.com/)
 
