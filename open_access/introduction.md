@@ -4,6 +4,9 @@ order: 1000
 
 # Open Access Data
 
+:exclamation: might be best to break this into with each data release... data in HTAN portal, sb-cgc, bigquery...others are subset if data?
+
+
 Open access HTAN data is available via the following services and tools:
 
 [!ref target="blank" text="HTAN Data Portal"](https://data.humantumoratlas.org/explore)
