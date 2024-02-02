@@ -25,7 +25,7 @@ Here is the current list of centers, their atlases and DCC liaisons:
 | TNP SARDANA | HTA13 | Dave Gibbs | dgibbs@systemsbiology.org |
 | TNP TMA | HTA14 | Dave Gibbs | dgibbs@systemsbiology.org |
 | TNP SRRS | HTA15 | Clarisse Lau | clau@systemsbiology.org |
-                | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu |
+||                | Jennifer Altreuter (snTNP) | jennifer@ds.dfci.harvard.edu |
 | TNP CASI | HTA16 | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu |
 
 
