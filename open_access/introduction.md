@@ -20,7 +20,7 @@ Open access HTAN data is available via the following services and tools:
 
 [!ref target="blank" text="cBioPortal"](https://www.cbioportal.org/)
 
-The HTAN Data Portal provides an overview of all publicly released data and links to: 
+The HTAN Data Portal provides an overview of all released data.  The Portal also provides links to: 
 - CellxGene for visualization of single cell RNA-sequencing data
 - Minerva rendered images and stories.
 - Google BigQuery tables. 
