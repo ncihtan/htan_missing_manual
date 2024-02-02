@@ -16,7 +16,7 @@ Open access HTAN data is available via the following services and tools:
 
 [!ref target="blank" text="Seven Bridges-Cancer Genomic Cloud (SB-CGC)"](https://cgc-accounts.sbgenomics.com/)
 
-[!ref target="blank" text="Google BigQuery via the Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC)"](https://isb-cgc.appspot.com/)
+[!ref target="blank" text="Google BigQuery"](https://isb-cgc.appspot.com/)
 
 [!ref target="blank" text="cBioPortal"](https://www.cbioportal.org/)
 
