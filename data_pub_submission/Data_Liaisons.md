@@ -20,11 +20,12 @@ Here is the current list of centers, their atlases and DCC liaisons:
 | HTAN MSK | HTA8 | Ino de Bruijn | ebruiji@mskcc.org |
 | HTAN OHSU | HTA9 | Adam Taylor | adam.taylor@sagebase.org |
 | HTAN Stanford | HTA10 | Adam Taylor | adam.taylor@sagebase.org |
-| HTAN Vanderbilt | HTA11 | Vesteinn Thorsson | thorsson@isbscience.org |
-| HTAN WUSTL | HTA12 | Vesteinn Thorsson | thorsson@isbscience.org |
+| HTAN Vanderbilt | HTA11 | Clarisse Lau | clau@systemsbiology.org |
+| HTAN WUSTL | HTA12 | Clarisse Lau | clau@systemsbiology.org |
 | TNP SARDANA | HTA13 | Dave Gibbs | dgibbs@systemsbiology.org |
 | TNP TMA | HTA14 | Dave Gibbs | dgibbs@systemsbiology.org |
-| TNP SRRS | HTA15 | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu |
+| TNP SRRS | HTA15 | Clarisse Lau | clau@systemsbiology.org |
+                | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu |
 | TNP CASI | HTA16 | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu |
 
 
