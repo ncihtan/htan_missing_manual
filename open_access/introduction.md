@@ -7,11 +7,17 @@ order: 1000
 Open access HTAN data is available via the following services and tools:
 
 [!ref target="blank" text="HTAN Data Portal"](https://data.humantumoratlas.org/explore)
+
 [!ref target="blank" text="Synapse"](https://synapse.org)  :exclamation: data portal has "Synapse" as data access -- where is the data for public users of synapse?
+
 [!ref target="blank" text="CellxGene"](https://cellxgene.cziscience.com/)
+
 [!ref target="blank" text="The NCI Image Data Commons (IDC)"](https://portal.imaging.datacommons.cancer.gov/)
+
 [!ref target="blank" text="Seven Bridges-Cancer Genomic Cloud (SB-CGC)"](https://cgc-accounts.sbgenomics.com/)
+
 [!ref target="blank" text="Google BigQuery via the Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC)"](https://isb-cgc.appspot.com/)
+
 [!ref target="blank" text="cBioPortal"](https://www.cbioportal.org/)
 
 The HTAN Data Portal provides an overview of all publicly released data and links to: 
