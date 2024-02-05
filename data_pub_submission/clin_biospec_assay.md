@@ -58,7 +58,8 @@ Please organize your data using the flattened data layout described in Synapse's
 
 Data files can be transferred using the Synapse User Interface (Synapse UI) or programmatically. Please see Synapse's [Data Ingress Docs](https://dca-docs.scrollhelp.site/DCA/Working-version/HTAN/uploading-data) for more information on how to upload files. 
 
-!!! If you upload files to Synapse programmatically, please use synapseclient version 3.0.0 or higher. !!!
+!!! If you upload files to Synapse programmatically, please use synapseclient version 3.0.0 or higher. 
+!!!
 
 
 ## Validate and submit metadata using Synapse's Data Curator App (DCA).
