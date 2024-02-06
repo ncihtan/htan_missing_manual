@@ -4,32 +4,14 @@ order: 1000
 
 # Open Access Data
 
-:exclamation: might be best to break this into with each data release... data in HTAN portal, sb-cgc, bigquery...others are subset if data?
-
-
-Open access HTAN data is available via the following services and tools:
-
-[!ref target="blank" text="HTAN Data Portal"](https://data.humantumoratlas.org/explore)
-
-[!ref target="blank" text="Synapse?"](https://synapse.org)  
-
-[!ref target="blank" text="CellxGene"](https://cellxgene.cziscience.com/)
-
-[!ref target="blank" text="The NCI Image Data Commons (IDC)"](https://portal.imaging.datacommons.cancer.gov/)
-
-[!ref target="blank" text="Seven Bridges-Cancer Genomic Cloud (SB-CGC)"](https://cgc-accounts.sbgenomics.com/)
-
-[!ref target="blank" text="Google BigQuery"](https://isb-cgc.appspot.com/)
-
-[!ref target="blank" text="cBioPortal"](https://www.cbioportal.org/)
-
-The HTAN Data Portal provides an overview of all released data.  The Portal also provides links to: 
-- CellxGene for visualization of single cell RNA-sequencing data
-- Minerva rendered images and stories.
-- Google BigQuery tables. 
+The HTAN Data Portal provides an overview of all released data.  For Open Access data, the Portal also provides links to: 
+- downloadable files on Synapse;  
+- CellxGene for visualization of single cell RNA-sequencing data; 
+- Minerva rendered images and stories; 
+- Google BigQuery tables; and 
 - cBioPortal 
 
-Open Access Images can be accessed and downloaded from SB-CGC as well as the IDC.
+Open Access Images can be accessed and downloaded from the NCI's Image Data Commons [(IDC)](https://portal.imaging.datacommons.cancer.gov/) as well as Seven Bridges-Cancer Genomic Cloud [(SB-CGC)](https://cgc-accounts.sbgenomics.com/).
 
 Google BigQuery Access provides direct access to a subset of assay data (mainly level 4 files) on a cloud platform.  The Google BigQuery tables provide an easy way to build cohorts using specific data fields.  HTAN also provides sample code for working with the data in Google BigQuery.
 
