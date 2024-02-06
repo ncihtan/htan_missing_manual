@@ -13,7 +13,7 @@ The [HTAN Data Portal](https://humantumoratlas.org/explore) provides an overview
 
 Open Access Images can be accessed and downloaded from the NCI's Image Data Commons [(IDC)](https://portal.imaging.datacommons.cancer.gov/) as well as Seven Bridges-Cancer Genomic Cloud [(SB-CGC)](https://cgc-accounts.sbgenomics.com/).
 
-Google BigQuery Access provides direct access to a subset of assay data (mainly level 4 files) on a cloud platform.  The Google BigQuery tables provide an easy way to build cohorts using specific data fields.  HTAN also provides sample code for working with the data in Google BigQuery.
+Google BigQuery tables provide direct access to a subset of assay data (mainly level 4 files) on a cloud platform.  The Google BigQuery tables provide an easy way to build cohorts using specific data fields.  HTAN also provides sample code for working with the data in Google BigQuery.
 
 !!! For more detailed information about the HTAN Portal, CellxGene, Minerva-rendered Images, Accessing Images via SB-CGC and/or Using Google BigQuery, please see the next sections of this manual.
 !!!
