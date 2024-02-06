@@ -4,12 +4,12 @@ order: 1000
 
 # Open Access Data
 
-The HTAN Data Portal provides an overview of all released data.  For Open Access data, the Portal also provides links to: 
+The [HTAN Data Portal](https://humantumoratlas.org/explore) provides an overview of all released data.  For Open Access data, the Portal also provides links to: 
 - downloadable files on Synapse;  
 - CellxGene for visualization of single cell RNA-sequencing data; 
 - Minerva rendered images and stories; 
 - Google BigQuery tables; and 
-- cBioPortal 
+- cBioPortal. 
 
 Open Access Images can be accessed and downloaded from the NCI's Image Data Commons [(IDC)](https://portal.imaging.datacommons.cancer.gov/) as well as Seven Bridges-Cancer Genomic Cloud [(SB-CGC)](https://cgc-accounts.sbgenomics.com/).
 
