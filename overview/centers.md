@@ -6,10 +6,6 @@ order: 999
 
 The HTAN Network consists of ten research centers, and two pilot projects. We also run multiple trans-network projects, referred to as TNPs. Each research center or TNP Project is identified with a unique HTAN prefix.
 
-!!! Need to update table to include additional TNPs; Eventually need to update with new centers
-:exclamation::exclamation:
-!!!
-
 | Prefix | Contact Institution or Project Name     | Atlas Type       | Area of Focus                     |
 | ------ | --------------------------------------- | ---------------- | --------------------------------- |
 | HTA1   | Human Tumor Atlas Pilot Project (HTAPP) | Tumor Atlas      | Pilot Project                     |
@@ -26,5 +22,7 @@ The HTAN Network consists of ten research centers, and two pilot projects. We al
 | HTA12  | Washington University in St. Louis      | Tumor Atlas      | Multiple Cancer Types             |
 | HTA13  | TNP: SARDANA                            | TNP Atlas        | Technology Comparison             |
 | HTA14  | TNP: Tissue MicroArray (TMA)            | TNP Atlas        | Technology Comparison             |
+| HTA15  | TNP: SRRS                               | TNP Atlas        | Technology Comparison             |
+| HTA16  | TNP: CASI                               | TNP Atlas        | Technology Comparison             |
 
 For details on each center, please see: https://humantumoratlas.org/research-network.
