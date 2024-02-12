@@ -8,7 +8,7 @@ Trans-Network Projects are multi-center projects created to facilitate collabora
 Current Trans-Network Projects
 
 | Code | Name | Description |
-----------------------------
+|------|------|-------------|
 | HTA13 | TNP SARDANA | :exclamation: information needed |
 | HTA14 | TNP TMA | :exclamation: information needed |
 | HTA15 | TNP SRRS | :exclamation: information needed |
