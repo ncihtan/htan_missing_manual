@@ -14,5 +14,6 @@ Current Trans-Network Projects
 | HTA15 | TNP SRRS | :exclamation: information needed |
 | HTA16 | TNP CASI |  :exclamation: information needed |
 
-!!! Note: Samples used for TNPs may be derivatives of samples from pre-cancer or cancer atlases.  For this reason, data from these projects should not be considered additional samples when re-using HTAN data !!!
+!!! Note: Samples used for TNPs may be derivatives of samples from pre-cancer or cancer atlases.  For this reason, data from these projects should not be considered additional samples when re-using HTAN data 
+!!!
 
