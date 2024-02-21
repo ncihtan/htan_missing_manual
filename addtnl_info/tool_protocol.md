@@ -12,11 +12,7 @@ Information regarding how protocols are developed/shared is also available on [H
 
 !!! Note
 
-The HTAN Synapse Wiki page is restricted to HTAN members.  Please contact 
-
-email: htandcc@ds.dfci.harvard.edu
-
-if you a member of HTAN and need access to the wiki.
+The HTAN Synapse Wiki page is restricted to HTAN members.  Please contact htandcc@ds.dfci.harvard.edu if you a member of HTAN and need access to the wiki.
 !!!
 
 
