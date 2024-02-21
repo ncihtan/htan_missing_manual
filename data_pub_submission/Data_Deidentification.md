@@ -17,9 +17,7 @@ By signing the HTAN DMSA, HTAN members’ institutional signing officials and PI
 
 - all data are consistent with applicable U.S. laws, regulations, and its institutional policies; and 
 
-- that an IRB/Privacy Board or equivalent body has assured that submission and subsequent sharing of data are consistent with the Informed Consent of the Data Subject(s) from whom the data were obtained. 
-
-In addition, the data are protected by an NIH Certificate of Confidentiality.
+- an IRB/Privacy Board or equivalent body has assured that submission and subsequent sharing of data are consistent with the Informed Consent of the Data Subject(s) from whom the data were obtained. In addition, the data are protected by an NIH Certificate of Confidentiality.
 
 New HTAN Centers should develop and submit a De-identification Plan using the [HTAN Atlas De-Identification Plan Template](https://docs.google.com/document/d/1jFXYVMhLEGVcMNBh3L-U1rr4B-KLG7gK-ETc1SzMHhs/edit?usp=sharing).
 
