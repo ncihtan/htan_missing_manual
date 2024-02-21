@@ -10,7 +10,9 @@ Computational tools developed or used to support HTAN research projects can be a
 Information regarding how protocols are developed/shared is also available on [HTAN's Synapse Wiki page](https://www.synapse.org/#!Synapse:syn17022193/wiki/584990).
 
 
-!!! The HTAN Synapse Wiki page is restricted to HTAN members.  Please contact 
+!!! Note
+
+The HTAN Synapse Wiki page is restricted to HTAN members.  Please contact 
 
 email: htandcc@ds.dfci.harvard.edu
 
