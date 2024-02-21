@@ -6,11 +6,11 @@ order: 996
 
 As stated in [Data and Publication Submission Overview](../data_pub_submission/overview.md), data submission involves two key steps:
 1. Uploading assay data files to Synapse; and
-2. Completing and validating manifests using the Data Curator App (DCA).
+2. Completing and validating metadata using the Data Curator App (DCA).
 
-This page provides more details regarding those steps.  However, you will also need to understand the HTAN data model and specific requirements for your particular data type.  For a general overview of the HTAN data model, please see [HTAN Data Model](../data_model.md).  To understand specific requirements for your data type, please see [Data Standards](https://humantumoratlas.org/standards).
+This page provides more details regarding those steps.  However, you will also need to understand the HTAN data model and specific requirements for your particular data type.  For a general overview of the HTAN data model, please see [HTAN Data Model](../data_model/overview.md).  To understand specific requirements for your data type, please see [Data Standards](https://humantumoratlas.org/standards).
 
-HTAN uses the Synapse [Web Portal](https:/www.synapse.org) and [DCA](https://dca.app.sagebionetworks.org/) to manage clinical, biospecimen and assay data submissions (dataset ingress). In order to submit data, your center should:
+HTAN uses the Synapse [Portal](https://www.synapse.org) and [DCA](https://dca.app.sagebionetworks.org/), developed and maintained by [Sage Bionetworks](https://sagebionetworks.org/), to manage clinical, biospecimen and assay data submissions (dataset ingress). In order to submit data, your center should:
 
 1. [Have at least one user with Certified User status on Synapse.](#have-at-least-one-user-with-certified-user-status-on-synapse)
 2. [Contact your Data Liaison to set up your project and cloud bucket.](#contact-your-data-liaison-to-set-up-your-project-and-cloud-bucket)
@@ -21,12 +21,12 @@ HTAN uses the Synapse [Web Portal](https:/www.synapse.org) and [DCA](https://dca
 Please read the rest of this page for more information about each of these steps.
 
 ## Have at least one user with Certified User status on Synapse.
-To upload files to Synapse, you need to be a [certified user](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html). Because Synapse stores data from human subjects research, Sage Bionetworks requires that you demonstrate understanding of and compliance with privacy and security issues. You can complete your certification by taking a short certification quiz. Please see the Synapse [certified user documentation](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html) for more information.
+To upload files to the Synapse Platform, you need to be a [Synapse Certified User](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html). Because Synapse stores data from human subjects research, Sage Bionetworks requires that you demonstrate understanding of and compliance with privacy and security issues. You can complete your certification by taking a short certification quiz. Please see the Synapse [Certified User Documentation](https://help.synapse.org/docs/Synapse-User-Account-Types.2007072795.html) for more information.
 
 ## Contact your Data Liaison to set up your project and cloud bucket.
 
 When you are ready to upload data, please contact your [data liaison](../data_pub_submission/Data_Liaisons.md). Your data liaison will need to know:
-1. Your center
+1. Your centers
 2. Who on your team will be doing the data upload.
 3. The synapse usernames for team members identified in #2.
 
@@ -38,14 +38,14 @@ With the above information, the DCC will initialize your Synapse project for met
 
 The HTAN Data Model is built upon data standards described on the [Data Standards](https://data.humantumoratlas.org/standards) page. All HTAN Centers are required to encode their clinical, biospecimen and assay data and metadata using the HTAN Data Model. If you have a new data type which is not currently represented in the HTAN Data Model, please contact your data liaison.
 
-A concrete way to understand the expectations for data submissions is to view the metadata templates for clinical, biospecimen and assay data available in Synapse's Data Curator App ([DCA](https://dca.app.sagebionetworks.org/)). For any given dataset, you may be submitting:
+A concrete way to understand the expectations for data submissions is to view the metadata templates for clinical, biospecimen and assay data available in the ([DCA](https://dca.app.sagebionetworks.org/)). For any given dataset, you may be submitting:
 
 - clinical manifest(s), e.g. Demographics, Diagnosis
 - biospecimen manifest(s)
 - assay manifest(s), e.g. Bulk RNA-seq level 1 
 - assay data files
 
-The first three items will be validated and submitted using the Data Curator App. The last item, assay data files, only needs to be uploaded to the synapse project itself.
+The first three items will be validated and submitted using the DCA. The last item, assay data files, only needs to be uploaded to the synapse project itself.
 
 All data should be identified using HTAN identifiers. Please see the [HTAN Identifier](../data_model/identifiers.md) section of this manual for more information regarding HTAN identifiers.
 
