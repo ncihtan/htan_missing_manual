@@ -13,11 +13,11 @@ Here is the current list of centers, their atlases and DCC liaisons:
 | PILOT - HTAPP | HTA1 | Vesteinn Thorsson | thorsson@isbscience.org |
 | PILOT - PCAPP | HTA2 | Ethan Cerami | cerami@ds.dfci.harvard.edu |
 | HTAN BU | HTA3 | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu | 
-| HTAN CHOP | HTA4 | Ino de Bruijn | ebruiji@mskcc.org |
+| HTAN CHOP | HTA4 | Ino de Bruijn | debruiji@mskcc.org |
 | HTAN DFCI | HTA5 | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu | 
-| HTAN Duke | HTA6 | Ino de Bruijn | ebruiji@mskcc.org |
+| HTAN Duke | HTA6 | Ino de Bruijn | debruiji@mskcc.org |
 | HTAN HMS | HTA7 | Adam Taylor | adam.taylor@sagebase.org |
-| HTAN MSK | HTA8 | Ino de Bruijn | ebruiji@mskcc.org |
+| HTAN MSK | HTA8 | Ino de Bruijn | debruiji@mskcc.org |
 | HTAN OHSU | HTA9 | Adam Taylor | adam.taylor@sagebase.org |
 | HTAN Stanford | HTA10 | Adam Taylor | adam.taylor@sagebase.org |
 | HTAN Vanderbilt | HTA11 | Clarisse Lau | clau@systemsbiology.org |
