@@ -4,13 +4,15 @@ order: 996
 
 # Submitting Clinical, Biospecimen or Assay Data 
 
-![HTAN Data Submission Process](../img/Data_submission.png)
-
 As stated in [Data and Publication Submission Overview](../data_pub_submission/overview.md), data submission involves two key steps:
 1. Uploading assay data files to Synapse; and
 2. Completing and validating metadata using the Data Curator App (DCA).
 
-This page provides details regarding those steps.  However, you will also need to understand the HTAN data model and specific requirements for your particular data type.  For a general overview of the HTAN data model, please see [HTAN Data Model](../data_model/overview.md).  To understand specific requirements for your data type, please see [Data Standards](https://humantumoratlas.org/standards).
+This page provides details regarding those steps.  
+
+![HTAN Data Submission Process](../img/Data_submission.png)
+
+To submit data, you will also need to understand the HTAN data model and specific requirements for your particular data type.  For a general overview of the HTAN data model, please see [HTAN Data Model](../data_model/overview.md).  To understand specific requirements for your data type, please see [Data Standards](https://humantumoratlas.org/standards).
 
 HTAN uses the Synapse [Portal](https://www.synapse.org) and [DCA](https://dca.app.sagebionetworks.org/), developed and maintained by [Sage Bionetworks](https://sagebionetworks.org/), to manage clinical, biospecimen and assay data submissions (dataset ingress). In order to submit data, your center should:
 
