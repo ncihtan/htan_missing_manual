@@ -4,7 +4,7 @@ order: 996
 
 # What is Metadata?
 
-Metadata traditionally means data *about* data.  Metadata enables both data searchability and interpretability. Examples include sample and case identifiers, biospecimen information (e.g. tumor type), patient information (e.g. demographics) and assay-specific information (e.g. experiment protocol, assay reagents or assay technology). 
+Metadata means data *about* data.  Metadata enables both data searchability and interpretability. For HTAN, this includes sample and case identifiers, patient information (e.g. demographics), biospecimen information (e.g. tumor type), and assay-specific information (e.g. experiment protocol, assay reagents or assay technology). 
 
 ![Example HTAN Metadata vs Assay Data](../img/metadata.svg)
 
