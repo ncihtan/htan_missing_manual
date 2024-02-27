@@ -15,11 +15,8 @@ Current Trans-Network Projects
 
 | Code | Name | Description |
 |------|------|-------------|
-| HTA13 | TNP SARDANA | :exclamation: information needed |
-| HTA14 | TNP TMA | :exclamation: information needed |
-| HTA15 | TNP SRRS | :exclamation: information needed |
-| HTA16 | TNP CASI |  :exclamation: information needed |
-
-!!! Note: Samples used for TNPs may be derivatives of samples from pre-cancer or cancer atlases.  For this reason, data from these projects should not be considered additional samples when re-using HTAN data 
-!!!
+| HTA13 | TNP SARDANA | The **S**h**a**red **R**epositories, **D**ata, **An**alysis and **A**ccess TNP focuses on optimizing the repeatability, interpretability and accessibility of HTAN characterization methods and the data they generate.  |
+| HTA14 | TNP TMA | The **T**issue **M**icro**A**rray TNP extends the TNP SARDANA characterization and analytics methodologies for evaluation and validation to a large array of breast tumor TMA samples that provide a broad spectrum of disease state and subtype. |
+| HTA15 | TNP SRRS | The **S**tandardized **R**epository of **R**eference **S**pecimens TNP's mission is to assemble an extensive catalogue of cases from premalignant lesions, pre- and post-treatment tumor tissue and metastatic tumor tissue for protocol optimization and validation. |
+| HTA16 | TNP CASI | The goal of the **C**ell **A**nnotations and **S**ignatures **I**nitiative TNP is to provide robust and accurate tools for cell type annotation from single-cell data. |
 
