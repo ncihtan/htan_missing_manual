@@ -10,7 +10,7 @@ As stated in [Data and Publication Submission Overview](../data_pub_submission/o
 
 This page provides details regarding those steps.  
 
-![HTAN Data Submission Process](../img/Data_submission.png)
+![HTAN Data Submission Process](../img/Data_submission.svg)
 
 To submit data, you will also need to understand the HTAN data model and specific requirements for your particular data type.  For a general overview of the HTAN data model, please see [HTAN Data Model](../data_model/overview.md).  To understand specific requirements for your data type, please see [Data Standards](https://humantumoratlas.org/standards).
 
