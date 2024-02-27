@@ -1,8 +1,8 @@
 ---
-order: 996
+order: 995
 ---
 
-# Submitting Clinical, Biospecimen or Assay Data 
+# Submitting Assay Data and Metadata
 
 As stated in [Data and Publication Submission Overview](../data_pub_submission/overview.md), data submission involves two key steps:
 1. Uploading assay data files to Synapse; and
@@ -42,7 +42,7 @@ With the above information, the DCC will initialize your Synapse project for met
 
 The HTAN Data Model is built upon data standards described on the [Data Standards](https://data.humantumoratlas.org/standards) page. All HTAN Centers are required to encode their clinical, biospecimen and assay data and metadata using the HTAN Data Model. If you have a new data type which is not currently represented in the HTAN Data Model, please contact your data liaison.
 
-A concrete way to understand the expectations for data submissions is to view the metadata templates for clinical, biospecimen and assay data available in the ([DCA](https://dca.app.sagebionetworks.org/)). For any given dataset, you may be submitting:
+A concrete way to understand the expectations for data submissions is to view the metadata templates (manifests) for clinical, biospecimen and assay data available in the ([DCA](https://dca.app.sagebionetworks.org/)). For any given dataset, you may be submitting:
 
 - clinical manifest(s), e.g. Demographics, Diagnosis
 - biospecimen manifest(s)
