@@ -13,6 +13,8 @@ Data Submission involves two key steps:
 
 HTAN-associated publications are also submitted by completing and validating a manifest using the DCA.
 
+![Data and Publication Submission Overview](../img/Data_Pub_Overview.svg)
+
 Specific details regarding data submission and the DCA are included in later sections of this manual.  Please contact your [Data Liaison](../data_pub_submission/Data_Liaisons.md) if you have any questions or issues.  Please also keep your data liaison informed of any data or publication submissions.
 
 The current status of data uploads (refreshed every 4 hours) is available on the [HTAN Dashboard](http://hdash.website-us-east-1.linodeobjects.com/index.html).
