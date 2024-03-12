@@ -20,7 +20,7 @@ Clinical Data
 
 RPPR
 
-[equencing Data](https://docs.google.com/document/d/1IvK3LIFYqUcDb1YrBUFXvKZWmhdJl2m9Oa6LHDOPdcE/edit?usp=sharing)
+[Sequencing Data](https://docs.google.com/document/d/1IvK3LIFYqUcDb1YrBUFXvKZWmhdJl2m9Oa6LHDOPdcE/edit?usp=sharing)
 
 Spatial Transcriptomics
 
