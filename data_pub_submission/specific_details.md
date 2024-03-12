@@ -8,21 +8,19 @@ Please see [Data Standards](https://data.humantumoratlas.org/standards) for an o
 
 !!! under development.  
 :construction: Please see Sequencing Data and Accessory Files below for example google docs with specific submission details.
-
-:eyes: Note this page demonstrates a different way to embed links where the url is included and links open in a separate tab.
 !!!
 
-[!ref target="blank" text="Accessory Files"](https://docs.google.com/document/d/1pCzpf1s7Oh91V9tIwTovvrQfBWRnUJHqe1XBz3K8NfM/edit?usp=sharing)
+[Accessory Files](https://docs.google.com/document/d/1pCzpf1s7Oh91V9tIwTovvrQfBWRnUJHqe1XBz3K8NfM/edit?usp=sharing)
 
 Biospecimen
 
 Clinical Data
 
-Imaging
+[Imaging](https://docs.google.com/document/d/1iNicigsSytekEQLkmeNJd2NOJ9VTKzBDfYj3BmvGcro/edit#heading=h.b6j67xcu50c2)
 
 RPPR
 
-[!ref target="blank" text="Sequencing Data"](https://docs.google.com/document/d/1IvK3LIFYqUcDb1YrBUFXvKZWmhdJl2m9Oa6LHDOPdcE/edit?usp=sharing)
+[equencing Data](https://docs.google.com/document/d/1IvK3LIFYqUcDb1YrBUFXvKZWmhdJl2m9Oa6LHDOPdcE/edit?usp=sharing)
 
 Spatial Transcriptomics
 
