@@ -7,10 +7,10 @@ order: 993
 Please see [Data Standards](https://data.humantumoratlas.org/standards) for an overview of HTAN Data Levels and Metadata Attributes for each data type. The following links provide specific submission details for each data type.  
 
 !!! under development.  
-:construction: Please see Sequencing Data and Accessory Files below for example google docs with specific submission details.
+:construction: Currently this page contains additional information regarding Imaging data.  The Data Coordinating Center (DCC) plans to develop additional documents which will be linked from this page at a later time.
 !!!
 
-[Accessory Files](https://docs.google.com/document/d/1pCzpf1s7Oh91V9tIwTovvrQfBWRnUJHqe1XBz3K8NfM/edit?usp=sharing)
+Accessory Files
 
 Biospecimen
 
@@ -20,7 +20,7 @@ Clinical Data
 
 RPPR
 
-[Sequencing Data](https://docs.google.com/document/d/1IvK3LIFYqUcDb1YrBUFXvKZWmhdJl2m9Oa6LHDOPdcE/edit?usp=sharing)
+Sequencing Data
 
 Spatial Transcriptomics
 
