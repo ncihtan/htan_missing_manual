@@ -1,6 +1,6 @@
 # The HTAN Manual
 
-Written by the HTAN Data Coordinating Center (DCC), with contributions from Adam Taylor, Clarisse Lau, Vésteinn Thorsson, Ino de Bruijn, David Gibbs, Ethan Cerami and Alex Lash.
+Written by the HTAN Data Coordinating Center (DCC), with contributions from Adam Taylor, Clarisse Lau, Vésteinn Thorsson, Ino de Bruijn, David Gibbs, Ethan Cerami, Alex Lash and Jen Altreuter.
 
 ## About this Manual
 
