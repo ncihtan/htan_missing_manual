@@ -18,22 +18,14 @@ The links to specific RFC documents within the RFC Overview do **not** represent
 !!!
 
 ## Data Model Changes
-New assays or data types do not always require data model changes and an RFC.
-
-The following generally do not require a change to the Data Model:
-
-- New assays which are specific to only one center or will only be used in a limited capacity. These can often be accommodated as “Other Assay”.
-- Additional free text metadata fields.  Additional columns can be added to your copy of the metadata template if they do not require validation by the Data Curator App.
-
-The following require changes to the Data Model and would need to undergo the Request for Comments (RFC) process:
+The following are requests which require changes to the Data Model and may result in the initiation of a RFC:
 
 - New assay types which are expected to be used frequently by multiple centers.
 - New metadata templates or additional required metadata fields which should be validated.
 
-Please contact your [data liaison](../data_pub_submission/Data_Liaisons.md) for help determining whether a Data Model change is needed and how to make a Data Model change request.
+Please contact your [data liaison](../data_pub_submission/Data_Liaisons.md) for help determining whether a Data Model change is needed and how to make a Data Model change request.  
 
 ## RFC Process 
-
 Once a new assay type or a set of needed Data Model changes are identified, the following steps are taken:
 
 1. **A working group is organized** by the Data Coordinating Center (DCC).  As a part of this process, the following people are also designated:

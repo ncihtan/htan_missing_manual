@@ -4,7 +4,7 @@ order: 995
 
 # Submitting Assay Data and Metadata
 
-As stated in [Data and Publication Submission Overview](../data_submission/overview.md), data submission involves two key steps:
+As stated in [Data Submission Overview](../data_submission/overview.md), data submission involves two key steps:
 1. Uploading assay data files to Synapse; and
 2. Completing and validating metadata using the Data Curator App (DCA).
 

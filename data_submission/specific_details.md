@@ -7,7 +7,7 @@ order: 993
 Please see [Data Standards](https://data.humantumoratlas.org/standards) for an overview of HTAN Data Levels and Metadata Attributes for each data type. The following links provide specific submission details for each data type.  
 
 !!! under development.  
-:construction: Currently this page contains additional information regarding Imaging data.  The Data Coordinating Center (DCC) plans to develop additional documents which will be linked from this page at a later time.
+:construction: Currently this page contains additional information for Imaging data.  The Data Coordinating Center (DCC) plans to develop additional documents which will be linked from this page at a later time.
 !!!
 
 Accessory Files
