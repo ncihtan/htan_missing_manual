@@ -8,7 +8,7 @@ Written by the HTAN Data Coordinating Center (DCC), with contributions from Adam
 
 The manual can be found at https://docs.humantumoratlas.org/.
 
-If you have feedback for this manual, including broken links or incorrect information, please submit a ticket to the [HTAN Help Desk](https://sagebionetworks.jira.com/servicedesk/customer/portal/1)
+If you have feedback for this manual, including broken links or incorrect information, please submit a ticket to the [HTAN Help Desk](https://sagebionetworks.jira.com/servicedesk/customer/portal/1).
 
 ## Content Updates
 
