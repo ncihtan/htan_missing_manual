@@ -4,7 +4,7 @@ order: 995
 
 # Submitting Assay Data and Metadata
 
-As stated in [Data and Publication Submission Overview](../data_pub_submission/overview.md), data submission involves two key steps:
+As stated in [Data and Publication Submission Overview](../data_submission/overview.md), data submission involves two key steps:
 1. Uploading assay data files to Synapse; and
 2. Completing and validating metadata using the Data Curator App (DCA).
 
@@ -29,7 +29,7 @@ To upload files to the Synapse Platform, you need to be a [Synapse Certified Use
 
 ## Contact your Data Liaison to set up your project and cloud bucket.
 
-When you are ready to upload data, please contact your [data liaison](../data_pub_submission/Data_Liaisons.md). Your data liaison will need to know:
+When you are ready to upload data, please contact your [data liaison](../data_submission/Data_Liaisons.md). Your data liaison will need to know:
 1. Your centers
 2. Who on your team will be doing the data upload.
 3. The synapse usernames for team members identified in #2.
