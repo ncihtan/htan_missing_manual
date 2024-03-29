@@ -6,12 +6,10 @@ order: 1000
 
 The [HTAN Data Portal](https://humantumoratlas.org/explore) provides an overview of all released data.  For Open Access data, the Portal also provides links to: 
 - downloadable files on Synapse;  
-- CellxGene for visualization of single cell RNA-sequencing data; 
+- CellxGene and Xena for visualization of single cell RNA-sequencing data; 
 - Minerva rendered images and stories; 
 - Google BigQuery tables; and 
 - cBioPortal. 
-
-Open Access Images can be accessed and downloaded from the NCI's Image Data Commons [(IDC)](https://portal.imaging.datacommons.cancer.gov/) as well as Seven Bridges-Cancer Genomic Cloud [(SB-CGC)](https://cgc-accounts.sbgenomics.com/).
 
 Google BigQuery tables provide direct access to a subset of assay data (mainly level 4 files) on a cloud platform.  The Google BigQuery tables provide an easy way to build cohorts using specific data fields.  HTAN also provides sample code for working with the data in Google BigQuery.
 

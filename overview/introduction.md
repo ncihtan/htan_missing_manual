@@ -6,7 +6,7 @@ order: 1000
 
 The **Human Tumor Atlas Network (HTAN)** is a National Cancer Institute-funded Cancer Moonshot initiative focused on studying the **transitions of human cancers** as they evolve from **precancerous lesions to advanced disease**.
 
-The network consists of **ten research centers** and a **Data Coordinating Center (DCC)**. Five of the research centers are focused on developing **pre-cancer atlases**, and the remaining five centers are focused on developing **tumor atlases**. We also have two pilot projects, one focused on pre-cancer atlases, and one focused on tumor atlases.
+In the current phase of HTAN (phase 1), the network consists of **ten research centers** and a **Data Coordinating Center (DCC)**. Five of the research centers are focused on developing **pre-cancer atlases**, and the remaining five centers are focused on developing **tumor atlases**. We also have two pilot projects, one focused on pre-cancer atlases, and one focused on tumor atlases.
 
 Each research center is responsible for gathering and processing samples, and running their own experimental assays. Assays vary by center, but most centers have a strong focus on **single cell RNA-Seq** and a wide range of **multiplex imaging modalities**.
 
