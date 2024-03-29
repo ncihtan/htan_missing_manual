@@ -4,7 +4,7 @@ Written by the HTAN Data Coordinating Center (DCC), with contributions from Adam
 
 ## About this Manual
 
-**The HTAN Manual** provides an overview of Human Tumor Atlas Network (HTAN) data, including the various levels of data access. If you have any questions regarding the manual or HTAN data, please contact us at: htan@googlegroups.com.
+**The HTAN Manual** provides an overview of Human Tumor Atlas Network (HTAN) data, including the various levels of data access. If you have any questions regarding the manual or HTAN data, please contact us: [HTAN Help Desk](https://sagebionetworks.jira.com/servicedesk/customer/portal/1).
 
 The manual can be found at https://docs.humantumoratlas.org/.
 
