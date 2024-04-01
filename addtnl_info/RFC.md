@@ -23,7 +23,7 @@ The following are requests which require changes to the Data Model and may resul
 - New assay types which are expected to be used frequently by multiple centers.
 - New metadata templates or additional required metadata fields which should be validated.
 
-Please contact your [data liaison](../data_submission/Data_Liaisons.md) for help determining whether a Data Model change is needed and how to make a Data Model change request.  
+HTAN members should contact their [data liaison](../data_submission/Data_Liaisons.md) for help determining whether a Data Model change is needed and how to make a Data Model change request.  
 
 ## RFC Process 
 Once a new assay type or a set of needed Data Model changes are identified, the following steps are taken:
