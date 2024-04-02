@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: /sitemap.xml.gz
+Sitemap: https://jen-dfci.github.io/htan_missing_manual/sitemap.xml.gz
