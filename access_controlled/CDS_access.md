@@ -2,7 +2,7 @@
 order: 997
 ---
 
-# Accessing Sequence Data via NCI's Cancer Data Service (CDS)
+# Accessing Sequence Data via NCI's Cancer Data Service (CDS) Portal
 
 !!!
 **NOTE**: dbGaP approval for HTAN study [phs002371](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002371.v3.p1) is required in order to access HTAN lower-level genomics data, such as RNAseq FASTQ and BAM files.
@@ -47,5 +47,5 @@ Clicking on the cart icon, will bring up a list of the selected files.  Click on
 
 &nbsp;
 
-Once this file manifest is downloaded, it will have to be uploaded into your [Seven Bridges Cancer Genomics Cloud](https://www.cancergenomicscloud.org/) account, in order for you to be able to download, or otherwise compute on, these data.
+Once this file manifest is downloaded, it will have to be uploaded into your [Seven Bridges Cancer Genomics Cloud](https://www.cancergenomicscloud.org/) account, in order for you to be able to download, or otherwise compute on, these data. Instructions on how to import data from a manifest file can be found on [SB-CGC Documentation](https://docs.cancergenomicscloud.org/docs/import-from-a-drs-server#import-from-a-manifest-file)
 
