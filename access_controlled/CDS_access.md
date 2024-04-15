@@ -10,14 +10,24 @@ order: 997
 
 The [CDS Portal](https://dataservice.datacommons.cancer.gov/), within NCI's Cancer Research Data Commons (CRDC), provides an interface to filter and select data from a variety of NCI programs, including controlled-access, primary sequence data from the Human Tumor Atlas Network (HTAN). 
 
-In order to access these HTAN data within the [CDS Portal](https://dataservice.datacommons.cancer.gov/), navigate to the portal in a web browser and click on the **Explore CDS Data** button on the landing page.
+# DRS Manifest Files
+
+To access data via CDS, first generate a CDS Data Repository Service (DRS) manifest containing the files you would like to obtain. DRS manifests are CSV files and require at minimum the **name** and **drs_uri** of each file of interest. For HTAN data, DRS manifests can be generated in one of three ways: 
+
+1. CDS Portal
+2. HTAN Data Portal
+3. Google BigQuery (Coming Soon!)
+
+## 1. Generating a Manifest File from the CDS Portal
+
+In order to access HTAN imaging data within the [CDS Portal](https://dataservice.datacommons.cancer.gov/), navigate to the portal in a web browser and click on the **Explore CDS Data** button on the landing page.
 
 <p align="center"><img width="364" alt="1" src="https://github.com/ncihtan/htan_missing_manual/assets/123744798/40aff1af-a58f-49dc-9253-6ee5e67ef419">
 </p>
 
 &nbsp;
 
-On the Data Explorer page, expand the STUDY section on the left sidebar, scroll down, and check the box next to **Human Tumor Atlas (HTAN) primary sequence data**.
+On the Data Explorer page, expand the STUDY section on the left sidebar, scroll down, and check the box next to **Human Tumor Atlas (HTAN) imaging data**.
 
 <p align="center"><img width="891" alt="Figure 2" src="https://github.com/ncihtan/htan_missing_manual/assets/123744798/4a3b97f6-97d6-4c99-b782-88c9a8a74fba"></p>
 
@@ -47,5 +57,22 @@ Clicking on the cart icon, will bring up a list of the selected files.  Click on
 
 &nbsp;
 
-Once this file manifest is downloaded, it will have to be uploaded into your [Seven Bridges Cancer Genomics Cloud](https://www.cancergenomicscloud.org/) account, in order for you to be able to download, or otherwise compute on, these data. Instructions on how to import data from a manifest file can be found on [SB-CGC Documentation](https://docs.cancergenomicscloud.org/docs/import-from-a-drs-server#import-from-a-manifest-file)
 
+## 2. Generating a Manifest File from the HTAN Data Portal
+
+From the [HTAN Data Portal](https://humantumoratlas.org/), click **CDS/SB-CGC (Open Access)** under the **Data Access** filter. 
+
+![HTAN Portal: Accessing Imaging Data in CDS](../img/cds_genomics1.png)
+
+Navigate to the **Files** tab, check the box next to **Filename** in upper left, and then click **Download selected files**. 
+![HTAN Portal: Selecting Imaging Files](../img/cds_genomics2.png)
+
+Click **Download Manifest**, which will download a local file called `cds_manifest.csv`. 
+![HTAN Portal: Download DRS Manifest](../img/cds_genomics3.png)
+
+
+## 3. Generating a Manifest File from Google BigQuery (Coming Soon!)
+
+
+# Accessing Data
+Once you have your manifest, follow the instructions on SB-CGC's [Import from a DRS server](https://docs.cancergenomicscloud.org/docs/import-from-a-drs-server#import-from-a-manifest-file) documentation page to import data from a manifest file.
