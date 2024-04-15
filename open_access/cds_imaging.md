@@ -33,6 +33,8 @@ This action will change the summary panel to reflect selecting HTAN data only.
 
 Scroll down, or click on the **Collapse View** tab on the upper right just below the query summary line in order to see the tabulated view of all of the participants, samples or files in HTAN.
 
+![CDS Portal: Accessing HTAN Imaging Data](../img/cds_img7.png)
+
 Click on the **Add All Files** button, or select the check boxes next to all Participants, Samples or Files for a subselection and then click on the **Add Selected** button.  This action will update your cart icon in the upper right corner.
 
 ![CDS Portal: Accessing HTAN Imaging Data](../img/cds_img5.png)
