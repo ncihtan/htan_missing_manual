@@ -6,40 +6,59 @@ order: 995
 
 HTAN Imaging Level 2 data is now available through the [NCI SB-CGC Cancer Data Service (CDS)](https://datacommons.cancer.gov/repository/cancer-data-service).
 
-!!!
-**NOTE**: dbGaP approval for HTAN study [phs002371](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002371.v3.p1) is required in order to access HTAN lower-level genomics data, such as RNAseq FASTQ and BAM files.
-!!!
-
 Data access via Seven Bridges Cancer Genomics Cloud (SB-CGC) requires a CGC account [[register here](https://docs.cancergenomicscloud.org/docs/sign-up-for-the-cgc)]. For further information on using SB-CGC resources including programmatic access options, you can explore their [online documentation](https://docs.cancergenomicscloud.org/docs).
 
+# DRS Manifest Files
 
-## Filtering for HTAN Images in the CDS File Repository
+To access data via CDS, first generate a CDS Data Repository Service (DRS) manifest containing the files you would like to obtain. DRS manifests are CSV files and require at minimum the **name** and **drs_uri** of each file of interest. For HTAN data, DRS manifests can be generated in one of three ways: 
 
-From the [SB-CGC dashboard](https://cgc.sbgenomics.com/home/), click **Cancer Data Service Explorer** under the **Data** tab. 
+1. CDS Portal
+2. HTAN Data Portal
+3. Google BigQuery (Coming Soon!)
 
-![CDS: Accessing the CDS file explorer](../img/cds_img1.png)
+## 1. Generating a Manifest File from the CDS Portal
 
-Select **Explore files**
+In order to access HTAN imaging data within the [CDS Portal](https://dataservice.datacommons.cancer.gov/), navigate to the portal in a web browser and click on the **Explore CDS Data** button on the landing page.
 
-![CDS: Accessing the CDS file explorer](../img/cds_img2.png)
+<p align="center"><img width="364" alt="1" src="https://github.com/ncihtan/htan_missing_manual/assets/123744798/40aff1af-a58f-49dc-9253-6ee5e67ef419">
+</p>
 
-From the sidebar, filter by **Dataset**: HTAN and **Experimental Strategy**: ImagingLevel2
+&nbsp;
 
-![CDS: Filter by HTAN study](../img/cds_img3.png) ![CDS: Filter for imaging data](../img/cds_img4.png)
+On the Data Explorer page, expand the STUDY section on the left sidebar, scroll down, and check the box next to **Human Tumor Atlas (HTAN) imaging data**.
 
-This provides a listing of all HTAN Imaging Level 2 data that is currently available through CDS. 
+![CDS Portal: Accessing HTAN Imaging Data](../img/cds_img4.png)
 
-![CDS: HTAN Imaging Data on CDS](../img/cds_img5.png)
+This action will change the summary panel to reflect selecting HTAN data only.
+
+Scroll down, or click on the **Collapse View** tab on the upper right just below the query summary line in order to see the tabulated view of all of the participants, samples or files in HTAN.
+
+![CDS Portal: Accessing HTAN Imaging Data](../img/cds_img7.png)
+
+Click on the **Add All Files** button, or select the check boxes next to all Participants, Samples or Files for a subselection and then click on the **Add Selected** button.  This action will update your cart icon in the upper right corner.
+
+![CDS Portal: Accessing HTAN Imaging Data](../img/cds_img5.png)
+
+Clicking on the cart icon, will bring up a list of the selected files.  Click on the **Download Manifest** button in the upper right to download a CSV-formated (Excel compatible) file of this file list.
+
+![CDS Portal: Adding Data to Cart](../img/cds_img6.png)
 
 
-## Download Images from CDS
+## 2. Generating a Manifest File from the HTAN Data Portal
 
-Additional filters are available for further selection including Data format, Site, etc., as well as text search fields to search files by Filename, case ID (HTAN Participant ID), and sample ID (HTAN Biospecimen ID).
+From the [HTAN Data Portal](https://humantumoratlas.org/), click **CDS/SB-CGC (Open Access)** under the **Data Access** filter. 
 
-Once you have filtered to your files of interest, click **Copy to project** to add the selected files to the SB-CGC project of your choosing (create a new project if you do not have one set up). 
+![HTAN Portal: Accessing Imaging Data in CDS](../img/cds_img1.png)
 
-![CDS: Add selected files to project](../img/cds_img6.png)
+Navigate to the **Files** tab, check the box next to **Filename** in upper left, and then click **Download selected files**. 
+![HTAN Portal: Selecting Imaging Files](../img/cds_img2.png)
 
-You will be automatically re-directed to the **Files** tab of your SB-CGC project. From here, check the boxes of the files you would like to save. Clicking **Download** will download the selected images to your local machine.
+Click **Download Manifest**, which will download a local file called `cds_manifest.csv`. 
+![HTAN Portal: Download DRS Manifest](../img/cds_img3.png)
 
-![CDS: Download selected imaging files](../img/cds_img7.png)
+
+## 3. Generating a Manifest File from Google BigQuery (Coming Soon!)
+
+
+# Accessing Data
+Once you have your manifest, follow the instructions on SB-CGC's [Import from a DRS server](https://docs.cancergenomicscloud.org/docs/import-from-a-drs-server#import-from-a-manifest-file) documentation page to import data from a manifest file.
