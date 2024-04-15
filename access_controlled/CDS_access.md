@@ -2,7 +2,7 @@
 order: 997
 ---
 
-# Accessing Sequence Data via NCI's Cancer Data Service (CDS) Portal
+# Accessing Sequence Data via NCI's Cancer Data Service (CDS)
 
 !!!
 **NOTE**: dbGaP approval for HTAN study [phs002371](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002371.v3.p1) is required in order to access HTAN lower-level genomics data, such as RNAseq FASTQ and BAM files.
@@ -27,7 +27,7 @@ In order to access HTAN imaging data within the [CDS Portal](https://dataservice
 
 &nbsp;
 
-On the Data Explorer page, expand the STUDY section on the left sidebar, scroll down, and check the box next to **Human Tumor Atlas (HTAN) imaging data**.
+On the Data Explorer page, expand the STUDY section on the left sidebar, scroll down, and check the box next to **Human Tumor Atlas (HTAN) primary sequence data**.
 
 <p align="center"><img width="891" alt="Figure 2" src="https://github.com/ncihtan/htan_missing_manual/assets/123744798/4a3b97f6-97d6-4c99-b782-88c9a8a74fba"></p>
 
@@ -60,12 +60,12 @@ Clicking on the cart icon, will bring up a list of the selected files.  Click on
 
 ## 2. Generating a Manifest File from the HTAN Data Portal
 
-From the [HTAN Data Portal](https://humantumoratlas.org/), click **CDS/SB-CGC (Open Access)** under the **Data Access** filter. 
+From the [HTAN Data Portal](https://humantumoratlas.org/), click **CDS/SB-CGC (dbGaP)** under the **Data Access** filter. 
 
-![HTAN Portal: Accessing Imaging Data in CDS](../img/cds_genomics1.png)
+![HTAN Portal: Accessing Genomic Data in CDS](../img/cds_genomics1.png)
 
 Navigate to the **Files** tab, check the box next to **Filename** in upper left, and then click **Download selected files**. 
-![HTAN Portal: Selecting Imaging Files](../img/cds_genomics2.png)
+![HTAN Portal: Selecting Genomic Files](../img/cds_genomics2.png)
 
 Click **Download Manifest**, which will download a local file called `cds_manifest.csv`. 
 ![HTAN Portal: Download DRS Manifest](../img/cds_genomics3.png)
