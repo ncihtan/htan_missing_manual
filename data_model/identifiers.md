@@ -67,7 +67,7 @@ The following are step by step instructions for HTAN Centers and Trans Network P
 
 ### Step 1: Determine you HTAN Center ID
 
-Please see [HTAN Centers](../overview/centers.md) to determine your HTAN Center ID.  If the data is part of a Trans Network Project (TNP), use the HTAN Center ID assigned to the TNP.
+Please see [HTAN Centers](../overview/centers.md) to determine your HTAN Center ID.  If the data are part of a Trans Network Project (TNP), use the HTAN Center ID assigned to the TNP.
 
 ### Step 2: Assign HTAN Identifiers for all Research Participants.
 
