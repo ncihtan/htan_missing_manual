@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/htan_missing_manual">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766520899819">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.768666371553">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>Identifiers</title>
     <meta name="title" content="Identifiers">
-    <meta name="description" content="All research participants, biospecimens and derived data within HTAN are associated with a unique HTAN identifier.">
+    <meta name="description" content="All research participants, biospecimens and derived data within HTAN are associated with unique HTAN identifiers.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://jen-dfci.github.io/htan_missing_manual/data_model/identifiers/">
@@ -21,23 +21,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jen-dfci.github.io/htan_missing_manual/data_model/identifiers/">
     <meta property="og:title" content="Identifiers">
-    <meta property="og:description" content="All research participants, biospecimens and derived data within HTAN are associated with a unique HTAN identifier.">
+    <meta property="og:description" content="All research participants, biospecimens and derived data within HTAN are associated with unique HTAN identifiers.">
     <meta property="og:image" content="https://jen-dfci.github.io/htan_missing_manual/img/slide_version_id_provenance_figure_explained.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://jen-dfci.github.io/htan_missing_manual/data_model/identifiers/">
     <meta property="twitter:title" content="Identifiers">
-    <meta property="twitter:description" content="All research participants, biospecimens and derived data within HTAN are associated with a unique HTAN identifier.">
+    <meta property="twitter:description" content="All research participants, biospecimens and derived data within HTAN are associated with unique HTAN identifiers.">
     <meta property="twitter:image" content="https://jen-dfci.github.io/htan_missing_manual/img/slide_version_id_provenance_figure_explained.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.766520899819" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.768666371553" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.766520899819" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.768666371553" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.766520899819" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.768666371553" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -172,7 +172,7 @@
         <span>Identifiers</span>
     </h1>
 </doc-anchor-target>
-<p>All research participants, biospecimens and derived data within HTAN are associated with a unique HTAN identifier.</p>
+<p>All research participants, biospecimens and derived data within HTAN are associated with unique HTAN identifiers.</p>
 <p><figure class="content-center">
     <img src="../../img/slide_version_id_provenance_figure_explained.png" alt="HTAN ID Provenance">
     <figcaption class="caption">HTAN ID Provenance</figcaption>
@@ -215,7 +215,7 @@ HTA4_0000_3</code></pre>
 HTA4_EXT2_2
 HTA4_EXT3_3</code></pre>
 </doc-codeblock></div>
-<p>More detailed information about HTAN Identifiers may be found in the <a href="https://docs.google.com/document/d/1podtPP8L1UNvVxx9_c_szlDcU1f8n7bige6XA_GoRVM/edit#heading=h.768a6pngjha3">HTAN Identifiers SOP</a>.</p>
+<p>If you will be creating HTAN identifiers for a HTAN Center or Trans Network Project (TNP), please also see the step-by-step directions <doc-anchor-trigger to="#creating-htan-identifiers">below</doc-anchor-trigger></p>
 <doc-anchor-target id="id-to-id-linkages">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#id-to-id-linkages">#</doc-anchor-trigger>
@@ -223,6 +223,119 @@ HTA4_EXT3_3</code></pre>
     </h2>
 </doc-anchor-target>
 <p>Note that the explicit linking of participants to biospecimens to assays is not encoded in the HTAN Identifier. Rather, the linking is encoded in explicit metadata elements (see <a href="../relationships/">Relationship Model</a>).</p>
+<doc-anchor-target id="creating-htan-identifiers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#creating-htan-identifiers">#</doc-anchor-trigger>
+        <span>Creating HTAN Identifiers</span>
+    </h2>
+</doc-anchor-target>
+<p>The following are step by step instructions for HTAN Centers and Trans Network Projects (TNPs) to create and manage HTAN identifiers.  HTAN identifiers should be created for all entities (participants, biospecimens and data-files) within individual research projects.</p>
+<doc-anchor-target id="step-1-determine-you-htan-center-id">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-1-determine-you-htan-center-id">#</doc-anchor-trigger>
+        <span>Step 1: Determine you HTAN Center ID</span>
+    </h3>
+</doc-anchor-target>
+<p>Please see <a href="../../overview/centers/">HTAN Centers</a> to determine your HTAN Center ID.  If the data are part of a Trans Network Project (TNP), use the HTAN Center ID assigned to the TNP.</p>
+<doc-anchor-target id="step-2-assign-htan-identifiers-for-all-research-participants">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-2-assign-htan-identifiers-for-all-research-participants">#</doc-anchor-trigger>
+        <span>Step 2: Assign HTAN Identifiers for all Research Participants.</span>
+    </h3>
+</doc-anchor-target>
+<p>Create a unique HTAN Identifier for each research participant in the following format:</p>
+<p><code v-pre>&lt;participant_id&gt;</code>::= <code v-pre>&lt;htan_center_id&gt;_integer</code></p>
+<p>e.g. HTA3_1</p>
+<p>Each HTAN Center/TNP controls their own namespaces, and therefore owns all identifiers that begins with their prefix.  The integer value following <code v-pre>&lt;htan_center_id&gt;</code> is determined by the HTAN Center/TNP.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Participant IDs do not need to be consecutive</h5>
+<p>HTAN Centers/TNPs may choose to use integer blocks to assign groups.  For example, CHOP may have four clinical sites, and may wish to reserve HTA4_1 to HTA4_1000 for all patients from site 1, and HTA4_1001 to HTA4_2000 for all patients from site 2.  These blocks are entirely up to the research project and not managed by the DCC. The assigned integers in a set of identifiers need not be consecutive.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p><a href="https://en.wikipedia.org/wiki/Leading_zero">Leading zeros</a> (e.g. HTA3_01) should <strong>not</strong> be used in the ID.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="step-2b-optional-if-needed-assign-htan-identifiers-for-external-controls">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-2b-optional-if-needed-assign-htan-identifiers-for-external-controls">#</doc-anchor-trigger>
+        <span>Step 2b [optional]: If needed, assign HTAN identifiers for external controls</span>
+    </h4>
+</doc-anchor-target>
+<p>Each external control participant, if present, in your atlas must also have a unique HTAN Identifier.  These identifiers are meant only for participants without precancerous or cancerous lesions, and therefore explicitly indicate lack of HTAN-relevant clinical data within the identifier itself.  These participant identifiers look like:</p>
+<p><code v-pre>&lt;participant_id&gt;</code>		::= <code v-pre>&lt;htan_center_id&gt;_EXTinteger</code></p>
+<p>For example, if you are part of the Duke research center, and you have three external control research participants, you will need to create three HTAN Identifiers.  For example:</p>
+<p>HTA6_EXT1<br />
+HTA6_EXT2<br />
+HTA6_EXT3</p>
+<p>As with regular research participants, the HTAN Center/TNP controls their own namespace, and therefore owns all identifiers that begin with the prefix e.g.  HTA6_EXT.  The integer value following HTA6_EXT is determined entirely by the HTAN Center/TNP.</p>
+<doc-anchor-target id="step-3-assign-htan-identifiers-for-all-htan-biospecimen-and-data-files">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-3-assign-htan-identifiers-for-all-htan-biospecimen-and-data-files">#</doc-anchor-trigger>
+        <span>Step 3: Assign HTAN Identifiers for all HTAN Biospecimen and Data Files</span>
+    </h3>
+</doc-anchor-target>
+<p>Derivative entities include anything derived from a research participant, including biospecimens such as samples, tissue blocks, slides, aliquots, analytes, and data files that result from assaying those biospecimens. Each derivative entity in your atlas must also have a unique HTAN Identifier.  These identifiers look like:</p>
+<p><code v-pre>&lt;derivative_entity_id&gt;</code>	::= <code v-pre>&lt;participant_id&gt;_integer</code></p>
+<p>Analogous to research participant IDs, the unique integer value following <code v-pre>&lt;participant_id&gt;</code> is determined entirely by the source HTAN Center/TNP.  The ID must not have <a href="https://en.wikipedia.org/wiki/Leading_zero">leading zeros</a>.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Special Case Identifers</h5>
+<p>If a single data file is derived from multiple participants, the file identifier can contain a wildcard string, e.g. ‘0000’, after the HTAN center identifier. For example:</p>
+<p>HTA4_0000_1<br />
+HTA4_0000_2<br />
+HTA4_0000_3</p>
+<p>If a data file is derived from an external control participant, the biospecimen and file identifiers will contain the string ‘EXT’ before the external control participant integer (see Step 2b, above). For example:</p>
+<p>HTA6_EXT1_1<br />
+HTA4_EXT2_2<br />
+HTA4_EXT3_3</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="step-4-keep-track-of-all-metadata-associated-with-entities">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-4-keep-track-of-all-metadata-associated-with-entities">#</doc-anchor-trigger>
+        <span>Step 4: Keep Track of all Metadata Associated with Entities</span>
+    </h3>
+</doc-anchor-target>
+<p>Complex relationships among entities can emerge in any research study. For example, one or more samples may be collected from a research participant at multiple times, and each of those samples processed through a variety of analytic workflows. It is recommended that each HTAN Center/TNP maintain their own mechanism for storing annotation of entities and relationships among those --- for example, many atlases already have in place LIMs systems or spreadsheet-based systems.</p>
 
                                 
                                 <!-- Required only on API pages -->
