@@ -14,7 +14,7 @@ To access data via CDS, first generate a CDS Data Repository Service (DRS) manif
 
 1. CDS Portal
 2. HTAN Data Portal
-3. Google BigQuery (Coming Soon!)
+3. Google BigQuery
 
 ## 1. Generating a Manifest File from the CDS Portal
 
@@ -57,7 +57,11 @@ Click **Download Manifest**, which will download a local file called `cds_manife
 ![HTAN Portal: Download DRS Manifest](../img/cds_img3.png)
 
 
-## 3. Generating a Manifest File from Google BigQuery (Coming Soon!)
+## 3. Generating a Manifest File from Google BigQuery
+HTAN metadata and a mapping of HTAN Data File IDs to CDS DRS URIs are available as Google BigQuery tables via the Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC) (see [Google BigQuery](https://docs.humantumoratlas.org/open_access/biq_query/)). These tables can be used to subset data to a cohort of interest, and obtain DRS URIs of files to access. 
+
+For a step-by-step guide on how to generate a DRS manifest file using Google BigQuery, please see the Python notebook [Creating_CDS_Data_Import_Manifests_Using_BQ.ipynb](https://github.com/isb-cgc/Community-Notebooks/blob/master/HTAN/Python%20Notebooks/Creating_CDS_Data_Import_Manifests_Using_BQ.ipynb).
+
 
 
 # Accessing Data
