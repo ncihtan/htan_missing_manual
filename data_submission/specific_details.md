@@ -10,7 +10,7 @@ Please see [Data Standards](https://data.humantumoratlas.org/standards) for an o
 :construction: Currently this page contains additional information for Imaging data.  The Data Coordinating Center (DCC) plans to develop additional documents which will be linked from this page at a later time.
 !!!
 
-Accessory Files
+[Accessory Files](https://docs.google.com/document/d/1c7WPfgOpjd8B44LDccuR4quwrVXg3yhGQlbQ6Bp4p7Q/edit?usp=sharing)
 
 Biospecimen
 
