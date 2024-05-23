@@ -14,7 +14,7 @@ HTAN currently consists of ten research centers, and two pilot projects. There a
 | HTA4   | Children’s Hospital of Philadelphia     | Tumor Atlas      | Pediatric                         |
 | HTA5   | Dana-Farber Cancer Institute            | Tumor Atlas      | Multiple Cancer Types             |
 | HTA6   | Duke University                         | Pre-Cancer Atlas | Breast                            |
-| HTA7   | Harvard Medical School                  | Pre-Cancer Atlas | Melanoma and Clonal Hematopoiesis |
+| HTA7   | Harvard Medical School                  | Pre-Cancer Atlas | Melanoma, Colorectal Cancer, and Clonal Hematopoiesis |
 | HTA8   | Memorial Sloan Kettering Cancer Center  | Tumor Atlas      | Multiple Cancer Types             |
 | HTA9   | Oregon Health Science University        | Tumor Atlas      | Breast                            |
 | HTA10  | Stanford University                     | Pre-Cancer Atlas | Familial Adenomatous Polyposis    |
