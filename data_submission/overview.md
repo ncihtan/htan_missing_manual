@@ -11,6 +11,9 @@ Data Submission involves two key steps:
 1. Uploading assay data files to Synapse; and
 2. Completing and validating manifests using the Data Curator App (DCA).
 
+!!! Once assay data files are submitted to Synapse, the files will have entityIDs (e.g. syn12345670) assigned to them. These can then be prepopulated into the manifests on the DCA. For this reason, assay files should be submitted before generating the associated manifests. 
+!!!
+
 ![Data Submission Overview](../img/Data_Submit_Overview.svg)
 
 Specific details regarding data submission and the DCA are included in later sections of this manual.  Please contact your [Data Liaison](../data_submission/Data_Liaisons.md) if you have any questions or issues.  Please also keep your data liaison informed of any data submissions.

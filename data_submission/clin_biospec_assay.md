@@ -8,6 +8,9 @@ As stated in [Data Submission Overview](../data_submission/overview.md), data su
 1. Uploading assay data files to Synapse; and
 2. Completing and validating metadata using the Data Curator App (DCA).
 
+!!! Once assay data files are submitted to Synapse, the files will have entityIDs (e.g. syn12345670) assigned to them. These can then be prepopulated into the manifests on the DCA. For this reason, assay files should be submitted before generating the associated manifests. 
+!!!
+
 This page provides details regarding those steps.  
 
 ![HTAN Data Submission Process](../img/Data_submission.svg)
