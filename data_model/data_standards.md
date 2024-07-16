@@ -13,6 +13,3 @@ The HTAN data model includes data levels. Each assay type has levels progressing
 !!! Note
 Once new data standards pages are added to this manual, the [Data Standards](https://humantumoratlas.org/standards) page will be removed from the data portal.  All links to "Data Standards" throughout this manual will need to be updated.
 !!!
-
-Test embedding:
-[!embed](https://humantumoratlas.org/standards)
