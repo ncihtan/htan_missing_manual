@@ -14,7 +14,7 @@ Please see [Data Standards](https://data.humantumoratlas.org/standards) for an o
 
 [Biospecimen](https://docs.google.com/document/d/1uywrFE7dioO5o6OXRxBrG6HMDM1-eepDN43qEPVLOD0/edit?usp=sharing)
 
-Clinical Data
+[Clinical Data](https://docs.google.com/document/d/10rNmhdoQLA25dIbK6yEybB0hyeSsV90fRjDtVY3x8M0/edit?usp=sharing)
 
 [Imaging](https://docs.google.com/document/d/1iNicigsSytekEQLkmeNJd2NOJ9VTKzBDfYj3BmvGcro/edit#heading=h.b6j67xcu50c2)
 
