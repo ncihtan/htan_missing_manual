@@ -4,40 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/htan_missing_manual">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.775587512913">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.775943240609">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
 
     <!-- Primary Meta Tags -->
-    <title>Data Standards</title>
-    <meta name="title" content="Data Standards">
-    <meta name="description" content="This page is a place holder for a data standards page/set of data standards pages similar to MC2 Center Data Model">
+    <title>Data Levels and Clinical Data Tiers</title>
+    <meta name="title" content="Data Levels and Clinical Data Tiers">
+    <meta name="description" content="The Data Standards pages of the HTAN Data Portal provide a detailed overview of the HTAN Data Model.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://jen-dfci.github.io/htan_missing_manual/data_model/data_standards/">
+    <link rel="canonical" href="https://jen-dfci.github.io/htan_missing_manual/data_model/data_levels/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://jen-dfci.github.io/htan_missing_manual/data_model/data_standards/">
-    <meta property="og:title" content="Data Standards">
-    <meta property="og:description" content="This page is a place holder for a data standards page/set of data standards pages similar to MC2 Center Data Model">
+    <meta property="og:url" content="https://jen-dfci.github.io/htan_missing_manual/data_model/data_levels/">
+    <meta property="og:title" content="Data Levels and Clinical Data Tiers">
+    <meta property="og:description" content="The Data Standards pages of the HTAN Data Portal provide a detailed overview of the HTAN Data Model.">
     <meta property="og:image" content="https://jen-dfci.github.io/htan_missing_manual/img/sequencing_data_levels.svg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://jen-dfci.github.io/htan_missing_manual/data_model/data_standards/">
-    <meta property="twitter:title" content="Data Standards">
-    <meta property="twitter:description" content="This page is a place holder for a data standards page/set of data standards pages similar to MC2 Center Data Model">
+    <meta property="twitter:url" content="https://jen-dfci.github.io/htan_missing_manual/data_model/data_levels/">
+    <meta property="twitter:title" content="Data Levels and Clinical Data Tiers">
+    <meta property="twitter:description" content="The Data Standards pages of the HTAN Data Portal provide a detailed overview of the HTAN Data Model.">
     <meta property="twitter:image" content="https://jen-dfci.github.io/htan_missing_manual/img/sequencing_data_levels.svg">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.775587512913" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.775943240609" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.775587512913" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.775943240609" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.775587512913" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.775943240609" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -166,37 +166,40 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="data-standards" class="break-words">
+<doc-anchor-target id="data-levels-and-clinical-data-tiers" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#data-standards">#</doc-anchor-trigger>
-        <span>Data Standards</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#data-levels-and-clinical-data-tiers">#</doc-anchor-trigger>
+        <span>Data Levels and Clinical Data Tiers</span>
     </h1>
 </doc-anchor-target>
-<p>This page is a place holder for a data standards page/set of data standards pages similar to <a href="https://mc2-center.github.io/data-models/">MC2 Center Data Model</a>.  The HTAN version of the MC2 tables will include additional columns such as &quot;required_if_component&quot; and &quot;required_if_value&quot;.  Until the new pages are constructed, please see the information on the <a href="https://humantumoratlas.org/standards">Data Standards</a> page of the HTAN Data Portal.</p>
-<p>The HTAN data model includes data levels. Each assay type has levels progressing from raw data to more processed data.  This is illustrated in the following figure for sequencing data.  Please see the <a href="https://humantumoratlas.org/standards">Data Standards</a> page of the HTAN Data Portal for more information.</p>
+<p>The <a href="https://humantumoratlas.org/standards">Data Standards</a> pages of the HTAN Data Portal provide a detailed overview of the HTAN Data Model. A general overview of how the HTAN Data Model is organized is provided in the next sections.</p>
+<doc-anchor-target id="assay-data-levels">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#assay-data-levels">#</doc-anchor-trigger>
+        <span>Assay Data Levels</span>
+    </h2>
+</doc-anchor-target>
+<p>The HTAN Data Model divides assay data into levels. Each assay type has levels progressing from raw data to more processed data.  This is illustrated in the following figure for sequencing data.  Please see each assay&#x27;s page within <a href="https://humantumoratlas.org/standards">Data Standards</a> for more information.</p>
 <p><figure class="content-center">
     <img src="../../img/sequencing_data_levels.svg" alt="HTAN Sequencing Data levels">
     <figcaption class="caption">HTAN Sequencing Data levels</figcaption>
 </figure>
 </p>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Note</h5>
-<p>Once new data standards pages are added to this manual, the <a href="https://humantumoratlas.org/standards">Data Standards</a> page will be removed from the data portal.  All links to &quot;Data Standards&quot; throughout this manual will need to be updated.</p>
-        </div>
-    </div>
-</div>
+<p>For Sequencing data, the HTAN Model Data levels help distinguish data as Open Access versus Controlled Access.  For example, level 1 and 2 sequencing data are Controlled Access data.</p>
+<doc-anchor-target id="clinical-data-tiers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#clinical-data-tiers">#</doc-anchor-trigger>
+        <span>Clinical Data Tiers</span>
+    </h2>
+</doc-anchor-target>
+<p>Clinical data is organized into three tiers.  Tier one is based on the NCI&#x27;s Genomic Data Commons (GDC) clinical data model.  Tiers two and three are disease-agnostic (tier 2) and disease-specific (tier 3) extensions to the GDC model. These tiers are described more on the <a href="https://humantumoratlas.org/standard/clinical">Clinical Data Page</a>.</p>
+<doc-anchor-target id="specific-details">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#specific-details">#</doc-anchor-trigger>
+        <span>Specific Details</span>
+    </h2>
+</doc-anchor-target>
+<p>Please see <a href="https://humantumoratlas.org/standards">Data Standards</a> for up-to-date details regarding the HTAN Data Model, including attribute descriptions and requirements. For additional notes regarding how to submit data for each data type, please see the <a href="../../data_submission/specific_details/">Specific Assay/Data Element Details</a> page of this manual.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -263,6 +266,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Data Standards", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Data Levels and Clinical Data Tiers", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
