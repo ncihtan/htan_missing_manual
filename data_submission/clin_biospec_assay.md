@@ -77,7 +77,7 @@ The DCA contains HTAN-specific manifests (metadata templates) which can be
 
 Manifests for assay data will be pre-populated with assay file entityIDs once they are associated with a particular Synapse dataset folder. Once the manifests are completed by your center, they should then be validated and submitted via the DCA. DCA validation checks for a subset of common errors. If any of these errors are found, you can edit the metadata and then revalidate and submit. 
 
-!!!  Please note: If you have added assay files to a Synapse folder where there is a pre-existing manifest or you are adding records to a pre-existing clinical data or biospecimen manifest, **please update the existing manifest on the DCA app or download the existing manifest from the DCA** to make updates. **Do not use a local copy of the manifest at your center to make updates**. Local copies may be out of sync with the data in Synapse 
+!!!  Please note: If you have added assay files to a Synapse folder where there is a pre-existing manifest or you are adding records to a pre-existing clinical data or biospecimen manifest, **please update the existing manifest on the DCA app or download the existing manifest from the DCA** to make updates. **Do not use a local copy of the manifest at your center to make updates**. Local copies may be out of sync with the data in Synapse. 
 !!!
 
 Please see Synapse's [Data Ingress Docs](https://dca-docs.scrollhelp.site/DCA/Working-version/HTAN/validate-and-submit-your-metadata) for more details regarding the web app.
