@@ -48,6 +48,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="submitting-assay-data-and-metadata" class="level1">
 <h1>Submitting Assay Data and Metadata</h1>
 <p>As stated in <a href="../data_submission/overview.md">Data Submission Overview</a>, data submission involves two key steps: 1. Uploading assay data files to Synapse; and 2. Completing and validating metadata using the Data Curator App (DCA).</p>
+<p>!!! Once assay data files are submitted to Synapse, the files will have entityIDs (e.g.&nbsp;syn12345670) assigned to them. These can then be prepopulated into the manifests on the DCA. For this reason, assay files should be submitted before generating the associated manifests. !!!</p>
 <p>This page provides details regarding those steps.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -97,7 +98,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="validate-and-submit-metadata-using-synapses-data-curator-app-dca." class="level2">
 <h2 class="anchored" data-anchor-id="validate-and-submit-metadata-using-synapses-data-curator-app-dca.">Validate and submit metadata using Synapse’s Data Curator App (DCA).</h2>
-<p>The DCA contains HTAN-specific metadata templates which can be completed on the app or downloaded. Once these are completed by your center, they should then be validated and submitted via the DCA.</p>
+<p>The DCA contains HTAN-specific manifests (metadata templates) which can be 1) completed on the app, or 2) downloaded, completed and uploaded back to the DCA. Manifests for assay data will be pre-populated with assay file entityIDs once they are associated with a particular dataset folder. Once the metadata templates are completed by your center, they should then be validated and submitted via the DCA.</p>
+<p>!!! Please note: If you have added files where a pre-existing manifest exists, <strong>please add to data to the existing manifest on the DCA app or download the existing manifest from the DCA</strong> to make updates. <strong>Do not use a local copy of the manifest at your center</strong>. !!!</p>
 <p>Please see Synapse’s <a href="https://dca-docs.scrollhelp.site/DCA/Working-version/HTAN/validate-and-submit-your-metadata">Data Ingress Docs</a> for more details regarding the web app.</p>
 </section>
 </section>

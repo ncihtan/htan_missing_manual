@@ -4,7 +4,7 @@ order: 995
 
 # What is the index date?
 
-HTAN cannot accept dates because they are considered Protect Health Information (PHI). In order to obfuscate dates, they should be converted to days from an index date.  For most data case, the index date is the participant's date of birth.  For example, a participant's therapy start date would be recorded as 365 days if the therapy took place 365 days after a participant's date of birth. 
+HTAN cannot accept dates because they are considered Protect Health Information (PHI). In order to obfuscate dates, they should be converted to days from an index date.  For most data, the index date is the participant's date of birth.  For example, a participant's therapy start date would be recorded as 365 days if the therapy took place 365 days after a participant's date of birth. 
 
 !!!
 :warning: If your center has data indexed to enrollment date, the data needs to be converted to days from birth. 
@@ -26,4 +26,4 @@ The 'Diagnosis' manifest includes two attributes which are not indexed:
 - Days to Last Follow up; and
 - Days to Last Known Disease Status.
 
-Please provide these time intervals for these attributes as described in the data model.
+Please provide these time intervals as described in the data model.
