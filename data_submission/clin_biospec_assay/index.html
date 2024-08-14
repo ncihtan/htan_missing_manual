@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/htan_missing_manual">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.775943240609">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.776979600919">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.775943240609" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.776979600919" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.775943240609" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.776979600919" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.775943240609" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.776979600919" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -295,7 +295,29 @@
         <span>Validate and submit metadata using Synapse&#x27;s Data Curator App (DCA).</span>
     </h2>
 </doc-anchor-target>
-<p>The DCA contains HTAN-specific metadata templates which can be completed on the app or downloaded.  Once these are completed by your center, they should then be validated and submitted via the DCA.</p>
+<p>The DCA contains HTAN-specific manifests (metadata templates) which can be</p>
+<ol>
+<li>completed on the app, or</li>
+<li>downloaded, completed and uploaded back to the DCA.</li>
+</ol>
+<p>Manifests for assay data will be pre-populated with assay file entityIDs once they are associated with a particular Synapse dataset folder. Once the manifests are completed by your center, they should then be validated and submitted via the DCA. DCA validation checks for a subset of common errors. If any of these errors are found, you can edit the metadata and then revalidate and submit.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Please note: If you have added assay files to a Synapse folder where there is a pre-existing manifest or you are adding records to a pre-existing clinical data or biospecimen manifest, <strong>please update the existing manifest on the DCA app or download the existing manifest from the DCA</strong> to make updates. <strong>Do not use a local copy of the manifest at your center to make updates</strong>. Local copies may be out of sync with the data in Synapse.</h5>
+        </div>
+    </div>
+</div>
 <p>Please see Synapse&#x27;s <a href="https://dca-docs.scrollhelp.site/DCA/Working-version/HTAN/validate-and-submit-your-metadata">Data Ingress Docs</a> for more details regarding the web app.</p>
 
                                 
