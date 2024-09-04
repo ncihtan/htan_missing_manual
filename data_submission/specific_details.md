@@ -6,10 +6,6 @@ order: 993
 
 Please see [Data Standards](https://data.humantumoratlas.org/standards) for an overview of HTAN Data Levels and Metadata Attributes for each data type. The following links provide specific submission details for each data type.  
 
-!!! under development.  
-:construction: Documents for some assays are still in development.  Links will be added soon!
-!!!
-
 [Accessory Files](https://docs.google.com/document/d/1c7WPfgOpjd8B44LDccuR4quwrVXg3yhGQlbQ6Bp4p7Q/edit?usp=sharing)
 
 [Biospecimen](https://docs.google.com/document/d/1uywrFE7dioO5o6OXRxBrG6HMDM1-eepDN43qEPVLOD0/edit?usp=sharing)
@@ -20,8 +16,8 @@ Please see [Data Standards](https://data.humantumoratlas.org/standards) for an o
 
 [RPPA](https://docs.google.com/document/d/1UznHRELT6TlPa7vtgCKKeDZ1jeAhAhdRjuBRmzu-Oss/edit?usp=sharing)
 
-Sequencing Data
+[Sequencing Data](https://docs.google.com/document/d/1543YyAW_CwkrKFVzvS9Xwl_dpmruCzK6fA4sIRrZcLQ/edit?usp=sharing)
 
-Spatial Transcriptomics
+[Spatial Transcriptomics](https://docs.google.com/document/d/1oVIG-9wi83IgQj4SKTkKqLfzyXeF54hGRh68PdXPDTg/edit?usp=sharing)
 
 
