@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jen-dfci.github.io/htan_missing_manual/sitemap.xml.gz
+Sitemap: https://docs.humantumoratlas.org/sitemap.xml.gz
