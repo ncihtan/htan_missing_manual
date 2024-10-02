@@ -40,7 +40,7 @@ These datasets are gathered from different stages of cancer progression, includi
 Users can access the data through the [Explore Page](https://humantumoratlas.org/explore) on the HTAN Portal
 
 ### Do I need an account to access the HTAN data?
-No, an account is not required to explore the public data available on the HTAN Portal. However for accessing the lower level data, dbGap access needs to be obtained. See the [Acccess-Controlled Data](./access_controlled/) page for more information.
+No, an account is not required to explore the public data available on the HTAN Portal. However for accessing the lower level data, dbGap access needs to be obtained. See the [Acccess-Controlled Data](.//access_controlled/introduction/) section for more information.
 
 ### How is the data on the HTAN Portal generated?
 The data is collected from participating HTAN centers across the United States. These centers generate multi-omics data, imaging datasets, and other relevant tumor information using advanced technologies, such as single-cell sequencing, proteomics, and spatial imaging techniques.

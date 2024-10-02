@@ -1,13 +1,12 @@
-
 ---
 order: 997
 ---
 
-# Data Usage Analytics
+# HTAN Data Usage Analytics
 
 The HTAN portal is used by thousands of people each month all over the world:
 
-![Google Analytics](../img/ga_usage_202108_202408.png)
+![Google Analytics of HTAN Portal](../img/ga_usage_202108_202408.png)
 
 ## Data Submission Trajectory
 
