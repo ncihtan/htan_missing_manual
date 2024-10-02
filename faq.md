@@ -12,8 +12,9 @@
 - [How is privacy and data security handled on the HTAN Portal?](#how-is-privacy-and-data-security-handled-on-the-htan-portal)
 - [Can I use HTAN data for my own research?](#can-i-use-htan-data-for-my-own-research)
 - [Where can I find updates on new data or features added to the HTAN Portal?](#where-can-i-find-updates-on-new-data-or-features-added-to-the-htan-portal)
-- [Is there healthy data available?](#is-there-healthy-data-available)
-- [Is there 3D data available?](#is-there-3d-data-available)
+- [Is there healthy data?](#is-there-healthy-data)
+- [Is there 3D data?](#is-there-3d-data)
+- [Is there temporal data?](#is-there-temporal-data)
 - [How can I contact the HTAN team for additional questions?](#how-can-i-contact-the-htan-team-for-additional-questions)
 
 ---
@@ -74,13 +75,18 @@ Yes, researchers are encouraged to use HTAN data for their own studies. The data
 
 The portal is regularly updated with new data and features. You can find updates in the [News](https://humantumoratlas.org/data-updates) section of the HTAN Portal.
 
-### Is there healthy data available?
+### Is there healthy data?
 
-There is "healthy" and precancerous data on the HTAN Portal. No specific “healthy” filter exists at the moment, but one can find all samples without an unknown or reported disease with [this HTAN portal filter](https://humantumoratlas.org/explore?selectedFilters=%5B%7B%22value%22%3A%22Not+Reported%22%2C%22group%22%3A%22PrimaryDiagnosis%22%2C%22count%22%3A11996%2C%22isSelected%22%3Afalse%7D%2C%7B%22value%22%3A%22unknown%22%2C%22group%22%3A%22PrimaryDiagnosis%22%2C%22count%22%3A3388%2C%22isSelected%22%3Afalse%7D%2C%7B%22value%22%3A%22H%26E%22%2C%22group%22%3A%22assayName%22%2C%22count%22%3A450%2C%22isSelected%22%3Afalse%7D%2C%7B%22value%22%3A%22CODEX%22%2C%22group%22%3A%22assayName%22%2C%22count%22%3A38%2C%22isSelected%22%3Afalse%7D%2C%7B%22value%22%3A%22Colorectal%22%2C%22group%22%3A%22organType%22%2C%22count%22%3A34%2C%22isSelected%22%3Afalse%7D%5D). There is an [open ticket](https://github.com/ncihtan/htan-portal/issues/678) to improve the selection of healthy/normal and precancerous tissue.
+There is "healthy" and precancerous data on the HTAN Portal. No specific “healthy” filter exists at the moment, but one can find all samples without an unknown or reported disease with [this HTAN portal filter](https://humantumoratlas.org/explore?selectedFilters=%5B%7B%22value%22%3A%22Not+Reported%22%2C%22group%22%3A%22PrimaryDiagnosis%22%2C%22count%22%3A11996%2C%22isSelected%22%3Afalse%7D%2C%7B%22value%22%3A%22unknown%22%2C%22group%22%3A%22PrimaryDiagnosis%22%2C%22count%22%3A3388%2C%22isSelected%22%3Afalse%7D%5D). Note however that some of these may be tumors of unknown primary, or the information is missing for another reason. There is an [open ticket](https://github.com/ncihtan/htan-portal/issues/678) to improve the selection of healthy/normal and precancerous tissue.
 
-### Is there 3D data available?
+### Is there 3D data?
 
 A number of three-dimensional datasets have been released on the HTAN data portal, including 3D microscopy data and serial sections for H&E and multiplexed tissue imaging. Examples include [multiple serial section of CRC analyzed by CyCIF for the SARDANA trans-network partnership](https://data.humantumoratlas.org/explore?selectedFilters=%5B%7B%22value%22%3A%22CyCIF%22%2C%22group%22%3A%22assayName%22%2C%22count%22%3A3789%2C%22isSelected%22%3Afalse%7D%2C%7B%22value%22%3A%22HTAN+TNP+SARDANA%22%2C%22group%22%3A%22AtlasName%22%2C%22count%22%3A190%2C%22isSelected%22%3Afalse%7D%5D), and [electron microscopy data from OHSU](https://data.humantumoratlas.org/explore?selectedFilters=%5B%7B%22value%22%3A%22Electron+Microscopy%22%2C%22group%22%3A%22assayName%22%2C%22count%22%3A93000%2C%22isSelected%22%3Afalse%7D%5D). The DCC expects to receive and share 3D datasets including confocal and light-sheet microscopy in the future.
+
+### Is there temporal data?
+
+There are a few different types of temporal data, e.g., precancerous vs cancerous tumors, primary vs metastatic tumor samples, as well as a patient's longitudinal treatment and diagnosis information. The former can be found by search for specific biospecimens. The latter can now be explored per atlas in the longitudinal data section of the [HTAN Data Submission Dashboard](https://htan_dashboard.surge.sh/), as well as on [cBioPortal for the OHSU breast cancer dataset](https://www.cbioportal.org/patient?studyId=brca_hta9_htan_2022&caseId=HTA9_1#navCaseIds=brca_hta9_htan_2022:HTA9_1). We are working on improving the search and filter capabilities for temporal data on the HTAN Portal.
+
 
 ### How can I contact the HTAN team for additional questions?
 
