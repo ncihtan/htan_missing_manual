@@ -69,7 +69,7 @@ The HTAN Portal adheres to strict data security and privacy protocols to ensure 
 
 ### Can I use HTAN data for my own research?
 
-Yes, researchers are encouraged to use HTAN data for their own studies. The data is publicly available, but users must acknowledge HTAN and the pulication of the source data in any resulting publications
+Yes, researchers are encouraged to use HTAN data for their own studies. The data is publicly available, but users must acknowledge HTAN and the publication of the source data in any resulting publications
 
 ### Where can I find updates on new data or features added to the HTAN Portal?
 
