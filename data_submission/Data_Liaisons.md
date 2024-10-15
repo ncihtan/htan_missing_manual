@@ -8,18 +8,19 @@ Upon joining HTAN, Centers are assigned a data liaison from the DCC.  Trans-Netw
 
 ## Phase 2 Liaisons
 
-| Atlas | Academic Center | Atlas ID | Liaison | Email |
+| Atlas | Lead Institution | Atlas ID | Liaison | Email |
 |-------|-----------------|----------|---------|-------|
-| HTAN2_Gastric_PCA | MD Anderson | pending | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu |
-| HTAN2_Glioma_PCA | CalTech | pending | Ino de Bruijn | debruiji@mskcc.org |
-| HTAN2_Myeloma_PCA | DFCI | pending | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu |
-| HTAN2_Pancreas_PCA | OHSU  | pending | Adam Taylor | adam.taylor@sagebase.org |
-| HTAN2_Skin_PCA | UCSF | pending | Adam Taylor | adam.taylor@sagebase.org |
-| HTAN2_Colorectal_HTA | Vanderbilt | pending | Dar'ya Pozhidayeva | dpozhida@systemsbiology.org |
-| HTAN2_Lymphoma_HTA | Yale | pending | Dar'ya Pozhidayeva | dpozhida@systemsbiology.org |
-| HTAN2_Ovary_HTA | MD Anderson | pending | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu |
-| HTAN2_Pediatric_HTA | USC/CHLA | pending | Ino de Bruijn | debruiji@mskcc.org |
-| HTAN2_Prostate_HTA | WUSTL | pending | Dar'ya Pozhidayeva | dpozhida@systemsbiology.org |
+| HTAN2_Skin_PCA | UCSF | HTA200 | Adam Taylor | adam.taylor@sagebase.org |
+| HTAN2_Pancreas_PCA | OHSU  | HTA201 | Adam Taylor | adam.taylor@sagebase.org |
+| HTAN2_Glioma_PCA | CalTech | HTA202 | Ino de Bruijn | debruiji@mskcc.org |
+| HTAN2_Gastric_PCA | MD Anderson | HTA203 | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu |
+| HTAN2_Myeloma_PCA | DFCI | HTA204 | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu |
+| HTAN2_Pediatric_HTA | USC/CHLA | HTA205 | Ino de Bruijn | debruiji@mskcc.org |
+| HTAN2_Prostate_HTA | WUSTL | HTA206 | Dar'ya Pozhidayeva | dpozhida@systemsbiology.org |
+| HTAN2_Colorectal_HTA | Vanderbilt | HTA207 | Dar'ya Pozhidayeva | dpozhida@systemsbiology.org |
+| HTAN2_Ovary_HTA | MD Anderson | HTA208 | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu |
+| HTAN2_Lymphoma_HTA | Yale | HTA209 | Dar'ya Pozhidayeva | dpozhida@systemsbiology.org |
+
 
 ## Phase 1 Liaisons
 
