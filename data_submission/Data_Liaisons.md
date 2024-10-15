@@ -8,7 +8,7 @@ Upon joining HTAN, Centers are assigned a data liaison from the DCC.  Trans-Netw
 
 ## Phase 2 Liaisons
 
-| Atlas | Lead Institution | Atlas ID | Liaison | Email |
+| Atlas | Awardee Organization | Atlas ID | Liaison | Email |
 |-------|-----------------|----------|---------|-------|
 | HTAN2_Skin_PCA | UCSF | HTA200 | Adam Taylor | adam.taylor@sagebase.org |
 | HTAN2_Pancreas_PCA | OHSU  | HTA201 | Adam Taylor | adam.taylor@sagebase.org |
