@@ -6,6 +6,22 @@ order: 999
 
 HTAN currently consists of ten research centers, and two pilot projects. There are also multiple trans-network projects, referred to as TNPs. Each research center or TNP Project is identified with a unique HTAN prefix.
 
+## Phase 2 Centers
+| Prefix | Contact Institution or Project Name     | Atlas Type       | Area of Focus                     |
+| ------ | --------------------------------------- | ---------------- | --------------------------------- |
+| HTA200 | University of California San Francisco | Pre-Cancer Atlas | Skin Cancer |
+| HTA201 | Oregon Health & Science University (OHSU) | Pre-Cancer Atlas | Pancreatic Cancer |
+| HTA202 | California Institute of Technology (CalTech) |	Pre-Cancer Atlas | Low Grade Glioma |
+| HTA203 | MD Anderson (MDA)| Pre-Cancer Atlas | Gastric Cancer |
+| HTA204 | Dana-Farber Cancer Institute (DFCI) | Pre-Cancer Atlas | Myeloma |
+| HTA205 | Children's Hosptital of Los Angeles | Tumor Atlas | Pediatric Cancers |
+| HTA206 | Washington University in St. Louis | Tumor Atlas | Prostate Cancer |
+| HTA207 | Vanderbilt University | Tumor Atlas | Colorectal Cancer |
+| HTA208 | MD Anderson (MDA) | Tumor Atlas | Ovarian Cancer |
+| HTA209 | Yale University | Tumor Atlas | Lymphoma |
+
+## Phase 1 Centers
+
 | Prefix | Contact Institution or Project Name     | Atlas Type       | Area of Focus                     |
 | ------ | --------------------------------------- | ---------------- | --------------------------------- |
 | HTA1   | Human Tumor Atlas Pilot Project (HTAPP) | Tumor Atlas      | Pilot Project                     |

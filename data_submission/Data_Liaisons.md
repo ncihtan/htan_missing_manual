@@ -6,7 +6,23 @@ order: 997
 
 Upon joining HTAN, Centers are assigned a data liaison from the DCC.  Trans-Network Projects (TNPs) are also assigned liaisons. The DCC liaisons assist each of the research centers in successfully uploading data and metadata files.  
 
-Here is the current list of centers, their atlases and DCC liaisons:
+## Phase 2 Liaisons
+
+| Atlas | Awardee Organization | Atlas ID | Liaison | Email |
+|-------|-----------------|----------|---------|-------|
+| HTAN2_Skin_PCA | UCSF | HTA200 | Adam Taylor | adam.taylor@sagebase.org |
+| HTAN2_Pancreas_PCA | OHSU  | HTA201 | Adam Taylor | adam.taylor@sagebase.org |
+| HTAN2_Glioma_PCA | CalTech | HTA202 | Ino de Bruijn | debruiji@mskcc.org |
+| HTAN2_Gastric_PCA | MD Anderson | HTA203 | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu |
+| HTAN2_Myeloma_PCA | DFCI | HTA204 | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu |
+| HTAN2_Pediatric_HTA | USC/CHLA | HTA205 | Ino de Bruijn | debruiji@mskcc.org |
+| HTAN2_Prostate_HTA | WUSTL | HTA206 | Dar'ya Pozhidayeva | dpozhida@systemsbiology.org |
+| HTAN2_Colorectal_HTA | Vanderbilt | HTA207 | Dar'ya Pozhidayeva | dpozhida@systemsbiology.org |
+| HTAN2_Ovary_HTA | MD Anderson | HTA208 | Jennifer Altreuter | jennifer@ds.dfci.harvard.edu |
+| HTAN2_Lymphoma_HTA | Yale | HTA209 | Dar'ya Pozhidayeva | dpozhida@systemsbiology.org |
+
+
+## Phase 1 Liaisons
 
 | Atlas | Atlas ID | Liaison | Email |
 |-------|----------|---------|-------|
