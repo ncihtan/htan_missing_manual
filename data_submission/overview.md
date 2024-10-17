@@ -1,9 +1,9 @@
 ---
-order: 1000
+order: 1001
 ---
 
-# Data Submission Overview
-Only HTAN Centers and Associate Members can submit data to the HTAN Network's repositories. The Data Submission Section of this Manual is intended as a guide for HTAN Centers and Associate Members.
+# Introduction
+Only HTAN Centers and Associate Members can submit data to the HTAN Network's repositories. The Data Submission Section of this Manual is intended as a guide for HTAN Centers and Associate Members. Please note that the manual currently reflects the data submission process used in HTAN Phase 1. Changes may be implemented for HTAN Phase 2.
 
 :exclamation: *Prior to submitting data, all data must be de-identified.  Please see [Data De-identification](../data_submission/Data_Deidentification.md) for more information.*
 
