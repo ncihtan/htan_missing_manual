@@ -18,4 +18,4 @@ Data Submission involves two key steps:
 
 Specific details regarding data submission and the DCA are included in later sections of this manual.  Please contact your [Data Liaison](../data_submission/Data_Liaisons.md) if you have any questions or issues.  Please also keep your data liaison informed of any data submissions.
 
-The current status of data uploads (refreshed every 4 hours) is available on the [HTAN Dashboard](http://hdash.website-us-east-1.linodeobjects.com/index.html).
+The current status of data uploads (refreshed every 4 hours) is available on the [HTAN Dashboard](dashboard.md).
