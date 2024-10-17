@@ -14,6 +14,7 @@ If you have feedback for this manual, including broken links or incorrect inform
 
 | Date       | Comment                  | Changes summary |
 |------------|--------------------------|-----------------|
+| 2024-10-17 |                          | Added Phase 2 centers and data liaisons, HTAN Dashboard Page |
 | 2024-10-04 |                          | Added FAQ, Governance, HTAN Usage Statistics |
 | 2024-07-12 |                          | Updates to Data Access to reflect CDS/CGC changes |
 | 2024-04-01 | Third version of manual  | Simplified Data Model section; added "Submitting Data" and "Additional Information" Sections |
