@@ -55,7 +55,7 @@ HTA4_EXT2_2
 HTA4_EXT3_3
 ```
 
-If you will be creating HTAN identifiers for a HTAN Center or Trans Network Project (TNP), please also see the step-by-step directions [below](#creating-htan-identifiers)
+If you will be creating HTAN identifiers for a HTAN Center or Trans Network Project (TNP), please see the step-by-step directions in the [Data Submission](../data_submission/creating_ids.md) section of this manual.
 
 ## ID to ID linkages
 
