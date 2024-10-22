@@ -4,7 +4,10 @@ order: 999
 
 # HTAN Checklist for Acceptance of Data
 
-When an HTAN Data Contributor is considering contribution of data to the HTAN DCC, this checklist should be used by the Data Contributor to determine if the data meets basic HTAN contribution requirements. 
+When an HTAN Data Contributor is considering contribution of data to the HTAN DCC, this checklist should be used by the Data Contributor to determine if the data meets basic HTAN contribution requirements.
+
+!!! All HTAN centers must have an executed Human Tumor Atlas Network DMSA  (Internal Data and Materials Sharing Agreement) [(HTAN DMSA)](https://docs.google.com/document/d/1RPFm9MBJv8DjZmYZyIv0jbjtNJ8fnwGjYDjlK4lL4nc/edit) with Sage Bionetworks prior to contributing data to the HTAN Data Coordinating Center [(DCC)](https://humantumoratlas.org/htan-dcc).  Sean Hanlon from the NCI will be reaching out to new Centers to coordinate collection of DMSA signatures.
+!!!
 
 | Checklist of Requirements | Agreement / Policy Reference |
 |---------------------------|------------------------------|
