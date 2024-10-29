@@ -1,9 +1,8 @@
-
 ---
 order: 994
 ---
 
-# Accessing HTAN open access dat stored in Synapse via SB-CGC
+# Accessing HTAN open access data stored in Synapse via SB-CGC
 
 HTAN’s open-access data, including most datasets, is hosted on Synapse and can be loaded into the SevenBridges Cancer Genomics Cloud using the following instructions. Note that open-access Level 2 images are available separately through the Cancer Data Service (CDS).
 
