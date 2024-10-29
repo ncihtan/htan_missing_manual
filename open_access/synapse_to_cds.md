@@ -1,12 +1,15 @@
 
 ---
-order: 993
+order: 994
 ---
 
-# Guide: Transferring Uncontrolled Data from the HTAN Data Portal to the Cancer Genomics Cloud (CGC)
+# Accessing HTAN open access dat stored in Synapse via SB-CGC
 
-## Screen Recording Walkthrough
-**[HTAN Data Jamboree Tutorial: Getting Uncontrolled Data from the HTAN Portal to SB-CGC](#)**
+HTAN’s open-access data, including most datasets, is hosted on Synapse and can be loaded into the SevenBridges Cancer Genomics Cloud using the following instructions. Note that open-access Level 2 images are available separately through the Cancer Data Service (CDS).
+
+## Video walkthrough
+
+[Watch video walkthrough on Zoom](https://us02web.zoom.us/clips/share/JNSyNG3rPRoWVYjWrYNiV-Z9Tv-TYIKdb54YLB6pk6CRhhnEQ0g14a4-2hItZXGOYXq3CzcSVjgNTL7HMhHjUm72.cd78QzhYRY4j02Mw)
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
     <iframe src="https://us02web.zoom.us/clips/embed/JNSyNG3rPRoWVYjWrYNiV-Z9Tv-TYIKdb54YLB6pk6CRhhnEQ0g14a4-2hItZXGOYXq3CzcSVjgNTL7HMhHjUm72.cd78QzhYRY4j02Mw" 
@@ -15,14 +18,6 @@ order: 993
     </iframe>
 </div>
 
----
-
-## Useful Links
-
-- [SevenBridges CGC](https://cancergenomicscloud.org)
-- [Synapse](https://synapse.org)
-- [HTAN Data Portal](https://data.humantumoratlas.org)
-- [Synapse Python/CLI Client Documentation](https://python-docs.synapse.org)
 
 ---
 
@@ -67,3 +62,12 @@ order: 993
 ### 6. Stop Data Studio Instance
 1. Stop the Data Studio instance to trigger synchronization.
 2. Check your project files on CGC; the downloaded files should now be available for further use.
+
+---
+
+## Useful Links
+
+- [SevenBridges CGC](https://cancergenomicscloud.org)
+- [Synapse](https://synapse.org)
+- [HTAN Data Portal](https://data.humantumoratlas.org)
+- [Synapse Python/CLI Client Documentation](https://python-docs.synapse.org)
