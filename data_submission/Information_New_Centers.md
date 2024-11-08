@@ -38,7 +38,7 @@ Step 4
 : Review the [HTAN Checklist for Acceptance of Data](../data_submission/checklist.md). 
 
 Step 5
-: Review your Center’s responsibilities for [Data De-identification](https://docs.humantumoratlas.org/data_submission/data_deidentification/), complete your Center’s Data De-Identification Plan and submit the completed document to your DCC Data Liaison.
+: Review your Center’s responsibilities for [Data De-identification](https://docs.humantumoratlas.org/data_submission/data_deidentification/).
 
 Step 6
 : Instruct all Center members who will need to contribute or view data to create a [Synapse account](https://accounts.synapse.org/register1?appId=synapse.org).
