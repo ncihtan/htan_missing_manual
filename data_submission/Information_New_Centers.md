@@ -9,7 +9,7 @@ Welcome to the Human Tumor Atlas Network! Please see the [Onboarding Checklist](
 ## General Information
 The [Goverance and Policy page](../addtnl_info/governance.md) of this manual provides documentation and applicable policies detailing the requirements for publications, data sharing, and data use.  
 
-All HTAN centers must have an executed Human Tumor Atlas Network DMSA  (Internal Data and Materials Sharing Agreement) [(HTAN DMSA)](https://docs.google.com/document/d/1RPFm9MBJv8DjZmYZyIv0jbjtNJ8fnwGjYDjlK4lL4nc/edit) with Sage Bionetworks prior to contributing data to the HTAN Data Coordinating Center [(DCC)](https://humantumoratlas.org/htan-dcc).  See also [HTAN Checklist for Acceptance of Data](../data_submission/checklist.html).  Sean Hanlon from the NCI will be reaching out to new Centers to coordinate collection of DMSA signatures.
+All HTAN centers must have an executed Human Tumor Atlas Network DMSA  (Internal Data and Materials Sharing Agreement) [(HTAN DMSA)](https://drive.google.com/file/d/1gJvxOM1mdFAw6kioNLNOD8NPWmxLlM4H/view) with Sage Bionetworks prior to contributing data to the HTAN Data Coordinating Center [(DCC)](https://humantumoratlas.org/htan-dcc).  See also [HTAN Checklist for Acceptance of Data](../data_submission/checklist.md).  Sean Hanlon from the NCI will be reaching out to new Centers to coordinate collection of DMSA signatures.
 
 HTAN centers are assigned a [data liaison](../data_submission/Data_Liaisons.md) from the [(DCC)](https://humantumoratlas.org/htan-dcc). Trans-Network Projects (TNPs) are also assigned liaisons. Your liaison will help guide you through setting up a new atlas or project, [creating HTAN identifiers](../data_submission/creating_ids.md), and [submitting metadata and data files](../data_submission/clin_biospec_assay/).  Please keep your liaison informed of publications timelines and new data submissions.  
 
@@ -30,7 +30,7 @@ Step 2
 > The Center Data Wrangler will be the primary point of contact for all data submissions from your Center. Note that while multiple individuals may be performing data submission for your Center, the Data Wrangler should be the main point of contact with the DCC.  Please email contact information for your Data Wrangler to Alex Lash at:  alexl@ds.dfci.harvard.edu.
 
 Step 3
-: Sign the Internal Data and Materials Sharing Agreement ([HTAN DMSA](https://docs.google.com/document/d/1RPFm9MBJv8DjZmYZyIv0jbjtNJ8fnwGjYDjlK4lL4nc/edit)).
+: Sign the Internal Data and Materials Sharing Agreement ([HTAN DMSA](https://drive.google.com/file/d/1gJvxOM1mdFAw6kioNLNOD8NPWmxLlM4H/view)).
 
 > Sean Hanlon from the NCI will be reaching out to new Centers to coordinate collection of DMSA signatures. Please contact the [HTAN Help Desk](https://sagebionetworks.jira.com/servicedesk/customer/portal/1) with any DMSA-related questions and the Sage Bionetworks governance team will be available to assist you or your institution’s representatives. 
 
@@ -46,9 +46,9 @@ Step 6
 > Center Data Wranglers and any individual who will be submitting data must also become [Synapse Certified Users](https://www.synapse.org/#!Quiz:Certification). Certified Users have access to full Synapse functionality, including the ability to upload files and tables as well as create folders. To become certified, take a [short quiz](https://www.synapse.org/#!Quiz:Certification) about the [“Synapse Commons Data Use Procedure”](https://s3.amazonaws.com/static.synapse.org/governance/SynapseCommonsDataUseProcedure.pdf?v=4). This activity ensures that you understand the rules and policies that govern data sharing on Synapse. The quiz is 15 questions and should take approximately 15-20 minutes to complete. If you have any issues becoming a Synapse Certified User please contact the [HTAN Help Desk](https://sagebionetworks.jira.com/servicedesk/customer/portal/1).
 
 Step 7
-: Once each individual affiliated with a Center has created a Synapse account, please complete the [HTAN Master Contact Form](https://airtable.com/apptQ3yP7le2ZvLjH/pag4Zop9o7mUuLPIm/form) for that individual. 
+: Once each individual affiliated with a Center has created a Synapse account, please complete the HTAN Master Contact Form for that individual. 
 
-> This form may only be submitted by the Center PI or Administrator to add a new contact with which they are affiliated. If a new contact is associated with multiple Centers or Atlases, a separate form must be submitted for each affiliation.
+> This form will be provided to the Center PI(s) and Administator.  The form may only be submitted by the Center PI(s) or Administrator to add a new contact with which they are affiliated. If a new contact is associated with multiple Centers or Atlases, a separate form must be submitted for each affiliation.
 
 Step 8
 : Attend [DCC Information Sessions](#coming-soon-dcc-information-sessions)

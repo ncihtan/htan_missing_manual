@@ -10,9 +10,9 @@ Ensuring the privacy of HTAN research participants is critical and a joint respo
 
 ## Policy Documents
 
-- [Publication Policy](https://docs.google.com/document/d/1cXqfeHXIU8mPr4rMFFrq8DAj2nDwCULUYuypC5ksPjw/)
-- [Protocol and Computational Tool Sharing Policy](https://docs.google.com/document/d/1APkwsWi8A-PbBYZtWQ58LO0GLRLNHSezYkn9l-4nK6k/edit?usp=sharing)
-- [External Data Sharing Policy](https://docs.google.com/document/d/1zEbYvxQs54585X7VHYoMt6jTmBtXQLQ1cVk2WCm2sfA/edit?usp=sharing)
-- [DUA/MTA](https://docs.google.com/document/d/1RPFm9MBJv8DjZmYZyIv0jbjtNJ8fnwGjYDjlK4lL4nc/edit?usp=sharing)
+- [Publication Policy](https://drive.google.com/file/d/1DVys8U1s92Mv5fRUxk97q2sSJFJ5kOjA/view)
+- [Protocol and Computational Tool Sharing Policy](https://drive.google.com/file/d/1L3Azfs4R4RWqVf5uCzDE3Ln97r-k0Jm3/view)
+- [External Data Sharing Policy](https://drive.google.com/file/d/17vN_8zcWsPNBtnLe1mOr35wqhUbuMaWI/view)
+- [HTAN Internal Data and Materials Sharing Agreement](https://drive.google.com/file/d/1gJvxOM1mdFAw6kioNLNOD8NPWmxLlM4H/view)
 - [Cancer Moonshot Public Access Policy](https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative/funding/public-access-policy)
-- [Associate Membership Policy](https://docs.google.com/document/d/1n_ldYw7RaGQRQzWcn59Rykr7B6-cHvzw-6Z9BjeZ3t0/edit?usp=sharing)
+- [Associate Membership Policy](https://drive.google.com/file/d/1MPE8ecIF9nRQsI--Sfo8CZfCyamyJZnV/view)
