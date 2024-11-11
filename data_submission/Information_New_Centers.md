@@ -39,7 +39,7 @@ Step 4
 
 Step 5
 : Review your Center’s responsibilities for [Data De-identification](https://docs.humantumoratlas.org/data_submission/data_deidentification/). 
-> Please make sure to have a diussion with your data liason on this topic.
+> Please make sure to have a discussion with your data liason on this topic.
 
 Step 6
 : Instruct all indviduals who will need to contribute or view data to create a [Synapse account](https://accounts.synapse.org/register1?appId=synapse.org).
