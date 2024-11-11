@@ -27,7 +27,7 @@ Step 1
 Step 2
 : Identify a Center Data Wrangler for your center.  
 
-> The Center Data Wrangler will be the primary point of contact for all data submissions from your Center. Note that while multiple Center members may be performing data submission, the Data Wrangler should be the main point of contact with the DCC.  Please email contact information for your Data Wrangler to Alex Lash at:  alexl@ds.dfci.harvard.edu.
+> The Center Data Wrangler will be the primary point of contact for all data submissions from your Center. Note that while multiple individuals may be performing data submission for your Center, the Data Wrangler should be the main point of contact with the DCC.  Please email contact information for your Data Wrangler to Alex Lash at:  alexl@ds.dfci.harvard.edu.
 
 Step 3
 : Sign the Internal Data and Materials Sharing Agreement ([HTAN DMSA](https://docs.google.com/document/d/1RPFm9MBJv8DjZmYZyIv0jbjtNJ8fnwGjYDjlK4lL4nc/edit)).
@@ -41,19 +41,19 @@ Step 5
 : Review your Center’s responsibilities for [Data De-identification](https://docs.humantumoratlas.org/data_submission/data_deidentification/).
 
 Step 6
-: Instruct all Center members who will need to contribute or view data to create a [Synapse account](https://accounts.synapse.org/register1?appId=synapse.org).
+: Instruct all individuals who will need to contribute or view data to create a [Synapse account](https://accounts.synapse.org/register1?appId=synapse.org).
 
-> Center Data Wranglers and any of a Center’s member(s) who will be submitting data must also become [Synapse Certified Users](https://www.synapse.org/#!Quiz:Certification). Certified Users have access to full Synapse functionality, including the ability to upload files and tables as well as create folders. To become certified, take a [short quiz](https://www.synapse.org/#!Quiz:Certification) about the [“Synapse Commons Data Use Procedure”](https://s3.amazonaws.com/static.synapse.org/governance/SynapseCommonsDataUseProcedure.pdf?v=4). This activity ensures that you understand the rules and policies that govern data sharing on Synapse. The quiz is 15 questions and should take approximately 15-20 minutes to complete. If you have any issues becoming a Synapse Certified User please contact the [HTAN Help Desk](https://sagebionetworks.jira.com/servicedesk/customer/portal/1).
+> Center Data Wranglers and any individual who will be submitting data must also become [Synapse Certified Users](https://www.synapse.org/#!Quiz:Certification). Certified Users have access to full Synapse functionality, including the ability to upload files and tables as well as create folders. To become certified, take a [short quiz](https://www.synapse.org/#!Quiz:Certification) about the [“Synapse Commons Data Use Procedure”](https://s3.amazonaws.com/static.synapse.org/governance/SynapseCommonsDataUseProcedure.pdf?v=4). This activity ensures that you understand the rules and policies that govern data sharing on Synapse. The quiz is 15 questions and should take approximately 15-20 minutes to complete. If you have any issues becoming a Synapse Certified User please contact the [HTAN Help Desk](https://sagebionetworks.jira.com/servicedesk/customer/portal/1).
 
 Step 7
-: Once each Center member has created a Synapse account, please complete the [HTAN Master Contact Form](https://airtable.com/apptQ3yP7le2ZvLjH/pag4Zop9o7mUuLPIm/form) for that member. 
+: Once each individual affiliated with a Center has created a Synapse account, please complete the [HTAN Master Contact Form](https://airtable.com/apptQ3yP7le2ZvLjH/pag4Zop9o7mUuLPIm/form) for that individual. 
 
-> This form may only be submitted by the Member PI or Member Administrator to add a new contact with which they are affiliated. If a new contact is associated with multiple Centers or Atlases, a separate form must be submitted for each affiliation.
+> This form may only be submitted by the Center PI or Administrator to add a new contact with which they are affiliated. If a new contact is associated with multiple Centers or Atlases, a separate form must be submitted for each affiliation.
 
 Step 8
 : Attend [DCC Information Sessions](#coming-soon-dcc-information-sessions)
 
-> Once all atlases have been on-boarded, the DCC will organize a series of information sessions. All Center Data Wranglers and data submitters will be required to attend information sessions. For those unable to attend, the event will be recorded and posted to the Synapse wiki.
+> Once all atlases have been on-boarded, the DCC will organize a series of information sessions. All Center Data Wranglers and data submitters will be required to attend information sessions. For those unable to attend, the events will be recorded and posted to the Synapse wiki.
 
 
 ## Coming Soon!: DCC Information Sessions
