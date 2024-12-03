@@ -6,20 +6,20 @@ order: 993
 
 Please see [Data Standards](https://data.humantumoratlas.org/standards) for an overview of HTAN Data Levels and Metadata Attributes for each data type. The following links provide specific submission details for each data type.  
 
-[Accessory Files](https://docs.google.com/document/d/1c7WPfgOpjd8B44LDccuR4quwrVXg3yhGQlbQ6Bp4p7Q/edit?usp=sharing)
+[Accessory Files](https://docs.google.com/document/d/1cHto1lrGGUhFVG-Cf1CShH3xC9_V8Fj3NElMtQyO3fM/edit?usp=drive_link)
 
-[Biospecimen](https://docs.google.com/document/d/1uywrFE7dioO5o6OXRxBrG6HMDM1-eepDN43qEPVLOD0/edit?usp=sharing)
+[Biospecimen](https://docs.google.com/document/d/12w61mgroXH0Q05JrDId2nqHWlC8h_0RcGLb7YwmZo8c/edit?usp=drive_link)
 
-[Clinical Data](https://docs.google.com/document/d/10rNmhdoQLA25dIbK6yEybB0hyeSsV90fRjDtVY3x8M0/edit?usp=sharing)
+[Clinical Data](https://docs.google.com/document/d/112F5VglA-9kdYjN7BSQ5boXYlNyfxZM7d6tfs4egkwE/edit?usp=drive_link)
 
-[Imaging](https://docs.google.com/document/d/1iNicigsSytekEQLkmeNJd2NOJ9VTKzBDfYj3BmvGcro/edit#heading=h.b6j67xcu50c2)
+[Imaging](https://docs.google.com/document/d/1tK24SA9FLmYmqc8JC2C325dqKF-cabyJqsNLQDGtYyU/edit?usp=drive_link)
 
-[Mass Spectrometry](https://docs.google.com/document/d/1uW51P7b4Gl5PYnwbLKxbqjR5JEQ_J1yXyqaWCfsCTS8/edit?usp=sharing)
+[Mass Spectrometry](https://docs.google.com/document/d/1wpiM41iYWa5ZqwLiMiEEaqIjiUVbYXHUNFj43R7Yuh0/edit?usp=drive_link)
 
-[RPPA](https://docs.google.com/document/d/1UznHRELT6TlPa7vtgCKKeDZ1jeAhAhdRjuBRmzu-Oss/edit?usp=sharing)
+[RPPA](https://docs.google.com/document/d/1UDEIeJ6AUdrRX3Dy8upOZ3i3c3CMVGSJ8pozWGNCXEM/edit?usp=drive_link)
 
-[Sequencing Data](https://docs.google.com/document/d/1543YyAW_CwkrKFVzvS9Xwl_dpmruCzK6fA4sIRrZcLQ/edit?usp=sharing)
+[Sequencing Data](https://docs.google.com/document/d/1VMKFZ99ZvZaiftnle1WGu3TxDQX-0HEZ8Aolgo418CQ/edit?usp=drive_link)
 
-[Spatial Transcriptomics](https://docs.google.com/document/d/1oVIG-9wi83IgQj4SKTkKqLfzyXeF54hGRh68PdXPDTg/edit?usp=sharing)
+[Spatial Transcriptomics](https://docs.google.com/document/d/1v6P1AeQJHzKCF3BMhPyqpD393nA45ZRAC1T1dEukJaU/edit?usp=drive_link)
 
 

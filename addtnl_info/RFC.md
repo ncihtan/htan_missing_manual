@@ -7,15 +7,7 @@ order: 996
 ## RFC Overview
 The HTAN Data Model is expected to evolve with advances in science.  This evolution is a community-driven, peer-reviewed process, where members of a working group will first assess established community data standards and create a request for comment (RFC) document soliciting community feedback.
 
-The status of current RFCs is provided in the [RFC Overview](https://docs.google.com/document/d/1dJ7NUoVCtewdtny8bITwtWnzItB4IibL5kJO3ZNh0go/edit?usp=sharing) document.  The RFC Overview can be used to:
-
-- Get a sense of what is available in DCA.
-- Get a sense of new assays being considered.
-- Look at old RFCs & get a sense of past discussions/considerations.
-
-!!! Note:
-The links to specific RFC documents within the RFC Overview do **not** represent the final data model.  Once an RFC is closed and an assay is available on the Data Curator App (DCA), the metadata template on the DCA represents the final data model.  Details regarding the data model are also available on HTAN's [Data Standards page](https://humantumoratlas.org/standards) and HTAN's [data-models repository](https://github.com/ncihtan/data-models) on github.
-!!!
+Once an RFC is closed and an assay is available on the Data Curator App (DCA), the metadata template on the DCA represents the final data model.  Details regarding the data model are also available on HTAN's [Data Standards page](https://humantumoratlas.org/standards) and HTAN's [data-models repository](https://github.com/ncihtan/data-models) on github.
 
 ## Data Model Changes
 The following are requests which require changes to the Data Model and may result in the initiation of a RFC:
