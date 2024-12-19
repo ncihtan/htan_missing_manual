@@ -16,7 +16,7 @@ Phase 1 of HTAN included two pilot projects, five pre-cancer atlases, five tumor
 | HTA202 | California Institute of Technology | [1U01CA294551-01](https://reporter.nih.gov/search/dC4XUlx4NUCtn4cO72jXMg/project-details/10995229)	| Pre-Cancer Atlas | Low Grade Glioma |
 | HTA203 | MD Anderson| [U01CA294518-01](https://reporter.nih.gov/search/dC4XUlx4NUCtn4cO72jXMg/project-details/10994921) | Pre-Cancer Atlas | Gastric Cancer |
 | HTA204 | Dana-Farber Cancer Institute | [1U01CA294507-01](https://reporter.nih.gov/search/dC4XUlx4NUCtn4cO72jXMg/project-details/10994712) | Pre-Cancer Atlas | Myeloma |
-| HTA205 | Children's Hosptital of Los Angeles | [1U01CA294552-01](https://reporter.nih.gov/search/dC4XUlx4NUCtn4cO72jXMg/project-details/10995230)  | Tumor Atlas | Pediatric Cancers |
+| HTA205 | Children's Hospital of Los Angeles | [1U01CA294552-01](https://reporter.nih.gov/search/dC4XUlx4NUCtn4cO72jXMg/project-details/10995230)  | Tumor Atlas | Pediatric Cancers |
 | HTA206 | Washington University in St. Louis | [1U01CA294532-01](https://reporter.nih.gov/search/dC4XUlx4NUCtn4cO72jXMg/project-details/10995034) | Tumor Atlas | Prostate Cancer |
 | HTA207 | Vanderbilt University | [1U01CA294527-01](https://reporter.nih.gov/search/dC4XUlx4NUCtn4cO72jXMg/project-details/10994992) | Tumor Atlas |Colorectal Cancer |
 | HTA208 | MD Anderson | [1U01CA294459-01](https://reporter.nih.gov/search/dC4XUlx4NUCtn4cO72jXMg/project-details/10994265) | Tumor Atlas | Ovarian Cancer |
