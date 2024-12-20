@@ -10,7 +10,7 @@ Ensuring the privacy of HTAN research participants is critical and a joint respo
 
 ## Policy Documents
 
-- [Publication Policy](https://drive.google.com/file/d/1DVys8U1s92Mv5fRUxk97q2sSJFJ5kOjA/view)
+- [Publication Policy](https://drive.google.com/file/d/1jqfhtY7SFCkegMiaNU5eSP7_rA9M0u71/view?usp=drive_link)
 - [Protocol and Computational Tool Sharing Policy](https://drive.google.com/file/d/1L3Azfs4R4RWqVf5uCzDE3Ln97r-k0Jm3/view)
 - [External Data Sharing Policy](https://drive.google.com/file/d/17vN_8zcWsPNBtnLe1mOr35wqhUbuMaWI/view)
 - [HTAN Internal Data and Materials Sharing Agreement](https://drive.google.com/file/d/1gJvxOM1mdFAw6kioNLNOD8NPWmxLlM4H/view)
