@@ -6,7 +6,7 @@ order: 997
 
 The following are step by step instructions for HTAN Centers and Trans Network Projects (TNPs) to create and manage HTAN identifiers.  HTAN identifiers should be created for all entities (participants, biospecimens and data-files) within individual research projects.
 
-## Step 1: Determine you HTAN Center ID
+## Step 1: Determine your HTAN Center ID
 
 Please see [HTAN Centers](../overview/centers.md) to determine your HTAN Center ID.  If the data are part of a Trans Network Project (TNP), use the HTAN Center ID assigned to the TNP.
 
