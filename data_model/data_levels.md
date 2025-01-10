@@ -4,7 +4,7 @@ order: 997
 
 # Data Levels and Clinical Data Tiers
 
-The [Data Standards](https://humantumoratlas.org/standards) pages of the HTAN Data Portal provide a detailed overview of the HTAN Data Model. A general overview of how the HTAN Data Model is organized is provided in the next sections.
+The [Data Standards](https://humantumoratlas.org/standards) pages of the HTAN Data Portal provide a detailed overview of the HTAN Data Model. A general overview of how the HTAN Data Model is organized is provided on this page.
 
 ## Assay Data Levels
 The HTAN Data Model divides assay data into levels. Each assay type has levels progressing from raw data to more processed data.  This is illustrated in the following figure for sequencing data.  Please see each assay's page within [Data Standards](https://humantumoratlas.org/standards) for more information.
@@ -15,6 +15,3 @@ For Sequencing data, the HTAN Model Data levels help distinguish data as Open Ac
 
 ## Clinical Data Tiers
 Clinical data is organized into three tiers.  Tier one is based on the NCI's Genomic Data Commons (GDC) clinical data model.  Tiers two and three are disease-agnostic (tier 2) and disease-specific (tier 3) extensions to the GDC model. These tiers are described more on the [Clinical Data Page](https://humantumoratlas.org/standard/clinical). 
-
-## Specific Details
-Please see [Data Standards](https://humantumoratlas.org/standards) for up-to-date details regarding the HTAN Data Model, including attribute descriptions and requirements. For additional notes regarding how to submit data for each data type, please see the [Specific Assay/Data Element Details](../data_submission/specific_details.md) page of this manual. 
