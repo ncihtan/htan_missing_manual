@@ -4,11 +4,11 @@ order: 996
 
 # Specific Standards
 
-HTAN Centers submit assay data files and [metadata](../data_submission/metadata.md) to HTAN.
+HTAN Centers submit assay data files and [metadata](../data_submission/metadata.md) to HTAN. HTAN's Data Model governs how the assay data is organized and what metadata accompanies the assay data.
 
 ![Example HTAN Metadata and Assay Data](../img/metadata.svg)
 
-HTAN's Data Model governs how the assay data is organized and what metadata accompanies the assay data. HTAN Centers submit their metadata in spreadsheets called manifests. [The HTAN Portal's Data Standards pages](https://humantumoratlas.org/standards) provide interactive, searchable and downloadable summaries of the metadata attributes, requirements and valid values expected for each data type. 
+ HTAN Centers submit their metadata in spreadsheets called manifests. [The HTAN Portal's Data Standards pages](https://humantumoratlas.org/standards) provide interactive, searchable and downloadable summaries of the metadata attributes, requirements and valid values expected for each data type. 
 
 The following table provides links to specific manifests within the [Data Standards pages](https://humantumoratlas.org/standards).    
 
