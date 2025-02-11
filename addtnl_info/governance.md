@@ -10,9 +10,11 @@ Ensuring the privacy of HTAN research participants is critical and a joint respo
 
 ## Policy Documents
 
+- [HTAN Internal Data and Materials Sharing Agreement (DMSA) v1.1](https://drive.google.com/file/d/186TMLs3L2dKrXvMQLGuEYC-7jyGHCRw3/view?usp=drive_link)
+    - [HTAN DMSA Appendix A – "Participating Institutions of HTAN"](https://docs.google.com/document/d/1mQQfoZIXMz_zoQ0G3K6izPr7lkY4MFJO5a9GZ1xuEqM/edit?tab=t.0)
+    - [HTAN Internal Data and Materials Sharing Agreement (DMSA) v1.0](https://drive.google.com/file/d/1gJvxOM1mdFAw6kioNLNOD8NPWmxLlM4H/view)
 - [Publication Policy](https://drive.google.com/file/d/1jqfhtY7SFCkegMiaNU5eSP7_rA9M0u71/view?usp=drive_link)
 - [Protocol and Computational Tool Sharing Policy](https://drive.google.com/file/d/1L3Azfs4R4RWqVf5uCzDE3Ln97r-k0Jm3/view)
 - [External Data Sharing Policy](https://drive.google.com/file/d/17vN_8zcWsPNBtnLe1mOr35wqhUbuMaWI/view)
-- [HTAN Internal Data and Materials Sharing Agreement](https://drive.google.com/file/d/1gJvxOM1mdFAw6kioNLNOD8NPWmxLlM4H/view)
 - [Cancer Moonshot Public Access Policy](https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative/funding/public-access-policy)
 - [Associate Membership Policy](https://drive.google.com/file/d/1poxYt08kXQpkbJHDgch0EXfwEbKLGl3u/view?usp=drive_link)
