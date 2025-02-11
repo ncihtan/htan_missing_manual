@@ -9,7 +9,7 @@ Welcome to the Human Tumor Atlas Network! Please see the [Onboarding Checklist](
 ## General Information
 The [Goverance and Policy page](../addtnl_info/governance.md) of this manual provides documentation and applicable policies detailing the requirements for publications, data sharing, and data use.  
 
-All HTAN Institutions must have an executed Human Tumor Atlas Network DMSA  (Internal Data and Materials Sharing Agreement) [(HTAN DMSA)](https://drive.google.com/file/d/1gJvxOM1mdFAw6kioNLNOD8NPWmxLlM4H/view) with Sage Bionetworks prior to contributing data to the HTAN Data Coordinating Center [(DCC)](https://humantumoratlas.org/htan-dcc).  See also [HTAN Checklist for Acceptance of Data](../data_submission/checklist.md).  Sean Hanlon from the NCI will be reaching out to new Institutions to coordinate collection of DMSA signatures.
+All HTAN Institutions must have an executed Human Tumor Atlas Network DMSA  (Internal Data and Materials Sharing Agreement) [(HTAN DMSA)](https://drive.google.com/file/d/186TMLs3L2dKrXvMQLGuEYC-7jyGHCRw3/view?usp=sharing) with Sage Bionetworks prior to contributing data to the HTAN Data Coordinating Center [(DCC)](https://humantumoratlas.org/htan-dcc).  See also [HTAN Checklist for Acceptance of Data](../data_submission/checklist.md).  Sean Hanlon from the NCI will be reaching out to new Institutions to coordinate collection of DMSA signatures.
 
 HTAN Centers are assigned a [data liaison](../data_submission/Data_Liaisons.md) from the [(DCC)](https://humantumoratlas.org/htan-dcc). Trans-Network Projects (TNPs) are also assigned liaisons. Your liaison will help guide you through onboarding to work with the DCC, [creating HTAN identifiers](../data_submission/creating_ids.md), and [submitting metadata and data files](../data_submission/clin_biospec_assay/).  Please keep your DCC Data Liaison informed of publications timelines and new data submissions.  
 
@@ -30,7 +30,7 @@ Step 2
 > The Center Data Wrangler will be the primary point of contact for all data submissions from your Center. Note that while multiple individuals may be performing data submission for your Center, the Data Wrangler should be the main point of contact with the DCC.  Please email contact information for your Data Wrangler to Alex Lash at:  alexl@ds.dfci.harvard.edu.
 
 Step 3
-: Sign the Internal Data and Materials Sharing Agreement ([HTAN DMSA](https://drive.google.com/file/d/1gJvxOM1mdFAw6kioNLNOD8NPWmxLlM4H/view)).
+: Sign the Internal Data and Materials Sharing Agreement ([HTAN DMSA](https://drive.google.com/file/d/186TMLs3L2dKrXvMQLGuEYC-7jyGHCRw3/view?usp=sharing)).
 
 > Sean Hanlon from the NCI will be reaching out to new Institutions to coordinate collection of DMSA signatures. Your DCC Data Liason will be able to direct you to Lisa Pasquale, Privacy and Data Protection Analyst at Sage Bionetworks who will be avaliable to assist you amd your institutions' representatives with DMSA-related questions.
 

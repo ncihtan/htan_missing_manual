@@ -7,7 +7,7 @@ order: 997
 !!! **HTAN Centers are responsible for data deidentification.**
 !!!
 
-As outlined in the HTAN Internal Data and Materials Sharing Agreement [(DMSA)](https://drive.google.com/file/d/1gJvxOM1mdFAw6kioNLNOD8NPWmxLlM4H/view), data submitted to the Data Coordinating Center (DCC) must be fully de-identified.
+As outlined in the HTAN Internal Data and Materials Sharing Agreement [(DMSA)](https://drive.google.com/file/d/186TMLs3L2dKrXvMQLGuEYC-7jyGHCRw3/view?usp=sharing), data submitted to the Data Coordinating Center (DCC) must be fully de-identified.
 
 By signing the HTAN DMSA, HTAN members’ institutional signing officials and PIs accept responsibility for the de-identification of data prior to transfer to the DCC and confirm that: 
 
