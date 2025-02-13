@@ -16,9 +16,19 @@ jobs:
         run: |
           wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh
           chmod +x dotnet-install.sh
-          ./dotnet-install.sh --channel 7.0
+          ./dotnet-install.sh --channel 7.0 --install-dir $HOME/.dotnet
+          
+          # Ensure .NET 7 is available in the environment
           echo "$HOME/.dotnet" >> $GITHUB_PATH
+          echo "$HOME/.dotnet/tools" >> $GITHUB_PATH
+          echo "DOTNET_ROOT=$HOME/.dotnet" >> $GITHUB_ENV
+          echo "PATH=$HOME/.dotnet:$PATH" >> $GITHUB_ENV
+
+      - name: Verify .NET version
+        run: dotnet --info
+
       - uses: retypeapp/action-build@latest
+
       - uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
