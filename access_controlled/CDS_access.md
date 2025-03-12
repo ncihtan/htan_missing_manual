@@ -5,7 +5,7 @@ order: 997
 # Accessing Sequence Data via NCI's Cancer Data Service (CDS)
 
 !!!
-**NOTE**: dbGaP approval for HTAN study [phs002371](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002371.v3.p1) is required in order to access HTAN lower-level genomics data, such as RNAseq FASTQ and BAM files.
+**NOTE**: dbGaP approval for HTAN study [phs002371](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002371) is required in order to access HTAN lower-level genomics data, such as RNAseq FASTQ and BAM files.
 !!!
 
 The [CDS Portal](https://dataservice.datacommons.cancer.gov/), within NCI's Cancer Research Data Commons (CRDC), provides an interface to filter and select data from a variety of NCI programs, including controlled-access, primary sequence data from the Human Tumor Atlas Network (HTAN). This page provides directions for importing sequencing data from CDS to the [Cancer Genomics Commons (CGC)](https://cancergenomicscloud.org/).
