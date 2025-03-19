@@ -1,8 +1,10 @@
 ---
-order: 993
+order: 996
 ---
 
-HTAN files avaliable througn the NCI CRDC Cancer Data Service can be downloaded in the terminal using the [gen3-client](https://docs.gen3.org/gen3-resources/user-guide/). The gen3-client provides an easy-to-use, command-line interface for uploading and downloading data files to and from a Gen3 data commons from the terminal or command prompt, respectively.
+# Gen3-Client
+
+HTAN files available through the NCI CRDC Cancer Data Service can be downloaded in the terminal using the [gen3-client](https://docs.gen3.org/gen3-resources/user-guide/). The gen3-client provides an easy-to-use, command-line interface for uploading and downloading data files to and from a Gen3 data commons from the terminal or command prompt, respectively.
 
 
 ## Step-by-step guide
