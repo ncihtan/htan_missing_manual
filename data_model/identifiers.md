@@ -10,9 +10,7 @@ between the identifiers is visually represented in Figure 1.
 ![Figure 1. Phase 2 HTAN ID Provenance](../img/Phase2_ID_Provenance_Explained.svg)
 
 !!!
-If you will be creating HTAN identifiers for an HTAN Center or Trans Network Project (TNP), please see the step-by-step directions in 
-the [Data Submission Creating Identifiers](../data_submission/creating_ids.md) section of this manual. The 
-[Creating Identifiers](../data_submission/creating_ids.md) section also includes information about how to track identifiers for your center. 
+If you will be creating HTAN identifiers for an HTAN Center or Trans Network Project (TNP), please see the step-by-step directions in the [Data Submission Creating Identifiers](../data_submission/creating_ids.md) section of this manual. The [Creating Identifiers](../data_submission/creating_ids.md) section also includes information about how to track identifiers for your center. 
 !!!
 
 ## ID to ID linkages
