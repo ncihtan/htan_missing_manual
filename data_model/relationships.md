@@ -14,7 +14,7 @@ The HTAN DCC has constructed an ID Provenance BigQuery table, which contains ups
 
 Although this information is available in HTAN, connections among assay file levels and parent relationships (both biospecimen and file) were previously only accessible by tracing through parent identifiers. Having all ID information in one place can significantly speed up analyses, exploration, and data sharing.
 
-The Provenance BigQuery table is accessible via ISB-CGC. See the [Google BigQuery](../open_access/big_query.md) section for more details. 
+The Provenance BigQuery table is accessible via ISB-CGC. See the [Google BigQuery](../data_access/biq_query.md) section for more details. 
 
 ## Biospecimen Attribute Definitions
 
