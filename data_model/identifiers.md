@@ -12,7 +12,8 @@ between the identifiers is visually represented in Figure 1.
 !!!
 If you will be creating HTAN identifiers for an HTAN Center or Trans Network Project (TNP), please see the step-by-step directions in 
 the [Data Submission Creating Identifiers](../data_submission/creating_ids.md) section of this manual. The 
-[Creating Identifiers](../data_submission/creating_ids.md) section also includes information about how to track identifiers for your center. !!!
+[Creating Identifiers](../data_submission/creating_ids.md) section also includes information about how to track identifiers for your center. 
+!!!
 
 ## ID to ID linkages
 
