@@ -3,38 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.795097590868">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.795899844220">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
 
     <!-- Primary Meta Tags -->
-    <title>Cds gen3</title>
-    <meta name="title" content="Cds gen3">
-    <meta name="description" content="HTAN files avaliable througn the NCI CRDC Cancer Data Service can be downloaded in the terminal using the ">
+    <title>Visualizing Single Cell Data via CellxGene</title>
+    <meta name="title" content="Visualizing Single Cell Data via CellxGene">
+    <meta name="description" content="Through our collaboration with the Chan Zuckerberg Initiative (CZI), we make HTAN single cell RNA seq data available via ">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://docs.humantumoratlas.org/open_access/cds_gen3/">
+    <link rel="canonical" href="https://docs.humantumoratlas.org/data_visualization/cell_by_gene/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://docs.humantumoratlas.org/open_access/cds_gen3/">
-    <meta property="og:title" content="Cds gen3">
-    <meta property="og:description" content="HTAN files avaliable througn the NCI CRDC Cancer Data Service can be downloaded in the terminal using the ">
+    <meta property="og:url" content="https://docs.humantumoratlas.org/data_visualization/cell_by_gene/">
+    <meta property="og:title" content="Visualizing Single Cell Data via CellxGene">
+    <meta property="og:description" content="Through our collaboration with the Chan Zuckerberg Initiative (CZI), we make HTAN single cell RNA seq data available via ">
+    <meta property="og:image" content="https://docs.humantumoratlas.org/img/cellxgene1.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://docs.humantumoratlas.org/open_access/cds_gen3/">
-    <meta property="twitter:title" content="Cds gen3">
-    <meta property="twitter:description" content="HTAN files avaliable througn the NCI CRDC Cancer Data Service can be downloaded in the terminal using the ">
+    <meta property="twitter:url" content="https://docs.humantumoratlas.org/data_visualization/cell_by_gene/">
+    <meta property="twitter:title" content="Visualizing Single Cell Data via CellxGene">
+    <meta property="twitter:description" content="Through our collaboration with the Chan Zuckerberg Initiative (CZI), we make HTAN single cell RNA seq data available via ">
+    <meta property="twitter:image" content="https://docs.humantumoratlas.org/img/cellxgene1.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.6.0.795097590868" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.795899844220" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.795097590868" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.795899844220" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.795097590868" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.795899844220" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -163,82 +165,25 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="cds-gen3" class="break-words">
+<doc-anchor-target id="visualizing-single-cell-data-via-cellxgene" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#cds-gen3">#</doc-anchor-trigger>
-        <span>Cds gen3</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#visualizing-single-cell-data-via-cellxgene">#</doc-anchor-trigger>
+        <span>Visualizing Single Cell Data via CellxGene</span>
     </h1>
 </doc-anchor-target>
-<p>HTAN files avaliable througn the NCI CRDC Cancer Data Service can be downloaded in the terminal using the <a href="https://gen3.org/resources/user/gen3-client/">gen3-client</a>. The gen3-client provides an easy-to-use, command-line interface for uploading and downloading data files to and from a Gen3 data commons from the terminal or command prompt, respectively.</p>
-<doc-anchor-target id="step-by-step-guide">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#step-by-step-guide">#</doc-anchor-trigger>
-        <span>Step-by-step guide</span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="step-1-install-the-gen3-client">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#step-1-install-the-gen3-client">#</doc-anchor-trigger>
-        <span>Step 1: Install the Gen3-client</span>
-    </h3>
-</doc-anchor-target>
-<ul>
-<li>Follow the <a href="https://gen3.org/resources/user/gen3-client/#1-installation-instructions">Gen3-client install instructions</a> for your operating system.</li>
-</ul>
-<doc-anchor-target id="step-2-obtain-and-configure-api-credentials">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#step-2-obtain-and-configure-api-credentials">#</doc-anchor-trigger>
-        <span>Step 2: Obtain and Configure API Credentials</span>
-    </h3>
-</doc-anchor-target>
-<ul>
-<li>Log in to the NCI Commons Framework at <a href="https://nci-crdc.datacommons.io">nci-crdc.datacommons.io</a>.</li>
-<li>Go to your profile settings, create a new API key, and download the credentials.json file.</li>
-</ul>
-<doc-anchor-target id="step-3-configure-the-gen3-client">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#step-3-configure-the-gen3-client">#</doc-anchor-trigger>
-        <span>Step 3: Configure the gen3-client</span>
-    </h3>
-</doc-anchor-target>
-<ul>
-<li><p>Configure a profile for the gen3-client that points towards your credentials and the NCI CRDC endpoint.</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">gen3-client configure \
-    --profile=&lt;your-profile-name&gt; \
-    --cred=&lt;path-to-your-credentials-json&gt; \
-    --apiendpoint=https://nci-crdc.datacommons.io</code></pre>
-</doc-codeblock></div>
-</li>
-</ul>
-<doc-anchor-target id="step-4-select-files-from-the-htan-data-portal">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#step-4-select-files-from-the-htan-data-portal">#</doc-anchor-trigger>
-        <span>Step 4: Select Files from the HTAN Data Portal</span>
-    </h3>
-</doc-anchor-target>
-<ul>
-<li>Go to the HTAN Data Portal and filter the files based on your criteria (e.g., open access CDS files).</li>
-<li>Select the files you want to download.</li>
-</ul>
-<doc-anchor-target id="step-5-use-the-gen3-client-to-download-files">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#step-5-use-the-gen3-client-to-download-files">#</doc-anchor-trigger>
-        <span>Step 5: Use the Gen3 Client to Download Files</span>
-    </h3>
-</doc-anchor-target>
-<ul>
-<li><p>Select the &quot;Download files&quot; link and view the the gen client command for your selected files.</p>
-</li>
-<li><p>Copy the Gen3-client command and run it in your terminal. Update the profile name and download location as needed. The command should look like this:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">gen3-client download-multiple \
-    --profile=&lt;your-profile-name&gt; \
-    --manifest=gen3_manifest.json \
-    --download_path=&lt;your-download-location&gt;</code></pre>
-</doc-codeblock></div>
-</li>
-</ul>
+<p>Through our collaboration with the <a href="https://chanzuckerberg.com/">Chan Zuckerberg Initiative (CZI)</a>, we make HTAN single cell RNA seq data available via <a href="https://cellxgene.cziscience.com/">CellxGene</a>. CellxGene enables you to visualize and explore large-scale single cell data sets. For complete details on CellxGene, please refer to the <a href="https://cellxgene.cziscience.com/docs/01__CellxGene">online documentation</a>.</p>
+<p>HTAN data sets with CellxGene visualization are denoted on the main home page in the rightmost column. Clicking the CellxGene logo will take you directly to CellxGene.</p>
+<p><figure class="content-center">
+    <img src="../../img/cellxgene1.png" alt="HTAN Portal: Links to CellxGene">
+    <figcaption class="caption">HTAN Portal: Links to CellxGene</figcaption>
+</figure>
+</p>
+<p>Example HTAN data from MSKCC, as visualized in CellxGene is shown below:</p>
+<p><figure class="content-center">
+    <img src="../../img/cellxgene2.png" alt="CellxGene: Example MSKCC HTAN Data">
+    <figcaption class="caption">CellxGene: Example MSKCC HTAN Data</figcaption>
+</figure>
+</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -248,20 +193,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../open_access/synapse_to_cds/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../data_access/synapse_to_cds/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Accessing HTAN open access data stored in Synapse via SB-​CGC</span>
+                                                <span class="block mt-1">Accessing Synapse Open Access Data in SB-​CGC</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../open_access/biq_query/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../data_visualization/xena/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Google Big​Query</span>
+                                                <span class="block mt-1">Visualizing Data via Xena</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -305,6 +250,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Cds gen3", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Visualizing Single Cell Data via CellxGene", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
