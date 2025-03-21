@@ -49,7 +49,7 @@ Users can access the data through the [Explore Page](https://humantumoratlas.org
 
 ### Do I need an account to access the HTAN data?
 
-No, an account is not required to explore the public data available on the HTAN Portal. However for accessing the lower level data, dbGap access needs to be obtained. See the [Acccess-Controlled Data](.//access_controlled/introduction/) section for more information.
+No, an account is not required to explore the public data available on the HTAN Portal. However, a free account is needed for accessing data on Synapse, and access-controlled data requires an approved dbGap request. See the [Data Access](./data_access/introduction.md) section for more information.
 
 ### How is the data on the HTAN Portal generated?
 

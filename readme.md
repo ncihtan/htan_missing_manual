@@ -14,6 +14,7 @@ If you have feedback for this manual, including broken links or incorrect inform
 
 | Date       | Comment                  | Changes summary |
 |------------|--------------------------|-----------------|
+| 2025-03-21 | Fourth version of manual | Rework of Data Access Sections and creation of Data Visualization section |                         
 | 2025-03-10 |                          | Updated Identifier sections to reflect Phase 2 schema |
 | 2025-03-04 |                          | Added gen3 data access instructions |
 | 2025-02-11 |                          | Added DMSA v1.1 and DMSA Appendix A |
