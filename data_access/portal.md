@@ -4,7 +4,7 @@ order: 999
 
 # Using the HTAN Data Portal
 
-The **HTAN Data Portal provides an interactive interface with which explore HTAN data**. It provides mechanisms to:
+The **HTAN Data Portal provides an interactive interface with which to explore HTAN data**. It provides mechanisms to:
 - [download metadata](#downloading-metadata);
 - [explore available data](#exploring-available-data); and
 - [download assay data](#downloading-assay-data). 
