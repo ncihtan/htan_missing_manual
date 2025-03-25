@@ -1,5 +1,5 @@
 ---
-order: 993
+order: 992
 ---
 
 # Accessing Synapse Open Access Data in SB-CGC
