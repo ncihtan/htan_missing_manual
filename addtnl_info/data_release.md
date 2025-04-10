@@ -8,5 +8,5 @@ The Data Coordinating Center (DCC) prepares major data releases every 4-6 months
 
 ![The HTAN Data Release Process](../img/Data_release.svg)
 
-Please see [HTAN Data Release Process](https://docs.google.com/document/d/10sv22HgtWAKt1wlV9eGbbI-itWejASVqDy42esS43DQ/edit?usp=drive_link) for more information regarding the data release process.
+Please see [HTAN Data Release Process](https://docs.google.com/document/d/1xMS3au9uFk5IHmcn99KbrZN1lp3AXjCTFJ7kWLeP1MQ/edit?usp=sharing) for more information regarding the data release process.
 
