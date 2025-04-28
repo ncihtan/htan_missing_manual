@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.797617335696">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.799169966266">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.7.0">
 
     <!-- Primary Meta Tags -->
-    <title>Accessing CDS Data in SB-CGC</title>
-    <meta name="title" content="Accessing CDS Data in SB-CGC">
+    <title>Accessing CRDC Data in SB-CGC</title>
+    <meta name="title" content="Accessing CRDC Data in SB-CGC">
     <meta name="description" content="Seven Bridges Cancer Genomics Cloud (SB-CGC) is a cloud platform for the analysis and storage of large cancer datasets.">
 
     <!-- Canonical -->
@@ -19,24 +19,24 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.humantumoratlas.org/data_access/cds_cgc/">
-    <meta property="og:title" content="Accessing CDS Data in SB-CGC">
+    <meta property="og:title" content="Accessing CRDC Data in SB-CGC">
     <meta property="og:description" content="Seven Bridges Cancer Genomics Cloud (SB-CGC) is a cloud platform for the analysis and storage of large cancer datasets.">
     <meta property="og:image" content="https://docs.humantumoratlas.org/img/cds_img4.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.humantumoratlas.org/data_access/cds_cgc/">
-    <meta property="twitter:title" content="Accessing CDS Data in SB-CGC">
+    <meta property="twitter:title" content="Accessing CRDC Data in SB-CGC">
     <meta property="twitter:description" content="Seven Bridges Cancer Genomics Cloud (SB-CGC) is a cloud platform for the analysis and storage of large cancer datasets.">
     <meta property="twitter:image" content="https://docs.humantumoratlas.org/img/cds_img4.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.7.0.797617335696" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.7.0.799169966266" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.7.0.797617335696" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.7.0.799169966266" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.7.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.7.0.797617335696" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.7.0.799169966266" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -164,15 +164,15 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="accessing-cds-data-in-sb-cgc" class="break-words">
+<doc-anchor-target id="accessing-crdc-data-in-sb-cgc" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#accessing-cds-data-in-sb-cgc">#</doc-anchor-trigger>
-        <span>Accessing CDS Data in SB-CGC</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#accessing-crdc-data-in-sb-cgc">#</doc-anchor-trigger>
+        <span>Accessing CRDC Data in SB-CGC</span>
     </h1>
 </doc-anchor-target>
-<p><a href="https://www.cancergenomicscloud.org/">Seven Bridges Cancer Genomics Cloud (SB-CGC)</a> is a cloud platform for the analysis and storage of large cancer datasets. There are two mechanisms for transferring HTAN data from the NCI&#x27;s Cancer Data Service (CDS) to SB-CGC:</p>
+<p><a href="https://www.cancergenomicscloud.org/">Seven Bridges Cancer Genomics Cloud (SB-CGC)</a> is a cloud platform for the analysis and storage of large cancer datasets. There are two mechanisms for transferring HTAN data from the NCI&#x27;s Cancer Research Data Commons (CRDC) to SB-CGC:</p>
 <ol>
-<li>Direct export from the <a href="https://dataservice.datacommons.cancer.gov/">CDS Portal</a>.</li>
+<li>Direct export from the CDRC General Commons (GC) <a href="https://general.datacommons.cancer.gov/#/data">Portal</a>.</li>
 <li>Export via a Data Repository Service (DRS) Manifest.</li>
 </ol>
 <div class="flex mb-6">
@@ -194,7 +194,7 @@
         </div>
     </div>
 </div>
-<p>HTAN Data in CDS includes:</p>
+<p>HTAN Data in CRDC includes:</p>
 <ol>
 <li>Open Access Level 2 Imaging Files; and</li>
 <li>Access-controlled Sequencing Data (e.g. fastq and BAM files)</li>
@@ -211,27 +211,24 @@
         <span>Direct Export</span>
     </h3>
 </doc-anchor-target>
-<p>In order to access HTAN imaging data within the <a href="https://dataservice.datacommons.cancer.gov/">CDS Portal</a>, navigate to the portal in a web browser and click on the <strong>Explore CDS Data</strong> button on the landing page.</p>
-<p align="center"><img width="364" alt="1" src="https://github.com/ncihtan/htan_missing_manual/assets/123744798/40aff1af-a58f-49dc-9253-6ee5e67ef419">
-</p>
-<p> </p>
+<p>In order to access HTAN imaging data within CRDC, navigate to the <a href="https://general.datacommons.cancer.gov/#/data">GC Portal</a> in a web browser.</p>
 <p>On the Data Explorer page, expand the STUDY section on the left sidebar, scroll down, and check the box next to <strong>Human Tumor Atlas (HTAN) imaging data</strong>.</p>
 <p><figure class="content-center">
-    <img src="../../img/cds_img4.png" alt="CDS Portal: Accessing HTAN Imaging Data">
-    <figcaption class="caption">CDS Portal: Accessing HTAN Imaging Data</figcaption>
+    <img src="../../img/cds_img4.png" alt="GC Portal: Accessing HTAN Imaging Data">
+    <figcaption class="caption">GC Portal: Accessing HTAN Imaging Data</figcaption>
 </figure>
 </p>
 <p>This action will change the summary panel to reflect selecting HTAN data only.</p>
 <p>Scroll down, or click on the <strong>Collapse View</strong> tab on the upper right just below the query summary line in order to see the tabulated view of all of the participants, samples or files in HTAN.</p>
 <p><figure class="content-center">
-    <img src="../../img/cds_img7.png" alt="CDS Portal: Accessing HTAN Imaging Data">
-    <figcaption class="caption">CDS Portal: Accessing HTAN Imaging Data</figcaption>
+    <img src="../../img/cds_img7.png" alt="GC Portal: HTAN Imaging Data, Collapse View">
+    <figcaption class="caption">GC Portal: HTAN Imaging Data, Collapse View</figcaption>
 </figure>
 </p>
 <p>Click on the <strong>Add All Files</strong> button, or select the check boxes next to all Participants, Samples or Files for a subselection and then click on the <strong>Add Selected</strong> button.  This action will update your cart icon in the upper right corner.</p>
 <p><figure class="content-center">
-    <img src="../../img/cds_img5.png" alt="CDS Portal: Accessing HTAN Imaging Data">
-    <figcaption class="caption">CDS Portal: Accessing HTAN Imaging Data</figcaption>
+    <img src="../../img/cds_img5.png" alt="GC Portal: HTAN Imaging Data, Select Files">
+    <figcaption class="caption">GC Portal: HTAN Imaging Data, Select Files</figcaption>
 </figure>
 </p>
 <p>Clicking on the cart icon, will bring up a list of the selected files. Expand the <strong>Available Export Options</strong> drop down menu and select <strong>Export to Cancer Genomics Cloud</strong>.</p>
@@ -253,8 +250,8 @@
     </div>
 </div>
 <p><figure class="content-center">
-    <img src="../../img/cds_export_button.png" alt="CDS Portal: Adding Data to Cart">
-    <figcaption class="caption">CDS Portal: Adding Data to Cart</figcaption>
+    <img src="../../img/cds_export_button.png" alt="GC Portal: Adding Data to Cart">
+    <figcaption class="caption">GC Portal: Adding Data to Cart</figcaption>
 </figure>
 </p>
 <p>Follow the prompts to log in to CGC.  Then select a Destination project, check the box to agree to CGC terms and import the data.</p>
@@ -277,27 +274,44 @@
 </doc-anchor-target>
 <p>For HTAN data, DRS Manifests can be generated from three different locations:</p>
 <ul>
-<li>CDS Portal</li>
+<li>General Commons (GC) Portal</li>
 <li>HTAN Data Portal</li>
 <li>Google BigQuery</li>
 </ul>
-<doc-anchor-target id="generating-a-drs-manifest-from-the-cds-portal">
+<doc-anchor-target id="generating-a-drs-manifest-from-the-gc-portal">
     <h5>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#generating-a-drs-manifest-from-the-cds-portal">#</doc-anchor-trigger>
-        <span>Generating a DRS Manifest from the CDS Portal</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#generating-a-drs-manifest-from-the-gc-portal">#</doc-anchor-trigger>
+        <span>Generating a DRS Manifest from the GC Portal</span>
     </h5>
 </doc-anchor-target>
-<p>Follow the directions for <doc-anchor-trigger to="#direct-export">Direct Export</doc-anchor-trigger> of files from CDS.  In the cart, click on the <strong>Download Manifest</strong> button on the upper right to download a CSV-formated (Excel compatible) copy of your file list.</p>
+<p>Follow the directions for <doc-anchor-trigger to="#direct-export">Direct Export</doc-anchor-trigger> of files from GC.  In the cart, click on the <strong>Download Manifest</strong> button on the upper right to download a CSV-formated (Excel compatible) copy of your file list.</p>
 <doc-anchor-target id="generating-a-drs-manifest-from-the-htan-data-portal">
     <h5>
         <doc-anchor-trigger class="header-anchor-trigger" to="#generating-a-drs-manifest-from-the-htan-data-portal">#</doc-anchor-trigger>
         <span>Generating a DRS Manifest from the HTAN Data Portal</span>
     </h5>
 </doc-anchor-target>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Cancer Data Services (CDS) has changed its name to General Commons (GC). The HTAN Portal will be updated soon to reflect this change.</p>
+        </div>
+    </div>
+</div>
 <p>From the <a href="https://humantumoratlas.org/">HTAN Data Portal</a>, click <strong>CDS/SB-CGC (Open Access)</strong> under the <strong>Data Access</strong> filter.</p>
 <p><figure class="content-center">
-    <img src="../../img/cds_img1.png" alt="HTAN Portal: Accessing Imaging Data in CDS">
-    <figcaption class="caption">HTAN Portal: Accessing Imaging Data in CDS</figcaption>
+    <img src="../../img/cds_img1.png" alt="HTAN Portal: Accessing Imaging Data in GC">
+    <figcaption class="caption">HTAN Portal: Accessing Imaging Data in GC</figcaption>
 </figure>
 </p>
 <p>Navigate to the <strong>Files</strong> tab, check the box next to <strong>Filename</strong> in upper left, and then click <strong>Download selected files</strong>.</p>
@@ -318,7 +332,24 @@
         <span>Generating a DRS Manifest from Google BigQuery</span>
     </h5>
 </doc-anchor-target>
-<p>HTAN metadata and a mapping of HTAN Data File IDs to CDS DRS URIs are available as Google BigQuery tables via the Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC) (see <a href="https://docs.humantumoratlas.org/data_access/biq_query/">Google BigQuery</a>). These tables can be used to subset data to a cohort of interest, and obtain DRS URIs of files to access.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Cancer Data Services (CDS) has changed its name to General Commons (GC). The Big Query notebook referenced below will be updated soon to reflect this change.</p>
+        </div>
+    </div>
+</div>
+<p>HTAN metadata and a mapping of HTAN Data File IDs to GC DRS URIs are available as Google BigQuery tables via the Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC) (see <a href="https://docs.humantumoratlas.org/data_access/biq_query/">Google BigQuery</a>). These tables can be used to subset data to a cohort of interest, and obtain DRS URIs of files to access.</p>
 <p>For a step-by-step guide on how to generate a DRS manifest file using Google BigQuery, please see the Python notebook <a href="https://github.com/isb-cgc/Community-Notebooks/blob/master/HTAN/Python%20Notebooks/Creating_CDS_Data_Import_Manifests_Using_BQ.ipynb">Creating_CDS_Data_Import_Manifests_Using_BQ.ipynb</a>.</p>
 <doc-anchor-target id="2-import-the-data-into-cgc">
     <h4>
@@ -333,10 +364,10 @@
         <span>Sequencing Data</span>
     </h2>
 </doc-anchor-target>
-<p>The <a href="https://dataservice.datacommons.cancer.gov/">CDS Portal</a>, within NCI&#x27;s Cancer Research Data Commons (CRDC), provides an interface to filter and select data from a variety of NCI programs, including controlled-access, primary sequence data from the Human Tumor Atlas Network (HTAN).</p>
-<p>The directions for accessing sequencing data on CDS are similar to those for <doc-anchor-trigger to="#imaging-files">Level 2 Imaging Data Access</doc-anchor-trigger>, including Direct Export from CDS to CGC and importing data using a Data Repository Service (DRS) Manifest.  Please follow the <doc-anchor-trigger to="#imaging-files">Level 2 Imaging Data Access</doc-anchor-trigger> directions to access sequencing data, noting the following changes:</p>
+<p>The <a href="https://general.datacommons.cancer.gov/#/data">General Commons (GC) Portal</a>, within NCI&#x27;s Cancer Research Data Commons (CRDC), provides an interface to filter and select data from a variety of NCI programs, including controlled-access, primary sequence data from the Human Tumor Atlas Network (HTAN).</p>
+<p>The directions for accessing sequencing data on GC are similar to those for <doc-anchor-trigger to="#imaging-files">Level 2 Imaging Data Access</doc-anchor-trigger>, including Direct Export from GC to CGC and importing data using a Data Repository Service (DRS) Manifest.  Please follow the <doc-anchor-trigger to="#imaging-files">Level 2 Imaging Data Access</doc-anchor-trigger> directions to access sequencing data, noting the following changes:</p>
 <ol>
-<li>For Direct Export or Generating a DRS Manifest from CDS, choose <strong>Human Tumor Atlas (HTAN) primary sequence data</strong> on the STUDY section of the left hand sidebar instead of <strong>Human Tumor Atlas (HTAN) imaging data</strong>.</li>
+<li>For Direct Export or Generating a DRS Manifest from GC, choose <strong>Human Tumor Atlas (HTAN) primary sequence data</strong> on the STUDY section of the left hand sidebar instead of <strong>Human Tumor Atlas (HTAN) imaging data</strong>.</li>
 </ol>
 <p align="center"><img width="891" alt="Figure 3" src="https://github.com/ncihtan/htan_missing_manual/assets/123744798/14e07c72-16d4-463a-b8b2-1ef5f8d72107"></p>
 <p> </p>
@@ -344,9 +375,26 @@
 <li>To generate a DRS Manifest from the
 <a href="https://humantumoratlas.org/">HTAN Data Portal</a>, click <strong>CDS/SB-CGC (dbGaP)</strong> under the <strong>Data Access</strong> filter instead of <strong>CDS/SB-CGC (Open Access)</strong>.</li>
 </ol>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Cancer Data Services (CDS) has changed its name to General Commons (GC). The HTAN Portal will be updated soon to reflect this change.</p>
+        </div>
+    </div>
+</div>
 <p><figure class="content-center">
-    <img src="../../img/cds_genomics1.png" alt="HTAN Portal: Accessing Genomic Data in CDS">
-    <figcaption class="caption">HTAN Portal: Accessing Genomic Data in CDS</figcaption>
+    <img src="../../img/cds_genomics1.png" alt="HTAN Portal: Accessing Genomic Data in GC">
+    <figcaption class="caption">HTAN Portal: Accessing Genomic Data in GC</figcaption>
 </figure>
 </p>
 
@@ -415,6 +463,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Accessing CDS Data in SB-CGC", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Accessing CRDC Data in SB-CGC", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
