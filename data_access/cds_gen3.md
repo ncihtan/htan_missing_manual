@@ -31,6 +31,9 @@ HTAN files available through the NCI CRDC Cancer Data Service can be downloaded 
 
 
 ### Step 4: Select Files from the HTAN Data Portal
+!!!
+Cancer Data Services (CDS) has changed its name to General Commons (GC). The HTAN Portal will be updated soon to reflect this change.
+!!!
 
 - Go to the HTAN Data Portal and filter the files based on your criteria (e.g., open access CDS files).
 - Select the files you want to download.
