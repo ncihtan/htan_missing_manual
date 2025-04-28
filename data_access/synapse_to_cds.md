@@ -6,7 +6,7 @@ order: 992
 
 [Seven Bridges Cancer Genomics Cloud (SB-CGC)](https://www.cancergenomicscloud.org/) is a cloud platform for the analysis and storage of large cancer datasets. 
 
-HTAN’s open-access data, including most datasets, is hosted on Synapse and can be loaded into SB-CGC using the following instructions. Note that open-access Level 2 images are available separately through the [Cancer Data Service (CDS)](cds_cgc.md).
+HTAN’s open-access data, including most datasets, is hosted on Synapse and can be loaded into SB-CGC using the following instructions. Note that open-access Level 2 images are available separately through the National Cancer Institutes's [General Commons (GC)](cds_cgc.md).
 
 ## Video walkthrough
 

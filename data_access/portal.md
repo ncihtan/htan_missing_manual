@@ -39,7 +39,7 @@ If you click on any of the Synapse links above, you can immediately download a c
 
 ![HTAN Tabular Data within Excel](../img/portal5.png)
 
-Once you have downloaded metadata files, you can parse them in your favorite programming language, such as R or Python. To understand the individual columns within each metadata file, please refer to the [HTAN Data Model](../../data_model/overview).
+Once you have downloaded metadata files, you can parse them in your favorite programming language, such as R or Python. To understand the individual columns within each metadata file, please refer to the HTAN Data Model [Specific Standards page](../data_model/standards.md).
 
 ## Exploring Available Data
 
@@ -83,6 +83,10 @@ Clicking **View Details** on any of these files will pop open a metadata table. 
 
 ## Downloading Assay Data
 
+!!!
+Cancer Data Services (CDS) has changed its name to General Commons (GC). The HTAN Portal will be updated soon to reflect this change.
+!!!
+
 Once you have specified your filter criteria, the Files tab will display all matching files. At this point, you may see two types of files:
 
 -   Open Access Files (Data Access = Synapse or CDS/SB-CGC (open access)); or
@@ -103,8 +107,8 @@ To download files, select the files you would like, then click on the "Download 
 ![Select Files and Download](../img/HTAN_Portal_Selected_Files.png)
 
 The pop-up window that appears provides the information you need to access the files, including directions for:
-1. accessing [Cancer Data Service (CDS) data on SB-CGC](cds_cgc.md);
-2. directly downloading CDS data using the [Gen3 Client](cds_gen3.md); and
+1. accessing [Cancer Research Data Commons (CRDC) data on SB-CGC](cds_cgc.md);
+2. directly downloading CRDC data using the [Gen3 Client](cds_gen3.md); and
 3. accessing data available on Synapse via either the Synapse web interface or the Synapse CLI. 
 
 ![Download pop-up window](../img/HTAN_Portal_Download.png)
