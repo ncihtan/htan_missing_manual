@@ -10,6 +10,11 @@ Changes to the HTAN Identifier schema were introduced in Phase 2. There are sepa
 
 ## Instructions -- Phase 2 Centers 
 
+!!!
+- HTAN identifiers are made up of integers only with the exception of 'HTA', 'B', 'D', 'EXT' and '_' as noted below.
+- HTAN identifiers cannot be longer than 50 characters. 
+!!!
+
 ### Step 1: Determine your HTAN Center ID
 
 Please see [HTAN Centers](../overview/centers.md) to determine your HTAN Center ID.  If the data are part of a Trans Network Project (TNP), use the HTAN Center ID assigned to the TNP.
@@ -49,6 +54,7 @@ As with regular research participants, the HTAN Center/TNP controls their own na
 
 ### Step 3: Assign HTAN Identifiers for all HTAN Biospecimen and Data Files
 
+#### Biospecimen
 Biospecimens such as samples, tissue blocks, slides, aliquots and analytes obtained from a research participant have identifiers which follow the pattern:
 
 ```
@@ -57,13 +63,16 @@ Biospecimens such as samples, tissue blocks, slides, aliquots and analytes obtai
 
 where the "B" before the integer denotes "Biospecimen".
 
-For example, if research participant 1 within the Yale Lymphoma atlas (HTA209) provided three samples, you would have three biospecimen HTAN IDs:
+For example, if research participant 1 within the Yale Lymphoma atlas (HTA209) provided three samples, the following would be valid HTAN Biospecimen IDs:
 
 HTA209_1_B1\
 HTA209_1_B3\
 HTA209_1_B8
 
-Data files that result from those biospecimens have identifiers which follow the pattern:
+Analogous to research participant IDs, the unique integer value following `<participant_id>_B` is determined entirely by the source HTAN Center/TNP.  The ID must not have [leading zeros](https://en.wikipedia.org/wiki/Leading_zero). Additional underscores are allowed after Binteger. For example, HTA209_1_B1_234 would be allowed. However, IDs must be less than 50 characters in length.
+
+#### Data Files
+Data files that result from biospecimens have identifiers which follow the pattern:
 
 ```
 <datafile_entity_id>	::= <participant_id>_Dinteger
@@ -75,7 +84,7 @@ For example, if an assay was performed on a biospecimen from the same Yale Lymph
 HTA209_1_D12\
 HTA209_1_D15
 
-Analogous to research participant IDs, the unique integer value following `<participant_id>` is determined entirely by the source HTAN Center/TNP.  The ID must not have [leading zeros](https://en.wikipedia.org/wiki/Leading_zero). 
+Analogous to research participant IDs, the unique integer value following `<participant_id>_D` is determined entirely by the source HTAN Center/TNP.  The ID must not have [leading zeros](https://en.wikipedia.org/wiki/Leading_zero). Additional underscores are allowed after Dinteger. For example, HTA209_1_D12_234 would be allowed. However, IDs must be less than 50 characters in length.
 
 !!! Special Case Identifers
 If a single biospecimen or data file is derived from multiple participants, the file identifier must contain a wildcard string, e.g. ‘0000’, after the HTAN center identifier. For example:
