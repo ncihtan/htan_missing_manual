@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.8.1.800472083205">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.9.0.801781298323">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.8.1">
+    <meta name="generator" content="Retype 3.9.0">
 
     <!-- Primary Meta Tags -->
     <title>Using the HTAN Data Portal</title>
@@ -30,13 +30,13 @@
     <meta property="twitter:description" content="The HTAN Data Portal provides an interactive interface with which to explore HTAN data. It provides mechanisms to:">
     <meta property="twitter:image" content="https://docs.humantumoratlas.org/img/portal1.png">
 
-    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.8.1.800472083205" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.9.0.801781298323" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.8.1.800472083205" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.8.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.8.1.800472083205" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.9.0.801781298323" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.9.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.9.0.801781298323" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -53,7 +53,7 @@
                     <div class="flex items-center px-2 md:px-6">
                         <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
                             <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">HTAN</span>
-                        </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Manual</span>
+                        </a><span class="hidden mt-1 px-2 py-1 ml-4 text-xs font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-md md:inline-block">Manual</span>
                     </div>
         
                     <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
@@ -180,13 +180,13 @@
 <p>To orient you to the HTAN Data Portal, consider the example of accessing precancerous polyp data from Vanderbilt University, as described in their recent <a href="https://pubmed.ncbi.nlm.nih.gov/34910928/">Cell publication</a>.</p>
 <p>By default, HTAN data is organized by research center:</p>
 <p><figure class="content-center">
-    <img src="../../img/portal1.png" alt="HTAN Portal: Home Page">
+    <img src="../../img/portal1.png" alt="HTAN Portal: Home Page" />
     <figcaption class="caption">HTAN Portal: Home Page</figcaption>
 </figure>
 </p>
 <p>If you scroll down on the page, you will see Vanderbilt University:</p>
 <p><figure class="content-center">
-    <img src="../../img/portal2.png" alt="HTAN Portal: Vanderbilt Atlas">
+    <img src="../../img/portal2.png" alt="HTAN Portal: Vanderbilt Atlas" />
     <figcaption class="caption">HTAN Portal: Vanderbilt Atlas</figcaption>
 </figure>
 </p>
@@ -199,20 +199,20 @@
 </doc-anchor-target>
 <p>Once you have identified the project of interest, you can click the download metadata button:</p>
 <p><figure class="content-center">
-    <img src="../../img/portal3.png" alt="HTAN Portal: Download Metadata">
+    <img src="../../img/portal3.png" alt="HTAN Portal: Download Metadata" />
     <figcaption class="caption">HTAN Portal: Download Metadata</figcaption>
 </figure>
 </p>
 <p>You will then be prompted with a dialog box of all metadata associated with the specified project. For example:</p>
 <p><figure class="content-center">
-    <img src="../../img/portal4.png" alt="HTAN Portal: Metadata Table">
+    <img src="../../img/portal4.png" alt="HTAN Portal: Metadata Table" />
     <figcaption class="caption">HTAN Portal: Metadata Table</figcaption>
 </figure>
 </p>
 <p>Behind the scenes, HTAN leverages the <a href="https://www.synapse.org/">Synapse Platform</a> created and maintained by <a href="https://sagebionetworks.org/">Sage Bionetworks</a>. Each piece of HTAN data is automatically assigned a unique Synapse identifier, such as syn25010909. In the screenshot above, you can see that the Vanderbilt project has multiple metadata files, each associated with a unique Synapse identifier.</p>
 <p>If you click on any of the Synapse links above, you can immediately download a comma separated value (CSV) file associated with the metadata category. There is no need to create a Synapse account or log into Synapse. For example, here we have download the Vanderbilt biospecimen file and loaded it into Excel:</p>
 <p><figure class="content-center">
-    <img src="../../img/portal5.png" alt="HTAN Tabular Data within Excel">
+    <img src="../../img/portal5.png" alt="HTAN Tabular Data within Excel" />
     <figcaption class="caption">HTAN Tabular Data within Excel</figcaption>
 </figure>
 </p>
@@ -225,56 +225,56 @@
 </doc-anchor-target>
 <p>The HTAN Data Portal provides a unified interface for filtering and exploring HTAN data sets. Each filter is available at the top of the page:</p>
 <p><figure class="content-center">
-    <img src="../../img/portal6.png" alt="HTAN Portal:  Filters">
+    <img src="../../img/portal6.png" alt="HTAN Portal:  Filters" />
     <figcaption class="caption">HTAN Portal:  Filters</figcaption>
 </figure>
 </p>
 <p>To get started, you can click the Atlas pull-down menu, and select the Vanderbilt HTAN center:</p>
 <p><figure class="content-center">
-    <img src="../../img/portal7.png" alt="HTAN Portal:  Filter by HTAN Center">
+    <img src="../../img/portal7.png" alt="HTAN Portal:  Filter by HTAN Center" />
     <figcaption class="caption">HTAN Portal:  Filter by HTAN Center</figcaption>
 </figure>
 </p>
 <p>Your selection will now be reflected in the user interface:</p>
 <p><figure class="content-center">
-    <img src="../../img/portal8.png" alt="HTAN Portal:  Filter by Vanderbilt University">
+    <img src="../../img/portal8.png" alt="HTAN Portal:  Filter by Vanderbilt University" />
     <figcaption class="caption">HTAN Portal:  Filter by Vanderbilt University</figcaption>
 </figure>
 </p>
 <p>If you click the <strong>Cases</strong> or <strong>Biospecimens</strong> tabs, you can browse available metadata. Clicking the <strong>Files</strong> tab will take you to an interactive table listing all files available for download.</p>
 <p><figure class="content-center">
-    <img src="../../img/portal9.png" alt="HTAN Portal:  Files Tab">
+    <img src="../../img/portal9.png" alt="HTAN Portal:  Files Tab" />
     <figcaption class="caption">HTAN Portal:  Files Tab</figcaption>
 </figure>
 </p>
 <p>At this point, the Files tab is likely to contain hundreds of files, and may be difficult to navigate. You can further refine the files table by clicking on the <strong>Assay Type</strong> or <strong>File Type</strong> filters. This will trigger pop-up windows that describe the assay and file type categories available within the Vanderbilt project. For example, if you click Assay Type you will see:</p>
 <p><figure class="content-center">
-    <img src="../../img/portal10.png" alt="HTAN Portal:  Filter by Assay Type">
+    <img src="../../img/portal10.png" alt="HTAN Portal:  Filter by Assay Type" />
     <figcaption class="caption">HTAN Portal:  Filter by Assay Type</figcaption>
 </figure>
 </p>
 <p>Data that is available within the Vanderbilt project is set to <strong>bold</strong>. You can therefore see that the Vanderbilt project has Bulk DNA, H&amp;E Images, Multiplex ImmunoFluorescence images and Single Cell RNA Seq Data.</p>
 <p>If you click scRNA-seq, the file table will automatically update. You can then select the <strong>File Type</strong> filter to drill-down even further:</p>
 <p><figure class="content-center">
-    <img src="../../img/portal11.png" alt="HTAN Portal:  Filter by File Type">
+    <img src="../../img/portal11.png" alt="HTAN Portal:  Filter by File Type" />
     <figcaption class="caption">HTAN Portal:  Filter by File Type</figcaption>
 </figure>
 </p>
 <p>Clicking Level 4 here will now filter the File table to only include Level 4 sequencing data that consists of Single Cell RNA Seq h5ad formatted files:</p>
 <p><figure class="content-center">
-    <img src="../../img/portal12.png" alt="HTAN Portal:  Multiple Filters Enabled">
+    <img src="../../img/portal12.png" alt="HTAN Portal:  Multiple Filters Enabled" />
     <figcaption class="caption">HTAN Portal:  Multiple Filters Enabled</figcaption>
 </figure>
 </p>
 <p>Note that you can remove any existing filters by clicking on any of the “chips” in the page header. For example, if you want to remove the Level 4 filter, just click the Level 4 chip:</p>
 <p><figure class="content-center">
-    <img src="../../img/portal13.png" alt="HTAN Portal:  Removing Filters">
+    <img src="../../img/portal13.png" alt="HTAN Portal:  Removing Filters" />
     <figcaption class="caption">HTAN Portal:  Removing Filters</figcaption>
 </figure>
 </p>
 <p>Clicking <strong>View Details</strong> on any of these files will pop open a metadata table. For example:</p>
 <p><figure class="content-center">
-    <img src="../../img/portal14.png" alt="HTAN Portal:  Metadata Details">
+    <img src="../../img/portal14.png" alt="HTAN Portal:  Metadata Details" />
     <figcaption class="caption">HTAN Portal:  Metadata Details</figcaption>
 </figure>
 </p>
@@ -285,8 +285,8 @@
     </h2>
 </doc-anchor-target>
 <div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr-lg rounded-br-lg doc-callout bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
         <div class="flex items-center ml-4 h-7">
             <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
@@ -307,13 +307,13 @@
 <li>Access-Controlled Files (Data Access = dbGAP)</li>
 </ul>
 <p><figure class="content-center">
-    <img src="../../img/htan_portal_dataaccess.svg" alt="HTAN Data Access Types">
+    <img src="../../img/htan_portal_dataaccess.svg" alt="HTAN Data Access Types" />
     <figcaption class="caption">HTAN Data Access Types</figcaption>
 </figure>
 </p>
 <div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr-lg rounded-br-lg doc-callout bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
         <div class="flex items-center ml-4 h-7">
             <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
@@ -333,7 +333,7 @@
 </div>
 <p>To download files, select the files you would like, then click on the &quot;Download selected files&quot; button.</p>
 <p><figure class="content-center">
-    <img src="../../img/htan_portal_selected_files.png" alt="Select Files and Download">
+    <img src="../../img/htan_portal_selected_files.png" alt="Select Files and Download" />
     <figcaption class="caption">Select Files and Download</figcaption>
 </figure>
 </p>
@@ -344,7 +344,7 @@
 <li>accessing data available on Synapse via either the Synapse web interface or the Synapse CLI.</li>
 </ol>
 <p><figure class="content-center">
-    <img src="../../img/htan_portal_download.png" alt="Download pop-up window">
+    <img src="../../img/htan_portal_download.png" alt="Download pop-up window" />
     <figcaption class="caption">Download pop-up window</figcaption>
 </figure>
 </p>
@@ -360,7 +360,7 @@
                             </div>
                             <footer class="clear-both">
                             
-                                <nav class="flex mt-14">
+                                <nav class="print:hidden flex mt-14">
                                     <div class="w-1/2">
                                         <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../data_access/citing_htan/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
@@ -384,13 +384,13 @@
                             </footer>
                         </main>
                 
-                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
-                            <footer class="flex flex-wrap items-center justify-between">
-                                <div>
+                        <div class="print:border-none border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                                <div class="print:hidden">
                                     <ul class="flex flex-wrap items-center text-sm">
                                     </ul>
                                 </div>
-                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2025. All rights reserved.</p></div>
+                                <div class="print:justify-center docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2025. All rights reserved.</p></div>
                             </footer>
                         </div>
                     </div>
