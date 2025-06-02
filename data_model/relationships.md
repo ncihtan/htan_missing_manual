@@ -4,7 +4,7 @@ order: 998
 
 # Relationship Model
 
-HTAN Centers have multiple research participants, who have donated biospecimens (see Figure below). [Metadata](../data_model/data_levels.md#metadata) submitted by HTAN Centers allows one to trace back any data file to the donated biospecimen. Data may be derived directly from the original biospecimen or from subsamples/assayed samples. Metadata provided with [Level 1 raw data files](../data_model/data_levels.md#assay-data-levels) are often directly linked to the corresponding assayed biospecimen, whereas processed [Level 2-4 data files](../data_model/data_levels.md#assay-data-levels) are linked to lower level parent data files. Connecting a given data file to the originating biospecimen often requires following the ID relationships (ID Provenance) contained within metadata. 
+HTAN Centers have multiple research participants, who have donated biospecimens (see Figure below). [Metadata](../data_model/data_levels.md#metadata) submitted by HTAN Centers allows one to trace back any data file to the donated biospecimen. Data may be derived directly from the original biospecimen or from subsamples/assayed samples. Via metadata, [Level 1 raw data files](../data_model/data_levels.md#assay-data-levels) are often directly linked to the corresponding assayed biospecimen, whereas processed [Level 2-4 data files](../data_model/data_levels.md#assay-data-levels) are linked to lower level parent data files. Connecting a given data file to the originating biospecimen often requires following the ID relationships (ID Provenance) contained within metadata. 
 
 ![HTAN ID Provenance, Phase 2](../img/Phase2_ID_Provenance_Explained.svg)
 
