@@ -12,6 +12,9 @@ HTAN Centers submit assay data files and [metadata](../data_submission/metadata.
 
 The following table provides links to specific manifests within the [Data Standards pages](https://humantumoratlas.org/standards).    
 
+!!! The following Table provides links to HTAN Phase 1 standards. Changes will occur to some of these manifests in Phase 2. This page will be updated once new manifests are available for HTAN Phase 2. 
+!!!
+
 ## Table of Specific Standards
 
 | Category | Specific Standard |
