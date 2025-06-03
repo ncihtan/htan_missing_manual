@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.9.0.801781298323">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.9.0.802271174551">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.9.0">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Relationship Model</title>
     <meta name="title" content="Relationship Model">
-    <meta name="description" content="Each atlas in HTAN contains data provided by multiple research participants, who have donated biospecimens (see Figure below).">
+    <meta name="description" content="HTAN Centers have multiple research participants, who have donated biospecimens (see Figure below). Metadata">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.humantumoratlas.org/data_model/relationships/">
@@ -20,23 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.humantumoratlas.org/data_model/relationships/">
     <meta property="og:title" content="Relationship Model">
-    <meta property="og:description" content="Each atlas in HTAN contains data provided by multiple research participants, who have donated biospecimens (see Figure below).">
+    <meta property="og:description" content="HTAN Centers have multiple research participants, who have donated biospecimens (see Figure below). Metadata">
     <meta property="og:image" content="https://docs.humantumoratlas.org/img/phase2_id_provenance_explained.svg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.humantumoratlas.org/data_model/relationships/">
     <meta property="twitter:title" content="Relationship Model">
-    <meta property="twitter:description" content="Each atlas in HTAN contains data provided by multiple research participants, who have donated biospecimens (see Figure below).">
+    <meta property="twitter:description" content="HTAN Centers have multiple research participants, who have donated biospecimens (see Figure below). Metadata">
     <meta property="twitter:image" content="https://docs.humantumoratlas.org/img/phase2_id_provenance_explained.svg">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.9.0.801781298323" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.9.0.802271174551" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.9.0.801781298323" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.9.0.802271174551" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.9.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.9.0.801781298323" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.9.0.802271174551" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -170,17 +170,17 @@
         <span>Relationship Model</span>
     </h1>
 </doc-anchor-target>
-<p>Each atlas in HTAN contains data provided by multiple research participants, who have donated biospecimens (see Figure below). The metadata allows one to trace back any data file to the donated biospecimen. Level 1 raw data files are directly linked to the corresponding biospecimen, whereas processed level 2-4 data files are linked to lower level parent data files. Note also that biospecimens can be connected recursively.</p>
+<p>HTAN Centers have multiple research participants, who have donated biospecimens (see Figure below). <a href="../data_levels/#metadata">Metadata</a> submitted by HTAN Centers allows one to trace back any data file to the donated biospecimen. Data may be derived directly from the original biospecimen or from subsamples/assayed samples. Via metadata, <a href="../data_levels/#assay-data-levels">Level 1 raw data files</a> are often directly linked to the corresponding assayed biospecimen, whereas processed <a href="../data_levels/#assay-data-levels">Level 2-4 data files</a> are linked to lower level parent data files. Connecting a given data file to the originating biospecimen often requires following the ID relationships (ID Provenance) contained within metadata.</p>
 <p><figure class="content-center">
     <img src="../../img/phase2_id_provenance_explained.svg" alt="HTAN ID Provenance, Phase 2" />
     <figcaption class="caption">HTAN ID Provenance, Phase 2</figcaption>
 </figure>
 </p>
 <doc-anchor-target id="htan-id-provenance-table">
-    <h1>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#htan-id-provenance-table">#</doc-anchor-trigger>
         <span>HTAN ID Provenance Table</span>
-    </h1>
+    </h2>
 </doc-anchor-target>
 <p>The HTAN DCC has constructed an ID Provenance BigQuery table, which contains upstream biospecimen and participant information for each HTAN data file. The motivation for constructing the table arose from the need for a straightforward method of showcasing how HTAN data files are linked to biospecimens and patients.</p>
 <p>Although this information is available in HTAN, connections among assay file levels and parent relationships (both biospecimen and file) were previously only accessible by tracing through parent identifiers. Having all ID information in one place can significantly speed up analyses, exploration, and data sharing.</p>
@@ -265,7 +265,7 @@
                                         <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../data_model/data_levels/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Data Levels and Clinical Data Tiers</span>
+                                                <span class="block mt-1">Metadata, Clinical Metadata Tiers and Data Levels</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>

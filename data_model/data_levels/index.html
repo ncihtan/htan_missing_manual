@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.9.0.801781298323">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.9.0.802271174551">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.9.0">
 
     <!-- Primary Meta Tags -->
-    <title>Data Levels and Clinical Data Tiers</title>
-    <meta name="title" content="Data Levels and Clinical Data Tiers">
+    <title>Metadata, Clinical Metadata Tiers and Data Levels</title>
+    <meta name="title" content="Metadata, Clinical Metadata Tiers and Data Levels">
     <meta name="description" content="The Data Standards pages of the HTAN Data Portal provide a detailed overview of the HTAN Data Model.">
 
     <!-- Canonical -->
@@ -19,24 +19,24 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.humantumoratlas.org/data_model/data_levels/">
-    <meta property="og:title" content="Data Levels and Clinical Data Tiers">
+    <meta property="og:title" content="Metadata, Clinical Metadata Tiers and Data Levels">
     <meta property="og:description" content="The Data Standards pages of the HTAN Data Portal provide a detailed overview of the HTAN Data Model.">
-    <meta property="og:image" content="https://docs.humantumoratlas.org/img/sequencing_data_levels.svg">
+    <meta property="og:image" content="https://docs.humantumoratlas.org/img/metadata.svg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.humantumoratlas.org/data_model/data_levels/">
-    <meta property="twitter:title" content="Data Levels and Clinical Data Tiers">
+    <meta property="twitter:title" content="Metadata, Clinical Metadata Tiers and Data Levels">
     <meta property="twitter:description" content="The Data Standards pages of the HTAN Data Portal provide a detailed overview of the HTAN Data Model.">
-    <meta property="twitter:image" content="https://docs.humantumoratlas.org/img/sequencing_data_levels.svg">
+    <meta property="twitter:image" content="https://docs.humantumoratlas.org/img/metadata.svg">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.9.0.801781298323" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.9.0.802271174551" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.9.0.801781298323" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.9.0.802271174551" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.9.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.9.0.801781298323" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.9.0.802271174551" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -164,33 +164,76 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="data-levels-and-clinical-data-tiers" class="break-words">
+<doc-anchor-target id="metadata-clinical-metadata-tiers-and-data-levels" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#data-levels-and-clinical-data-tiers">#</doc-anchor-trigger>
-        <span>Data Levels and Clinical Data Tiers</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#metadata-clinical-metadata-tiers-and-data-levels">#</doc-anchor-trigger>
+        <span>Metadata, Clinical Metadata Tiers and Data Levels</span>
     </h1>
 </doc-anchor-target>
-<p>The <a href="https://humantumoratlas.org/standards">Data Standards</a> pages of the HTAN Data Portal provide a detailed overview of the HTAN Data Model. A general overview of how the HTAN Data Model is organized is provided on this page.</p>
+<p>The <a href="https://humantumoratlas.org/standards">Data Standards</a> pages of the HTAN Data Portal provide a detailed overview of the HTAN Data Model. A basic description of how the HTAN Data Model is organized is provided on this page.</p>
+<doc-anchor-target id="metadata">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#metadata">#</doc-anchor-trigger>
+        <span>Metadata</span>
+    </h2>
+</doc-anchor-target>
+<p>Metadata means data <em>about</em> data.  Metadata enables both data searchability and interpretability. For HTAN, this includes sample and case identifiers, patient information (e.g. demographics), biospecimen information (e.g. tumor type), and assay-specific information (e.g. experiment protocol, assay reagents or assay technology).</p>
+<p><figure class="content-center">
+    <img src="../../img/metadata.svg" alt="Figure 1. Example HTAN Metadata vs Assay Data" />
+    <figcaption class="caption">Figure 1. Example HTAN Metadata vs Assay Data</figcaption>
+</figure>
+</p>
+<p>Metadata can be further divided into broad categories:</p>
+<ol>
+<li>clinical metadata;</li>
+<li>biospecimen metadata; and</li>
+<li>assay metadata.</li>
+</ol>
+<p>Clinical Metadata is divided into Tiers as described in <doc-anchor-trigger to="#clinical-metadata-tiers">Clinical Metadata Tiers</doc-anchor-trigger>.  Assay Metadata (and the associated Assay Data Files) are divided into <doc-anchor-trigger to="#assay-data-levels">Data Levels</doc-anchor-trigger>.</p>
+<doc-anchor-target id="clinical-metadata-tiers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#clinical-metadata-tiers">#</doc-anchor-trigger>
+        <span>Clinical Metadata Tiers</span>
+    </h2>
+</doc-anchor-target>
+<p>Clinical metadata is organized into tiers. The structure of these tiers differs in Phase 1 and Phase 2 of HTAN. In Phase 1 there were three clinical data tiers.  In Phase 2, there are two. For both phases, Tier 1 represents clinical data which is generally common to all studies and Atlases. Higher tiers are extensions to Tier 1, some of which are cancer or study-specific.</p>
+<doc-anchor-target id="phase-2-clinical-metadata-tiers">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-2-clinical-metadata-tiers">#</doc-anchor-trigger>
+        <span>Phase 2 Clinical Metadata Tiers</span>
+    </h3>
+</doc-anchor-target>
+<p>In HTAN Phase 2, there are only two clinical metadata tiers. Tier 1 metadata is divided into multiple categories, including Demographics, Diagosis, Family History, Exposure, Molecular Test, Therapy, Follow Up and Vital Status. Tier 2 contains any cancer or study-specific clinical information which is not represented in Tier 1. Tier 2 is a flexible comma-separated value (csv) file. The only required attribute is HTAN Participant ID. All other attributes (columns headers) are determined by the submitting Center. Figure 2 provides an general representation of the model.</p>
+<p><figure class="content-center">
+    <img src="../../img/phase2_clinical_data_tiers.svg" alt="Figure 2. HTAN Phase 2 Clinical Metadata Tiers" />
+    <figcaption class="caption">Figure 2. HTAN Phase 2 Clinical Metadata Tiers</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="phase-1-clinical-metadata-tiers">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-1-clinical-metadata-tiers">#</doc-anchor-trigger>
+        <span>Phase 1 Clinical Metadata Tiers</span>
+    </h3>
+</doc-anchor-target>
+<p>In HTAN Phase 1, Tier 1 clinical metadata was based on the NCI&#x27;s Genomic Data Commons (GDC) clinical data model.  Similar to HTAN Phase 2, Tier 1 metadata was divided into multiple categories, including Demographics, Diagosis, Family History, Exposure, Molecular Test, Therapy, Follow Up and Vital Status Update. However, the attributes, valid values and requirements differ between Phase 1 and Phase 2 for each of these Tier 1 clinical metadata categories.  Phase 1 Tiers two and three are disease-agnostic (Tier 2) and disease-specific (Tier 3) extensions to the GDC model. These tiers are shown in figure 3 and are described more on the <a href="https://humantumoratlas.org/standard/clinical">Clinical Data Page</a>.</p>
+<p><figure class="content-center">
+    <img src="../../img/phase1_clinical_data_tiers.svg" alt="Figure 3. HTAN Phase 1 Clinical Metadata Tiers" />
+    <figcaption class="caption">Figure 3. HTAN Phase 1 Clinical Metadata Tiers</figcaption>
+</figure>
+</p>
 <doc-anchor-target id="assay-data-levels">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#assay-data-levels">#</doc-anchor-trigger>
         <span>Assay Data Levels</span>
     </h2>
 </doc-anchor-target>
-<p>The HTAN Data Model divides assay data into levels. Each assay type has levels progressing from raw data to more processed data.  This is illustrated in the following figure for sequencing data.  Please see each assay&#x27;s page within <a href="https://humantumoratlas.org/standards">Data Standards</a> for more information.</p>
+<p>The HTAN Data Model divides assay data into levels. Each assay type has levels progressing from raw data to more processed data.  This is illustrated in Figure 4 for sequencing data.  Please see each assay&#x27;s page within <a href="https://humantumoratlas.org/standards">Data Standards</a> for more information.</p>
 <p><figure class="content-center">
-    <img src="../../img/sequencing_data_levels.svg" alt="HTAN Sequencing Data levels" />
-    <figcaption class="caption">HTAN Sequencing Data levels</figcaption>
+    <img src="../../img/sequencing_data_levels.svg" alt="Figure 4. HTAN Sequencing Data levels" />
+    <figcaption class="caption">Figure 4. HTAN Sequencing Data levels</figcaption>
 </figure>
 </p>
 <p>For Sequencing data, the HTAN Model Data levels help distinguish data as <a href="../../data_access/introduction/">open access versus access-controlled</a>.  For example, level 1 and 2 sequencing data are access-controlled data.</p>
-<doc-anchor-target id="clinical-data-tiers">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#clinical-data-tiers">#</doc-anchor-trigger>
-        <span>Clinical Data Tiers</span>
-    </h2>
-</doc-anchor-target>
-<p>Clinical data is organized into three tiers.  Tier one is based on the NCI&#x27;s Genomic Data Commons (GDC) clinical data model.  Tiers two and three are disease-agnostic (tier 2) and disease-specific (tier 3) extensions to the GDC model. These tiers are described more on the <a href="https://humantumoratlas.org/standard/clinical">Clinical Data Page</a>.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -257,6 +300,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Data Levels and Clinical Data Tiers", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Metadata, Clinical Metadata Tiers and Data Levels", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
