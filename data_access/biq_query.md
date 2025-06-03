@@ -19,7 +19,7 @@ You must have a Google account to access Google Big Query.
 
 ## Accessing Metadata tables
 
-HTAN metadata is organized by data type and level (see [HTAN Data Model](../data_model/overview.md)), with each BigQuery table containing data from all HTAN Centers combined.
+HTAN metadata is organized by data type and level (see [Metadata, Clinical Metadata Tiers and Data Levels](../data_model/data_levels.md)), with each BigQuery table containing data from all HTAN Centers combined.
 
 Metadata tables can be accessed from the **Atlases** tab of the HTAN Data Portal. Click the icon under the **Metadata** column and scroll down to the **Google BigQuery** link at the bottom of the popup window.
 

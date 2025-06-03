@@ -11,7 +11,7 @@ The **HTAN Data Portal provides an interactive interface with which to explore H
 
 To get started, go to: https://data.humantumoratlas.org/explore.
 
-To orient you to the HTAN Data Portal, consider the example of accessing precancerous polyp data from Vanderbilt University, as described in their recent [Cell publication](https://pubmed.ncbi.nlm.nih.gov/34910928/).
+To orient you to the HTAN Data Portal, consider the example of accessing precancerous polyp data from Vanderbilt University, as described in their [Cell publication](https://pubmed.ncbi.nlm.nih.gov/34910928/).
 
 By default, HTAN data is organized by research center:
 

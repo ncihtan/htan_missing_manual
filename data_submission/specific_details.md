@@ -6,6 +6,9 @@ order: 993
 
 Please see [Data Standards](https://data.humantumoratlas.org/standards) for an overview of HTAN Data Levels and Metadata Attributes for each data type. The following links provide specific submission details for each data type.  
 
+!!! The documents at the following links describe submission of Phase 1 HTAN data. The links will be updated for Phase 2 data submission once those standards have been updated in the data model and are available for data submission.
+!!!
+
 [Accessory Files](https://docs.google.com/document/d/1cHto1lrGGUhFVG-Cf1CShH3xC9_V8Fj3NElMtQyO3fM/edit?usp=drive_link)
 
 [Biospecimen](https://docs.google.com/document/d/12w61mgroXH0Q05JrDId2nqHWlC8h_0RcGLb7YwmZo8c/edit?usp=drive_link)

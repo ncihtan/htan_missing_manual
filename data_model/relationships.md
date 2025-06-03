@@ -4,11 +4,11 @@ order: 998
 
 # Relationship Model
 
-Each atlas in HTAN contains data provided by multiple research participants, who have donated biospecimens (see Figure below). The metadata allows one to trace back any data file to the donated biospecimen. Level 1 raw data files are directly linked to the corresponding biospecimen, whereas processed level 2-4 data files are linked to lower level parent data files. Note also that biospecimens can be connected recursively.
+HTAN Centers have multiple research participants, who have donated biospecimens (see Figure below). [Metadata](../data_model/data_levels.md#metadata) submitted by HTAN Centers allows one to trace back any data file to the donated biospecimen. Data may be derived directly from the original biospecimen or from subsamples/assayed samples. Via metadata, [Level 1 raw data files](../data_model/data_levels.md#assay-data-levels) are often directly linked to the corresponding assayed biospecimen, whereas processed [Level 2-4 data files](../data_model/data_levels.md#assay-data-levels) are linked to lower level parent data files. Connecting a given data file to the originating biospecimen often requires following the ID relationships (ID Provenance) contained within metadata. 
 
 ![HTAN ID Provenance, Phase 2](../img/Phase2_ID_Provenance_Explained.svg)
 
-# HTAN ID Provenance Table
+## HTAN ID Provenance Table
 
 The HTAN DCC has constructed an ID Provenance BigQuery table, which contains upstream biospecimen and participant information for each HTAN data file. The motivation for constructing the table arose from the need for a straightforward method of showcasing how HTAN data files are linked to biospecimens and patients.
 

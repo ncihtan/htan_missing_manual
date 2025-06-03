@@ -58,9 +58,9 @@ DRS manifests are CSV files which list the files you would like to obtain. They 
 
 For HTAN data, DRS Manifests can be generated from three different locations: 
 
-* General Commons (GC) Portal
-* HTAN Data Portal
-* Google BigQuery
+* [General Commons (GC) Portal](#generating-a-drs-manifest-from-the-gc-portal)
+* [HTAN Data Portal](#generating-a-drs-manifest-from-the-htan-data-portal)
+* [Google BigQuery](#generating-a-drs-manifest-from-google-bigquery)
 
 ##### Generating a DRS Manifest from the GC Portal
 
