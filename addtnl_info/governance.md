@@ -17,3 +17,4 @@ Ensuring the privacy of HTAN research participants is critical and a joint respo
 - [External Data Sharing Policy](https://drive.google.com/file/d/17vN_8zcWsPNBtnLe1mOr35wqhUbuMaWI/view)
 - [Cancer Moonshot Public Access Policy](https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative/funding/public-access-policy)
 - [Associate Membership Policy](https://drive.google.com/file/d/1poxYt08kXQpkbJHDgch0EXfwEbKLGl3u/view?usp=drive_link)
+- [Guidelines for Collaboration with Industry](https://drive.google.com/file/d/1dfdUdkV3bJ61inQYVOgSHHRjsb5gTumv/view?usp=drive_link)
