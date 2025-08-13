@@ -17,5 +17,5 @@ Complete information regarding HTAN is available at: https://humantumoratlas.org
 
 You can explore all open access data within the HTAN Data Portal at: https://humantumoratlas.org/explore.
 
-The current status of data uploads (refreshed every 4 hours) is available on the [HTAN Dashboard](http://hdash.website-us-east-1.linodeobjects.com/).
+The current status of data uploads (refreshed every 4 hours) is available on the [HTAN Dashboard](http://htan-hdash.s3-website-us-east-1.amazonaws.com/).
 !!!

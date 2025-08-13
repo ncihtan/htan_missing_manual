@@ -4,7 +4,7 @@ order: 992
 
 # HTAN Dashboard
 
-The HTAN Data Coordinating Center (DCC) hosts the [HTAN Dashboard](https://hdash.website-us-east-1.linodeobjects.com/) to help centers track submitted data, data completeness and data submission errors.
+The HTAN Data Coordinating Center (DCC) hosts the [HTAN Dashboard](http://htan-hdash.s3-website-us-east-1.amazonaws.com/) to help centers track submitted data, data completeness and data submission errors.
 
 The main page of the dashboard provides an overview of submitted assay and metadata as well as total number of submission errors. The Atlas links on the main page provide additional details for each Atlas. The Synapse project links will take you directly to the Atlas' project in Synapse if you have Synapse access to the project.
 
