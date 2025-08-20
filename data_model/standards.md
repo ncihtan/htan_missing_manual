@@ -26,6 +26,7 @@ The following table provides links to specific manifests within the [Data Standa
 | Clinical | [Family History](https://humantumoratlas.org/standard/clinical/familyhistory) |
 | Clinical | [Follow Up](https://humantumoratlas.org/standard/clinical/followup) |
 | Clinical | [Molecular Test](https://humantumoratlas.org/standard/clinical/moleculartest) |
+| Clinical | [Participant Vital Status Update](https://humantumoratlas.org/standard/clinical/participantvitalstatusupdate) |
 | Clinical | [Therapy](https://humantumoratlas.org/standard/clinical/therapy) |
 | Clinical | [Clinical Data Tier 2](https://humantumoratlas.org/standard/clinical/clinicaldatatier2) |
 | Clinical | [Acute Lymphoblastic Leukemia Tier 3](https://humantumoratlas.org/standard/clinical/acutelymphoblasticleukemiatier3) |
