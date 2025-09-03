@@ -21,6 +21,7 @@ You must have a Google account to access Google Big Query.
 
 HTAN metadata is organized by data type and level (see [Metadata, Clinical Metadata Tiers and Data Levels](../data_model/data_levels.md)), with each BigQuery table containing data from all HTAN Centers combined.
 
+### Accessing Metadata from the Data Portal
 Metadata tables can be accessed from the **Atlases** tab of the HTAN Data Portal. Click the icon under the **Metadata** column and scroll down to the **Google BigQuery** link at the bottom of the popup window.
 
 ![HTAN Portal:  Accessing Metadata](../img/big_query1.png)
@@ -32,6 +33,7 @@ This link will take you to the ISB-CGC Table Search UI filtered to HTAN tables. 
 ![ISB-CGC:  Table Search](../img/big_query3.png)
 ![ISB-CGC:  Table Browser](../img/big_query4.png)
 
+### Accessing Metadata from the ISB-CGC Table Search UI
 Alternatively, you can start at the [ISB-CGC Table Search UI](https://isb-cgc.appspot.com/) and select **Launch** under BigQuery Table Search.
 
 ![ISB-CGC:  Launch BigQuery](../img/big_query5.png)
@@ -45,6 +47,9 @@ Then filter for HTAN tables by selecting **HTAN** from the Program dropdown.
 As an example, this simple query tabulates the overall distribution of gender in HTAN, as reported in the HTAN Clinical Demographics BigQuery table isb-cgc-bq.HTAN_versioned.clinical_tier1_demographics_r2. For complete details on running queries and the Biq Query syntax, refer to the [Google BiqQuery Documentation](https://cloud.google.com/bigquery/docs).
 
 ![ISB-CGC:  Sample Query](../img/big_query7.png)
+
+## Linking Biospecimen and Data Files
+As described on the [Identifiers page](../data_model/identifiers.md) of this manual, the linkage between data files and biospecimen is not explicitly encoded in HTAN Identifiers. To assist data reusers in this process, HTAN maintains an ID Provenance table. Please see the [Relationship Model page](../data_model/relationships.md) for more information.
 
 ## Accessing Single Cell Tables
 
@@ -66,7 +71,7 @@ In this example, we query the single cell RNA seq-derived gene expression data f
 ![Example BiqQuery on Single Cell Data](../img/big_query11.png)
 
 ## Accessing Cell Spatial Data
-We also host a number of tables that contain information on cellular locations and the estimated expression of key marker protein based multiplexed imaging followed by cell segmentation. These tables are available on ISB-CGC and are derived from Imaging Level 4 t-CyCif files submitted by HTAN centers.
+We also host a number of tables that contain information on cellular locations and the estimated expression of key marker proteins derived from multiplexed imaging followed by cell segmentation. 
 
 ![Example BiqQuery Cell Spatial Data](../img/big_query12.png)
 
