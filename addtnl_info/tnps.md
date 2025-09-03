@@ -7,7 +7,7 @@ Trans-Network Projects are multi-center projects created to facilitate collabora
 
 - **Phase 1 TNPs**: [Synapse HTAN Phase 1 Wiki page](https://www.synapse.org/#!Synapse:syn17022193/wiki/584990). 
 - **Phase 2 TNPs**: [Synapse HTAN Phase 2 Wiki page](https://www.synapse.org/Synapse:syn63296487/wiki/629655). \
-:warning:  Currently there are no TNPs associated with Phase 2.
+:warning:  Currently there are no active TNPs associated with Phase 2. Phase 2 TNPs are in the process of being developed.
 
 !!! Note
 

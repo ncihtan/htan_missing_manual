@@ -61,7 +61,7 @@ At this time, the HTAN Portal does not support user-uploaded data
 
 ### Is there any support or documentation available for using the HTAN Portal?
 
-Yes, the HTAN Portal offers extensive documentation to help users navigate and utilize the platform effectively. Additionally, the portal provides a [Help Desk](https://sagebionetworks.jira.com/servicedesk/customer/portal/1) for support.
+Yes, the HTAN Portal offers extensive documentation to help users navigate and utilize the platform effectively, including this Manual. Additionally, the portal provides a [Help Desk](https://sagebionetworks.jira.com/servicedesk/customer/portal/1) for support.
 
 ### How is privacy and data security handled on the HTAN Portal?
 
@@ -69,7 +69,7 @@ The HTAN Portal adheres to strict data security and privacy protocols to ensure 
 
 ### Can I use HTAN data for my own research?
 
-Yes, researchers are encouraged to use HTAN data for their own studies. The data is publicly available, but users must acknowledge HTAN and the publication of the source data in any resulting publications
+Yes, researchers are encouraged to use HTAN data for their own studies. The data is publicly available, but users must acknowledge HTAN and the publication of the source data in any resulting publications. Please see [Citing HTAN](/data_access/citing_HTAN.md) for more information.
 
 ### Where can I find updates on new data or features added to the HTAN Portal?
 
