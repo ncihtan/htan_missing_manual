@@ -5,10 +5,7 @@ order: 1000
 # Submitting Tools and Protocols
 
 ## Computational Tools
-Computational tools developed or used to support HTAN research projects can be added to the HTAN tool catalog by filling out the tool curation form available on HTAN's internal Synapse wiki pages:
-
-- **Phase 1 Centers**: [Synapse HTAN Phase 1 Wiki page](https://www.synapse.org/#!Synapse:syn17022193/wiki/584990). 
-- **Phase 2 Centers**: [Synapse HTAN Phase 2 Wiki page](https://www.synapse.org/Synapse:syn63296487/wiki/629655). 
+Computational tools developed or used to support HTAN research projects can be added to the HTAN tool catalog by filling out the tool curation form available on the [HTAN Phase 2 Synapse Wiki page](https://www.synapse.org/Synapse:syn63296487/wiki/629655). 
 
 !!! Note
 

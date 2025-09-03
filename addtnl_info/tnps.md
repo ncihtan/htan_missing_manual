@@ -3,19 +3,13 @@ order: 995
 ---
 
 # Trans-Network Projects (TNPs)
-Trans-Network Projects are multi-center projects created to facilitate collaborative research.  Examples include cross-testing experimental and analytical protocols, exchange of personnel to disseminate SOPs or pursuit of additional HTAN critical methods or technologies.  Specific information about each TNP is available on the Synapse wiki pages for HTAN members. 
+Trans-Network Projects are multi-center projects created to facilitate collaborative research.  Examples include cross-testing experimental and analytical protocols, exchange of personnel to disseminate SOPs or pursuit of additional HTAN critical methods or technologies.  
 
-- **Phase 1 TNPs**: [Synapse HTAN Phase 1 Wiki page](https://www.synapse.org/#!Synapse:syn17022193/wiki/584990). 
-- **Phase 2 TNPs**: [Synapse HTAN Phase 2 Wiki page](https://www.synapse.org/Synapse:syn63296487/wiki/629655). \
-:warning:  Currently there are no active TNPs associated with Phase 2. Phase 2 TNPs are in the process of being developed.
+Descriptions of the [HTAN Phase 1 TNPs](#htan-phase-1-trans-network-projects) are provided below.
 
-!!! Note
+HTAN Phase 2 TNPs are in the process of being developed. Descriptions of Phase 2 HTAN TNPs will be provided once the TNPs are finalized and active. 
 
-The HTAN Synapse Wiki page is restricted to HTAN members.  Please contact htandcc@ds.dfci.harvard.edu if you are a member of HTAN and need access to the wiki.
-!!!
-
-
-Current Trans-Network Projects (Phase 1)
+## HTAN Phase 1 Trans-Network Projects
 
 | Code | Name | Description |
 |------|------|-------------|
