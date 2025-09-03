@@ -93,7 +93,7 @@ The following table provides links to specific manifests within the [Data Standa
 ## Data Submission
 While [Data Standards](https://humantumoratlas.org/standards) provides details regarding the HTAN Data Model, the manifests included on the HTAN Portal are for reference only. 
 
-!!! :warning: 
+!!!  
 HTAN Centers should not use the manifests provided on the Data Standards page for data submission. Please use the Data Curator App (DCA) to obtain manifests for data submission. More information about submitting assay files and metadata can be found in the [Submitting Data](../data_submission/clin_biospec_assay.md) section of this manual.
 !!!
 

@@ -25,7 +25,8 @@ system. Namely, the inclusion of a “B” or a “D” in HTAN identifiers to d
 Figure 4 in [Phase 1 HTAN ID Provenance](#phase-1-htan-id-provenance) for comparison. The remainder of this page provides more details regarding HTAN Identifiers 
 and is divided into Phase 2 and Phase 1 HTAN ID Provenance sections. 
 
-## Phase 2 HTAN ID Provenance
+## Phase 2 HTAN IDs
+### Phase 2 Participant IDs
 
 Research participants are identified with the following pattern:
 
@@ -35,6 +36,7 @@ Research participants are identified with the following pattern:
 
 Where the `htan_center_id` is the HTAN Center Prefix. (e.g. HTA200, HTA201) Please see [HTAN Centers](../overview/centers.md) for a full list of HTAN Center prefixes.
 
+### Phase 2 Biospecimen and Data File IDs
 Biospecimens such as samples, tissue blocks, slides, aliquots and analytes obtained from a research participant have identifiers which follow the pattern:
 
 ```
@@ -87,7 +89,9 @@ HTA209_EXT2_D34
 HTA209_EXT3_D590
 ```
 
-## Phase 1 HTAN ID Provenance
+## Phase 1 HTAN IDs
+
+### Phase 1 Participant IDs
 ![Figure 4. Phase 1 HTAN ID Provenance](../img/Phase1_ID_Provenance_Explained.svg)
 
 Research participants are identified with the following pattern:
@@ -98,7 +102,7 @@ Research participants are identified with the following pattern:
 
 Where the `htan_center_id` is the HTAN Center prefix. (e.g. HTA1, HTA2) Please see [HTAN Centers](../overview/centers.md) for a full list of HTAN Center prefixes.
 
-
+### Phase 1 Biospecimen and Data File IDs
 Derivative data includes anything derived from a research participant, including biospecimens such as samples, tissue blocks, slides, aliquots, analytes, and data files that result from assaying those biospecimens. These identifiers follow the pattern:
 
 ```
