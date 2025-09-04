@@ -3,19 +3,21 @@ order: 1001
 ---
 
 # Introduction
-Only HTAN Centers and Associate Members can submit data to the HTAN Network's repositories. The Data Submission Section of this Manual is intended as a guide for HTAN Centers and Associate Members. Please note that the manual currently reflects the data submission process used in HTAN Phase 1. Changes may be implemented for HTAN Phase 2.
+Only HTAN Centers and Associate Members can submit data to HTAN repositories. The Data Submission Section of this Manual is intended as a guide for HTAN Centers and Associate Members. Please note that the manual currently reflects the data submission process used in HTAN Phase 1. Changes will be implemented for HTAN Phase 2, including a new method for submitting manifests.
 
 :exclamation: *Prior to submitting data, all data must be de-identified.  Please see [Data De-identification](../data_submission/Data_Deidentification.md) for more information.*
 
-Data Submission involves two key steps:
+## Phase 1 Data Submission
+In Phase 1 of HTAN, Data Submission involved two key steps:
 1. Uploading assay data files to Synapse; and
 2. Completing and validating manifests using the Data Curator App (DCA).
 
-!!! Once assay data files are submitted to Synapse, the files will have entityIDs (e.g. syn12345670) assigned to them. These can then be prepopulated into the manifests on the DCA. For this reason, assay files should be submitted before generating the associated manifests. 
-!!!
+## Phase 2 Data Submission
+Please stay tuned for directions regarding submitting data in Phase 2. This will include the same key steps noted in [Phase 1](#phase-1-data-submission) However, the Data Curator App will be changed to a new tool. 
 
-![Data Submission Overview](../img/Data_Submit_Overview.svg)
+![Phase 2 Data Submission Overview](../img/Phase2_Data_Submit_Overview.svg)
 
-Specific details regarding data submission and the DCA are included in later sections of this manual.  Please contact your [Data Liaison](../data_submission/Data_Liaisons.md) if you have any questions or issues.  Please also keep your data liaison informed of any data submissions.
+Specific details regarding data submission and the DCA will be included in later sections of this manual.  Please contact your [Data Liaison](../data_submission/Data_Liaisons.md) if you have any questions or issues.  Please also keep your data liaison informed of any expected data submissions.
 
+## Data Submission Status
 The current status of data uploads (refreshed every 4 hours) is available on the [HTAN Dashboard](dashboard.md).

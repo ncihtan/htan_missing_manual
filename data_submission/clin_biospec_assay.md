@@ -12,7 +12,7 @@ As stated in [Data Submission Introduction](../data_submission/overview.md), dat
 This page provides details regarding those steps. 
 
 !!!
-**Please note that the manual currently reflects the data submission process used in HTAN Phase 1. Changes may be implemented for HTAN Phase 2.**
+**Please note that the manual currently reflects the data submission process used in HTAN Phase 1. Changes will be implemented for HTAN Phase 2, including replacement of the DCA with a new tool.**
 !!!
 
 ![HTAN Data Submission Process](../img/Data_submission.svg)

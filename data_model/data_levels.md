@@ -22,12 +22,20 @@ Clinical Metadata is divided into Tiers as described in [Clinical Metadata Tiers
 Clinical metadata is organized into tiers. The structure of these tiers differs in Phase 1 and Phase 2 of HTAN. In Phase 1 there were three clinical data tiers.  In Phase 2, there are two. For both phases, Tier 1 represents clinical data which is generally common to all studies and Atlases. Higher tiers are extensions to Tier 1, some of which are cancer or study-specific.  
 
 ### Phase 2 Clinical Metadata Tiers
-In HTAN Phase 2, there are only two clinical metadata tiers. Tier 1 metadata is divided into multiple categories, including Demographics, Diagosis, Family History, Exposure, Molecular Test, Therapy, Follow Up and Vital Status. Tier 2 contains any cancer or study-specific clinical information which is not represented in Tier 1. Tier 2 is a flexible comma-separated value (csv) file. The only required attribute is HTAN Participant ID. All other attributes (columns headers) are determined by the submitting Center. Figure 2 provides an general representation of the model. 
+In HTAN Phase 2, there are only two clinical metadata tiers. 
+- Tier 1 metadata is divided into multiple categories, including Demographics, Diagosis, Family History, Exposure, Molecular Test, Therapy, Follow Up and Vital Status. 
+- Tier 2 contains any cancer or study-specific clinical information which is not represented in Tier 1. Tier 2 is a flexible comma-separated value (csv) file. The only required attribute is HTAN Participant ID. All other attributes (columns headers) are determined by the submitting Center. 
+
+Figure 2 provides a general representation of the model. 
 
 ![Figure 2. HTAN Phase 2 Clinical Metadata Tiers](../img/Phase2_clinical_data_tiers.svg)
 
 ### Phase 1 Clinical Metadata Tiers
-In HTAN Phase 1, Tier 1 clinical metadata was based on the NCI's Genomic Data Commons (GDC) clinical data model.  Similar to HTAN Phase 2, Tier 1 metadata was divided into multiple categories, including Demographics, Diagosis, Family History, Exposure, Molecular Test, Therapy, Follow Up and Vital Status Update. However, the attributes, valid values and requirements differ between Phase 1 and Phase 2 for each of these Tier 1 clinical metadata categories.  Phase 1 Tiers two and three are disease-agnostic (Tier 2) and disease-specific (Tier 3) extensions to the GDC model. These tiers are shown in figure 3 and are described more on the [Clinical Data Page](https://humantumoratlas.org/standard/clinical). 
+In HTAN Phase 1, Tier 1 clinical metadata was based on the NCI's Genomic Data Commons (GDC) clinical data model.  Phase 1 clinical data was divided into three tiers:
+- Similar to HTAN Phase 2, Tier 1 metadata was divided into multiple categories, including Demographics, Diagosis, Family History, Exposure, Molecular Test, Therapy, Follow Up and Vital Status Update. However, the attributes, valid values and requirements differ between Phase 1 and Phase 2 for each of these Tier 1 clinical metadata categories.  
+- Phase 1 Tiers 2 and 3 are disease-agnostic (Tier 2) and disease-specific (Tier 3) extensions to the GDC model.
+
+These tiers are shown in figure 3 and are described more on the [Clinical Data Page](https://humantumoratlas.org/standard/clinical). 
 
 ![Figure 3. HTAN Phase 1 Clinical Metadata Tiers](../img/Phase1_clinical_data_tiers.svg)
 

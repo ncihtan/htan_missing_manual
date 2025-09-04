@@ -20,8 +20,8 @@ For sequencing data, there are four attributes with 'index' in their names for w
 
 Please note the descriptions for these fields in the data model.
 
-## Time intervals
-The 'Diagnosis' manifest includes two attributes which are not indexed:
+## Time intervals -- HTAN Phase 1 only
+The HTAN Phase 1 'Diagnosis' manifest included two attributes which are not indexed to date of birth:
 
 - Days to Last Follow up; and
 - Days to Last Known Disease Status.
