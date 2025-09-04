@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.809194481002">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.810336302296">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.809194481002" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.810336302296" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.809194481002" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.810336302296" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.809194481002" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.810336302296" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -200,6 +200,12 @@
     </h2>
 </doc-anchor-target>
 <p>HTAN metadata is organized by data type and level (see <a href="../../data_model/data_levels/">Metadata, Clinical Metadata Tiers and Data Levels</a>), with each BigQuery table containing data from all HTAN Centers combined.</p>
+<doc-anchor-target id="accessing-metadata-from-the-data-portal">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#accessing-metadata-from-the-data-portal">#</doc-anchor-trigger>
+        <span>Accessing Metadata from the Data Portal</span>
+    </h3>
+</doc-anchor-target>
 <p>Metadata tables can be accessed from the <strong>Atlases</strong> tab of the HTAN Data Portal. Click the icon under the <strong>Metadata</strong> column and scroll down to the <strong>Google BigQuery</strong> link at the bottom of the popup window.</p>
 <p><figure class="content-center">
     <img src="../../img/big_query1.png" alt="HTAN Portal:  Accessing Metadata" class="rounded-image-rounded border-image-border border-image-border-width" />
@@ -221,6 +227,12 @@
     <figcaption class="caption">ISB-CGC:  Table Browser</figcaption>
 </figure>
 </p>
+<doc-anchor-target id="accessing-metadata-from-the-isb-cgc-table-search-ui">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#accessing-metadata-from-the-isb-cgc-table-search-ui">#</doc-anchor-trigger>
+        <span>Accessing Metadata from the ISB-CGC Table Search UI</span>
+    </h3>
+</doc-anchor-target>
 <p>Alternatively, you can start at the <a href="https://isb-cgc.appspot.com/">ISB-CGC Table Search UI</a> and select <strong>Launch</strong> under BigQuery Table Search.</p>
 <p><figure class="content-center">
     <img src="../../img/big_query5.png" alt="ISB-CGC:  Launch BigQuery" class="rounded-image-rounded border-image-border border-image-border-width" />
@@ -245,6 +257,13 @@
     <figcaption class="caption">ISB-CGC:  Sample Query</figcaption>
 </figure>
 </p>
+<doc-anchor-target id="linking-biospecimen-and-data-files">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#linking-biospecimen-and-data-files">#</doc-anchor-trigger>
+        <span>Linking Biospecimen and Data Files</span>
+    </h2>
+</doc-anchor-target>
+<p>As described on the <a href="../../data_model/identifiers/">Identifiers page</a> of this manual, the linkage between data files and biospecimen is not explicitly encoded in HTAN Identifiers. To assist data reusers in this process, HTAN maintains an ID Provenance table. Please see the <a href="../../data_model/relationships/">Relationship Model page</a> for more information.</p>
 <doc-anchor-target id="accessing-single-cell-tables">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#accessing-single-cell-tables">#</doc-anchor-trigger>
@@ -286,7 +305,7 @@
         <span>Accessing Cell Spatial Data</span>
     </h2>
 </doc-anchor-target>
-<p>We also host a number of tables that contain information on cellular locations and the estimated expression of key marker protein based multiplexed imaging followed by cell segmentation. These tables are available on ISB-CGC and are derived from Imaging Level 4 t-CyCif files submitted by HTAN centers.</p>
+<p>We also host a number of tables that contain information on cellular locations and the estimated expression of key marker proteins derived from multiplexed imaging followed by cell segmentation.</p>
 <p><figure class="content-center">
     <img src="../../img/big_query12.png" alt="Example BiqQuery Cell Spatial Data" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">Example BiqQuery Cell Spatial Data</figcaption>

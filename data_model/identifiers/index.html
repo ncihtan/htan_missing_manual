@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.809194481002">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.810336302296">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.809194481002" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.810336302296" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.809194481002" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.810336302296" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.809194481002" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.810336302296" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -214,17 +214,29 @@ metadata elements (see <a href="../relationships/">Relationship Model</a>).</p>
 system. Namely, the inclusion of a “B” or a “D” in HTAN identifiers to distinguish biospecimen from data files.  Please see
 Figure 4 in <doc-anchor-trigger to="#phase-1-htan-id-provenance">Phase 1 HTAN ID Provenance</doc-anchor-trigger> for comparison. The remainder of this page provides more details regarding HTAN Identifiers
 and is divided into Phase 2 and Phase 1 HTAN ID Provenance sections.</p>
-<doc-anchor-target id="phase-2-htan-id-provenance">
+<doc-anchor-target id="phase-2-htan-ids">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-2-htan-id-provenance">#</doc-anchor-trigger>
-        <span>Phase 2 HTAN ID Provenance</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-2-htan-ids">#</doc-anchor-trigger>
+        <span>Phase 2 HTAN IDs</span>
     </h2>
+</doc-anchor-target>
+<doc-anchor-target id="phase-2-participant-ids">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-2-participant-ids">#</doc-anchor-trigger>
+        <span>Phase 2 Participant IDs</span>
+    </h3>
 </doc-anchor-target>
 <p>Research participants are identified with the following pattern:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">&lt;participant_id&gt; ::= &lt;htan_center_id&gt;_integer</code></pre>
 </doc-codeblock></div>
 <p>Where the <code v-pre>htan_center_id</code> is the HTAN Center Prefix. (e.g. HTA200, HTA201) Please see <a href="../../overview/centers/">HTAN Centers</a> for a full list of HTAN Center prefixes.</p>
+<doc-anchor-target id="phase-2-biospecimen-and-data-file-ids">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-2-biospecimen-and-data-file-ids">#</doc-anchor-trigger>
+        <span>Phase 2 Biospecimen and Data File IDs</span>
+    </h3>
+</doc-anchor-target>
 <p>Biospecimens such as samples, tissue blocks, slides, aliquots and analytes obtained from a research participant have identifiers which follow the pattern:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">&lt;biospecimen_entity_id&gt;	::= &lt;participant_id&gt;_Binteger</code></pre>
@@ -284,11 +296,17 @@ HTA209_1_D15</code></pre>
 HTA209_EXT2_D34
 HTA209_EXT3_D590</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="phase-1-htan-id-provenance">
+<doc-anchor-target id="phase-1-htan-ids">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-1-htan-id-provenance">#</doc-anchor-trigger>
-        <span>Phase 1 HTAN ID Provenance</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-1-htan-ids">#</doc-anchor-trigger>
+        <span>Phase 1 HTAN IDs</span>
     </h2>
+</doc-anchor-target>
+<doc-anchor-target id="phase-1-participant-ids">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-1-participant-ids">#</doc-anchor-trigger>
+        <span>Phase 1 Participant IDs</span>
+    </h3>
 </doc-anchor-target>
 <p><figure class="content-center">
     <img src="../../img/phase1_id_provenance_explained.svg" alt="Figure 4. Phase 1 HTAN ID Provenance" class="rounded-image-rounded border-image-border border-image-border-width" />
@@ -300,6 +318,12 @@ HTA209_EXT3_D590</code></pre>
 <pre translate="no" class="language-none"><code v-pre class="language-none">&lt;participant_id&gt; ::= &lt;htan_center_id&gt;_integer</code></pre>
 </doc-codeblock></div>
 <p>Where the <code v-pre>htan_center_id</code> is the HTAN Center prefix. (e.g. HTA1, HTA2) Please see <a href="../../overview/centers/">HTAN Centers</a> for a full list of HTAN Center prefixes.</p>
+<doc-anchor-target id="phase-1-biospecimen-and-data-file-ids">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-1-biospecimen-and-data-file-ids">#</doc-anchor-trigger>
+        <span>Phase 1 Biospecimen and Data File IDs</span>
+    </h3>
+</doc-anchor-target>
 <p>Derivative data includes anything derived from a research participant, including biospecimens such as samples, tissue blocks, slides, aliquots, analytes, and data files that result from assaying those biospecimens. These identifiers follow the pattern:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">&lt;derivative_entity_id&gt;	::= &lt;participant_id&gt;_integer</code></pre>
