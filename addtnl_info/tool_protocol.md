@@ -5,12 +5,7 @@ order: 1000
 # Submitting Tools and Protocols
 
 ## Computational Tools
-Computational tools developed or used to support HTAN research projects can be added to the HTAN tool catalog by filling out the tool curation form available on the [HTAN Phase 2 Synapse Wiki page](https://www.synapse.org/Synapse:syn63296487/wiki/629655). 
-
-!!! Note
-
-HTAN Synapse Wiki pages are restricted to HTAN members.  Please contact htandcc@ds.dfci.harvard.edu if you are a member of HTAN and need access to the wiki.
-!!!
+he [Analysis Tools page](https://humantumoratlas.org/tools) lists computational tools developed or used to support HTAN research project. The Data Coordinating Center (DCC) regularly checks HTAN pre-prints and publications for new HTAN Tools to add to the page. HTAN Centers may also contact Alex Lash at alexl@ds.dfci.harvard.edu if they have tools to add to the Catalog.
 
 ## Research Protocols
 
