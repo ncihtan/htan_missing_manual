@@ -11,3 +11,5 @@ Rozenblatt-Rosen et al. The Human Tumor Atlas Network: Charting Tumor Transition
 de Bruijn, I., Nikolov, M., Lau, C. et al. Sharing data from the Human Tumor Atlas Network through standards, infrastructure and community engagement. Nat Methods (2025). Nat Methods: https://doi.org/10.1038/s41592-025-02643-0
 
 Remember also to cite any relevant HTAN dataset-specific publications, which can be found listed on the portal's [Explore page](https://humantumoratlas.org/explore) under the Publications tab.
+
+Information regarding data sharing and data licensing can be found on the [Governance and Policy page](../addtnl_info/governance.md)
