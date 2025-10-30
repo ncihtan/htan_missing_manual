@@ -22,6 +22,9 @@ Examples of incidents that should be reported include:
 
 Reports submitted through the Help Desk will be addressed by the Privacy, Security & Compliance Office, who will coordinate the appropriate response process.
 
+## Licensing
+Please see HTAN's [External Data Sharing Policy](https://drive.google.com/file/d/17vN_8zcWsPNBtnLe1mOr35wqhUbuMaWI/view) for information regarding data licensing and sharing. HTAN Imaging Data has a CC-BY 4.0 license.
+
 ## Policy Documents
 
 - [HTAN Internal Data and Materials Sharing Agreement (DMSA) v1.1](https://drive.google.com/file/d/186TMLs3L2dKrXvMQLGuEYC-7jyGHCRw3/view?usp=drive_link)
