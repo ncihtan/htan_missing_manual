@@ -22,8 +22,7 @@ metadata elements (see [Relationship Model](relationships.md)).
 ## Phase 2 vs Phase 1 HTAN Identifiers
 Small improvements to the HTAN Identifier system were introduced in Phase 2 of HTAN. Figure 1 represents some elements of the new identifier 
 system. Namely, the inclusion of a “B” or a “D” in HTAN identifiers to distinguish biospecimen from data files.  Please see 
-Figure 4 in [Phase 1 HTAN ID Provenance](#phase-1-htan-id-provenance) for comparison. The remainder of this page provides more details regarding HTAN Identifiers 
-and is divided into Phase 2 and Phase 1 HTAN ID Provenance sections. 
+Figure 4 in [Phase 1 HTAN ID Provenance](#phase-1-htan-id-provenance) for comparison. The specific regex patterns used to validate Phase 2 identifiers is included in the [Phase 2 Regex Validation](#phase-2-regex-validation) section.
 
 ## Phase 2 HTAN IDs
 ### Phase 2 Participant IDs
@@ -87,6 +86,19 @@ Examples:
 HTA209_EXT1_B1
 HTA209_EXT2_D34
 HTA209_EXT3_D590
+```
+
+### Phase 2 Regex Validation
+HTAN Phase 2 Identifiers are validated with the following regex patterns.
+
+Participant IDs:
+```
+^(?=.{1,50}$)(?P<center>HTA20[0-9])_(?P<participant>(?:0000|EXT\d+|\d+))
+```
+
+Biospecimen and Data File IDs:
+```
+^(?=.{1,50}$)(?P<center>HTA20[0-9])_(?P<participant>(?:0000|EXT\d+|\d+))_(?P<id>(B|D)\d+)$
 ```
 
 ## Phase 1 HTAN IDs
