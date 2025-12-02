@@ -7,12 +7,12 @@ order: 994
 As stated in [Data Submission Introduction](../data_submission/overview.md), data submission involves two key steps:
 
 1. Uploading assay data files to Synapse; and
-2. Completing and validating metadata using the Data Curator App (DCA).
+2. Completing and validating metadata.
 
 This page provides details regarding those steps. 
 
 !!!
-**Please note that the manual currently reflects the data submission process used in HTAN Phase 1. Changes will be implemented for HTAN Phase 2, including replacement of the DCA with a new tool.**
+**Synapse is no longer using the Data Curator App (DCA) for metadata submission. Currently this page provides a preview of the new metadata submission process. This page will be updated as the new process if finalized.**
 !!!
 
 ![HTAN Data Submission Process](../img/Data_submission.svg)
@@ -46,17 +46,15 @@ Please read the rest of this page for more information about each of these steps
 
 ### Submit Data Files
 
-Organize your data using the **flattened data layout** described in Synapse's [Data Ingress Docs](https://dca-docs.scrollhelp.site/DCA/Working-version/HTAN/organize-your-data-upload#OrganizeyourDataUpload-FlattenedDataLayoutExample)
-
 Data files can be transferred using the Synapse User Interface (Synapse UI) or programmatically. 
 
-- To upload files using the Synapse User Interface, follow Synapse's [Quick Overview: Uploading a File (via Synapse UI)](https://dca-docs.scrollhelp.site/DCA/Working-version/HTAN/uploading-data#UploadData-QuickOverview:UploadingaFile(viatheSynapseUI)) directions.
-- To upload the files programmatically, please follow Synapse's directions to [Upload Data Using the Command Line](https://dca-docs.scrollhelp.site/DCA/Working-version/HTAN/uploading-data#UploadData-UploadDataUsingtheCommandLine).  This involves using Synapse Client. 
+- To upload files using the Synapse User Interface, follow Synapse's [Uploading a File (via Synapse UI)](https://help.synapse.org/docs/Uploading-and-Organizing-Data-Into-Projects,-Files,-and-Folders.2048327716.html#UploadingandOrganizingDataIntoProjects,Files,andFolders-UploadingaFileviatheSynapseUI) directions.
+- To upload the files programmatically, please follow Synapse's [Uploading a File Programmatically](https://help.synapse.org/docs/Uploading-and-Organizing-Data-Into-Projects,-Files,-and-Folders.2048327716.html#UploadingandOrganizingDataIntoProjects,Files,andFolders-UploadingaFileProgrammatically) directions.  
 
-!!! If you upload files to Synapse programmatically, please use synapseclient version 3.0.0 or higher. 
+!!! If you upload files to Synapse programmatically using the python client, please use synapseclient version 3.0.0 or higher. 
 !!!
 
-## Submit Metadata
+### Submit Metadata
 
 !!!
 1. Only the DCA should be used to obtain manifests (metadata templates). 
