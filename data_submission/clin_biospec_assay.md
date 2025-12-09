@@ -7,12 +7,12 @@ order: 994
 As stated in [Data Submission Introduction](../data_submission/overview.md), data submission involves two key steps:
 
 1. Uploading assay data files to Synapse; and
-2. Completing and validating metadata using the Data Curator App (DCA).
+2. Completing and validating metadata.
 
 This page provides details regarding those steps. 
 
 !!!
-**Please note that the manual currently reflects the data submission process used in HTAN Phase 1. Changes will be implemented for HTAN Phase 2, including replacement of the DCA with a new tool.**
+**Synapse is no longer using the Data Curator App (DCA) for metadata submission. Currently this page provides a preview of the new metadata submission process. This page will be updated as the new process if finalized.**
 !!!
 
 ![HTAN Data Submission Process](../img/Data_submission.svg)
@@ -46,43 +46,27 @@ Please read the rest of this page for more information about each of these steps
 
 ### Submit Data Files
 
-Organize your data using the **flattened data layout** described in Synapse's [Data Ingress Docs](https://dca-docs.scrollhelp.site/DCA/Working-version/HTAN/organize-your-data-upload#OrganizeyourDataUpload-FlattenedDataLayoutExample)
-
 Data files can be transferred using the Synapse User Interface (Synapse UI) or programmatically. 
 
-- To upload files using the Synapse User Interface, follow Synapse's [Quick Overview: Uploading a File (via Synapse UI)](https://dca-docs.scrollhelp.site/DCA/Working-version/HTAN/uploading-data#UploadData-QuickOverview:UploadingaFile(viatheSynapseUI)) directions.
-- To upload the files programmatically, please follow Synapse's directions to [Upload Data Using the Command Line](https://dca-docs.scrollhelp.site/DCA/Working-version/HTAN/uploading-data#UploadData-UploadDataUsingtheCommandLine).  This involves using Synapse Client. 
+- To upload files using the Synapse User Interface, follow Synapse's [Uploading a File (via Synapse UI)](https://help.synapse.org/docs/Uploading-and-Organizing-Data-Into-Projects,-Files,-and-Folders.2048327716.html#UploadingandOrganizingDataIntoProjects,Files,andFolders-UploadingaFileviatheSynapseUI) directions.
+- To upload the files programmatically, please follow Synapse's [Uploading a File Programmatically](https://help.synapse.org/docs/Uploading-and-Organizing-Data-Into-Projects,-Files,-and-Folders.2048327716.html#UploadingandOrganizingDataIntoProjects,Files,andFolders-UploadingaFileProgrammatically) directions.  
 
-!!! If you upload files to Synapse programmatically, please use synapseclient version 3.0.0 or higher. 
+!!! If you upload files to Synapse programmatically using the python client, please use synapseclient version 3.0.0 or higher. 
 !!!
 
-## Submit Metadata
+### Submit Metadata
 
-!!!
-1. Only the DCA should be used to obtain manifests (metadata templates). 
-2. Always upload data files to Synapse first before submitting assay metadata.
-!!!
+Sage Bionetworks is currently updating the Metadata submission process. The Data Curator App (DCA) is no longer being used and Metadata submission will occur directly on the Synapse platform.  The following video provide a sneak peak for the process. More information will be posted here once a final version and documentation is available from Sage Bionetworks. 
 
-The DCA contains HTAN-specific manifests (metadata templates) which can be 
-
-1. completed on the app, or 
-2. downloaded, completed and uploaded back to the DCA.  
-
-Manifests for assay data will be pre-populated with assay file entityIDs once they are associated with a particular Synapse dataset folder. 
-
-Once the manifests are completed by your center, they should then be validated and submitted via the DCA. The DCA will perform validation checks for a subset of common errors. If any of these errors are found, you can edit the metadata, revalidate and submit. 
-
-!!!  Please note: If you have added assay files to a Synapse folder where there is a pre-existing manifest or you are adding records to a pre-existing clinical data or biospecimen manifest, **please update the existing manifest on the DCA app or download the existing manifest from the DCA** to make updates. **Do not use a local copy of the manifest at your center to make updates**. Local copies may be out of sync with the data in Synapse. 
-!!!
-
-Please see Synapse's [Data Ingress Docs](https://dca-docs.scrollhelp.site/DCA/Working-version/HTAN/validate-and-submit-your-metadata) for more details regarding the web app.
+[Metadata submission preview video](https://drive.google.com/file/d/1HvWrV0OGgbPiMugChOhqaWXLEet8m8B_/view?usp=sharing)
 
 ## Useful Links and Guides
 
-### Synapse and the DCA
+### Synapse
 - Synapse [Portal](https://www.synapse.org)
-- [DCA](https://dca.app.sagebionetworks.org/), developed and maintained by [Sage Bionetworks](https://sagebionetworks.org/)
+- Synapse [DOCS](https://help.synapse.org/docs/Getting-Started.2055471150.html)
 
 ### Understanding the HTAN Data Model
 - To understand the general structure of the HTAN Data Model and HTAN Identifiers, please see the [HTAN Data Model](../data_model/overview.md) section of this manual.
-- To understand the Data Model Manifests/Metadata Attributes, please see the [Data Standards](https://humantumoratlas.org/standards) section of the HTAN Portal. There, you can download manifest summaries. These **cannot be used for metadata submission**, but can help you prepare your metadata.
+- The Data Model is implemented and [available publicly in github](https://github.com/ncihtan/htan2-data-model).
+- To understand the Data Model Manifests/Metadata Attributes, please see the [Data Standards](https://humantumoratlas.org/standards) section of the HTAN Portal. There, you can download manifest summaries. These **cannot be used for metadata submission**, but can help you prepare your metadata. :warning: Currently the data standards page only reflects Phase 1 data standards. Updates are coming soon!

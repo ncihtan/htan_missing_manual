@@ -12,7 +12,8 @@ Changes to the HTAN Identifier schema were introduced in Phase 2. There are sepa
 
 !!!
 - HTAN identifiers are made up of integers only with the exception of 'HTA', 'B', 'D', 'EXT' and '_' as noted below.
-- HTAN identifiers cannot be longer than 50 characters. 
+- HTAN identifiers cannot be longer than 50 characters.
+- Please see [Phase 2 Regex Validation](../data_model/identifiers.md/#phase-2-regex-validation) if you would like to check your identifiers. 
 !!!
 
 ### Step 1: Determine your HTAN Center ID
