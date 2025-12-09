@@ -68,4 +68,5 @@ Sage Bionetworks is currently updating the Metadata submission process. The Data
 
 ### Understanding the HTAN Data Model
 - To understand the general structure of the HTAN Data Model and HTAN Identifiers, please see the [HTAN Data Model](../data_model/overview.md) section of this manual.
+- The Data Model is implemented and [available publicly in github](https://github.com/ncihtan/htan2-data-model).
 - To understand the Data Model Manifests/Metadata Attributes, please see the [Data Standards](https://humantumoratlas.org/standards) section of the HTAN Portal. There, you can download manifest summaries. These **cannot be used for metadata submission**, but can help you prepare your metadata. :warning: Currently the data standards page only reflects Phase 1 data standards. Updates are coming soon!
