@@ -88,7 +88,7 @@ Tier 2 will contain any clinical observations not represented in the Tier 1 Clin
 ## Specific Guidance Regarding Longitudinal Data
 To support data re-use, HTAN expects all clinical and biospecimen related dates to be indexed to date of birth. For this reason, data elements are explicitly named "Age in Days...". The hope is that our end users will be able to compare participant timelines both within and between Centers. In order to do so, Centers need to be aligned in the way their Clinical Tier 1 and Biospecimen data are submitted. Figure 2 illustrates how different Clinical data would be submitted over time. Table 1 provides summarizes longitudinal clinical and biospecimen data requirements and timepoints. 
 
-Minimally, all participants should have one Demographics, Diagnosis, Vital Status, Followup and originating (surgery or biopsy) Biospecimen record. 
+Minimally, all participants should have one Demographics, Diagnosis, Vital Status, Followup and originating (surgery or biopsy) Biospecimen record (row). At Baseline, Family History, Exposure, Molecular Test and Therapy records may also be submitted. Overtime, additional records can be added for Followup, Vital Status, Molecular Test, Therapy and derived[^1] or new originating Biospecimen. If a participant develops a *new* lesion or tumor, a new Diagnosis record may also be submitted for that participant.
 
 ![Figure 2. HTAN Phase 2 Longitudinal Clinical Data Submission](../img/Phase2_Longitudinal_Data_submission_2.svg)
 
@@ -117,7 +117,7 @@ Table 1. Longitudinal Clinical and Biospecimen Data
 | <span class="deep-pink-cell">Baseline | Family History | 1 | Optional | None |
 | <span class="deep-pink-cell">Baseline | Molecular Test | 1 per molecular test | Optional | AGE_IN_DAYS_AT_MOLECULAR_TEST_START |
 | <span class="deep-pink-cell">Baseline | Therapy | 1 per therapy type administered | Optional | AGE_IN_DAYS_AT_TREATMENT_START |
-|<span class="blue-cell">Surgery, Biopsy [^1] | Biospecimen | 1 record per biospecimen | Required | AGE_IN_DAYS_AT_SPECIMEN_COLLECTION |
+|<span class="blue-cell">Surgery, Biopsy[^1] | Biospecimen | 1 record per biospecimen | Required | AGE_IN_DAYS_AT_SPECIMEN_COLLECTION |
 | <span class="green-cell">Scheduled Follow-up Timepoints | Followup | 1 per observation | Required | AGE_IN_DAYS_AT_FOLLOWUP |
 | <span class="green-cell">Scheduled Follow-up Timepoints | Vital Status |  1 per observation | Optional | AGE_IN_DAYS_AT_LAST_KNOWN_SURVIVAL_STATUS |
 | <span class="green-cell">Scheduled Follow-up Timepoints | Diagnosis | 1 per *new* lesion/tumor | Optional | AGE_IN_DAYS_AT_DIAGNOSIS |
