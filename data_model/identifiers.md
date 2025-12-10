@@ -89,7 +89,7 @@ HTA209_EXT3_D590
 ```
 
 ### Phase 2 Regex Validation
-HTAN Phase 2 Identifiers are validated with the following regex patterns.
+HTAN Phase 2 Identifiers can be validated with the following regex patterns.
 
 Participant IDs:
 ```
