@@ -86,31 +86,48 @@ Tier 2 will contain any clinical observations not represented in the Tier 1 Clin
 ✅	Each row in the Clinical Tier 2 csv file MUST contain a valid HTAN Participant ID in the first column.
 
 ## Specific Guidance Regarding Longitudinal Data
-To support data re-use, HTAN expects all clinical and biospecimen related dates to be indexed to date of birth. For this reason, data elements are explicitly named "Age in Days...". The hope is that our end users will be able to compare participant timelines both within and between Centers. In order to do so, Centers need to be aligned in the way their Clinical Tier 1 and Biospecimen data are submitted. Figure 2 illustrates how different Clinical data would be submitted over time. Table 1 provides summarizes longitudinal clinical and biospecimen data requirements. 
+To support data re-use, HTAN expects all clinical and biospecimen related dates to be indexed to date of birth. For this reason, data elements are explicitly named "Age in Days...". The hope is that our end users will be able to compare participant timelines both within and between Centers. In order to do so, Centers need to be aligned in the way their Clinical Tier 1 and Biospecimen data are submitted. Figure 2 illustrates how different Clinical data would be submitted over time. Table 1 provides summarizes longitudinal clinical and biospecimen data requirements and timepoints. 
+
+Minimally, all participants should have one Demographics, Diagnosis, Vital Status, Followup and originating (surgery or biopsy) Biospecimen record. 
 
 ![Figure 2. HTAN Phase 2 Longitudinal Clinical Data Submission](../img/Phase2_Longitudinal_Data_submission_2.svg)
 
-Table 1. Longitudinal Data Clinical and Biospecimen Data Requirements and Timepoints
+<style>
+.blue-cell {
+  color: blue;
+}
+.deep-pink-cell {
+  color: deeppink;
+}
+.green-cell {
+  color: green;
+}
+.indigo-cell {
+  color: indigo;
+}
+</style>
+Table 1. Longitudinal Clinical and Biospecimen Data
 
 | Timepoint | Metadata Category | Number of records per participant | Requirement | Anchoring time point |
 |-----------|-------------------|-----------------------------|-----------|--------|
-| Baseline | Demographics | 1 | Required | None |
-| Baseline | Diagnosis | 1 per lesion/tumor being described | Required | AGE_IN_DAYS_AT_DIAGNOSIS |
-| Baseline | Vital Status | 1 per observation | Required | AGE_IN_DAYS_AT_DIAGNOSIS |
-| Baseline | Exposure | 1 | Optional | None |
-| Baseline | Family History | 1 | Optional | None |
-| Baseline | Molecular Test | 1 per molecular test | Optional | AGE_IN_DAYS_AT_MOLECULAR_TEST_START |
-| Baseline | Therapy | 1 per therapy type administered | Optional | AGE_IN_DAYS_AT_TREATMENT_START |
-| Scheduled Follow-up Timepoints | Followup | 1 per observation | Required | AGE_IN_DAYS_AT_FOLLOWUP |
-| Scheduled Follow-up Timepoints | Vital Status |  1 per observation | Optional | AGE_IN_DAYS_AT_LAST_KNOWN_SURVIVAL_STATUS |
-| Scheduled Follow-up Timepoints | Diagnosis | 1 per *new* lesion/tumor | Optional | AGE_IN_DAYS_AT_DIAGNOSIS |
-| Scheduled Follow-up Timepoints | Molecular Test | 1 per *new* molecular test | Optional | AGE_IN_DAYS_AT_MOLECULAR_TEST_START |
-| Scheduled Follow-up Timepoints | Therapy | 1 per *new* therapy type administered | Optional | AGE_IN_DAYS_AT_TREATMENT_START |
-| Unscheduled Follow-up Timepoints | Vital Status |  1 per observation | Optional | AGE_IN_DAYS_AT_LAST_KNOWN_SURVIVAL_STATUS |
-| Unscheduled Follow-up Timepoints | Molecular Test | 1 per *new* molecular test | Optional | AGE_IN_DAYS_AT_MOLECULAR_TEST_START |
-|Surgery, Biopsy | Biospecimen | 1 record per biospecimen | Required | AGE_IN_DAYS_AT_SPECIMEN_COLLECTION |
+| <span class="deep-pink-cell">Baseline | Demographics | 1 | Required | None |
+| <span class="deep-pink-cell">Baseline | Diagnosis | 1 per lesion/tumor being described | Required | AGE_IN_DAYS_AT_DIAGNOSIS |
+| <span class="deep-pink-cell">Baseline | Vital Status | 1 per observation | Required | AGE_IN_DAYS_AT_DIAGNOSIS |
+| <span class="deep-pink-cell">Baseline | Exposure | 1 | Optional | None |
+| <span class="deep-pink-cell">Baseline | Family History | 1 | Optional | None |
+| <span class="deep-pink-cell">Baseline | Molecular Test | 1 per molecular test | Optional | AGE_IN_DAYS_AT_MOLECULAR_TEST_START |
+| <span class="deep-pink-cell">Baseline | Therapy | 1 per therapy type administered | Optional | AGE_IN_DAYS_AT_TREATMENT_START |
+|<span class="blue-cell">Surgery, Biopsy [^1] | Biospecimen | 1 record per biospecimen | Required | AGE_IN_DAYS_AT_SPECIMEN_COLLECTION |
+| <span class="green-cell">Scheduled Follow-up Timepoints | Followup | 1 per observation | Required | AGE_IN_DAYS_AT_FOLLOWUP |
+| <span class="green-cell">Scheduled Follow-up Timepoints | Vital Status |  1 per observation | Optional | AGE_IN_DAYS_AT_LAST_KNOWN_SURVIVAL_STATUS |
+| <span class="green-cell">Scheduled Follow-up Timepoints | Diagnosis | 1 per *new* lesion/tumor | Optional | AGE_IN_DAYS_AT_DIAGNOSIS |
+| <span class="green-cell">Scheduled Follow-up Timepoints | Molecular Test | 1 per *new* molecular test | Optional | AGE_IN_DAYS_AT_MOLECULAR_TEST_START |
+| <span class="green-cell">Scheduled Follow-up Timepoints | Therapy | 1 per *new* therapy type administered | Optional | AGE_IN_DAYS_AT_TREATMENT_START |
+| <span class="indigo-cell">Unscheduled Follow-up Timepoints | Vital Status |  1 per observation | Optional | AGE_IN_DAYS_AT_LAST_KNOWN_SURVIVAL_STATUS |
+| <span class="indigo-cell">Unscheduled Follow-up Timepoints | Molecular Test | 1 per *new* molecular test | Optional | AGE_IN_DAYS_AT_MOLECULAR_TEST_START |
 
 
+[^1]: Derived specimen (e.g. sections made for imaging or other assays) are also recorded in the biospecimen metadata. These are connected to the originating biospecimen via 'HTAN Parent ID'.
 
 
 
