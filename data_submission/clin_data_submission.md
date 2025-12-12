@@ -6,7 +6,7 @@ order: 993
 
 ## Overview
 In HTAN Phase 2, there are two clinical metadata tiers. 
-- Tier 1 metadata is divided into multiple categories, including Demographics, Diagosis, Family History, Exposure, Molecular Test, Therapy, Follow Up and Vital Status. 
+- Tier 1 metadata is divided into multiple categories, including Demographics, Diagnosis, Family History, Exposure, Molecular Test, Therapy, Follow Up and Vital Status. 
 - Tier 2 contains any cancer or study-specific clinical information which is not represented in Tier 1. Tier 2 is a flexible comma-separated value (csv) file. The only required attribute is HTAN Participant ID. All other attributes (columns headers) are determined by the submitting Center. 
 
 Figure 1 provides a general representation of the model. 
@@ -29,11 +29,11 @@ SHOULD NOT / NOT RECOMMENDED: 🙅‍♂️ (denotes not recommended)
 MAY / OPTIONAL: 🤷‍♀️ (denotes optional) 
 !!!
 
-All HTAN data elements that capture time points are expressed as “days to” to obfuscate dates while allowing for longitudinal timelines and relative data analysis.  The index date for all HTAN dates is the participant date of birth.  For example, if a patient has therapy starting at X=365 days, that means the therapy started 365 days after birth. 
+All HTAN data elements that capture time points are expressed as “Age in Days At” to obfuscate dates while allowing for longitudinal timelines and relative data analysis. For example, if a patient has therapy starting at X=365 days, that means the therapy started 365 days after birth. 
 
 The data standards allow for multiple responses for many data elements.  This information may be found in the “Validation” column of the HTAN Data Model documentation. Multiple responses are submitted delimited by commas.
 
-Data elements are aligned with [NCI's caDSR](https://cadsr.cancer.gov/onedata/Home.jsp) where possible.
+Data elements are aligned with the Standard Common Data Elements (CDEs) of the [NCI's caDSR](https://cadsr.cancer.gov/onedata/Home.jsp) where possible.
 
 ## Clinical Tier 1
 ### Demographics
@@ -55,9 +55,8 @@ Clinical Tier 1 Exposure data elements describe the HTAN participant’s exposur
 🌟	Clinical Tier 2 SHOULD be used to submit additional exposure data consistent with a publication or other documentation, if needed.</br>
 
 ### Family History
-Clinical Tier 1 Family History data elements capture the incidence of cancer in an HTAN participant’s family. These data include the family member’s primary diagnosis and age at diagnosis.</br>
+Clinical Tier 1 Family History data elements capture the incidence of cancer in an HTAN participant’s family.</br>
 🌟	A **single Family History record** (row) SHOULD be submitted for **each participant**.</br>
-🌟  All family members affected are provided in a comma-separated list in the participant.</br>
 🌟	Clinical Tier 2 SHOULD be used to submit more extensive family history data, if needed.</br>
 
 ### Followup
@@ -66,7 +65,7 @@ Clinical Tier 1 Followup data elements capture a participant's status over time,
 ✅  All dates MUST be converted to days from index, where the index is the participant date of birth. (e.g. 'Age in Days at Followup', 'Age in Days at Progression or Recurrence')</br>
 
 ### Molecular Test
-Clinical Tier 1 Molecular Test data elements capture descriptions molecular tests completed clinically, in the diagnostic array, for an HTAN participant. It is intended to capture molecular data not represented in assay files, but important to a Center's study. Data elements include gene symbol, molecular analysis method, and copy number.</br>
+Clinical Tier 1 Molecular Test data elements capture descriptions of molecular tests completed clinically, in the diagnostic array, for an HTAN participant. It is intended to capture molecular data not represented in assay files, but important to a Center's study. Data elements include gene symbol, molecular analysis method, and copy number.</br>
 🌟	A **single Molecular Test record** (row) SHOULD be submitted **for each molecular test being reported** for the HTAN participant.</br>
 ✅	All dates MUST be converted to days from index, where the index is the participant date of birth. (e.g. 'Age in Days to Molecular Test Start','Age in Days to Molecular Test Stop')</br>
 🌟	For longitudinal follow-up, new molecular test annotations SHOULD be added as new records in the Molecular Test manifest.</br>
@@ -79,16 +78,16 @@ Clinical Tier 1 Therapy data elements capture descriptions of each cancer treatm
 
 ### Vital Status
 Clinical Tier 1 Vital Status data elements capture last known patient vital status and cause of death, when applicable.</br>
-🌟	A **single Vital Status record** (row) SHOULD be submitted **for each known vital status/interaction** reported for the HTAN participant. In many cases there will be only one Vital Status record per participant. However, additional records can be added up to and including participant death. </br> 
+🌟	A **single Vital Status record** (row) SHOULD be submitted **for each known vital status/interaction** reported for the HTAN participant. In many cases there will be only one Vital Status record per participant. However, additional records can be added (to designate known survival time), up to and including participant death. </br> 
 
 ## Clinical Tier 2
 Tier 2 will contain any clinical observations not represented in the Tier 1 Clinical Data standard and must be represented as a Comma Separated Value (CSV) file. The only standardized field in the Tier 2 Clinical Data file will be HTAN Participant ID. All other data elements will be determined by the Center, in support of, for example, a publication.   These Tier 2 clinical data elements will be ingested directly into Synapse, and there will be no attempt at further standardizing any of these elements. </br>
 ✅	Each row in the Clinical Tier 2 csv file MUST contain a valid HTAN Participant ID in the first column.
 
 ## Specific Guidance Regarding Longitudinal Data
-To support data re-use, HTAN expects all clinical and biospecimen related dates to be indexed to date of birth. For this reason, data elements are explicitly named "Age in Days...". The hope is that our end users will be able to compare participant timelines both within and between Centers. In order to do so, Centers need to be aligned in the way their Clinical Tier 1 and Biospecimen data are submitted. Figure 2 illustrates how different Clinical data would be submitted over time. Table 1 provides summarizes longitudinal clinical and biospecimen data requirements and timepoints. 
+To support data re-use, HTAN expects all clinical and biospecimen related dates to be indexed to date of birth. For this reason, data elements are explicitly named "Age in Days...". The hope is that our end users will be able to compare participant timelines both within and between Centers. In order to do so, Centers need to be aligned in the way their Clinical Tier 1 and Biospecimen data are submitted. Figure 2 illustrates how different Clinical data would be submitted over time. Table 1 summarizes longitudinal clinical and biospecimen data requirements and timepoints. 
 
-Minimally, all participants should have one Demographics, Diagnosis, Vital Status, Followup and originating (surgery or biopsy) Biospecimen record (row). At Baseline, Family History, Exposure, Molecular Test and Therapy records may also be submitted. Overtime, additional records can be added for Followup, Vital Status, Molecular Test, Therapy and derived[^1] or new originating Biospecimen. If a participant develops a *new* lesion or tumor, a new Diagnosis record may also be submitted for that participant.
+Minimally, all participants should have one Demographics, Diagnosis, Vital Status, Followup and originating (surgery or biopsy) Biospecimen record (row). At Baseline, Family History, Exposure, Molecular Test and Therapy records may also be submitted. Overtime, additional records can be added for Followup, Vital Status, Molecular Test, Therapy and derived[^1] or new originating Biospecimen. If a participant develops a *new* lesion or tumor, a new Diagnosis record may also be submitted for that participant describing the new lesion or tumor.
 
 ![Figure 2. HTAN Phase 2 Longitudinal Clinical Data Submission](../img/Phase2_Longitudinal_Data_submission_2.svg)
 
