@@ -3,38 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.818625855301">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.818864014859">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
 
     <!-- Primary Meta Tags -->
-    <title>Specific Assay/Data Element Details</title>
-    <meta name="title" content="Specific Assay/Data Element Details">
-    <meta name="description" content="Please see Data Standards for an overview of HTAN Data Levels and Metadata Attributes for each data type.">
+    <title>Phase 2 Clinical Data Submission</title>
+    <meta name="title" content="Phase 2 Clinical Data Submission">
+    <meta name="description" content="In HTAN Phase 2, there are two clinical metadata tiers.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://docs.humantumoratlas.org/data_submission/specific_details/">
+    <link rel="canonical" href="https://docs.humantumoratlas.org/data_submission/clin_data_submission/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://docs.humantumoratlas.org/data_submission/specific_details/">
-    <meta property="og:title" content="Specific Assay/Data Element Details">
-    <meta property="og:description" content="Please see Data Standards for an overview of HTAN Data Levels and Metadata Attributes for each data type.">
+    <meta property="og:url" content="https://docs.humantumoratlas.org/data_submission/clin_data_submission/">
+    <meta property="og:title" content="Phase 2 Clinical Data Submission">
+    <meta property="og:description" content="In HTAN Phase 2, there are two clinical metadata tiers.">
+    <meta property="og:image" content="https://docs.humantumoratlas.org/img/phase2_clinical_data_tiers.svg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://docs.humantumoratlas.org/data_submission/specific_details/">
-    <meta property="twitter:title" content="Specific Assay/Data Element Details">
-    <meta property="twitter:description" content="Please see Data Standards for an overview of HTAN Data Levels and Metadata Attributes for each data type.">
+    <meta property="twitter:url" content="https://docs.humantumoratlas.org/data_submission/clin_data_submission/">
+    <meta property="twitter:title" content="Phase 2 Clinical Data Submission">
+    <meta property="twitter:description" content="In HTAN Phase 2, there are two clinical metadata tiers.">
+    <meta property="twitter:image" content="https://docs.humantumoratlas.org/img/phase2_clinical_data_tiers.svg">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.818625855301" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.818864014859" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.818625855301" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.818864014859" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.818625855301" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.818864014859" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -163,13 +165,30 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="retype-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="specific-assaydata-element-details" class="break-words">
+<doc-anchor-target id="phase-2-clinical-data-submission" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#specific-assaydata-element-details">#</doc-anchor-trigger>
-        <span>Specific Assay/Data Element Details</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-2-clinical-data-submission">#</doc-anchor-trigger>
+        <span>Phase 2 Clinical Data Submission</span>
     </h1>
 </doc-anchor-target>
-<p>Please see <a href="https://data.humantumoratlas.org/standards">Data Standards</a> for an overview of HTAN Data Levels and Metadata Attributes for each data type. The following links provide specific submission details for each data type.</p>
+<doc-anchor-target id="overview">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#overview">#</doc-anchor-trigger>
+        <span>Overview</span>
+    </h2>
+</doc-anchor-target>
+<p>In HTAN Phase 2, there are two clinical metadata tiers.</p>
+<ul>
+<li>Tier 1 metadata is divided into multiple categories, including Demographics, Diagnosis, Family History, Exposure, Molecular Test, Therapy, Follow Up and Vital Status.</li>
+<li>Tier 2 contains any cancer or study-specific clinical information which is not represented in Tier 1. Tier 2 is a flexible comma-separated value (csv) file. The only required attribute is HTAN Participant ID. All other attributes (columns headers) are determined by the submitting Center.</li>
+</ul>
+<p>Figure 1 provides a general representation of the model.</p>
+<p><figure class="content-center">
+    <img src="../../img/phase2_clinical_data_tiers.svg" alt="Figure 1. HTAN Phase 2 Clinical Metadata Tiers" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption">Figure 1. HTAN Phase 2 Clinical Metadata Tiers</figcaption>
+</figure>
+</p>
+<p>This page provides additional details regarding submission of Phase 2 Clinical Data.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -183,18 +202,265 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>The documents at the following links describe submission of Phase 1 HTAN data. The links will be updated for Phase 2 data submission once those standards have been updated in the data model and are available for data submission.</h5>
+            <h5>Terminology:</h5>
+<p>This document uses the following terms from IEFT RFC 2119</p>
+<p>MUST / REQUIRED / SHALL:  <span class="docs-emoji">&#x2705;</span> (denotes absolute requirement)</p>
+<p>MUST NOT / SHALL NOT: <span class="docs-emoji">&#x274C;</span> (denotes absolute prohibition)</p>
+<p>SHOULD / RECOMMENDED: <span class="docs-emoji">&#x1F31F;</span> (denotes recommendation)</p>
+<p>SHOULD NOT / NOT RECOMMENDED: <span class="docs-emoji">&#x1F645;</span>‍<span class="docs-emoji">&#x2642;&#xFE0F;</span> (denotes not recommended)</p>
+<p>MAY / OPTIONAL: <span class="docs-emoji">&#x1F937;</span>‍<span class="docs-emoji">&#x2640;&#xFE0F;</span> (denotes optional)</p>
         </div>
     </div>
 </div>
-<p><a href="https://docs.google.com/document/d/1cHto1lrGGUhFVG-Cf1CShH3xC9_V8Fj3NElMtQyO3fM/edit?usp=drive_link">Accessory Files</a></p>
-<p><a href="https://docs.google.com/document/d/12w61mgroXH0Q05JrDId2nqHWlC8h_0RcGLb7YwmZo8c/edit?usp=drive_link">Biospecimen</a></p>
-<p><a href="https://docs.google.com/document/d/112F5VglA-9kdYjN7BSQ5boXYlNyfxZM7d6tfs4egkwE/edit?usp=drive_link">Clinical Data</a></p>
-<p><a href="https://docs.google.com/document/d/1tK24SA9FLmYmqc8JC2C325dqKF-cabyJqsNLQDGtYyU/edit?usp=drive_link">Imaging</a></p>
-<p><a href="https://docs.google.com/document/d/1wpiM41iYWa5ZqwLiMiEEaqIjiUVbYXHUNFj43R7Yuh0/edit?usp=drive_link">Mass Spectrometry</a></p>
-<p><a href="https://docs.google.com/document/d/1UDEIeJ6AUdrRX3Dy8upOZ3i3c3CMVGSJ8pozWGNCXEM/edit?usp=drive_link">RPPA</a></p>
-<p><a href="https://docs.google.com/document/d/1VMKFZ99ZvZaiftnle1WGu3TxDQX-0HEZ8Aolgo418CQ/edit?usp=drive_link">Sequencing Data</a></p>
-<p><a href="https://docs.google.com/document/d/1v6P1AeQJHzKCF3BMhPyqpD393nA45ZRAC1T1dEukJaU/edit?usp=drive_link">Spatial Transcriptomics</a></p>
+<p>All HTAN data elements that capture time points are expressed as “Age in Days At” to obfuscate dates while allowing for longitudinal timelines and relative data analysis. For example, if a patient has therapy starting at X=365 days, that means the therapy started 365 days after birth.</p>
+<p>The data standards allow for multiple responses for many data elements.  This information may be found in the “Validation” column of the HTAN Data Model documentation. Multiple responses are submitted delimited by commas.</p>
+<p>Data elements are aligned with the Standard Common Data Elements (CDEs) of the <a href="https://cadsr.cancer.gov/onedata/Home.jsp">NCI&#x27;s caDSR</a> where possible.</p>
+<doc-anchor-target id="clinical-tier-1">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#clinical-tier-1">#</doc-anchor-trigger>
+        <span>Clinical Tier 1</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="demographics">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#demographics">#</doc-anchor-trigger>
+        <span>Demographics</span>
+    </h3>
+</doc-anchor-target>
+<p>Clinical Tier 1 Demographics data includes patient attributes captured at baseline or at the time of the cross-sectional observation. These data include ethnicity, race, etc. </br>
+<span class="docs-emoji">&#x2705;</span>	A <strong>single Demographics record</strong> is REQUIRED for <strong>each HTAN participant</strong>. </br>
+<span class="docs-emoji">&#x274C;</span>	A single HTAN participant MUST NOT have multiple demographics records. </br></p>
+<doc-anchor-target id="diagnosis">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#diagnosis">#</doc-anchor-trigger>
+        <span>Diagnosis</span>
+    </h3>
+</doc-anchor-target>
+<p>Clinical Tier 1 Diagnosis data elements describe the HTAN participant’s incident tumor or premalignant lesion (PML). These data include primary diagnosis, anatomic site of the tumor or PML, and classification and grade of the lesion.</br>
+<span class="docs-emoji">&#x2705;</span>	A <strong>single Diagnosis record</strong> is REQUIRED <strong>for each PML or tumor</strong>.</br>
+<span class="docs-emoji">&#x2705;</span>	All dates MUST be converted to days from index, where the index is the participant date of birth. (e.g. ‘Age in Days at Diagnosis’, ‘Age in Days at Last Known Disease Status’) </br>
+<span class="docs-emoji">&#x2705;</span>	Data elements MUST use the permissible values established by the CRDC, including NCI Thesaurus ID for Primary Diagnosis and UBERON Codes for Tissue or Organ of Origin.  Please see the <a href="https://docs.google.com/document/d/14gNmYTEmd5OjLUuut-w4ZTiF5qgxgpekImG3INM9vm8/edit?usp=sharing">HTAN Phase 2 Clinical Data RFC</a> for more information and links to the relevant caDSR codes.
+<span class="docs-emoji">&#x1F31F;</span>	If a participant develops a new lesion or has/had a secondary cancer, a new Diagnosis record (row) SHOULD be added to the Diagnosis manifest. In all other cases, each participant SHOULD have only one Diagnosis record. </br></p>
+<doc-anchor-target id="exposure">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#exposure">#</doc-anchor-trigger>
+        <span>Exposure</span>
+    </h3>
+</doc-anchor-target>
+<p>Clinical Tier 1 Exposure data elements describe the HTAN participant’s exposure to tobacco products, alcohol and other environmental exposure. These data include alcohol exposure, smoking history, years smoked, pack years smoked, and environmental exposure type.</br>
+<span class="docs-emoji">&#x1F31F;</span>	An Exposure record SHOULD be submitted to document the HTAN participant’s smoke or other exposure at baseline or at the time of observation in a cross-sectional study.</br>
+<span class="docs-emoji">&#x1F31F;</span>	A <strong>single Exposure record</strong> (row) SHOULD be submitted for <strong>each participant</strong>.</br>
+<span class="docs-emoji">&#x1F31F;</span>	Clinical Tier 2 SHOULD be used to submit additional exposure data consistent with a publication or other documentation, if needed.</br></p>
+<doc-anchor-target id="family-history">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#family-history">#</doc-anchor-trigger>
+        <span>Family History</span>
+    </h3>
+</doc-anchor-target>
+<p>Clinical Tier 1 Family History data elements capture the incidence of cancer in an HTAN participant’s family.</br>
+<span class="docs-emoji">&#x1F31F;</span>	A <strong>single Family History record</strong> (row) SHOULD be submitted for <strong>each participant</strong>.</br>
+<span class="docs-emoji">&#x1F31F;</span>	Clinical Tier 2 SHOULD be used to submit more extensive family history data, if needed.</br></p>
+<doc-anchor-target id="followup">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#followup">#</doc-anchor-trigger>
+        <span>Followup</span>
+    </h3>
+</doc-anchor-target>
+<p>Clinical Tier 1 Followup data elements capture a participant&#x27;s status over time, including recurrence and progression (or their absence).</br>
+<span class="docs-emoji">&#x1F31F;</span>	A <strong>single Followup record</strong> (row) SHOULD be submitted for <strong>each follow-up time point.</strong></br>
+<span class="docs-emoji">&#x2705;</span>  All dates MUST be converted to days from index, where the index is the participant date of birth. (e.g. &#x27;Age in Days at Followup&#x27;, &#x27;Age in Days at Progression or Recurrence&#x27;)</br></p>
+<doc-anchor-target id="molecular-test">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#molecular-test">#</doc-anchor-trigger>
+        <span>Molecular Test</span>
+    </h3>
+</doc-anchor-target>
+<p>Clinical Tier 1 Molecular Test data elements capture descriptions of molecular tests completed clinically, in the diagnostic array, for an HTAN participant. It is intended to capture molecular data not represented in assay files, but important to a Center&#x27;s study. Data elements include gene symbol, molecular analysis method, and copy number.</br>
+<span class="docs-emoji">&#x1F31F;</span>	A <strong>single Molecular Test record</strong> (row) SHOULD be submitted <strong>for each molecular test being reported</strong> for the HTAN participant.</br>
+<span class="docs-emoji">&#x2705;</span>	All dates MUST be converted to days from index, where the index is the participant date of birth. (e.g. &#x27;Age in Days to Molecular Test Start&#x27;,&#x27;Age in Days to Molecular Test Stop&#x27;)</br>
+<span class="docs-emoji">&#x1F31F;</span>	For longitudinal follow-up, new molecular test annotations SHOULD be added as new records in the Molecular Test manifest.</br></p>
+<doc-anchor-target id="therapy">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#therapy">#</doc-anchor-trigger>
+        <span>Therapy</span>
+    </h3>
+</doc-anchor-target>
+<p>Clinical Tier 1 Therapy data elements capture descriptions of each cancer treatment administered for the HTAN participant. These data include the treatment type, treatment outcome, and the anatomic site of the treatment.</br>
+<span class="docs-emoji">&#x1F31F;</span>	A <strong>single Therapy record</strong> (row) SHOULD be submitted <strong>for each treatment or treatment round</strong> being reported for the HTAN participant. </br>
+<span class="docs-emoji">&#x2705;</span>	All dates MUST be converted to days from index, where the index is the participant date of birth. (e.g. &#x27;Age in Days at Treatment Start&#x27;,&#x27;Age in Days at Treatment Stop&#x27;)</br>
+<span class="docs-emoji">&#x1F31F;</span>	For longitudinal follow-up, treatments administered since the last data was reported will be captured. New treatments SHOULD be recorded as new records in the Therapy manifest.</br></p>
+<doc-anchor-target id="vital-status">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#vital-status">#</doc-anchor-trigger>
+        <span>Vital Status</span>
+    </h3>
+</doc-anchor-target>
+<p>Clinical Tier 1 Vital Status data elements capture last known patient vital status and cause of death, when applicable.</br>
+<span class="docs-emoji">&#x1F31F;</span>	A <strong>single Vital Status record</strong> (row) SHOULD be submitted <strong>for each known vital status/interaction</strong> reported for the HTAN participant. In many cases there will be only one Vital Status record per participant. However, additional records can be added (to designate known survival time), up to and including participant death. </br></p>
+<doc-anchor-target id="clinical-tier-2">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#clinical-tier-2">#</doc-anchor-trigger>
+        <span>Clinical Tier 2</span>
+    </h2>
+</doc-anchor-target>
+<p>Tier 2 will contain any clinical observations not represented in the Tier 1 Clinical Data standard and must be represented as a Comma Separated Value (CSV) file. The only standardized field in the Tier 2 Clinical Data file will be HTAN Participant ID. All other data elements will be determined by the Center, in support of, for example, a publication.   These Tier 2 clinical data elements will be ingested directly into Synapse, and there will be no attempt at further standardizing any of these elements. </br>
+<span class="docs-emoji">&#x2705;</span>	Each row in the Clinical Tier 2 csv file MUST contain a valid HTAN Participant ID in the first column.</p>
+<doc-anchor-target id="specific-guidance-regarding-longitudinal-data">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#specific-guidance-regarding-longitudinal-data">#</doc-anchor-trigger>
+        <span>Specific Guidance Regarding Longitudinal Data</span>
+    </h2>
+</doc-anchor-target>
+<p>To support data re-use, HTAN expects all clinical and biospecimen related dates to be indexed to date of birth. For this reason, data elements are explicitly named &quot;Age in Days...&quot;. The hope is that our end users will be able to compare participant timelines both within and between Centers. In order to do so, Centers need to be aligned in the way their Clinical Tier 1 and Biospecimen data are submitted. Figure 2 illustrates how different Clinical data would be submitted over time. Table 1 summarizes longitudinal clinical and biospecimen data requirements and timepoints.</p>
+<p>Minimally, all participants should have one Demographics, Diagnosis, Vital Status, Followup and originating (surgery or biopsy) Biospecimen record (row). At Baseline, Family History, Exposure, Molecular Test and Therapy records may also be submitted. Overtime, additional records can be added for Followup, Vital Status, Molecular Test, Therapy and derived<a id="fnref:1" href="#fn:1" class="footnote-ref"><sup>1</sup></a> or new originating Biospecimen. If a participant develops a <em>new</em> lesion or tumor, a new Diagnosis record may also be submitted for that participant describing the new lesion or tumor.</p>
+<p><figure class="content-center">
+    <img src="../../img/phase2_longitudinal_data_submission_2.svg" alt="Figure 2. HTAN Phase 2 Longitudinal Clinical Data Submission" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption">Figure 2. HTAN Phase 2 Longitudinal Clinical Data Submission</figcaption>
+</figure>
+</p>
+<style>
+.blue-cell {
+  color: blue;
+}
+.deep-pink-cell {
+  color: deeppink;
+}
+.green-cell {
+  color: green;
+}
+.indigo-cell {
+  color: indigo;
+}
+</style>
+<p>Table 1. Longitudinal Clinical and Biospecimen Data</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Timepoint</th>
+<th>Metadata Category</th>
+<th>Number of records per participant</th>
+<th>Requirement</th>
+<th>Anchoring time point</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="deep-pink-cell">Baseline</td>
+<td>Demographics</td>
+<td>1</td>
+<td>Required</td>
+<td>None</td>
+</tr>
+<tr>
+<td><span class="deep-pink-cell">Baseline</td>
+<td>Diagnosis</td>
+<td>1 per lesion/tumor being described</td>
+<td>Required</td>
+<td>AGE_IN_DAYS_AT_DIAGNOSIS</td>
+</tr>
+<tr>
+<td><span class="deep-pink-cell">Baseline</td>
+<td>Vital Status</td>
+<td>1 per observation</td>
+<td>Required</td>
+<td>AGE_IN_DAYS_AT_DIAGNOSIS</td>
+</tr>
+<tr>
+<td><span class="deep-pink-cell">Baseline</td>
+<td>Exposure</td>
+<td>1</td>
+<td>Optional</td>
+<td>None</td>
+</tr>
+<tr>
+<td><span class="deep-pink-cell">Baseline</td>
+<td>Family History</td>
+<td>1</td>
+<td>Optional</td>
+<td>None</td>
+</tr>
+<tr>
+<td><span class="deep-pink-cell">Baseline</td>
+<td>Molecular Test</td>
+<td>1 per molecular test</td>
+<td>Optional</td>
+<td>AGE_IN_DAYS_AT_MOLECULAR_TEST_START</td>
+</tr>
+<tr>
+<td><span class="deep-pink-cell">Baseline</td>
+<td>Therapy</td>
+<td>1 per therapy type administered</td>
+<td>Optional</td>
+<td>AGE_IN_DAYS_AT_TREATMENT_START</td>
+</tr>
+<tr>
+<td><span class="blue-cell">Surgery, Biopsy<a id="fnref:2" href="#fn:1" class="footnote-ref"><sup>1</sup></a></td>
+<td>Biospecimen</td>
+<td>1 record per biospecimen</td>
+<td>Required</td>
+<td>AGE_IN_DAYS_AT_SPECIMEN_COLLECTION</td>
+</tr>
+<tr>
+<td><span class="green-cell">Scheduled Follow-up Timepoints</td>
+<td>Followup</td>
+<td>1 per observation</td>
+<td>Required</td>
+<td>AGE_IN_DAYS_AT_FOLLOWUP</td>
+</tr>
+<tr>
+<td><span class="green-cell">Scheduled Follow-up Timepoints</td>
+<td>Vital Status</td>
+<td>1 per observation</td>
+<td>Optional</td>
+<td>AGE_IN_DAYS_AT_LAST_KNOWN_SURVIVAL_STATUS</td>
+</tr>
+<tr>
+<td><span class="green-cell">Scheduled Follow-up Timepoints</td>
+<td>Diagnosis</td>
+<td>1 per <em>new</em> lesion/tumor</td>
+<td>Optional</td>
+<td>AGE_IN_DAYS_AT_DIAGNOSIS</td>
+</tr>
+<tr>
+<td><span class="green-cell">Scheduled Follow-up Timepoints</td>
+<td>Molecular Test</td>
+<td>1 per <em>new</em> molecular test</td>
+<td>Optional</td>
+<td>AGE_IN_DAYS_AT_MOLECULAR_TEST_START</td>
+</tr>
+<tr>
+<td><span class="green-cell">Scheduled Follow-up Timepoints</td>
+<td>Therapy</td>
+<td>1 per <em>new</em> therapy type administered</td>
+<td>Optional</td>
+<td>AGE_IN_DAYS_AT_TREATMENT_START</td>
+</tr>
+<tr>
+<td><span class="indigo-cell">Unscheduled Follow-up Timepoints</td>
+<td>Vital Status</td>
+<td>1 per observation</td>
+<td>Optional</td>
+<td>AGE_IN_DAYS_AT_LAST_KNOWN_SURVIVAL_STATUS</td>
+</tr>
+<tr>
+<td><span class="indigo-cell">Unscheduled Follow-up Timepoints</td>
+<td>Molecular Test</td>
+<td>1 per <em>new</em> molecular test</td>
+<td>Optional</td>
+<td>AGE_IN_DAYS_AT_MOLECULAR_TEST_START</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Derived specimen (e.g. sections made for imaging or other assays) are also recorded in the biospecimen metadata. These are connected to the originating biospecimen via &#x27;HTAN Parent ID&#x27;.<a href="#fnref:1" class="footnote-back-ref">&#8617;</a><a href="#fnref:2" class="footnote-back-ref">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
                                 
                                 <!-- Required only on API pages -->
@@ -261,6 +527,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Specific Assay/Data Element Details", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Phase 2 Clinical Data Submission", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
