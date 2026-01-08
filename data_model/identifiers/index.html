@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.818864014859">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.821179926570">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.818864014859" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.821179926570" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.818864014859" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.821179926570" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.818864014859" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.821179926570" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -301,15 +301,128 @@ HTA209_EXT3_D590</code></pre>
         <span>Phase 2 Regex Validation</span>
     </h3>
 </doc-anchor-target>
-<p>HTAN Phase 2 Identifiers can be validated with the following regex patterns.</p>
-<p>Participant IDs:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-none"><code v-pre class="language-none">^(?=.{1,50}$)(?P&lt;center&gt;HTA20[0-9])_(?P&lt;participant&gt;(?:0000|EXT\d+|\d+))</code></pre>
-</doc-codeblock></div>
-<p>Biospecimen and Data File IDs:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-none"><code v-pre class="language-none">^(?=.{1,50}$)(?P&lt;center&gt;HTA20[0-9])_(?P&lt;participant&gt;(?:0000|EXT\d+|\d+))_(?P&lt;id&gt;(B|D)\d+)$</code></pre>
-</doc-codeblock></div>
+<p>These regular expressions validate HTAN identifiers by enforcing a specific prefix range (HTA200–HTA229), a middle identifier (numeric or EXT-based), and specific suffix rules for data files and biospecimens.</p>
+<doc-anchor-target id="htan-data-file-id">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#htan-data-file-id">#</doc-anchor-trigger>
+        <span>HTAN Data File ID</span>
+    </h4>
+</doc-anchor-target>
+<p><strong>Regex:</strong>
+<code v-pre>^(?=.{1,50}$)(HTA2[0-2][0-9])_(0000|EXT[0-9]{1,18}|[0-9]{1,21})_(D[0-9]{1,20})$</code></p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><span class="docs-emoji">&#x2705;</span> <code v-pre>HTA201_12345_D1</code></li>
+<li><span class="docs-emoji">&#x274C;</span> <code v-pre>HTA201_12345_B1</code> (Ends with _B instead of _D)</li>
+<li><span class="docs-emoji">&#x274C;</span> <code v-pre>HTA250_12345_D1</code> (Prefix HTA250 is out of valid range)</li>
+</ul>
+<doc-anchor-target id="htan-participant-id">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#htan-participant-id">#</doc-anchor-trigger>
+        <span>HTAN Participant ID</span>
+    </h4>
+</doc-anchor-target>
+<p><strong>Regex:</strong>
+<code v-pre>^(?=.{1,50}$)(HTA2[0-2][0-9])_(0000|EXT[0-9]{1,18}|[0-9]{1,21})$</code></p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><span class="docs-emoji">&#x2705;</span> <code v-pre>HTA210_EXT999</code></li>
+<li><span class="docs-emoji">&#x274C;</span> <code v-pre>HTA210_EXT999_B1</code> (Contains a suffix, which is not allowed)</li>
+<li><span class="docs-emoji">&#x274C;</span> <code v-pre>HTA199_EXT999</code> (Prefix HTA199 is out of valid range)</li>
+</ul>
+<doc-anchor-target id="htan-biospecimen-id">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#htan-biospecimen-id">#</doc-anchor-trigger>
+        <span>HTAN Biospecimen ID</span>
+    </h4>
+</doc-anchor-target>
+<p><strong>Regex:</strong>
+<code v-pre>^(?=.{1,50}$)(HTA2[0-2][0-9])_(0000|EXT[0-9]{1,18}|[0-9]{1,21})_(B[0-9]{1,20})$</code></p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><span class="docs-emoji">&#x2705;</span> <code v-pre>HTA220_55555_B2</code></li>
+<li><span class="docs-emoji">&#x274C;</span> <code v-pre>HTA220_55555_D2</code> (Ends with _D instead of _B)</li>
+<li><span class="docs-emoji">&#x274C;</span> <code v-pre>HTA220_55555</code> (Missing the mandatory _B suffix)</li>
+</ul>
+<doc-anchor-target id="htan-parent-id-from-biospecimen">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#htan-parent-id-from-biospecimen">#</doc-anchor-trigger>
+        <span>HTAN Parent ID (from biospecimen)</span>
+    </h4>
+</doc-anchor-target>
+<p><em>Matches a Participant ID OR a Biospecimen ID.</em></p>
+<p><strong>Regex:</strong>
+<code v-pre>^(?=.{1,50}$)(HTA2[0-2][0-9])_(0000|EXT[0-9]{1,18}|[0-9]{1,21})(?:_(B[0-9]{1,20}))?$</code></p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><span class="docs-emoji">&#x2705;</span> <code v-pre>HTA205_1001_B5</code></li>
+<li><span class="docs-emoji">&#x2705;</span> <code v-pre>HTA205_1001</code> (Valid Participant ID used as parent)</li>
+<li><span class="docs-emoji">&#x274C;</span> <code v-pre>HTA205_1001_D5</code> (Contains _D suffix; only no suffix or _B allowed)</li>
+<li><span class="docs-emoji">&#x274C;</span> <code v-pre>HTA205_</code> (Missing the middle ID number section)</li>
+</ul>
+<doc-anchor-target id="htan-parent-id-from-core">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#htan-parent-id-from-core">#</doc-anchor-trigger>
+        <span>HTAN Parent ID (from core)</span>
+    </h4>
+</doc-anchor-target>
+<p><em>Matches a Biospecimen ID OR a Data File ID.</em></p>
+<p><strong>Regex:</strong>
+<code v-pre>^(?=.{1,50}$)(HTA2[0-2][0-9])_(0000|EXT[0-9]{1,18}|[0-9]{1,21})_([BD][0-9]{1,20})$</code></p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><span class="docs-emoji">&#x2705;</span> <code v-pre>HTA215_777_D1</code></li>
+<li><span class="docs-emoji">&#x274C;</span> <code v-pre>HTA215_777</code> (Missing mandatory suffix; must be _B or _D)</li>
+<li><span class="docs-emoji">&#x274C;</span> <code v-pre>HTA215_777_A1</code> (Suffix _A is invalid)</li>
+</ul>
+<doc-anchor-target id="regex-structure-explanation">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#regex-structure-explanation">#</doc-anchor-trigger>
+        <span>Regex Structure Explanation</span>
+    </h3>
+</doc-anchor-target>
+<p>The following breakdown uses the <strong>HTAN Parent ID (from core)</strong> as an example, as it contains all component parts used across the identifiers.</p>
+<p><strong>Pattern:</strong> <code v-pre>^(?=.{1,50}$)(HTA2[0-2][0-9])_(0000|EXT[0-9]{1,18}|[0-9]{1,21})_([BD][0-9]{1,20})$</code></p>
+<ol>
+<li><p><strong><code v-pre>^(?=.{1,50}$)</code></strong></p>
+<ul>
+<li><strong>Start of string (<code v-pre>^</code>):</strong> Ensures the match starts at the very beginning.</li>
+<li><strong>Lookahead (<code v-pre>(?=...)</code>):</strong> Checks that the total length of the string is between 1 and 50 characters before proceeding with the specific matching.</li>
+</ul>
+</li>
+<li><p><strong><code v-pre>(HTA2[0-2][0-9])</code></strong></p>
+<ul>
+<li><strong>Center ID:</strong> Matches the literal <code v-pre>HTA</code> followed by a number range strictly between 200 and 229 (<code v-pre>2</code> followed by <code v-pre>0-2</code>, followed by <code v-pre>0-9</code>).</li>
+</ul>
+</li>
+<li><p><strong><code v-pre>_</code></strong></p>
+<ul>
+<li><strong>Separator:</strong> Literal underscore character separating the Center ID from the Participant ID.</li>
+</ul>
+</li>
+<li><p><strong><code v-pre>(0000|EXT[0-9]{1,18}|[0-9]{1,21})</code></strong></p>
+<ul>
+<li><strong>Participant ID:</strong> Matches one of three valid formats:
+<ul>
+<li><code v-pre>0000</code> (Standard zero ID)</li>
+<li><code v-pre>EXT</code> followed by 1 to 18 digits (External ID)</li>
+<li>1 to 21 digits (Standard numeric ID)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong><code v-pre>_</code></strong></p>
+<ul>
+<li><strong>Separator:</strong> Literal underscore character.</li>
+</ul>
+</li>
+<li><p><strong><code v-pre>([BD][0-9]{1,20})$</code></strong></p>
+<ul>
+<li><strong>Suffix &amp; End:</strong> Matches either <code v-pre>B</code> (Biospecimen) or <code v-pre>D</code> (Data File), followed by 1 to 20 digits.</li>
+<li><strong>End of string (<code v-pre>$</code>):</strong> Ensures there are no extra characters after the ID.</li>
+</ul>
+</li>
+</ol>
 <doc-anchor-target id="phase-1-htan-ids">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#phase-1-htan-ids">#</doc-anchor-trigger>
@@ -407,7 +520,7 @@ HTA4_EXT3_3</code></pre>
                                     <ul class="flex flex-wrap items-center text-sm">
                                     </ul>
                                 </div>
-                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link-weight text-sm leading-relaxed"><p>© Copyright 2025. All rights reserved.</p></div>
+                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link-weight text-sm leading-relaxed"><p>© Copyright 2026. All rights reserved.</p></div>
                             </footer>
                         </div>
                     </div>
