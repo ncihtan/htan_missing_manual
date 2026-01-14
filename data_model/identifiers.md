@@ -89,18 +89,86 @@ HTA209_EXT3_D590
 ```
 
 ### Phase 2 Regex Validation
-HTAN Phase 2 Identifiers are validated with the following regex patterns.
 
-Participant IDs:
-```
-^(?=.{1,50}$)(?P<center>HTA20[0-9])_(?P<participant>(?:0000|EXT\d+|\d+))
-```
+These regular expressions validate HTAN identifiers by enforcing a specific prefix range (HTA200–HTA229), a middle identifier (numeric or EXT-based), and specific suffix rules for data files and biospecimens.
 
-Biospecimen and Data File IDs:
-```
-^(?=.{1,50}$)(?P<center>HTA20[0-9])_(?P<participant>(?:0000|EXT\d+|\d+))_(?P<id>(B|D)\d+)$
-```
+#### HTAN Data File ID
+**Regex:**
+`^(?=.{1,50}$)(HTA2[0-2][0-9])_(0000|EXT[0-9]{1,18}|[0-9]{1,21})_(D[0-9]{1,20})$`
 
+**Examples:**
+* ✅ `HTA201_12345_D1`
+* ❌ `HTA201_12345_B1` (Ends with _B instead of _D)
+* ❌ `HTA250_12345_D1` (Prefix HTA250 is out of valid range)
+
+#### HTAN Participant ID
+**Regex:**
+`^(?=.{1,50}$)(HTA2[0-2][0-9])_(0000|EXT[0-9]{1,18}|[0-9]{1,21})$`
+
+**Examples:**
+* ✅ `HTA210_EXT999`
+* ❌ `HTA210_EXT999_B1` (Contains a suffix, which is not allowed)
+* ❌ `HTA199_EXT999` (Prefix HTA199 is out of valid range)
+
+#### HTAN Biospecimen ID
+**Regex:**
+`^(?=.{1,50}$)(HTA2[0-2][0-9])_(0000|EXT[0-9]{1,18}|[0-9]{1,21})_(B[0-9]{1,20})$`
+
+**Examples:**
+* ✅ `HTA220_55555_B2`
+* ❌ `HTA220_55555_D2` (Ends with _D instead of _B)
+* ❌ `HTA220_55555` (Missing the mandatory _B suffix)
+
+#### HTAN Parent ID (from biospecimen)
+*Matches a Participant ID OR a Biospecimen ID.*
+
+**Regex:**
+`^(?=.{1,50}$)(HTA2[0-2][0-9])_(0000|EXT[0-9]{1,18}|[0-9]{1,21})(?:_(B[0-9]{1,20}))?$`
+
+**Examples:**
+* ✅ `HTA205_1001_B5`
+* ✅ `HTA205_1001` (Valid Participant ID used as parent)
+* ❌ `HTA205_1001_D5` (Contains _D suffix; only no suffix or _B allowed)
+* ❌ `HTA205_` (Missing the middle ID number section)
+
+#### HTAN Parent ID (from core)
+*Matches a Biospecimen ID OR a Data File ID.*
+
+**Regex:**
+`^(?=.{1,50}$)(HTA2[0-2][0-9])_(0000|EXT[0-9]{1,18}|[0-9]{1,21})_([BD][0-9]{1,20})$`
+
+**Examples:**
+* ✅ `HTA215_777_D1`
+* ❌ `HTA215_777` (Missing mandatory suffix; must be _B or _D)
+* ❌ `HTA215_777_A1` (Suffix _A is invalid)
+
+### Regex Structure Explanation
+The following breakdown uses the **HTAN Parent ID (from core)** as an example, as it contains all component parts used across the identifiers.
+
+**Pattern:** `^(?=.{1,50}$)(HTA2[0-2][0-9])_(0000|EXT[0-9]{1,18}|[0-9]{1,21})_([BD][0-9]{1,20})$`
+
+1.  **`^(?=.{1,50}$)`**
+    * **Start of string (`^`):** Ensures the match starts at the very beginning.
+    * **Lookahead (`(?=...)`):** Checks that the total length of the string is between 1 and 50 characters before proceeding with the specific matching.
+
+2.  **`(HTA2[0-2][0-9])`**
+    * **Center ID:** Matches the literal `HTA` followed by a number range strictly between 200 and 229 (`2` followed by `0-2`, followed by `0-9`).
+
+3.  **`_`**
+    * **Separator:** Literal underscore character separating the Center ID from the Participant ID.
+
+4.  **`(0000|EXT[0-9]{1,18}|[0-9]{1,21})`**
+    * **Participant ID:** Matches one of three valid formats:
+        * `0000` (Standard zero ID)
+        * `EXT` followed by 1 to 18 digits (External ID)
+        * 1 to 21 digits (Standard numeric ID)
+
+5.  **`_`**
+    * **Separator:** Literal underscore character.
+
+6.  **`([BD][0-9]{1,20})$`**
+    * **Suffix & End:** Matches either `B` (Biospecimen) or `D` (Data File), followed by 1 to 20 digits.
+    * **End of string (`$`):** Ensures there are no extra characters after the ID.
 ## Phase 1 HTAN IDs
 
 ### Phase 1 Participant IDs

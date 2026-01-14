@@ -15,7 +15,7 @@ The following table provides links to specific manifests within the [Data Standa
 !!! The following Table provides links to HTAN Phase 1 standards. Changes will occur to some of these manifests in Phase 2. This page will be updated once new manifests are available for HTAN Phase 2. 
 !!!
 
-## Table of Specific Standards
+## Phase 1 Table of Specific Standards
 
 | Category | Specific Standard |
 |----------|-------------------|
