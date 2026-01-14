@@ -13,5 +13,9 @@ HTAN's [Data Model](../data_model/overview.md) is a framework for collecting and
 Metadata is submitted to HTAN via Synapse which is developed and maintained by [Sage Bionetworks](https://sagebionetworks.org/).  
 
 !!! Terminology Alert
-The term "manifests" refers to the spreadsheets used to submit metadata.  "Metadata templates" are available via the DCA.  These are manifests which can be filled out, validated and submitted using the DCA's web interface.  
+In the Synapse system, metadata can be **File-based** (associated with a data file) or **Record-based**. Please see [Synapse's Documentation](https://docs.synapse.org/synapse-docs/managing-metadata-with-curator#About) for more information about these terms.
+
+For HTAN: \
+**Record-based** metadata includes the Clinical and Biospecimen modules of the HTAN2 Data Model. \
+**File-based** metadata includes all other modules in the HTAN2 Data Model.
 !!!
