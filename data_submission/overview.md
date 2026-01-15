@@ -17,8 +17,4 @@ Assay Data Submission involves uploading the data files and then annotating thos
 
 ![Figure 2. Phase 2 Clinical and Biospecimen Metadata Submission](../img/Phase2_Clin_Biospec_Submit_Overview.svg)
 
-Specific details regarding data submission and the DCA will be included in later sections of this manual.  Please contact your [Data Liaison](../data_submission/Data_Liaisons.md) if you have any questions or issues.  Please also keep your data liaison informed of any expected data submissions.
-
-
-## Data Submission Status
-The current status of data uploads (refreshed every 4 hours) is available on the [HTAN Dashboard](dashboard.md).
+Specific details regarding data submission may vary by data type. Please take a look at later sections of this manual and contact your  [Data Liaison](../data_submission/Data_Liaisons.md) if you have any questions or issues.  Please also keep your data liaison informed of any expected data submissions.

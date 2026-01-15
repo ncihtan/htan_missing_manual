@@ -85,7 +85,7 @@ A number of three-dimensional datasets have been released on the HTAN data porta
 
 ### Is there temporal data?
 
-There are a few different types of temporal data, e.g., precancerous vs cancerous tumors, primary vs metastatic tumor samples, as well as a patient's longitudinal treatment and diagnosis information. The former can be found by search for specific biospecimens. The latter can now be explored per atlas in the longitudinal data section of the [HTAN Data Submission Dashboard](https://htan_dashboard.surge.sh/), as well as on [cBioPortal for the OHSU breast cancer dataset](https://www.cbioportal.org/patient?studyId=brca_hta9_htan_2022&caseId=HTA9_1#navCaseIds=brca_hta9_htan_2022:HTA9_1). We are working on improving the search and filter capabilities for temporal data on the HTAN Portal.
+There are a few different types of temporal data, e.g., precancerous vs cancerous tumors, primary vs metastatic tumor samples, as well as a patient's longitudinal treatment and diagnosis information. The former can be found by search for specific biospecimens. The latter can now be explored on [cBioPortal for the OHSU breast cancer dataset](https://www.cbioportal.org/patient?studyId=brca_hta9_htan_2022&caseId=HTA9_1#navCaseIds=brca_hta9_htan_2022:HTA9_1). We are working on improving the search and filter capabilities for temporal data on the HTAN Portal.
 
 
 ### How can I contact the HTAN team for additional questions?
