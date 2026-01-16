@@ -18,7 +18,7 @@ Please read the rest of this page for more information about each of these steps
 
 - [ ] Have at least one user with Certified User status on Synapse.
 
-> To upload files to the Synapse Platform, you need to be a [Synapse Certified User](https://docs.synapse.org/synapse-docs/synapse-user-account-types). You can complete your certification by taking a short certification quiz. Please see the Synapse [Certified User Documentation](https://docs.synapse.org/synapse-docs/synapse-user-account-types) for more information.
+> To upload files to the Synapse Platform, you need to be a [Synapse Certified User](https://docs.synapse.org/synapse-docs/synapse-user-account-types). You can complete your certification by taking a short certification quiz. Please see the Synapse [Certified User Documentation](https://docs.synapse.org/synapse-docs/synapse-user-account-types) for more information. Please also be aware that use of Synapse requires agreement to the latest Synapse Terms of Service. Synapse users must also enable two-factor authentication (2FA). You can find information about the latest TOS and guidance on enabling 2FA on your account [here](https://sagebionetworks.org/trust-center).
 
 - [ ] Contact your Data Liaison
 
@@ -39,7 +39,7 @@ Please read the rest of this page for more information about each of these steps
 Data files can be transferred using the Synapse User Interface (Synapse UI) or programmatically. 
 
 - To upload files using the Synapse User Interface, follow Synapse's [Uploading a File (via Synapse UI)](https://docs.synapse.org/synapse-docs/uploading-and-organizing-data-into-projects-files-and-folders#Uploading-a-File-via-the-Synapse-UI) directions.
-- To upload the files programmatically, please follow Synapse's [Uploading a File Programmatically](https://docs.synapse.org/synapse-docs/uploading-and-organizing-data-into-projects-files-and-folders#Uploading-a-File-Programmatically) directions.  
+- To upload the files programmatically, please follow Synapse's [Uploading a File Programmatically](https://docs.synapse.org/synapse-docs/uploading-and-organizing-data-into-projects-files-and-folders#Uploading-a-File-Programmatically) directions. Contributors are encouraged to use the Python client for programmatic uploads.  
 
 For large file uploads, Synapse also provides guidance regarding uploading data in bulk in [this tutorial](https://python-docs.synapse.org/en/stable/tutorials/python/upload_data_in_bulk/).  
 
