@@ -56,9 +56,9 @@ Step 8
 
 > Once all Centers have been on-boarded, the DCC will organize a series of information sessions. All Center Data Wranglers and data submitters will be required to attend information sessions. For those unable to attend, the event will be recorded and posted to the Synapse wiki.
 
-## Coming Soon!: DCC Information Sessions
+## DCC Information Sessions
 
-The following DCC Information Sessions are being planned.
+The following DCC Information Sessions have taken place or are being planned.
 
 |Session | Topics |
 |--------|:-------|

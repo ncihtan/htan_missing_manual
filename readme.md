@@ -14,7 +14,8 @@ If you have feedback for this manual, including broken links or incorrect inform
 
 | Date       | Comment                  | Changes summary |
 |------------|--------------------------|-----------------|
-| 2025-12-12 | Fifth version of manual. | Removal of Phase 1 data submission details; Additional details regarding Phase 2 data model and submission process. |
+| 2026-01-16 | Sixth version of the manual | Phase 2 data and metadata submission details and links |
+| 2025-12-12 | Fifth version of manual | Removal of Phase 1 data submission details; Additional details regarding Phase 2 data model and submission process. |
 | 2025-04-28 |                          | Updates to reflect CDS name change to General Commons (GC)|
 | 2025-03-21 | Fourth version of manual | Rework of Data Access Sections and creation of Data Visualization section |                         
 | 2025-03-10 |                          | Updated Identifier sections to reflect Phase 2 schema |

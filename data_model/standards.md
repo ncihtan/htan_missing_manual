@@ -4,15 +4,13 @@ order: 996
 
 # Specific Standards
 
-HTAN Centers submit assay data files and [metadata](../data_submission/metadata.md) to HTAN. HTAN's Data Model governs how the assay data is organized and what metadata accompanies the assay data.
+HTAN Centers submit assay data files and [metadata](../data_submission/metadata.md) to HTAN. HTAN's Data Models govern how the assay data is organized and what metadata accompanies the assay data. The data model changed in HTAN Phase 2.
 
 ![Example HTAN Metadata and Assay Data](../img/metadata.svg)
 
- HTAN Centers submit their metadata in spreadsheets called manifests. [The HTAN Portal's Data Standards pages](https://humantumoratlas.org/standards) provide interactive, searchable and downloadable summaries of the metadata attributes, requirements and valid values expected for each data type. 
+For **HTAN Phase 1**, [The HTAN Portal's Data Standards pages](https://humantumoratlas.org/standards) provide interactive, searchable and downloadable summaries of the metadata attributes, requirements and valid values expected for each data type.    
 
-The following table provides links to specific manifests within the [Data Standards pages](https://humantumoratlas.org/standards).    
-
-!!! The following Table provides links to HTAN Phase 1 standards. Changes will occur to some of these manifests in Phase 2. This page will be updated once new manifests are available for HTAN Phase 2. 
+!!! The following Table provides links to HTAN Phase 1 data standards. Additional documentation for Phase 2 Data Standards is currently in development. Please see [Data Model Introduction](../data_model/overview.md) for more information regarding the Phase 2 Data Model.
 !!!
 
 ## Phase 1 Table of Specific Standards
@@ -88,14 +86,4 @@ The following table provides links to specific manifests within the [Data Standa
 | Spatial Transcriptomics | [Slide-seq Level 1](https://humantumoratlas.org/standard/spatial_transcriptomics/slide-seqlevel1) |
 | Spatial Transcriptomics | [Slide-seq Level 2](https://humantumoratlas.org/standard/spatial_transcriptomics/slide-seqlevel2) |
 | Spatial Transcriptomics | [Slide-seq Level 3](https://humantumoratlas.org/standard/spatial_transcriptomics/slide-seqlevel3) |
-
-
-## Data Submission
-While [Data Standards](https://humantumoratlas.org/standards) provides details regarding the HTAN Data Model, the manifests included on the HTAN Portal are for reference only. 
-
-!!!  
-HTAN Centers should not use the manifests provided on the Data Standards page for data submission. Please use the Data Curator App (DCA) to obtain manifests for data submission. More information about submitting assay files and metadata can be found in the [Submitting Data](../data_submission/clin_biospec_assay.md) section of this manual.
-!!!
-
-For additional notes regarding how to submit data for each data type, please see the [Specific Assay/Data Element Details](../data_submission/specific_details.md) page of this manual. 
 
