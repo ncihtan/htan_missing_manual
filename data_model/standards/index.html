@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.821179926570">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.821888898150">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.821179926570" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.821888898150" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.821179926570" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.821888898150" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.821179926570" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.821888898150" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -171,14 +171,13 @@
         <span>Specific Standards</span>
     </h1>
 </doc-anchor-target>
-<p>HTAN Centers submit assay data files and <a href="../../data_submission/metadata/">metadata</a> to HTAN. HTAN&#x27;s Data Model governs how the assay data is organized and what metadata accompanies the assay data.</p>
+<p>HTAN Centers submit assay data files and <a href="../../data_submission/metadata/">metadata</a> to HTAN. HTAN&#x27;s Data Models govern how the assay data is organized and what metadata accompanies the assay data. The data model changed in HTAN Phase 2.</p>
 <p><figure class="content-center">
     <img src="../../img/metadata.svg" alt="Example HTAN Metadata and Assay Data" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">Example HTAN Metadata and Assay Data</figcaption>
 </figure>
 </p>
-<p>HTAN Centers submit their metadata in spreadsheets called manifests. <a href="https://humantumoratlas.org/standards">The HTAN Portal&#x27;s Data Standards pages</a> provide interactive, searchable and downloadable summaries of the metadata attributes, requirements and valid values expected for each data type.</p>
-<p>The following table provides links to specific manifests within the <a href="https://humantumoratlas.org/standards">Data Standards pages</a>.</p>
+<p>For <strong>HTAN Phase 1</strong>, <a href="https://humantumoratlas.org/standards">The HTAN Portal&#x27;s Data Standards pages</a> provide interactive, searchable and downloadable summaries of the metadata attributes, requirements and valid values expected for each data type.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -192,7 +191,7 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>The following Table provides links to HTAN Phase 1 standards. Changes will occur to some of these manifests in Phase 2. This page will be updated once new manifests are available for HTAN Phase 2.</h5>
+            <h5>The following Table provides links to HTAN Phase 1 data standards. Additional documentation for Phase 2 Data Standards is currently in development. Please see <a href="../overview/">Data Model Introduction</a> for more information regarding the Phase 2 Data Model.</h5>
         </div>
     </div>
 </div>
@@ -490,31 +489,6 @@
 </tbody>
 </table>
 </div>
-<doc-anchor-target id="data-submission">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#data-submission">#</doc-anchor-trigger>
-        <span>Data Submission</span>
-    </h2>
-</doc-anchor-target>
-<p>While <a href="https://humantumoratlas.org/standards">Data Standards</a> provides details regarding the HTAN Data Model, the manifests included on the HTAN Portal are for reference only.</p>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-<p>HTAN Centers should not use the manifests provided on the Data Standards page for data submission. Please use the Data Curator App (DCA) to obtain manifests for data submission. More information about submitting assay files and metadata can be found in the <a href="../../data_submission/clin_biospec_assay/">Submitting Data</a> section of this manual.</p>
-        </div>
-    </div>
-</div>
-<p>For additional notes regarding how to submit data for each data type, please see the <a href="../data_submission/specific_details.md">Specific Assay/Data Element Details</a> page of this manual.</p>
 
                                 
                                 <!-- Required only on API pages -->
