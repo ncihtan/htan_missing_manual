@@ -17,7 +17,7 @@ This manual and the HTAN Data Portal standards pages will be updated as the Phas
 !!!
 
 ## HTAN Phase 2 Data Model
-[!button text="HTAN Phase 2 Data Model Documentation"](https://htan2-data-model.readthedocs.io/en/latest/index.html)
+[!button text="HTAN Phase 2 Data Model Documentation"](https://htan2-data-model.readthedocs.io/en/main/)
 
 [!button text="HTAN Phase 2 Data Model Github Repository"](https://github.com/ncihtan/htan2-data-model)
 
