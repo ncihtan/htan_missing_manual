@@ -13,7 +13,7 @@ In HTAN Phase 2, the following files are submitted for single cell/single nuclei
 | 2 | aligned sequence data | bam |
 | 3_4 | sample level summary information, e.g. cell annotations, t-SNE/UMAP coordinates, etc. | h5ad |
 
-Metadata requirements are documented in the HTAN Data Model [readthedocs](https://htan2-data-model.readthedocs.io/en/latest/docs/scrna-seq.html) pages. This part of the manual describes **file requirements** for level 3_4 h5ad files.
+Metadata requirements are documented in the HTAN Data Model [readthedocs](https://htan2-data-model.readthedocs.io/en/main/) pages. This part of the manual describes **file requirements** for level 3_4 h5ad files.
 
 ## HTAN's h5ad Requirements
 HTAN Centers are encouraged to reference the [sc/snRNA-seq RFC](https://docs.google.com/document/d/1XjDLWulYWhnfZrGCg-0_Jh93ytIp3p_01ZrTyymTjoU/edit?usp=sharing) for additional details. The HTAN h5ad (AnnData 0.10) requirements are modeled after CELLxGENE's requirements.  They also include three attributes developed by the Human Cell Atlas (HCA). Please see the [Background](#background-h5ad-files-cellxgene-human-cell-atlas) section below for more information about h5ad (AnnData 0.10) files, CELLxGENE and the HCA.
