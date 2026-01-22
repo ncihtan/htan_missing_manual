@@ -9,26 +9,26 @@
     <meta name="generator" content="Retype 3.11.0">
 
     <!-- Primary Meta Tags -->
-    <title>Submitting Assay Data and Metadata</title>
-    <meta name="title" content="Submitting Assay Data and Metadata">
-    <meta name="description" content="Data Submission Introduction provides a general overview for submitting data and metadata to HTAN. This page provides details regarding those steps.">
+    <title>Phase 2 sc/snRNA-seq Data Submission</title>
+    <meta name="title" content="Phase 2 sc/snRNA-seq Data Submission">
+    <meta name="description" content="In HTAN Phase 2, the following files are submitted for single cell/single nuclei RNA-sequencing (sc/snRNA-seq) data:">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://docs.humantumoratlas.org/data_submission/clin_biospec_assay/">
+    <link rel="canonical" href="https://docs.humantumoratlas.org/data_submission/scrnaseq_data_submission/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://docs.humantumoratlas.org/data_submission/clin_biospec_assay/">
-    <meta property="og:title" content="Submitting Assay Data and Metadata">
-    <meta property="og:description" content="Data Submission Introduction provides a general overview for submitting data and metadata to HTAN. This page provides details regarding those steps.">
-    <meta property="og:image" content="https://docs.humantumoratlas.org/img/data_submission.svg">
+    <meta property="og:url" content="https://docs.humantumoratlas.org/data_submission/scrnaseq_data_submission/">
+    <meta property="og:title" content="Phase 2 sc/snRNA-seq Data Submission">
+    <meta property="og:description" content="In HTAN Phase 2, the following files are submitted for single cell/single nuclei RNA-sequencing (sc/snRNA-seq) data:">
+    <meta property="og:image" content="https://docs.humantumoratlas.org/img/anndata_schema.svg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://docs.humantumoratlas.org/data_submission/clin_biospec_assay/">
-    <meta property="twitter:title" content="Submitting Assay Data and Metadata">
-    <meta property="twitter:description" content="Data Submission Introduction provides a general overview for submitting data and metadata to HTAN. This page provides details regarding those steps.">
-    <meta property="twitter:image" content="https://docs.humantumoratlas.org/img/data_submission.svg">
+    <meta property="twitter:url" content="https://docs.humantumoratlas.org/data_submission/scrnaseq_data_submission/">
+    <meta property="twitter:title" content="Phase 2 sc/snRNA-seq Data Submission">
+    <meta property="twitter:description" content="In HTAN Phase 2, the following files are submitted for single cell/single nuclei RNA-sequencing (sc/snRNA-seq) data:">
+    <meta property="twitter:image" content="https://docs.humantumoratlas.org/img/anndata_schema.svg">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
@@ -165,129 +165,224 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="retype-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="submitting-assay-data-and-metadata" class="break-words">
+<doc-anchor-target id="phase-2-scsnrna-seq-data-submission" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#submitting-assay-data-and-metadata">#</doc-anchor-trigger>
-        <span>Submitting Assay Data and Metadata</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-2-scsnrna-seq-data-submission">#</doc-anchor-trigger>
+        <span>Phase 2 sc/snRNA-seq Data Submission</span>
     </h1>
 </doc-anchor-target>
-<p><a href="../overview/">Data Submission Introduction</a> provides a general overview for submitting data and metadata to HTAN. This page provides details regarding those steps.</p>
-<doc-anchor-target id="data-submission-steps">
+<doc-anchor-target id="overview">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#data-submission-steps">#</doc-anchor-trigger>
-        <span>Data Submission Steps</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#overview">#</doc-anchor-trigger>
+        <span>Overview</span>
     </h2>
 </doc-anchor-target>
-<ol>
-<li><doc-anchor-trigger to="#pre-submission-tasks">Complete Pre-submission Tasks</doc-anchor-trigger></li>
-<li><doc-anchor-trigger to="#submit-data-files">Submit Data Files</doc-anchor-trigger></li>
-<li><doc-anchor-trigger to="#submit-metadata">Submit Metadata</doc-anchor-trigger></li>
-</ol>
-<p>Please read the rest of this page for more information about each of these steps.
-<figure class="content-center">
-    <img src="../../img/data_submission.svg" alt="HTAN Data Submission Process" class="rounded-image-rounded border-image-border border-image-border-width" />
-    <figcaption class="caption">HTAN Data Submission Process</figcaption>
+<p>In HTAN Phase 2, the following files are submitted for single cell/single nuclei RNA-sequencing (sc/snRNA-seq) data:</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Level</th>
+<th>Data Type</th>
+<th>Example Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>raw sequence data</td>
+<td>fastq, unaligned bam</td>
+</tr>
+<tr>
+<td>2</td>
+<td>aligned sequence data</td>
+<td>bam</td>
+</tr>
+<tr>
+<td>3_4</td>
+<td>sample level summary information, e.g. cell annotations, t-SNE/UMAP coordinates, etc.</td>
+<td>h5ad</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Metadata requirements are documented in the HTAN Data Model <a href="https://htan2-data-model.readthedocs.io/en/latest/docs/scrna-seq.html">readthedocs</a> pages. This part of the manual describes <strong>file requirements</strong> for level 3_4 h5ad files.</p>
+<doc-anchor-target id="htans-h5ad-requirements">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#htans-h5ad-requirements">#</doc-anchor-trigger>
+        <span>HTAN&#x27;s h5ad Requirements</span>
+    </h2>
+</doc-anchor-target>
+<p>HTAN Centers are encouraged to reference the <a href="https://docs.google.com/document/d/1XjDLWulYWhnfZrGCg-0_Jh93ytIp3p_01ZrTyymTjoU/edit?usp=sharing">sc/snRNA-seq RFC</a> for additional details. The HTAN h5ad (AnnData 0.10) requirements are modeled after CELLxGENE&#x27;s requirements.  They also include three attributes developed by the Human Cell Atlas (HCA). Please see the <doc-anchor-trigger to="#background-h5ad-files-cellxgene-human-cell-atlas">Background</doc-anchor-trigger> section below for more information about h5ad (AnnData 0.10) files, CELLxGENE and the HCA.</p>
+<doc-anchor-target id="required-file-attributes">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#required-file-attributes">#</doc-anchor-trigger>
+        <span>Required File Attributes</span>
+    </h3>
+</doc-anchor-target>
+<p>Similar to CELLxGENE&#x27;s <a href="https://cellxgene.cziscience.com/docs/032__Contribute%20and%20Publish%20Data">Dataset Requirements</a>, level 3_4 sc/snRNA-seq h5ad files must contain the following attributes. Please see <a href="https://github.com/ncihtan/h5ad/blob/main/exemplars/HTAN_h5ad_exemplar_2025_03_03.h5ad">HTAN_h5ad_exemplar_2025_03_03.h5ad</a> for an example file which meets these requirements.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Ontology/Version</th>
+<th>Comments/Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>var.index, raw.var.index</td>
+<td><a href="https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/5.2.0/schema.md#required-gene-annotations">Human reference GRCh38.p14 (GENCODE v44/Ensembl 110)</a></td>
+<td>ENSEMBL IDs.  For example:  ENSG00000107566.</td>
+</tr>
+<tr>
+<td>var.gene_is_filtered, raw.var.gene_id_filtered</td>
+<td></td>
+<td>no genes filtered in raw data; if gene is filtered in normalized data, count is set to 0 and gene_is_filtered set to 1.</td>
+</tr>
+<tr>
+<td>obs.organism_ontology_term_id</td>
+<td><a href="https://www.ncbi.nlm.nih.gov/taxonomy">NCBITaxon</a></td>
+<td>Set to NCBITaxon:9606 for human.</td>
+</tr>
+<tr>
+<td>obs.donor_id</td>
+<td></td>
+<td>Set to the HTAN Participant ID, e.g. HTA201_1.</td>
+</tr>
+<tr>
+<td>obs.sample_id</td>
+<td></td>
+<td>Set to the HTAN Biospecimen ID, e.g. HTA201_1_B.</td>
+</tr>
+<tr>
+<td>obs.development_stage_ontology_term_id</td>
+<td><a href="https://www.ebi.ac.uk/ols4/ontologies/HsapDv">Human Development Stages (HsapDv)</a></td>
+<td>use <a href="https://docs.google.com/document/d/1SsHZweG_kqerCAPNbQF7gQHNBDRqOsNZWzaWXZIKwTE/edit?usp=sharing">HCA recommended terms</a> (p.22)</td>
+</tr>
+<tr>
+<td>obs.sex_ontology_term_id</td>
+<td><a href="https://www.ebi.ac.uk/ols4/ontologies/pato">Phenotype and Trait Ontology (PATO)</a></td>
+<td>Use <a href="https://cellxgene.cziscience.com/docs/032__Contribute%20and%20Publish%20Data#dataset-requirements">CELLxGENE Requirements</a> PATO:0000384 for male, PATO:0000383 for female, or unknown if unavailable.</td>
+</tr>
+<tr>
+<td>obs.self_reported_ethnicity_term_id</td>
+<td><a href="https://www.ebi.ac.uk/ols4/ontologies/hancestro">Human Ancestry Ontology (HANCESTRO)</a></td>
+<td>Use <a href="https://cellxgene.cziscience.com/docs/032__Contribute%20and%20Publish%20Data#dataset-requirements">CELLxGENE Requirements</a>. HANCESTRO multiple comma-separated terms may be used if more than one ethnicity is reported. If information is unavailable, use unknown. Example:  HANCESTRO_0568. Note that CELLxGENE specifically excludes certain HANCESTRO categories.  See <a href="https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/5.2.0/schema.md#self_reported_ethnicity_ontology_term_id">full details</a>.</td>
+</tr>
+<tr>
+<td>obs.disease_ontology_term_id</td>
+<td><a href="https://www.ebi.ac.uk/ols4/ontologies/mondo">Mondo Disease Ontology</a></td>
+<td></td>
+</tr>
+<tr>
+<td>obs.tissue_type</td>
+<td>CELLxGENE</td>
+<td>Use <a href="https://cellxgene.cziscience.com/docs/032__Contribute%20and%20Publish%20Data#dataset-requirements">CELLxGENE Requirements</a>, Permitted values are restricted to: tissue, organoid, or cell culture.</td>
+</tr>
+<tr>
+<td>obs.tissue_ontology_term_id</td>
+<td><a href="https://www.ebi.ac.uk/ols4/ontologies/uberon">Uber Anatomy Ontology (UBERON)</a></td>
+<td></td>
+</tr>
+<tr>
+<td>obs.cell_type_ontology_term_id</td>
+<td><a href="https://www.ebi.ac.uk/ols4/ontologies/cl">Cell Ontology (CL)</a></td>
+<td></td>
+</tr>
+<tr>
+<td>obs.assay_ontology_term_id</td>
+<td><a href="https://www.ebi.ac.uk/ols4/ontologies/efo">Experimental Factor Ontology (EFO)</a></td>
+<td>Use <a href="https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/5.2.0/schema.md#assay_ontology_term_id">CELLxGENE Requirements</a></td>
+</tr>
+<tr>
+<td>obs.suspension_type</td>
+<td>CELLxGENE</td>
+<td>Use <a href="https://cellxgene.cziscience.com/docs/032__Contribute%20and%20Publish%20Data#dataset-requirements">CELLxGENE Requirements</a>. Permitted values are restricted to: cell, nucleus, na.</td>
+</tr>
+<tr>
+<td>obs.is_primary_data</td>
+<td>CELLxGENE.  Used to indicate if this is the canonical data set (True), or data is being reused from another source (False).</td>
+<td>Use <a href="https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/5.2.0/schema.md#is_primary_data">CELLxGENE Requirements</a>.  Permitted values are restricted to True or False.</td>
+</tr>
+<tr>
+<td>obs.cell_enrichment</td>
+<td>Human Cell Atlas:  “Specifies the cell types targeted for enrichment or depletion beyond the selection of live cells.“</td>
+<td>CL term, followed by + or -.  If no enrichment. Then use CL:00000000. For example, enrichment for fibroblasts would be CL:0000057+</td>
+</tr>
+<tr>
+<td>obs.intron_inclusion</td>
+<td>Human Cell Atlas: “Were introns included during read counting in the alignment process?”</td>
+<td>Permitted values are:  yes, no</td>
+</tr>
+<tr>
+<td>obs.author_cell_type</td>
+<td>Human Cell Atlas: “Encoding of author intuition of cellular annotation in the dataset.”</td>
+<td>Free text</td>
+</tr>
+<tr>
+<td><a href="https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/5.2.0/schema.md#x_suffix">obsm.X_(suffix)</a></td>
+<td>CELLxGENE:  embeddings of at least two dimensions, e.g.  tSNE, UMAP, PCA, spatial coordinates</td>
+<td>use <a href="https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/5.2.0/schema.md#x_suffix">CELLxGENE terms</a> for suffix (e.g. umap, tsne, pca)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="htan-h5ad-file-validation">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#htan-h5ad-file-validation">#</doc-anchor-trigger>
+        <span>HTAN h5ad File Validation</span>
+    </h3>
+</doc-anchor-target>
+<p>The HTAN Data Coordinating Center (DCC) has released a PyPi package called <a href="https://pypi.org/project/HTAN-h5ad-validate/">HTAN-h5ad-validator</a> with which Centers can validate their sc/snRNA-seq h5ad files. Sage Bionetworks will run the validator on sc/snRNA-seq h5ad files submitted to Synapse.</p>
+<doc-anchor-target id="background-h5ad-files-cellxgene-human-cell-atlas">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#background-h5ad-files-cellxgene-human-cell-atlas">#</doc-anchor-trigger>
+        <span>Background: h5ad files, CELLxGENE, Human Cell Atlas</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="h5ad-anndata-010-brief-overview">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#h5ad-anndata-010-brief-overview">#</doc-anchor-trigger>
+        <span>h5ad (AnnData 0.10) brief overview</span>
+    </h3>
+</doc-anchor-target>
+<p>Please see <a href="https://anndata.readthedocs.io/en/latest/index.html">AnnData’s documentation</a> for a more detailed description of the AnnData object.</p>
+<p><figure class="content-center">
+    <img src="../../img/anndata_schema.svg" alt="From https://raw.githubusercontent.com/scverse/anndata/main/docs/_static/img/anndata_schema.svg" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption">From https://raw.githubusercontent.com/scverse/anndata/main/docs/_static/img/anndata_schema.svg</figcaption>
 </figure>
 </p>
-<doc-anchor-target id="pre-submission-tasks">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#pre-submission-tasks">#</doc-anchor-trigger>
-        <span>Pre-submission Tasks</span>
-    </h3>
-</doc-anchor-target>
-<ul class="contains-task-list">
-<li class="task-list-item"><input disabled="disabled" type="checkbox" /> Have at least one user with Certified User status on Synapse.</li>
-</ul>
-<blockquote>
-<p>To upload files to the Synapse Platform, you need to be a <a href="https://docs.synapse.org/synapse-docs/synapse-user-account-types">Synapse Certified User</a>. You can complete your certification by taking a short certification quiz. Please see the Synapse <a href="https://docs.synapse.org/synapse-docs/synapse-user-account-types">Certified User Documentation</a> for more information. Please also be aware that use of Synapse requires agreement to the latest Synapse Terms of Service. Synapse users must also enable two-factor authentication (2FA). You can find information about the latest TOS and guidance on enabling 2FA on your account <a href="https://sagebionetworks.org/trust-center">here</a>.</p>
-</blockquote>
-<ul class="contains-task-list">
-<li class="task-list-item"><input disabled="disabled" type="checkbox" /> Contact your Data Liaison</li>
-</ul>
-<blockquote>
-<p>When you are ready to upload data, please contact your <a href="../data_liaisons/">data liaison</a>. Please have users obtain certified user status prior to contacting your data liaison.</p>
-</blockquote>
-<ul class="contains-task-list">
-<li class="task-list-item"><input disabled="disabled" type="checkbox" /> Ensure the dataset conforms to the HTAN Data Model and uses HTAN Identifiers.</li>
-</ul>
-<blockquote>
-<p>The HTAN Data Model is built upon data standards described on the <a href="../../data_model/overview/">Data Model</a> page. All HTAN Centers are required to encode their clinical, biospecimen and assay data and metadata using the HTAN Data Model. If you have a new data type which is not currently represented in the HTAN Data Model, please contact your data liaison.</p>
-</blockquote>
-<blockquote>
-<p>All data should be identified using HTAN identifiers. Please see the <a href="../../data_model/identifiers/">Identifiers</a> and <a href="../creating_ids/">Creating HTAN Identifiers</a> sections of this manual for more information regarding HTAN identifiers.</p>
-</blockquote>
-<ul class="contains-task-list">
-<li class="task-list-item"><input disabled="disabled" type="checkbox" /> Ensure that your data does not contain PHI.</li>
-</ul>
-<blockquote>
-<p><strong>Please review your data to ensure that it does not contain PHI.</strong> The HTAN DCC cannot accept data with PHI, including dates less than a year. For example, dates in metadata must be converted to days from an <a href="../dates/">index date</a> and all image files must have PHI removed from file headers.</p>
-</blockquote>
-<doc-anchor-target id="submit-data-files">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#submit-data-files">#</doc-anchor-trigger>
-        <span>Submit Data Files</span>
-    </h3>
-</doc-anchor-target>
-<p>Data files can be transferred using the Synapse User Interface (Synapse UI) or programmatically.</p>
+<p>For HTAN’s purposes, the following parts of the AnnData object are of interest:</p>
 <ul>
-<li>To upload files using the Synapse User Interface, follow Synapse&#x27;s <a href="https://docs.synapse.org/synapse-docs/uploading-and-organizing-data-into-projects-files-and-folders#Uploading-a-File-via-the-Synapse-UI">Uploading a File (via Synapse UI)</a> directions.</li>
-<li>To upload the files programmatically, please follow Synapse&#x27;s <a href="https://docs.synapse.org/synapse-docs/uploading-and-organizing-data-into-projects-files-and-folders#Uploading-a-File-Programmatically">Uploading a File Programmatically</a> directions. Contributors are encouraged to use the Python client for programmatic uploads.</li>
+<li>.X - a matrix with counts where rows are cells and columns are genes.</li>
+<li>var - a matrix with gene information (e.g. gene name, gene_is_filtered).</li>
+<li>obs - a matrix with cell-level information.</li>
+<li>obsm - one or more numpy ndarrays with cell embeddings.</li>
 </ul>
-<p>For large file uploads, Synapse also provides guidance regarding uploading data in bulk in <a href="https://python-docs.synapse.org/en/stable/tutorials/python/upload_data_in_bulk/">this tutorial</a>.</p>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>If you upload files to Synapse programmatically using the python client, please use synapseclient version 3.0.0 or higher.</h5>
-        </div>
-    </div>
-</div>
-<doc-anchor-target id="submit-metadata">
+<p>CELLxGENE requires that raw data are submitted.  Normalized data may also be submitted.</p>
+<doc-anchor-target id="cellxgene">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#submit-metadata">#</doc-anchor-trigger>
-        <span>Submit Metadata</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#cellxgene">#</doc-anchor-trigger>
+        <span>CELLxGENE</span>
     </h3>
 </doc-anchor-target>
-<p>Synapse provides a curator within its platform for creating and managing metadata. Please see <a href="https://docs.synapse.org/synapse-docs/managing-metadata-with-curator">their documenation</a> for information about using the curator.</p>
-<p>In the Synapse system, metadata can be <strong>File-based</strong> (associated with a data file) or <strong>Record-based</strong>. Please see <a href="https://docs.synapse.org/synapse-docs/managing-metadata-with-curator#About">Synapse&#x27;s Documentation</a> for more information about these terms.</p>
-<p>For HTAN: <br />
-<strong>Record-based</strong> metadata includes the Clinical and Biospecimen modules of the HTAN2 Data Model. <br />
-<strong>File-based</strong> metadata includes all other modules in the HTAN2 Data Model.</p>
-<doc-anchor-target id="useful-links-and-guides">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#useful-links-and-guides">#</doc-anchor-trigger>
-        <span>Useful Links and Guides</span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="synapse">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#synapse">#</doc-anchor-trigger>
-        <span>Synapse</span>
-    </h3>
-</doc-anchor-target>
+<p>The HTAN DCC submits sc/snRNA-seq data to <a href="https://cellxgene.cziscience.com">CELLxGENE</a>, a tool developed by the Chan Zuckerberg Initiative (CZI) to visualize and explore single cell and spatial data. The DCC submits data to CellxGene in h5ad (AnnData 0.10) format. CELLxGENE’s schema requires:</p>
 <ul>
-<li>Synapse <a href="https://www.synapse.org">Portal</a></li>
-<li>Synapse <a href="https://docs.synapse.org/synapse-docs">DOCS</a></li>
+<li>use of Ensembl gene IDs.</li>
+<li>a specific genome reference and annotation version.</li>
+<li>specific h5ad (AnnData 0.10) attributes.</li>
+<li>use of specific ontologies for many of the required attributes (i.e. cell ontology).</li>
 </ul>
-<doc-anchor-target id="understanding-the-htan-data-model">
+<p>The HTAN requirements for h5ad files are modeled after CELLxGENE&#x27;s <a href="https://cellxgene.cziscience.com/docs/032__Contribute%20and%20Publish%20Data">Dataset Requirements</a>.</p>
+<doc-anchor-target id="human-cell-atlas-hca">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#understanding-the-htan-data-model">#</doc-anchor-trigger>
-        <span>Understanding the HTAN Data Model</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#human-cell-atlas-hca">#</doc-anchor-trigger>
+        <span>Human Cell Atlas (HCA)</span>
     </h3>
 </doc-anchor-target>
-<ul>
-<li>To understand the general structure of the HTAN Data Model and HTAN Identifiers, please see the <a href="../../data_model/overview/">HTAN Data Model</a> section of this manual.</li>
-<li>The Data Model is implemented and <a href="https://github.com/ncihtan/htan2-data-model">available publicly in github</a>.</li>
-</ul>
+<p>The Human Cell Atlas (HCA) is a large repository of single cell data from healthy subjects.  It provides <a href="https://docs.google.com/document/d/1SsHZweG_kqerCAPNbQF7gQHNBDRqOsNZWzaWXZIKwTE/edit?usp=sharing">standards for single-cell data submission</a> which adopt most of the CELLxGENE schema, but also include additional fields.  Aligning HTAN data with CELLxGENE will potentially facilitate data integration with other consortia such as the HCA.  The HTAN requirements include three HCA attributes in addition to CELLxGENE required attributes.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -297,20 +392,20 @@
                             
                                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../data_submission/dates/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../data_submission/clin_data_submission/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
-                                                <span class="block mt-1">What is the index date?</span>
+                                                <span class="block mt-1">Phase 2 Clinical Data Submission</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../data_submission/clin_data_submission/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../addtnl_info/tool_protocol/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
-                                                <span class="block mt-1">Phase 2 Clinical Data Submission</span>
+                                                <span class="block mt-1">Submitting Tools and Protocols</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -354,6 +449,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Submitting Assay Data and Metadata", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Phase 2 sc/snRNA-seq Data Submission", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
