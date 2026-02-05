@@ -8,7 +8,9 @@ HTAN is currently in Phase 2, which includes five pre-cancer atlases and five tu
 
 Phase 1 of HTAN included two pilot projects, five pre-cancer atlases, five tumor atlases, and multiple trans-network projects, referred to as TNPs.
 
-## Phase 2 Centers
+For details on each center, please see: https://humantumoratlas.org/research-network.
+
++++ Phase 2 Centers
 | Prefix | Contact Institution or Project Name     | Project Number | Atlas Type       | Area of Focus                     |
 | ------ | --------------------------------------- | ---------------|---------------- | --------------------------------- |
 | HTA200 | University of California San Francisco | [1U01CA294536-01](https://reporter.nih.gov/search/dC4XUlx4NUCtn4cO72jXMg/project-details/10995082) | Pre-Cancer Atlas | Skin Cancer |
@@ -21,8 +23,7 @@ Phase 1 of HTAN included two pilot projects, five pre-cancer atlases, five tumor
 | HTA207 | Vanderbilt University | [1U01CA294527-01](https://reporter.nih.gov/search/dC4XUlx4NUCtn4cO72jXMg/project-details/10994992) | Tumor Atlas |Colorectal Cancer |
 | HTA208 | MD Anderson | [1U01CA294459-01](https://reporter.nih.gov/search/dC4XUlx4NUCtn4cO72jXMg/project-details/10994265) | Tumor Atlas | Ovarian Cancer |
 | HTA209 | Yale University | [1U01CA294514-01](https://reporter.nih.gov/search/dC4XUlx4NUCtn4cO72jXMg/project-details/10994872) |  Tumor Atlas |Lymphoma |
-
-## Phase 1 Centers
++++ Phase 1 Centers
 
 | Prefix | Contact Institution or Project Name     | Atlas Type       | Area of Focus                     |
 | ------ | --------------------------------------- | ---------------- | --------------------------------- |
@@ -42,5 +43,6 @@ Phase 1 of HTAN included two pilot projects, five pre-cancer atlases, five tumor
 | HTA14  | TNP: Tissue MicroArray (TMA)            | TNP Atlas        | Technology Comparison             |
 | HTA15  | TNP: SRRS                               | TNP Atlas        | Technology Comparison             |
 | HTA16  | TNP: CASI                               | TNP Atlas        | Technology Comparison             |
++++
 
-For details on each center, please see: https://humantumoratlas.org/research-network.
+
