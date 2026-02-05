@@ -22,7 +22,7 @@ If you are interested in data reuse, the following pages may be helpful:
 ==- I am a data contributor 
 If you are a data contributor, the following pages may be most useful:
 - [What does my Center have to do in order to submit data?]()
-- [Who can submit data to HTAN?]
+- [Who can submit data to HTAN?]()
 - [How do I set up my data for submission?]()
 - [What metadata is required for data submission?]()
 - [What genomic references should be used for sequencing data?]()

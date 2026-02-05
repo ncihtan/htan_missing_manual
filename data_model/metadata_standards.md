@@ -4,24 +4,22 @@ order: 999
 
 # Metadata Standards
 
-Metadata means data *about* data.  Metadata enables both data searchability and interpretability. For HTAN, this includes sample and case identifiers, patient information (e.g. demographics), biospecimen information (e.g. tumor type), and assay-specific information (e.g. experiment protocol, assay reagents or assay technology). 
+Metadata means data *about* data.  Metadata enables both data searchability and interpretability. 
 
-Metadata can be further divided into broad categories:
+Metadata can be divided into broad categories:
 1. clinical metadata;
 2. biospecimen metadata; and
-3. assay metadata.
+3. assay file metadata.
 
-[!button text="HTAN Phase 2 Data Model Documentation"](https://htan2-data-model.readthedocs.io/en/main/)
+==- :icon-light-bulb: Conceptually, HTAN metadata can be thought of as a series of tables in a relational database. 
+## Metadata Conceptual Diagram
+Although the following diagram (Figure 1) is an oversimplification, it can help one conceptualize what the HTAN Metadata is. 
+- Each headered rectangle in the diagram is a separate table or "manifest" which contains a set of attributes. 
+- Attributes in the tables include identifiers such as the HTAN_PARENT_ID which help connect the data together. **Please see the [Relationship Model Page](relationships.md) in this manual for more specific information about connecting data together.**
+![Figure 1. Metadata can be conceptually thought of as a series of relational database tables](../img/Metadata_as_rDB.svg)
+===
 
-[!button text="HTAN Phase 2 Data Model Github Repository"](https://github.com/ncihtan/htan2-data-model)
-+++ HTAN Phase 1 Data Model 
-[!button text="HTAN Phase 1 Data Model Github Repository"](https://github.com/ncihtan/data-models)
-
-Where possible, the HTAN Phase 1 Data Model leveraged previously defined data standards across the scientific research community, including the [NCI Genomic Data Commons](https://gdc.cancer.gov/), the [Human Cell Atlas](https://www.humancellatlas.org/), the [Human Biomolecular Atlas Program (HuBMAP)](https://hubmapconsortium.org/) and the [Minimum Information about Tissue Imaging (MITI)](https://www.miti-consortium.org/) reporting guidelines.
-
-
-+++ Clinical Metadata 
-## Tiers
+==- :icon-light-bulb: Clinical Metadata is organized into Tiers.
 Clinical metadata is organized into tiers. The structure of these tiers differs in Phase 1 and Phase 2 of HTAN. In Phase 1 there were three clinical data tiers.  In Phase 2, there are two. For both phases, Tier 1 represents clinical data which is generally common to all studies and Atlases. Higher tiers are extensions to Tier 1, some of which are cancer or study-specific.  
 
 ## Phase 2 Clinical Metadata Tiers
@@ -41,8 +39,25 @@ In HTAN Phase 1, Tier 1 clinical metadata was based on the NCI's Genomic Data Co
 These tiers are shown in figure 3 and are described more on the [Phase 1 Clinical Data Page](https://humantumoratlas.org/standard/clinical). 
 
 ![Figure 3. HTAN Phase 1 Clinical Metadata Tiers](../img/Phase1_clinical_data_tiers.svg)
+===
 
-+++ Biospecimen Metadata
+==- :icon-light-bulb: Biospecimen Metadata is submitted for both original and derived specimen.
+## Original vs Derived Biospecimen
+Biospecimen metadata includes the original biopsy or surgical specimen as well as any derived specimen (e.g. a tissue section or slide) which were subsequently used for an assay. 
+- Derived specimen connect to originating specimen via HTAN_PARENT_ID. (The derived specimen's HTAN_PARENT_ID is the HTAN_BIOSPECIMEN_ID of the originating specimen.) 
+- An originating specimen's HTAN_PARENT_ID would be the HTAN_PARTICIPANT_ID. 
+===
 
-+++ Assay File Metadata
-+++
+==- :icon-light-bulb: Assay File Metadata corresponds to Assay File Levels.
+## Assay File Metadata
+HTAN divides assay data files into levels which increase from level 1 (raw data) to level 4 (derived cohort-level data).  Please see the [File Standards Page](file_standards.md/#assay-data-levels) for more information about assay data levels. 
+
+Assay file metadata corresponds to each assay file level. For example, Whole Exome Sequencing (WES) data currently has 3 file levels. As a result, there are 3 levels of WES assay metadata which are collected -- one for each file level. The metadata are referenced in this manner e.g. "WES - Level 1", "WES - Level 2", "WES - Level 3" in the HTAN Phase 2 Data Model and "Bulk DNA Level 1", "Bulk DNA Level 2", "Bulk DNA Level 3" in the HTAN Phase 1 Model.
+===
+
+The HTAN DCC maintains a set of code in github repositories (one for each Phase of HTAN) to document and validate metadata. Specific information about what attributes are collected, which attributes are required and valid values are also provided to help data contributors.  These resources may also be helpful to data users.
+
+| HTAN Phase | Github Repository | Detailed Documentation |
+|------------|-------------------|------------------------|
+| **Phase 2**   |[!button text="HTAN Phase 2 Data Model (Metadata) Github Repository"](https://github.com/ncihtan/htan2-data-model) | [!button text="HTAN Phase 2 Data Model (Metadata) Documentation"](https://htan2-data-model.readthedocs.io/en/main/) |
+| **Phase 1**   | [!button text="HTAN Phase 1 Data Model (Metadata) Github Repository"](https://github.com/ncihtan/data-models) | [!button text="HTAN Phase 1 Data Model (Metadata) Documentation"](https://humantumoratlas.org/standards) |
