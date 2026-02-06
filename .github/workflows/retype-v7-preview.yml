@@ -1,9 +1,9 @@
-name: Retype Preview
+name: Retype v7 Manual Preview
 
 on:
   push:
     branches:
-      - preview
+      - v7_manual_updates
 
 jobs:
   build:
