@@ -1,0 +1,21 @@
+name: Retype Preview
+
+on:
+  push:
+    branches:
+      - preview
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: retypeapp/action-build@v3
+        with:
+          config: retype.preview.yml
+
+      - uses: retypeapp/action-github-pages@v3
+        with:
+          branch: preview-pages
+
