@@ -7,20 +7,36 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout source branch
+        uses: actions/checkout@v4
 
-      - uses: retypeapp/action-build@v3
+      - name: Build preview with Retype
+        uses: retypeapp/action-build@v3
         with:
           config: retype.preview.yml
 
-      - uses: retypeapp/action-github-pages@v3
+      - name: Checkout Pages branch
+        uses: actions/checkout@v4
         with:
-          branch: preview-pages
+          ref: retype
+          path: pages
 
+      - name: Copy preview into /preview
+        run: |
+          rm -rf pages/preview
+          mkdir -p pages/preview
+          cp -R .retype/* pages/preview/
+
+      - name: Commit preview
+        run: |
+          cd pages
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add preview
+          git commit -m "Update preview site" || echo "No changes"
+          git push

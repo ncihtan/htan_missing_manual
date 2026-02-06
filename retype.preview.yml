@@ -1,3 +1,9 @@
 input: .
 output: .retype
-url: https://ncihtan.github.io/htan_missing_manual-preview/
+url: https://ncihtan.github.io/htan_missing_manual/preview/
+
+branding:
+  title: "[PREVIEW] HTAN Missing Manual"
+
+meta:
+  robots: noindex
