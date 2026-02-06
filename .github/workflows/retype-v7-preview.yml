@@ -18,7 +18,7 @@ jobs:
       - name: Build preview with Retype
         uses: retypeapp/action-build@v3
         with:
-          config: retype.preview.yml
+          config_path: retype.preview.yml
 
       - name: Checkout Pages branch
         uses: actions/checkout@v4
