@@ -3,7 +3,7 @@ name: Retype v7 Manual Preview
 on:
   push:
     branches:
-      - v7_manual_updates
+      - v7_manual_rework
 
 jobs:
   build:
