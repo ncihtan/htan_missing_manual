@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ncihtan.github.io/v7_manual_rework-preview/sitemap.xml.gz
+Sitemap: https://ncihtan.github.io/htan_missing_manual-preview/sitemap.xml.gz
