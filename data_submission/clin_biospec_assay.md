@@ -4,7 +4,7 @@ order: 994
 
 # Submitting Assay Data and Metadata
 
-[Data Submission Introduction](../data_submission/overview.md) provides a general overview for submitting data and metadata to HTAN. This page provides details regarding those steps. 
+[Data Submission Introduction](../data_submission/overview.md) provides a general overview for submitting data and metadata to HTAN. This page provides details regarding those steps.
 
 ## Data Submission Steps
 1. [Complete Pre-submission Tasks](#pre-submission-tasks)
@@ -12,7 +12,7 @@ order: 994
 4. [Submit Metadata](#submit-metadata)
 
 Please read the rest of this page for more information about each of these steps.
-![HTAN Data Submission Process](../img/Data_submission.svg)
+![HTAN Data Submission Process](../img/Data_submission.svg){ style="width: 60%;" }
 
 ### Pre-submission Tasks
 
@@ -22,7 +22,7 @@ Please read the rest of this page for more information about each of these steps
 
 - [ ] Contact your Data Liaison
 
-> When you are ready to upload data, please contact your [data liaison](../data_submission/Data_Liaisons.md). Please have users obtain certified user status prior to contacting your data liaison.
+> When you are ready to upload data, please contact your [data liaison](../data_submission/Data_Liaisons.md). Please have users obtain certified user status prior to contacting your data liaison. If you have not submitted data previously, your Data Liaison may also need to ensure you have the proper access rights for you Synapse Project.
 
 - [ ] Ensure the dataset conforms to the HTAN Data Model and uses HTAN Identifiers.
 
@@ -64,4 +64,3 @@ For HTAN: \
 
 ### Understanding the HTAN Data Model
 - To understand the general structure of the HTAN Data Model and HTAN Identifiers, please see the [HTAN Data Model](../data_model/overview.md) section of this manual.
-- The Data Model is implemented and [available publicly in github](https://github.com/ncihtan/htan2-data-model).

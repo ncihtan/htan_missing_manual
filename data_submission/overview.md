@@ -3,7 +3,7 @@ order: 1001
 ---
 
 # Introduction
-Only HTAN Centers and Associate Members can submit data to HTAN repositories. The Data Submission Section of this Manual is intended as a guide for HTAN Centers and Associate Members. Please note that the manual is currently in the process of being updated to Phase 2 methods for data submission.
+Only HTAN Centers and Associate Members can submit data to HTAN repositories. The Data Submission Section of this Manual is intended as a guide for HTAN Centers and Associate Members.
 
 :exclamation: *Prior to submitting data, all data must be de-identified.  Please see [Data De-identification](../data_submission/Data_Deidentification.md) for more information.*
 
@@ -18,3 +18,13 @@ Assay Data Submission involves uploading the data files and then annotating thos
 ![Figure 2. Phase 2 Clinical and Biospecimen Metadata Submission](../img/Phase2_Clin_Biospec_Submit_Overview.svg)
 
 Specific details regarding data submission may vary by data type. Please take a look at later sections of this manual and contact your  [Data Liaison](../data_submission/Data_Liaisons.md) if you have any questions or issues.  Please also keep your data liaison informed of any expected data submissions.
+
+!!! :zap: Helpful Links :zap:
+The [Data Model section](../data_model/overview.md) of this manual provides an overview of how data should be structured, metadata and file requirements and links to other data model documentation.
+
+[HTAN Checklist for Acceptance of Data](checklist.md) reviews parts of the Human Tumor Atlas Network DMSA  (Internal Data and Materials Sharing Agreement) [(HTAN DMSA)](https://drive.google.com/file/d/186TMLs3L2dKrXvMQLGuEYC-7jyGHCRw3/view?usp=sharing) which are relevant to data submission.
+
+The [Submitting Assay Data and Metadata](clin_biospec_assay.md) page provides a quick overview of data and metadata submission, including pre-submission steps such as becoming a Certified Synapse User.
+
+The [Phase 2 HTAN Wiki](https://www.synapse.org/Synapse:syn63296487/wiki/629655) on Synapse provides internal resources including "How Do I...?" and "Where Do I Find...?" pages. If you need to onboard new personnel or have other HTAN-specific questions not answered in this manual, you may find the information you need on the wiki. If you are an HTAN Member and cannot access the wiki, please contact your data liaison.
+!!!

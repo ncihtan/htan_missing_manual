@@ -13,21 +13,20 @@ If you have feedback for this manual, including broken links or incorrect inform
 ==- I am a data user
 If you are interested in data reuse, the following pages may be helpful:
 - [What is HTAN?](overview/introduction.md) 
-- [How is HTAN Data structured?]((data_model/overview.md))
+- [How is HTAN Data structured?](data_model/overview.md)
 - [Do Phase 1 and Phase 2 HTAN data differ?](data_model/overview.md/#tab-2)
-- [How can I explore HTAN data?]()
-- [How do I obtain a copy of the HTAN data?]()
-- [How do I get help?]()
+- [How can I explore HTAN data?](data_access/introduction.md)
+- [How do I obtain a copy of the HTAN data?](data_access/introduction.md)
+
+Questions or problems accessing the data? Please contact us: [HTAN Help Desk](https://sagebionetworks.jira.com/servicedesk/customer/portal/1).
 ===
 ==- I am a data contributor 
 If you are a data contributor, the following pages may be most useful:
-- [What does my Center have to do in order to submit data?]()
-- [Who can submit data to HTAN?]()
-- [How do I set up my data for submission?]()
-- [What metadata is required for data submission?]()
-- [What genomic references should be used for sequencing data?]()
-- [Are there requirements for assay files?]()
-- [How do I meet my publication's data access requirements?]()
+- [What do I need to do before I submit data? (pre-submission tasks)](/data_submission/clin_biospec_assay.md)
+- [What are the file requirements for data submission?](/data_model/file_standards.md)
+- [What metadata is required for data submission?](/data_submission/metadata.md)
+- [Can dates be submitted to HTAN?](/data_submission/dates.md)
+- [What genomic references should be used for sequencing data?](/data_model/file_standards.md/#genomic-references-and-annotation-versions)
 ===
 
 ## Other Information
