@@ -4,6 +4,7 @@ order: 992
 
 # Phase 2 sc/snRNA-seq Data Submission
 
++++ Overview
 ## Overview
 In HTAN Phase 2, the following files are submitted for single cell/single nuclei RNA-sequencing (sc/snRNA-seq) data:
 
@@ -15,9 +16,9 @@ In HTAN Phase 2, the following files are submitted for single cell/single nuclei
 
 Metadata requirements are documented in the HTAN Data Model [readthedocs](https://htan2-data-model.readthedocs.io/en/main/) pages. This part of the manual describes **file requirements** for level 3_4 h5ad files.
 
-## HTAN's h5ad Requirements
-HTAN Centers are encouraged to reference the [sc/snRNA-seq RFC](https://docs.google.com/document/d/1XjDLWulYWhnfZrGCg-0_Jh93ytIp3p_01ZrTyymTjoU/edit?usp=sharing) for additional details. The HTAN h5ad (AnnData 0.10) requirements are modeled after CELLxGENE's requirements.  They also include three attributes developed by the Human Cell Atlas (HCA). Please see the [Background](#background-h5ad-files-cellxgene-human-cell-atlas) section below for more information about h5ad (AnnData 0.10) files, CELLxGENE and the HCA.
+The HTAN h5ad (AnnData 0.10) requirements are modeled after CELLxGENE's requirements.  They also include three attributes developed by the Human Cell Atlas (HCA). Please see the [Background](#background-h5ad-files-cellxgene-human-cell-atlas) section below for more information about h5ad (AnnData 0.10) files, CELLxGENE and the HCA.
 
++++ Required File Attributes
 ### Required File Attributes
 Similar to CELLxGENE's [Dataset Requirements](https://cellxgene.cziscience.com/docs/032__Contribute%20and%20Publish%20Data), level 3_4 sc/snRNA-seq h5ad files must contain the following attributes. Please see [HTAN_h5ad_exemplar_2025_03_03.h5ad](https://github.com/ncihtan/h5ad/blob/main/exemplars/HTAN_h5ad_exemplar_2025_03_03.h5ad) for an example file which meets these requirements.
 
@@ -43,9 +44,11 @@ Similar to CELLxGENE's [Dataset Requirements](https://cellxgene.cziscience.com/d
 | obs.author_cell_type | Human Cell Atlas: “Encoding of author intuition of cellular annotation in the dataset.” | Free text |
 | [obsm.X_(suffix)](https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/5.2.0/schema.md#x_suffix) | CELLxGENE:  embeddings of at least two dimensions, e.g.  tSNE, UMAP, PCA, spatial coordinates | use [CELLxGENE terms](https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/5.2.0/schema.md#x_suffix) for suffix (e.g. umap, tsne, pca) |
 
++++ HTAN h5ad File Validation
 ### HTAN h5ad File Validation
 The HTAN Data Coordinating Center (DCC) has released a PyPi package called [HTAN-h5ad-validator](https://pypi.org/project/HTAN-h5ad-validate/) with which Centers can validate their sc/snRNA-seq h5ad files. Sage Bionetworks will run the validator on sc/snRNA-seq h5ad files submitted to Synapse. 
 
++++ Background: h5ad files, CELLxGENE, Human Cell Atlas
 ## Background: h5ad files, CELLxGENE, Human Cell Atlas
 
 ### h5ad (AnnData 0.10) brief overview
@@ -75,5 +78,5 @@ The HTAN requirements for h5ad files are modeled after CELLxGENE's [Dataset Requ
 ### Human Cell Atlas (HCA)
 
 The Human Cell Atlas (HCA) is a large repository of single cell data from healthy subjects.  It provides [standards for single-cell data submission](https://docs.google.com/document/d/1SsHZweG_kqerCAPNbQF7gQHNBDRqOsNZWzaWXZIKwTE/edit?usp=sharing) which adopt most of the CELLxGENE schema, but also include additional fields.  Aligning HTAN data with CELLxGENE will potentially facilitate data integration with other consortia such as the HCA.  The HTAN requirements include three HCA attributes in addition to CELLxGENE required attributes.
-
++++
 
