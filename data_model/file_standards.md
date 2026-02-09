@@ -30,9 +30,9 @@ The Phase 2 Data Model is still being developed. This page will be updated as th
 || 2 | aligned sequence data. | bam, cram ||
 || 3_4 | sample level summary information, e.g. cell annotations, t-SNE/UMAP coordinates, etc. | h5ad | level 3_4 files have specific format and content requirements. Please see [Specific Assay/Assay Module Requirements](#specific-assayassay-module-requirements). |
 | SpatialOmics | 1 | Optional level for submission of controlled-access experiment data. | compressed archive (.tar.gz, .zip) containing raw data (e.g. FASTQs, BAMS) | Submission of level 1 is **not required** |
-|| 3 | A compressed archive (e.g., .tar.gz, .zip) containing platform-specific output files. Should include segmentation outputs, raw or normalized matrices, and any relevant vendor JSONs, manifest files, or images.  | compressed archive (.tar.gz, .zip)| level 3 bundles **cannot contain controlled-access data** such as FASTQs or BAMs. There is no level 2 for SpatialOmics.|
+|| 3 | A compressed archive (e.g., .tar.gz, .zip) containing platform-specific output files. Should include segmentation outputs, raw or normalized matrices, and any relevant vendor JSONs, manifest files, or images.  | compressed archive (tar.gz, .gz)| level 3 bundles **cannot contain controlled-access data** such as FASTQs or BAMs. There is no level 2 for SpatialOmics.|
 || Panel | Panel information if the assay uses a targeted sequencing or protein panel. | csv ||
-|| 4 | A harmonized output file for downstream analysis. | AnnData h5ad or seurat compatible RDS | level 4 is optional. A HTAN-standardized format for these files (similar to level 3_4 scRNA-seq data) has not been developed, but may exist in the future. |
+|| 4 | A harmonized output file for downstream analysis. | h5ad, rds, zarr | level 4 is optional. A HTAN-standardized format for these files (similar to level 3_4 scRNA-seq data) has not been developed, but may exist in the future. |
 | WES | 1	| Raw data	| fastq, fastq.gz ||
 ||2	| Aligned primary data |	bam, cram ||
 ||3	| Derived biomolecular data	| vcf, vcf.gz | |
@@ -117,7 +117,7 @@ In HTAN Phase 2, there are specific requirements for file formats which are chec
 |SpatialOmics | 1 | gz, tar.gz |
 || 3 | gz, tar.gz |
 || Panel | csv |
-|| 4 | gz, tar.gz |
+|| 4 | h5ad, rds, zarr |
 | WES | 1| fastq, fastq.gz |
 || 2 | bam, cram |
 || 3 | vcf, vcf.gz |
