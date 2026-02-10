@@ -127,9 +127,10 @@ In HTAN Phase 2, there are specific requirements for file formats which are chec
 
 ==- Genomic References and Annotation Versions
 ### Genomic References and Annotation Versions
+HTAN data contributors must provide the genomics reference and annotation version used for any aligned sequencing files. This information can be found in the level 2 metadata. HTAN **strongly recommends** using GENCODE/Ensembl genome annotations for level 2 sequencing data.
+
 HTAN does not restrict data contributors to a specific genomic reference or annotation versions for most sequencing data with the exception of level 3/4 scRNA-seq data. Please see the [Phase 2 Single Cell RNA-seq page](../data_submission/scrnaseq_data_submission.md) for more information regarding the scRNA-seq requirements.
 
-However, HTAN data contributors must provide the genomics reference and annotation version used for any aligned sequencing files. This information can be found in the level 2 metadata.   
 ===
 ==- Digital Pathology and MultiplexMicroscopy
 ### Digital Pathology and MultiplexMicroscopy

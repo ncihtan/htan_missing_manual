@@ -24,7 +24,7 @@ Similar to CELLxGENE's [Dataset Requirements](https://cellxgene.cziscience.com/d
 
 | Attribute | Ontology/Version | Comments/Examples |
 |-----------|------------------|-------------------|
-| var.index, raw.var.index | [Human reference GRCh38.p14 (GENCODE v44/Ensembl 110)](https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/5.2.0/schema.md#required-gene-annotations) | ENSEMBL IDs.  For example:  ENSG00000107566.|
+| var.index, raw.var.index | GENCODE [Please see CELLxGENE's latest schema](https://chanzuckerberg.github.io/single-cell-curation/latest-schema.html#required-gene-annotations) for version information | ENSEMBL IDs.  For example:  ENSG00000107566.|
 | var.gene_is_filtered, raw.var.gene_id_filtered | | no genes filtered in raw data; if gene is filtered in normalized data, count is set to 0 and gene_is_filtered set to 1.|
 | obs.organism_ontology_term_id | [NCBITaxon](https://www.ncbi.nlm.nih.gov/taxonomy) |  Set to NCBITaxon:9606 for human. |
 | obs.donor_id | | Set to the HTAN Participant ID, e.g. HTA201_1.| 
