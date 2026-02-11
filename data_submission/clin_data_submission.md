@@ -14,7 +14,7 @@ Figure 1 provides a general representation of the model.
 
 ![Figure 1. HTAN Phase 2 Clinical Metadata Tiers](../img/Phase2_clinical_data_tiers.svg)
 
-Information regarding required attributes and valid values are provided in the HTAN Data Model [readthedocs](https://htan2-data-model.readthedocs.io/en/main/) pages. This page provides information such as:
+Information regarding required attributes and valid values are provided in the HTAN Data Model <a href="https://htan2-data-model.readthedocs.io/en/main/" target="_blank" rel="noopener noreferrer">readthedocs</a> pages. This page provides information such as:
 - how many records (rows) are expected for each type of clinical data;
 - which records are required for each participant; and
 - how to submit longitudinal data for a participant. 
@@ -39,7 +39,7 @@ All HTAN data elements that capture time points are expressed as “Age in Days 
 
 The data standards allow for multiple responses for many data elements.  This information may be found in the “Validation” column of the HTAN Data Model documentation. Multiple responses are submitted delimited by commas.
 
-Data elements are aligned with the Standard Common Data Elements (CDEs) of the [NCI's caDSR](https://cadsr.cancer.gov/onedata/Home.jsp) where possible.
+Data elements are aligned with the Standard Common Data Elements (CDEs) of the <a href="https://cadsr.cancer.gov/onedata/Home.jsp" target="_blank" rel="noopener noreferrer">NCI's caDSR</a> where possible.
 
 ### Demographics
 Clinical Tier 1 Demographics data includes patient attributes captured at baseline or at the time of the cross-sectional observation. These data include ethnicity, race, etc. </br></br>
@@ -50,7 +50,7 @@ Clinical Tier 1 Demographics data includes patient attributes captured at baseli
 Clinical Tier 1 Diagnosis data elements describe the HTAN participant’s incident tumor or premalignant lesion (PML). These data include primary diagnosis, anatomic site of the tumor or PML, and classification and grade of the lesion.</br></br>
 ✅	A **single Diagnosis record** is REQUIRED **for each PML or tumor**.</br>
 ✅	All dates MUST be converted to days from index, where the index is the participant date of birth. (e.g. ‘Age in Days at Diagnosis’, ‘Age in Days at Last Known Disease Status’) </br>
-✅	Data elements MUST use the permissible values established by the CRDC, including NCI Thesaurus ID for Primary Diagnosis and UBERON Codes for Tissue or Organ of Origin.  Please see the [HTAN Phase 2 Clinical Data RFC](https://docs.google.com/document/d/14gNmYTEmd5OjLUuut-w4ZTiF5qgxgpekImG3INM9vm8/edit?usp=sharing) for more information and links to the relevant caDSR codes.
+✅	Data elements MUST use the permissible values established by the CRDC, including NCI Thesaurus ID for Primary Diagnosis and UBERON Codes for Tissue or Organ of Origin.  Please see the  <a href="https://docs.google.com/document/d/14gNmYTEmd5OjLUuut-w4ZTiF5qgxgpekImG3INM9vm8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">HTAN Phase 2 Clinical Data RFC</a> for more information and links to the relevant caDSR codes.
 🌟	If a participant develops a new lesion or has/had a secondary cancer, a new Diagnosis record (row) SHOULD be added to the Diagnosis manifest. In all other cases, each participant SHOULD have only one Diagnosis record. </br>
 
 ### Exposure
