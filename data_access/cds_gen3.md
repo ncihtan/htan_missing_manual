@@ -4,18 +4,18 @@ order: 995
 
 # Gen3-Client
 
-HTAN files available through the NCI CRDC Cancer Data Service can be downloaded in the terminal using the [gen3-client](https://docs.gen3.org/gen3-resources/user-guide/). The gen3-client provides an easy-to-use, command-line interface for uploading and downloading data files to and from a Gen3 data commons from the terminal or command prompt, respectively.
+HTAN files available through the NCI CRDC Cancer Data Service can be downloaded in the terminal using the <a href="https://docs.gen3.org/gen3-resources/user-guide/" target="_blank" rel="noopener noreferrer">gen3-client</a>. The gen3-client provides an easy-to-use, command-line interface for uploading and downloading data files to and from a Gen3 data commons from the terminal or command prompt, respectively.
 
 
 ## Step-by-step guide
 
 ### Step 1: Install the Gen3-client
 
-- Follow the [Gen3-client install instructions](https://gen3.org/resources/user/gen3-client/#1-installation-instructions) for your operating system.
+- Follow the <a href="https://gen3.org/resources/user/gen3-client/#1-installation-instructions" target="_blank" rel="noopener noreferrer">Gen3-client install instructions</a> for your operating system.
 
 ### Step 2: Obtain and Configure API Credentials
 
-- Log in to the NCI Commons Framework at [nci-crdc.datacommons.io](https://nci-crdc.datacommons.io).
+- Log in to the NCI Commons Framework at <a href="https://nci-crdc.datacommons.io" target="_blank" rel="noopener noreferrer">nci-crdc.datacommons.io</a>.
 - Go to your profile settings, create a new API key, and download the credentials.json file.
 
 ### Step 3: Configure the gen3-client

@@ -4,13 +4,13 @@ order: 993
 
 # Accessing CRDC Data in SB-CGC
 
-[Seven Bridges Cancer Genomics Cloud (SB-CGC)](https://www.cancergenomicscloud.org/) is a cloud platform for the analysis and storage of large cancer datasets. There are two mechanisms for transferring HTAN data from the NCI's Cancer Research Data Commons (CRDC) to SB-CGC:
+ <a href="https://www.cancergenomicscloud.org" target="_blank" rel="noopener noreferrer">Seven Bridges Cancer Genomics Cloud (SB-CGC)</a> is a cloud platform for the analysis and storage of large cancer datasets. There are two mechanisms for transferring HTAN data from the NCI's Cancer Research Data Commons (CRDC) to SB-CGC:
 
-1. Direct export from the CDRC General Commons (GC) [Portal](https://general.datacommons.cancer.gov/#/data).
+1. Direct export from the CDRC General Commons (GC)  <a href="https://general.datacommons.cancer.gov/#/data" target="_blank" rel="noopener noreferrer">Portal</a>.
 2. Export via a Data Repository Service (DRS) Manifest.
 
 !!! Access Requirements
-**SB-CGC** Data access via Seven Bridges Cancer Genomics Cloud (SB-CGC) requires a CGC account [[register here](https://docs.cancergenomicscloud.org/docs/sign-up-for-the-cgc)]. For further information on using SB-CGC resources including programmatic access options, you can explore their [online documentation](https://docs.cancergenomicscloud.org/docs).\
+**SB-CGC** Data access via Seven Bridges Cancer Genomics Cloud (SB-CGC) requires a CGC account  <a href="https://docs.cancergenomicscloud.org/docs/sign-up-for-the-cgc" target="_blank" rel="noopener noreferrer">[register here]</a>. For further information on using SB-CGC resources including programmatic access options, you can explore their <a href="https://docs.cancergenomicscloud.org/docs" target="_blank" rel="noopener noreferrer">online documentation</a>.\
 **Access-controlled data** To download access-controlled files, you must first complete a [dbGAP request](db_gap.md).
 !!!
 
@@ -21,7 +21,7 @@ HTAN Data in CRDC includes:
 ## Imaging Files
 
 ### Direct Export 
-In order to access HTAN imaging data within CRDC, navigate to the [GC Portal](https://general.datacommons.cancer.gov/#/data) in a web browser.
+In order to access HTAN imaging data within CRDC, navigate to the  <a href="https://general.datacommons.cancer.gov/#/data" target="_blank" rel="noopener noreferrer">GC Portal</a> in a web browser.
 
 On the Data Explorer page, expand the STUDY section on the left sidebar, scroll down, and check the box next to **Human Tumor Atlas (HTAN) imaging data**.
 
@@ -72,7 +72,7 @@ Follow the directions for [Direct Export](#direct-export) of files from GC.  In 
 Cancer Data Services (CDS) has changed its name to General Commons (GC). The HTAN Portal will be updated soon to reflect this change.
 !!!
 
-From the [HTAN Data Portal](https://humantumoratlas.org/), click **CDS/SB-CGC (Open Access)** under the **Data Access** filter. 
+From the  <a href="https://humantumoratlas.org/" target="_blank" rel="noopener noreferrer">HTAN Data Portal</a>, click **CDS/SB-CGC (Open Access)** under the **Data Access** filter. 
 
 ![HTAN Portal: Accessing Imaging Data in GC](../img/cds_img1.png)
 
@@ -90,16 +90,20 @@ Click **Download Manifest**, which will download a local file called `cds_manife
 Cancer Data Services (CDS) has changed its name to General Commons (GC). The Big Query notebook referenced below will be updated soon to reflect this change.
 !!!
 
-HTAN metadata and a mapping of HTAN Data File IDs to GC DRS URIs are available as Google BigQuery tables via the Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC) (see [Google BigQuery](https://docs.humantumoratlas.org/data_access/biq_query/)). These tables can be used to subset data to a cohort of interest, and obtain DRS URIs of files to access. 
+HTAN metadata and a mapping of HTAN Data File IDs to GC DRS URIs are available as Google BigQuery tables via the Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC) (see <a href="https://docs.humantumoratlas.org/data_access/biq_query/" target="_blank" rel="noopener noreferrer">Google BigQuery</a>). These tables can be used to subset data to a cohort of interest, and obtain DRS URIs of files to access. 
 
-For a step-by-step guide on how to generate a DRS manifest file using Google BigQuery, please see the Python notebook [Creating_General_Commons_Data_Import_Manifests_Using_BQ.ipynb](https://github.com/isb-cgc/Community-Notebooks/blob/master/HTAN/Python%20Notebooks/Creating_General_Commons_Data_Import_Manifests_Using_BQ.ipynb).
+HTAN metadata and a mapping of HTAN Data File IDs to GC DRS URIs are available as Google BigQuery tables via the Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC) (see <a href="https://docs.humantumoratlas.org/data_access/biq_query/" target="_blank" rel="noopener noreferrer">Google BigQuery</a>). These tables can be used to subset data to a cohort of interest, and obtain DRS URIs of files to access. 
+For a step-by-step guide on how to generate a DRS manifest file using Google BigQuery, please see the Python notebook see  <a href="https://github.com/isb-cgc/Community-Notebooks/blob/master/HTAN/Python%20Notebooks/Creating_General_Commons_Data_Import_Manifests_Using_BQ.ipynb" target="_blank" rel="noopener noreferrer">Creating_General_Commons_Data_Import_Manifests_Using_BQ.ipynb</a>.
 
 
 #### 2. Import the data into CGC
-Once you have your manifest, follow the instructions on SB-CGC's [Import from a DRS server](https://docs.cancergenomicscloud.org/docs/import-from-a-drs-server#import-from-a-manifest-file) documentation page to import data from a manifest file.
+HTAN metadata and a mapping of HTAN Data File IDs to GC DRS URIs are available as Google BigQuery tables via the Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC) (see <a href="https://docs.humantumoratlas.org/data_access/biq_query/" target="_blank" rel="noopener noreferrer">Google BigQuery</a>). These tables can be used to subset data to a cohort of interest, and obtain DRS URIs of files to access. 
+Once you have your manifest, follow the instructions on SB-CGC's see <a href="https://docs.cancergenomicscloud.org/docs/import-from-a-drs-server#import-from-a-manifest-file" target="_blank" rel="noopener noreferrer">Import from a DRS server</a> documentation page to import data from a manifest file.
 
 ## Sequencing Data
-The [General Commons (GC) Portal](https://general.datacommons.cancer.gov/#/data), within NCI's Cancer Research Data Commons (CRDC), provides an interface to filter and select data from a variety of NCI programs, including controlled-access, primary sequence data from the Human Tumor Atlas Network (HTAN).
+HTAN metadata and a mapping of HTAN Data File IDs to GC DRS URIs are available as Google BigQuery tables via the Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC) (see <a href="https://docs.humantumoratlas.org/data_access/biq_query/" target="_blank" rel="noopener noreferrer">Google BigQuery</a>). These tables can be used to subset data to a cohort of interest, and obtain DRS URIs of files to access. 
+HTAN metadata and a mapping of HTAN Data File IDs to GC DRS URIs are available as Google BigQuery tables via the Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC) (see <a href="https://docs.humantumoratlas.org/data_access/biq_query/" target="_blank" rel="noopener noreferrer">Google BigQuery</a>). These tables can be used to subset data to a cohort of interest, and obtain DRS URIs of files to access. 
+The <a href="https://general.datacommons.cancer.gov/#/data" target="_blank" rel="noopener noreferrer">General Commons (GC) Portal</a>, within NCI's Cancer Research Data Commons (CRDC), provides an interface to filter and select data from a variety of NCI programs, including controlled-access, primary sequence data from the Human Tumor Atlas Network (HTAN).
 
 The directions for accessing sequencing data on GC are similar to those for [Level 2 Imaging Data Access](#imaging-files), including Direct Export from GC to CGC and importing data using a Data Repository Service (DRS) Manifest.  Please follow the [Level 2 Imaging Data Access](#imaging-files) directions to access sequencing data, noting the following changes:
 
@@ -110,7 +114,8 @@ The directions for accessing sequencing data on GC are similar to those for [Lev
 &nbsp;
 
 2. To generate a DRS Manifest from the 
-[HTAN Data Portal](https://humantumoratlas.org/), click **CDS/SB-CGC (dbGaP)** under the **Data Access** filter instead of **CDS/SB-CGC (Open Access)**. 
+HTAN metadata and a mapping of HTAN Data File IDs to GC DRS URIs are available as Google BigQuery tables via the Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC) (see <a href="https://docs.humantumoratlas.org/data_access/biq_query/" target="_blank" rel="noopener noreferrer">Google BigQuery</a>). These tables can be used to subset data to a cohort of interest, and obtain DRS URIs of files to access. 
+ <a href="https://humantumoratlas.org/" target="_blank" rel="noopener noreferrer">HTAN Data Portal</a>, click **CDS/SB-CGC (dbGaP)** under the **Data Access** filter instead of **CDS/SB-CGC (Open Access)**. 
 
 !!!
 Cancer Data Services (CDS) has changed its name to General Commons (GC). The HTAN Portal will be updated soon to reflect this change.
