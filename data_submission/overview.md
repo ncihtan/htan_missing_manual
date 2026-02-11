@@ -27,4 +27,6 @@ The [Data Model section](../data_model/overview.md) of this manual provides an o
 The [Submitting Assay Data and Metadata](clin_biospec_assay.md) page provides a quick overview of data and metadata submission, including pre-submission steps such as becoming a Certified Synapse User.
 
 The <a href="https://www.synapse.org/Synapse:syn63296487/wiki/629655" target="_blank" rel="noopener noreferrer">Phase 2 HTAN Wiki</a> on Synapse provides internal resources including "How Do I...?" and "Where Do I Find...?" pages. If you need to onboard new personnel or have other HTAN-specific questions not answered in this manual, you may find the information you need on the wiki. If you are an HTAN Member and cannot access the wiki, please contact your data liaison.
+
+If you have any issues or questions regarding HTAN data submission, please contact us: <a href="https://sagebionetworks.jira.com/servicedesk/customer/portal/1" target="_blank" rel="noopener noreferrer">HTAN Help Desk</a>
 !!!

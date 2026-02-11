@@ -1,11 +1,11 @@
 # WELCOME
 
-**The HTAN Manual** provides an overview of Human Tumor Atlas Network (HTAN) data, including details regarding data access and data contribution. If you have any questions regarding the manual or HTAN data, please contact us: [HTAN Help Desk](https://sagebionetworks.jira.com/servicedesk/customer/portal/1).
+**The HTAN Manual** provides an overview of Human Tumor Atlas Network (HTAN) data, including details regarding data access and data contribution. If you have any questions regarding the manual or HTAN data, please contact us:  <a href="https://sagebionetworks.jira.com/servicedesk/customer/portal/1" target="_blank" rel="noopener noreferrer">HTAN Help Desk</a>.
 
 The manual can be found at https://docs.humantumoratlas.org/.
 
 ==- Manual Feedback or Corrections?
-If you have feedback for this manual, including broken links or incorrect information, please submit a ticket to the [HTAN Help Desk](https://sagebionetworks.jira.com/servicedesk/customer/portal/1).
+If you have feedback for this manual, including broken links or incorrect information, please submit a ticket to the  <a href="https://sagebionetworks.jira.com/servicedesk/customer/portal/1" target="_blank" rel="noopener noreferrer">HTAN Help Desk</a>.
 ===
 
 ## Quick Start
@@ -18,7 +18,7 @@ If you are interested in data reuse, the following pages may be helpful:
 - [How can I explore HTAN data?](data_access/introduction.md)
 - [How do I obtain a copy of the HTAN data?](data_access/introduction.md)
 
-Questions or problems accessing the data? Please contact us: [HTAN Help Desk](https://sagebionetworks.jira.com/servicedesk/customer/portal/1).
+Questions or problems accessing the data? Please contact us:  <a href="https://sagebionetworks.jira.com/servicedesk/customer/portal/1" target="_blank" rel="noopener noreferrer">HTAN Help Desk</a>.
 ===
 ==- I am a data contributor 
 If you are a data contributor, the following pages may be most useful:
