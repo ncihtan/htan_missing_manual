@@ -23,10 +23,10 @@ HTAN has had two phases:
 
 ==- :icon-alert: The Phase 1 and Phase 2 Data Models Differ.
 
-Where possible, the **HTAN Phase 1 Data Model** leveraged previously defined data standards across the scientific research community, including the [NCI Genomic Data Commons](https://gdc.cancer.gov/), the [Human Cell Atlas](https://www.humancellatlas.org/), the [Human Biomolecular Atlas Program (HuBMAP)](https://hubmapconsortium.org/) and the [Minimum Information about Tissue Imaging (MITI)](https://www.miti-consortium.org/) reporting guidelines.
+Where possible, the **HTAN Phase 1 Data Model** leveraged previously defined data standards across the scientific research community, including the <a href="https://gdc.cancer.gov/" target="_blank" rel="noopener noreferrer">NCI Genomic Data Commons</a>, the <a href="https://www.humancellatlas.org/" target="_blank" rel="noopener noreferrer">Human Cell Atlas</a>, the <a href="https://hubmapconsortium.org/" target="_blank" rel="noopener noreferrer">Human Biomolecular Atlas Program (HuBMAP)</a> and the <a href="https://www.miti-consortium.org/" target="_blank" rel="noopener noreferrer">Minimum Information about Tissue Imaging (MITI)</a> reporting guidelines.
 
 In **HTAN Phase 2**, the Data Model was updated with three main aims:
-1. Align the HTAN Data Model with the NCI's Cancer Research Data Commons ([CRDC](https://datacommons.cancer.gov/)) standards. 
+1. Align the HTAN Data Model with the NCI's Cancer Research Data Commons <a href="https://datacommons.cancer.gov/" target="_blank" rel="noopener noreferrer">(CRDC)</a> standards. 
 2. Add or enhance existing standards to accommodate new assays. 
 3. Refine and strengthen the model to support FAIR data sharing principles, by 
     - eliminating unused attributes;

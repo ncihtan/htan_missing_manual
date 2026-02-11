@@ -22,7 +22,7 @@ The Phase 2 Data Model is still being developed. This page will be updated as th
 
 | Assay Type | Level |	Definition | Example Data | Notes |
 |------------|-------|-------------|--------------|-------|
-| DigitalPathology | 2 | Imaging data compiled into a single file format which is compatible with [Bio-Formats](https://www.openmicroscopy.org/bio-formats/) or [openslide python](https://openslide.org/api/python/). | .ome-tiff, .qptiff, .svs, .tif, .dcm, .ndpi. .vms, .vmu, .scn, .mrxs, .tiff, .svslide, .bit, .czi | currently, there is only one file level for DigitalPathology |
+| DigitalPathology | 2 | Imaging data compiled into a single file format which is compatible with <a href="https://www.openmicroscopy.org/bio-formats/" target="_blank" rel="noopener noreferrer">Bio-Formats</a> or <a href="https://openslide.org/api/python/" target="_blank" rel="noopener noreferrer">openslide python</a>. | .ome-tiff, .qptiff, .svs, .tif, .dcm, .ndpi. .vms, .vmu, .scn, .mrxs, .tiff, .svslide, .bit, .czi | currently, there is only one file level for DigitalPathology |
 | MultiplexedMicroscopy | 2 | Imaging data compiled into a single file format, preferably a tiled and pyramidal OME-TIFF. Accompanied by a csv file containing channel metadata. | image: ome-tiff; channel metadata: csv | there is no level 1 for MultiplexMicroscopy |
 || 3 | Segmentation mask. | ome-tiff | |
 || 4 | An object-by-feature table (typically cell-by-marker) generated from the segmentation mask and image. | csv, h5ad |
@@ -97,7 +97,7 @@ As outlined in the [Data Model Introduction](overview.md), the Phase 1 and Phase
 | DigitalPathology (Phase 2 only) | H&E | NA | level 2 only | DigitalPathology is a new Assay Module. In Phase 1, this data type would have been submitted as "Imaging". |
 | Imaging (Phase 1 only)| H&E, CODEX, CyCIF, MIBI, mIF, MxIF, mIHC, IMC |    4 | NA | "Imaging" broken into two separate modules -- Digital Pathology and Multiplexed Tissue Imaging. |
 | MultiplexedMicroscopy (Phase 2 only)| CODEX, CyCIF, MIBI, mIF, MxIF, mIHC, IMC, SABER | NA | levels 2-4 only (no level 1) | MultiplexedMicroscopy is a new Assay Module. In Phase 1, this data type would have been submitted as "Imaging".|
-| scRNA-seq | single cell or nuclei RNA-seq | 4 | 3 total levels (1, 2, and level 3/4) | Level 3 and 4 combined into one level for submission of standardized h5ad files. See [Specific Assay/Assy Module Requirements](#specific-assayassay-module-requirements) for more information. |
+| scRNA-seq | single cell or nuclei RNA-seq | 4 | 3 total levels (1, 2, and level 3/4) | Level 3 and 4 combined into one level for submission of standardized h5ad files. See [Specific Assay/Assay Module Requirements](#specific-assayassay-module-requirements) for more information. |
 | Spatial Transcriptomics/SpatialOmics | 10X Visium, 10X Xenium, Nanostring CosMX | platform-specific levels | 1 required level (level 3, experiment bundle) with an accompanying spatial panel information file; optional levels 1 and 4 | Change from platform-specific Spatial Transcriptomics models to a unified SpatialOmics model which can accomodate additional -omic data types. Note: level 3 bundles **cannot contain controlled-access data** such as FASTQs or BAMs.| 
 ===
 
@@ -107,8 +107,8 @@ In HTAN Phase 2, there are specific requirements for file formats which are chec
 ==- HTAN Phase 2 Accepted File Formats
 | Assay Type | Level |	Accepted File Types |
 |------------|-------|----------------------|
-| DigitalPathology | 2 | [Bio-Formats](https://www.openmicroscopy.org/bio-formats/) or [openslide python](https://openslide.org/api/python/) compatible format. (e.g. ome-tiff, tiff, qptiff, svs) |
-| MultiplexedMicroscopy |2 | ome-tiff preferred, [Bio-Formats](https://www.openmicroscopy.org/bio-formats/) or [openslide python](https://openslide.org/api/python/) compatible format accepted.|
+| DigitalPathology | 2 | <a href="https://www.openmicroscopy.org/bio-formats/" target="_blank" rel="noopener noreferrer">Bio-Formats</a> or <a href="https://openslide.org/api/python/" target="_blank" rel="noopener noreferrer">openslide python</a> compatible format. (e.g. ome-tiff, tiff, qptiff, svs) |
+| MultiplexedMicroscopy |2 | ome-tiff preferred, <a href="https://www.openmicroscopy.org/bio-formats/" target="_blank" rel="noopener noreferrer">Bio-Formats</a> or <a href="https://openslide.org/api/python/" target="_blank" rel="noopener noreferrer">openslide python</a> compatible format accepted.|
 || 3 | ome-tiff |
 || 4 | csv, h5ad |
 |scRNA-seq | 1 | fastq, fastq.gz |
