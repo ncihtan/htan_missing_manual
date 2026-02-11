@@ -5,7 +5,7 @@
 The manual can be found at https://docs.humantumoratlas.org/.
 
 ==- Manual Feedback or Corrections?
-If you have feedback for this manual, including broken links or incorrect information, please submit a ticket to the  <a href="https://sagebionetworks.jira.com/servicedesk/customer/portal/1" target="_blank" rel="noopener noreferrer">HTAN Help Desk</a>.
+If you have feedback for this manual, including broken links or incorrect information, please submit a ticket to the <a href="https://sagebionetworks.jira.com/servicedesk/customer/portal/1" target="_blank" rel="noopener noreferrer">HTAN Help Desk</a>.
 ===
 
 ## Quick Start

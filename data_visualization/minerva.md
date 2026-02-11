@@ -4,13 +4,13 @@ order: 995
 
 # Visualizing Multiplex Imaging Data via Minerva
 
-Through our collaboration with the Laboratory of Systems Pharmacology (LSP) at Harvard Medical School, many HTAN images can be visualized via [Minerva](https://github.com/labsyspharm/minerva-story/wiki), a web-based tool that enables interactive viewing and fast sharing of large image data.
+Through our collaboration with the Laboratory of Systems Pharmacology (LSP) at Harvard Medical School, many HTAN images can be visualized via <a href="https://github.com/labsyspharm/minerva-story/wiki" target="_blank" rel="noopener noreferrer">Minerva</a>, a web-based tool that enables interactive viewing and fast sharing of large image data.
 
 Where a Minerva story is available on the HTAN Data Portal, a link will be visible when hovering over the thumbnail image in the **View** Column.
 
 ![HTAN Portal:  Links to Minerva](../img/minerva1.png)
 
-For most images, a basic Minerva story has been prepared using [Auto Minerva](https://github.com/jmuhlich/auto-minerva), a tool to prepare default Minerva stories with optimized channel thresholds. An example prepared with Auto Minerva is shown below.
+For most images, a basic Minerva story has been prepared using <a href="https://github.com/jmuhlich/auto-minerva" target="_blank" rel="noopener noreferrer">Auto Minerva</a>, a tool to prepare default Minerva stories with optimized channel thresholds. An example prepared with Auto Minerva is shown below.
 
 ![HTAN Portal:  Auto Minerva Example](../img/minerva2.png)
 
