@@ -6,7 +6,7 @@ order: 997
 
 For access-controlled HTAN data, you must first complete a dbGaP request.
 
-To get started on your dbGaP request, first navigate to the HTAN dbGap page at: [phs002371](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002371), and click the **Request Access** button. You will be prompted to login to dbGaP. Once logged in, click the **Create New Research Project** button, and follow the on-screen application process.
+To get started on your dbGaP request, first navigate to the HTAN dbGap page at: <a href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002371" target="_blank" rel="noopener noreferrer">phs002371</a>, and click the **Request Access** button. You will be prompted to login to dbGaP. Once logged in, click the **Create New Research Project** button, and follow the on-screen application process.
 
 As per dbGaP instructions, you will be prompted for relevant information, including:
 
