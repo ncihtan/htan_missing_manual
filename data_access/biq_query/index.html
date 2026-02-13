@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.822412262140">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.12.0.824331360484">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.11.0">
+    <meta name="generator" content="Retype 3.12.0">
 
     <!-- Primary Meta Tags -->
     <title>Google BigQuery</title>
@@ -21,22 +21,20 @@
     <meta property="og:url" content="https://docs.humantumoratlas.org/data_access/biq_query/">
     <meta property="og:title" content="Google BigQuery">
     <meta property="og:description" content="Google BigQuery is a massively-parallel analytics engine ideal for working with tabular data. Through our collaboration with the ">
-    <meta property="og:image" content="https://docs.humantumoratlas.org/img/big_query1.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.humantumoratlas.org/data_access/biq_query/">
     <meta property="twitter:title" content="Google BigQuery">
     <meta property="twitter:description" content="Google BigQuery is a massively-parallel analytics engine ideal for working with tabular data. Through our collaboration with the ">
-    <meta property="twitter:image" content="https://docs.humantumoratlas.org/img/big_query1.png">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.822412262140" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.12.0.824331360484" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.822412262140" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.822412262140" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.12.0.824331360484" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.12.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.12.0.824331360484" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -64,36 +62,11 @@
                     <nav id="retype-header-nav" class="hidden md:flex">
                         <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                             <li class="mr-6">
-                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../">Manual</a>
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../">Manual</a>
                             </li>
         
                         </ul>
                     </nav>
-        
-                    <!-- Header Right Skeleton -->
-                    <div v-cloak class="flex justify-end grow skeleton">
-        
-                        <!-- Search input mock -->
-                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
-                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
-                            </div>
-                            <input class="w-full h-10 placeholder-search-placeholder transition-colors duration-200 ease-in bg-search-bg border border-transparent rounded md:text-sm hover:border-search-border-hover focus:outline-none focus:border-search-border-focus" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
-                        </div>
-        
-                        <!-- Mobile search button -->
-                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
-                        </div>
-        
-                        <!-- Dark mode switch placeholder -->
-                        <div class="w-10 h-10 lg:ml-2"></div>
-        
-                        <!-- History button -->
-                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
-                        </div>
-                    </div>
         
                     <div v-cloak class="flex justify-end grow">
                         <div id="retype-mobile-search-button"></div>
@@ -112,7 +85,7 @@
             <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
             
                 <div class="flex items-center h-16 px-6">
-                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded shadow-none text-sm focus:outline-none focus:border-filter-border-focus" type="text" placeholder="Filter">
+                    <input id="retype-filter-input-mock" class="w-full h-10 pl-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded-lg shadow-none md:text-sm hover:border-filter-border-hover focus:outline-none focus:border-filter-border-focus placeholder-filter-placeholder" type="text">
                 </div>
             
                 <div class="pl-6 mt-1 mb-4">
@@ -141,7 +114,7 @@
                             <nav>
                                 <ul class="flex flex-wrap justify-center items-center">
                                     <li class="mr-6">
-                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="../../">Manual</a>
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="../../">Manual</a>
                                     </li>
             
                                 </ul>
@@ -171,9 +144,12 @@
         <span>Google BigQuery</span>
     </h1>
 </doc-anchor-target>
-<p><a href="https://cloud.google.com/bigquery">Google BigQuery</a> is a massively-parallel analytics engine ideal for working with tabular data. Through our collaboration with the <a href="https://isb-cgc.appspot.com/">Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC)</a>, open-access HTAN BigQuery tables are now available, and updated with each major HTAN release.</p>
-<p>HTAN BigQuery tables can be accessed through the <a href="https://isb-cgc.appspot.com/">ISB-CGC Table Search UI</a> and via the HTAN Data Portal.</p>
-<p>For complete documentation regarding ISB-CGC BigQuery functionality, check out their <a href="https://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/BigQueryTableSearchUI.html#">online documentation</a>.</p>
+<doc-tabs>
+<doc-tab v-cloak id="introduction">
+<template #title>Introduction</template>
+<p><a href="https://cloud.google.com/bigquery" target="_blank" rel="noopener noreferrer">Google BigQuery</a> is a massively-parallel analytics engine ideal for working with tabular data. Through our collaboration with the <a href="https://isb-cgc.appspot.com/" target="_blank" rel="noopener noreferrer">Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC)</a>, open-access HTAN BigQuery tables are now available, and updated with each major HTAN release.</p>
+<p>HTAN BigQuery tables can be accessed through the <a href="https://isb-cgc.appspot.com/" target="_blank" rel="noopener noreferrer">ISB-CGC Table Search UI</a> and via the HTAN Data Portal.</p>
+<p>For complete documentation regarding ISB-CGC BigQuery functionality, check out their <a href="https://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/BigQueryTableSearchUI.html#" target="_blank" rel="noopener noreferrer">online documentation</a>.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -189,17 +165,20 @@
         <div class="pr-5 ml-3 w-full">
             <h5>Google Accounts</h5>
 <p>You must have a Google account to access Google Big Query.</p>
-<p><a href="https://cloud.google.com/free">Google Cloud Platform’s free tier</a> allows users to access many common Google Cloud resources, including BigQuery free of charge and query up to 1 TB of data per month for free.</p>
+<p><a href="https://cloud.google.com/free" target="_blank" rel="noopener noreferrer">Google Cloud Platform’s free tier</a> allows users to access many common Google Cloud resources, including BigQuery free of charge and query up to 1 TB of data per month for free.</p>
         </div>
     </div>
 </div>
-<doc-anchor-target id="accessing-metadata-tables">
+</doc-tab>
+<doc-tab v-cloak id="metadata-tables">
+<template #title>Metadata Tables</template>
+<doc-anchor-target id="metadata-tables">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#accessing-metadata-tables">#</doc-anchor-trigger>
-        <span>Accessing Metadata tables</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#metadata-tables">#</doc-anchor-trigger>
+        <span>Metadata tables</span>
     </h2>
 </doc-anchor-target>
-<p>HTAN metadata is organized by data type and level (see <a href="../../data_model/data_levels/">Metadata, Clinical Metadata Tiers and Data Levels</a>), with each BigQuery table containing data from all HTAN Centers combined.</p>
+<p>HTAN metadata is organized by data type and level (see <a href="../../data_model/metadata_standards/">Metadata Standards</a>), with each BigQuery table containing data from all HTAN Centers combined.</p>
 <doc-anchor-target id="accessing-metadata-from-the-data-portal">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#accessing-metadata-from-the-data-portal">#</doc-anchor-trigger>
@@ -233,7 +212,7 @@
         <span>Accessing Metadata from the ISB-CGC Table Search UI</span>
     </h3>
 </doc-anchor-target>
-<p>Alternatively, you can start at the <a href="https://isb-cgc.appspot.com/">ISB-CGC Table Search UI</a> and select <strong>Launch</strong> under BigQuery Table Search.</p>
+<p>Alternatively, you can start at the <a href="https://isb-cgc.appspot.com/" target="_blank" rel="noopener noreferrer">ISB-CGC Table Search UI</a> and select <strong>Launch</strong> under BigQuery Table Search.</p>
 <p><figure class="content-center">
     <img src="../../img/big_query5.png" alt="ISB-CGC:  Launch BigQuery" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">ISB-CGC:  Launch BigQuery</figcaption>
@@ -251,12 +230,15 @@
         <span>Example Query</span>
     </h3>
 </doc-anchor-target>
-<p>As an example, this simple query tabulates the overall distribution of gender in HTAN, as reported in the HTAN Clinical Demographics BigQuery table isb-cgc-bq.HTAN_versioned.clinical_tier1_demographics_r2. For complete details on running queries and the Biq Query syntax, refer to the <a href="https://cloud.google.com/bigquery/docs">Google BiqQuery Documentation</a>.</p>
+<p>As an example, this simple query tabulates the overall distribution of gender in HTAN, as reported in the HTAN Clinical Demographics BigQuery table isb-cgc-bq.HTAN_versioned.clinical_tier1_demographics_r2. For complete details on running queries and the Biq Query syntax, refer to the <a href="https://cloud.google.com/bigquery/docs" target="_blank" rel="noopener noreferrer">Google BiqQuery Documentation</a>.</p>
 <p><figure class="content-center">
     <img src="../../img/big_query7.png" alt="ISB-CGC:  Sample Query" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">ISB-CGC:  Sample Query</figcaption>
 </figure>
 </p>
+</doc-tab>
+<doc-tab v-cloak id="linking-biospecimen-and-data-files">
+<template #title>Linking Biospecimen and Data Files</template>
 <doc-anchor-target id="linking-biospecimen-and-data-files">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#linking-biospecimen-and-data-files">#</doc-anchor-trigger>
@@ -264,6 +246,9 @@
     </h2>
 </doc-anchor-target>
 <p>As described on the <a href="../../data_model/identifiers/">Identifiers page</a> of this manual, the linkage between data files and biospecimen is not explicitly encoded in HTAN Identifiers. To assist data reusers in this process, HTAN maintains an ID Provenance table. Please see the <a href="../../data_model/relationships/">Relationship Model page</a> for more information.</p>
+</doc-tab>
+<doc-tab v-cloak id="single-cell-tables">
+<template #title>Single Cell Tables</template>
 <doc-anchor-target id="accessing-single-cell-tables">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#accessing-single-cell-tables">#</doc-anchor-trigger>
@@ -293,12 +278,15 @@
         <span>Example Query</span>
     </h3>
 </doc-anchor-target>
-<p>In this example, we query the single cell RNA seq-derived gene expression data for non-epithelial cells in <a href="https://www.cell.com/cell/fulltext/S0092-8674(21)01381-7">colon polyps published by the Vanderbilt HTAN center</a>. We filter cells to those expressing the leukocyte marker CD45, coded by gene PTPRC, and enumerate cells by their identified phenotype (B = B cell, T = T cell, END = endothelial, FIB = fibroblast, MAS = mast cell, MYE = myeloid, PLA = plasma).</p>
+<p>In this example, we query the single cell RNA seq-derived gene expression data for non-epithelial cells in <a href="https://www.cell.com/cell/fulltext/S0092-8674(21)01381-7" target="_blank" rel="noopener noreferrer">colon polyps published by the Vanderbilt HTAN center</a>. We filter cells to those expressing the leukocyte marker CD45, coded by gene PTPRC, and enumerate cells by their identified phenotype (B = B cell, T = T cell, END = endothelial, FIB = fibroblast, MAS = mast cell, MYE = myeloid, PLA = plasma).</p>
 <p><figure class="content-center">
     <img src="../../img/big_query11.png" alt="Example BiqQuery on Single Cell Data" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">Example BiqQuery on Single Cell Data</figcaption>
 </figure>
 </p>
+</doc-tab>
+<doc-tab v-cloak id="spatial-data-tables">
+<template #title>Spatial Data Tables</template>
 <doc-anchor-target id="accessing-cell-spatial-data">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#accessing-cell-spatial-data">#</doc-anchor-trigger>
@@ -311,6 +299,9 @@
     <figcaption class="caption">Example BiqQuery Cell Spatial Data</figcaption>
 </figure>
 </p>
+</doc-tab>
+<doc-tab v-cloak id="bigquery-notebooks">
+<template #title>BigQuery Notebooks</template>
 <doc-anchor-target id="bigquery-notebooks">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#bigquery-notebooks">#</doc-anchor-trigger>
@@ -318,12 +309,14 @@
     </h2>
 </doc-anchor-target>
 <p>ISB-CGC hosts a public repository of community-generated computational notebooks. The HTAN DCC has contributed a number of R and Python notebooks, illustrating how to query, perform analyses, and generate results using the publicly available HTAN BigQuery tables.</p>
-<p>To access HTAN R and Python notebooks, visit the &#x27;HTAN Notebooks&#x27; page of the <a href="https://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/HTANNotebooks.html">Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC) documentation</a></p>
+<p>To access HTAN R and Python notebooks, visit the &#x27;HTAN Notebooks&#x27; page of the <a href="https://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/HTANNotebooks.html" target="_blank" rel="noopener noreferrer">Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC) documentation</a></p>
 <p><figure class="content-center">
     <img src="../../img/notebook1.png" alt="ISB-CGC:  R and Python Computational Notebooks hosted on GitHub" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">ISB-CGC:  R and Python Computational Notebooks hosted on GitHub</figcaption>
 </figure>
 </p>
+</doc-tab>
+</doc-tabs>
 
                                 
                                 <!-- Required only on API pages -->
@@ -361,7 +354,7 @@
                                     <ul class="flex flex-wrap items-center text-sm">
                                     </ul>
                                 </div>
-                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link-weight text-sm leading-relaxed"><p>© Copyright 2026. All rights reserved.</p></div>
+                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link text-sm leading-relaxed"><p>© Copyright 2026. All rights reserved.</p></div>
                             </footer>
                         </div>
                     </div>
