@@ -21,6 +21,8 @@ If you are interested in data reuse, the following pages may be helpful:
 Questions or problems accessing the data? Please contact us:  <a href="https://sagebionetworks.jira.com/servicedesk/customer/portal/1" target="_blank" rel="noopener noreferrer">HTAN Help Desk</a>.
 ===
 ==- I am a data contributor (HTAN Members only)
+Only HTAN Members are able to contribute data to HTAN.
+
 If you are a data contributor, the following pages may be most useful:
 - [What do I need to do before I submit data? (pre-submission tasks)](/data_submission/clin_biospec_assay.md)
 - [What are the file requirements for data submission?](/data_model/file_standards.md)
