@@ -7,7 +7,7 @@ order: 996
 ## RFC Overview
 The HTAN Data Model is expected to evolve with advances in science.  This evolution is a community-driven, peer-reviewed process, where members of a working group will first assess established community data standards and create a request for comment (RFC) document soliciting community feedback.
 
-Once an RFC is closed and an assay is available on the Data Curator App (DCA), the metadata template on the DCA represents the final data model.  Details regarding the data model are also available on HTAN's [Data Standards page](https://humantumoratlas.org/standards) and HTAN's [data-models repository](https://github.com/ncihtan/data-models) on github.
+Once an RFC is closed and an assay is available for data submission, the final data model is documented in this manual ([Data Model](../data_model/overview.md)) and detailed documentation of metadata requirements is provided in the  <a href="https://htan2-data-model.readthedocs.io/en/main/" target="_blank" rel="noopener noreferrer">HTAN Phase 2 Data Model (Metadata) Documentation</a>.
 
 ## Data Model Changes
 The following are requests which require changes to the Data Model and may result in the initiation of a RFC:
@@ -26,7 +26,7 @@ Once a new assay type or a set of needed Data Model changes are identified, an R
 3. **The DCC reviews and approves the RFC draft.**  
 4. **The RFC is open for public comment**. All HTAN members can provide suggestions by adding comments directly to the document.
 5. After a designated period of time, the **RFC is closed**.  Feedback from HTAN community is no longer accepted. The content of the RFC will be reflected in the respective version of the HTAN Data Model used for validating metadata files uploaded to the DCC.
-6. **The new or modified metadata template is available on the [Data Curator App (DCA)](https://dca.app.sagebionetworks.org/).**
+6. **The new or modified metadata template is available in Synapse.**
 
 
 ### Phase 1 RFC Process -- Initial Data Model Development
@@ -37,4 +37,4 @@ Once a new assay type or a set of needed Data Model changes are identified, an R
 2. **A first draft of an RFC Google Document is created** based upon feedback from the working group.
 3. **The RFC is open for public comment**. All HTAN members can provide suggestions by adding comments directly to the document.
 4. After a designated period of time, the **RFC is closed**.  Feedback from HTAN community is no longer accepted. The content of the RFC will be reflected in the respective version of the HTAN Data Model used for validating metadata files uploaded to the DCC.
-5. **The metadata template is available on the [Data Curator App (DCA)](https://dca.app.sagebionetworks.org/).**
+5. The metadata template is available on the Data Curator App (DCA). 

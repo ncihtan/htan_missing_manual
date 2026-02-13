@@ -4,7 +4,7 @@ order: 992
 
 # Accessing Synapse Open Access Data in SB-CGC
 
-[Seven Bridges Cancer Genomics Cloud (SB-CGC)](https://www.cancergenomicscloud.org/) is a cloud platform for the analysis and storage of large cancer datasets. 
+<a href="https://www.cancergenomicscloud.org/" target="_blank" rel="noopener noreferrer">Seven Bridges Cancer Genomics Cloud (SB-CGC)</a> is a cloud platform for the analysis and storage of large cancer datasets. 
 
 HTAN’s open-access data, including most datasets, is hosted on Synapse and can be loaded into SB-CGC using the following instructions. Note that open-access Level 2 images are available separately through the National Cancer Institutes's [General Commons (GC)](cds_cgc.md).
 
@@ -25,7 +25,7 @@ HTAN’s open-access data, including most datasets, is hosted on Synapse and can
 ## Step-by-Step Guide
 
 ### 1. Start a Data Studio Instance
-1. Go to [CancerGenomicsCloud.org](https://cancergenomicscloud.org).
+1. Go to <a href="https://cancergenomicscloud.org" target="_blank" rel="noopener noreferrer">CancerGenomicsCloud.org</a>.
 2. Log in and launch a Data Studio instance with JupyterLab.
 
 ### 2. Install and Configure Synapse Client
@@ -35,7 +35,7 @@ HTAN’s open-access data, including most datasets, is hosted on Synapse and can
    pip install synapseclient
    ```
 3. Obtain a Personal Access Token:
-   - Log into [Synapse.org](https://synapse.org).
+   - Log into <a href="https://synapse.org" target="_blank" rel="noopener noreferrer">Synapse.org</a>.
    - Go to Account Settings > Personal Access Tokens.
    - Create a new token with “View and Download” permissions and copy the token.
 4. Configure Synapse client with the Token:
@@ -46,7 +46,7 @@ HTAN’s open-access data, including most datasets, is hosted on Synapse and can
    - When prompted, enter your Synapse username (optional) and paste the token.
 
 ### 3. Select Files from the HTAN Data Portal
-1. Visit the [HTAN Data Portal](https://data.humantumoratlas.org) and find the data files you need (e.g., single-cell RNA-seq data in H5AD format).
+1. Visit the <a href="https://data.humantumoratlas.org/explore" target="_blank" rel="noopener noreferrer">HTAN Data Portal Explore Page</a>[]() and find the data files you need (e.g., single-cell RNA-seq data in H5AD format).
 2. Click the purple “Download selected files” button for the chosen files.
 3. Copy the download commands (e.g., `synapse get syn1234`).
 
@@ -68,7 +68,7 @@ HTAN’s open-access data, including most datasets, is hosted on Synapse and can
 
 ## Useful Links
 
-- [SevenBridges CGC](https://cancergenomicscloud.org)
-- [Synapse](https://synapse.org)
-- [HTAN Data Portal](https://data.humantumoratlas.org)
-- [Synapse Python/CLI Client Documentation](https://python-docs.synapse.org)
+- <a href="https://cancergenomicscloud.org" target="_blank" rel="noopener noreferrer">SevenBridges CGC</a>[]()
+- <a href="https://synapse.org" target="_blank" rel="noopener noreferrer">Synapse</a>
+- <a href="https://data.humantumoratlas.org" target="_blank" rel="noopener noreferrer">HTAN Data Portal</a>
+- <a href="https://python-docs.synapse.org" target="_blank" rel="noopener noreferrer">Synapse Python/CLI Client Documentation</a>

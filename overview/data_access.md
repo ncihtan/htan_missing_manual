@@ -13,5 +13,5 @@ HTAN data is categorized into **two data access levels**:
 HTAN provides multiple mechanisms to explore and access data. Please see the [Data Access](../data_access/introduction.md) section of this manual for more information.
 
 !!! Data Releases
-We maintain a running update of HTAN data releases and updates at: https://data.humantumoratlas.org/data-updates.
+We maintain a running update of HTAN data releases and updates at:  <a href="https://data.humantumoratlas.org/data-updates" target="_blank" rel="noopener noreferrer">https://data.humantumoratlas.org/data-updates</a>.
 !!!

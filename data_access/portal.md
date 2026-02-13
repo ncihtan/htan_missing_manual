@@ -9,9 +9,9 @@ The **HTAN Data Portal provides an interactive interface with which to explore H
 - [explore available data](#exploring-available-data); and
 - [download assay data](#downloading-assay-data). 
 
-To get started, go to: https://data.humantumoratlas.org/explore.
+To get started, go to: <a href="https://data.humantumoratlas.org/explore" target="_blank" rel="noopener noreferrer">https://data.humantumoratlas.org/explore</a>.
 
-To orient you to the HTAN Data Portal, consider the example of accessing precancerous polyp data from Vanderbilt University, as described in their [Cell publication](https://pubmed.ncbi.nlm.nih.gov/34910928/).
+To orient you to the HTAN Data Portal, consider the example of accessing precancerous polyp data from Vanderbilt University, as described in their <a href="https://pubmed.ncbi.nlm.nih.gov/34910928/" target="_blank" rel="noopener noreferrer">Cell publication</a>.
 
 By default, HTAN data is organized by research center:
 
@@ -33,13 +33,13 @@ You will then be prompted with a dialog box of all metadata associated with the 
 
 ![HTAN Portal: Metadata Table](../img/portal4.png)
 
-Behind the scenes, HTAN leverages the [Synapse Platform](https://www.synapse.org/) created and maintained by [Sage Bionetworks](https://sagebionetworks.org/). Each piece of HTAN data is automatically assigned a unique Synapse identifier, such as syn25010909. In the screenshot above, you can see that the Vanderbilt project has multiple metadata files, each associated with a unique Synapse identifier.
+Behind the scenes, HTAN leverages the  <a href="https://www.synapse.org/" target="_blank" rel="noopener noreferrer">Synapse Platform</a> created and maintained by  <a href="https://sagebionetworks.org/" target="_blank" rel="noopener noreferrer">Sage Bionetworks</a>. Each piece of HTAN data is automatically assigned a unique Synapse identifier, such as syn25010909. In the screenshot above, you can see that the Vanderbilt project has multiple metadata files, each associated with a unique Synapse identifier.
 
 If you click on any of the Synapse links above, you can immediately download a comma separated value (CSV) file associated with the metadata category. There is no need to create a Synapse account or log into Synapse. For example, here we have download the Vanderbilt biospecimen file and loaded it into Excel:
 
 ![HTAN Tabular Data within Excel](../img/portal5.png)
 
-Once you have downloaded metadata files, you can parse them in your favorite programming language, such as R or Python. To understand the individual columns within each metadata file, please refer to the HTAN Data Model [Specific Standards page](../data_model/standards.md).
+Once you have downloaded metadata files, you can parse them in your favorite programming language, such as R or Python. To understand the individual columns within each metadata file, please refer to the HTAN Data Model [Metadata Standards page](../data_model/metadata_standards.md).
 
 ## Exploring Available Data
 
@@ -95,9 +95,9 @@ Once you have specified your filter criteria, the Files tab will display all mat
 ![HTAN Data Access Types](../img/HTAN_Portal_DataAccess.svg)
 
 !!! Access Requirements
-**Synapse** To download open access files, you will need to first create a free account on the Synapse data platform. To register an account, go to https://www.synapse.org/, and click the Register button.
+**Synapse** To download open access files, you will need to first create a free account on the Synapse data platform. To register an account, go to  <a href="https://www.synapse.org/" target="_blank" rel="noopener noreferrer">https://www.synapse.org/</a>, and click the Register button.
 
-**SB-CGC** Data access via Seven Bridges Cancer Genomics Cloud (SB-CGC) requires a CGC account [[register here](https://docs.cancergenomicscloud.org/docs/sign-up-for-the-cgc)].
+**SB-CGC** Data access via Seven Bridges Cancer Genomics Cloud (SB-CGC) requires a CGC account  <a href="https://docs.cancergenomicscloud.org/docs/sign-up-for-the-cgc" target="_blank" rel="noopener noreferrer">[register here]</a>.
 
 **dbGAP** To download access-controlled files, you must first complete a [dbGAP request](db_gap.md).
 !!!

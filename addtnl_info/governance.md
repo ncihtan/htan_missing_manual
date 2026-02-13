@@ -9,7 +9,7 @@ Responsible data sharing requires transparent governance approaches to ensure da
 Ensuring the privacy of HTAN research participants is critical and a joint responsibility of the HTAN Centers generating data and the DCC. HTAN Centers are required to fully de-identify data before submission to the DCC via the Synapse platform, and must describe their data and metadata de-identification process in a de-identification plan. Following data submission, the DCC is responsible for implementing additional checks, to ensure patient privacy. Verifying that HTAN imaging data is de-identified is a particular focus of the DCC. For example, the extensive metadata collected alongside HTAN data was noted to theoretically enable the reconstruction of HIPAA-protected dates (such as participant date of birth) from the date of imaging data acquisition through longitudinal metadata attributes. The HTAN DCC therefore developed policies and procedures to confirm that all date attributes, including those in TIFF tags, OME-XML, and other locations, were detected and reported back to data contributors for removal before data release.
 
 ## Reporting Privacy or Security Incidents
-All incidents involving PHI/PII, privacy, or security concerns should be reported through the Sage Bionetworks Help Center: [Privacy, Security & Compliance Office Help Desk](https://sagebionetworks.jira.com/servicedesk/customer/portal/20).
+All incidents involving PHI/PII, privacy, or security concerns should be reported through the Sage Bionetworks Help Center: <a href="https://sagebionetworks.jira.com/servicedesk/customer/portal/20" target="_blank" rel="noopener noreferrer">Privacy, Security & Compliance Office Help Desk</a>.
 
 Examples of incidents that should be reported include:
 
@@ -23,15 +23,15 @@ Examples of incidents that should be reported include:
 Reports submitted through the Help Desk will be addressed by the Privacy, Security & Compliance Office, who will coordinate the appropriate response process.
 
 ## Licensing
-Please see HTAN's [External Data Sharing Policy](https://drive.google.com/file/d/17vN_8zcWsPNBtnLe1mOr35wqhUbuMaWI/view) for information regarding data licensing and sharing. HTAN Imaging Data has a CC-BY 4.0 license.
+Please see HTAN's <a href="https://drive.google.com/file/d/17vN_8zcWsPNBtnLe1mOr35wqhUbuMaWI/view" target="_blank" rel="noopener noreferrer">External Data Sharing Policy</a> for information regarding data licensing and sharing. HTAN Imaging Data has a CC-BY 4.0 license.
 
 ## Policy Documents
 
-- [HTAN Internal Data and Materials Sharing Agreement (DMSA) v1.1](https://drive.google.com/file/d/186TMLs3L2dKrXvMQLGuEYC-7jyGHCRw3/view?usp=drive_link)
-    - [HTAN DMSA Appendix A – "Participating Institutions of HTAN"](https://docs.google.com/document/d/1mQQfoZIXMz_zoQ0G3K6izPr7lkY4MFJO5a9GZ1xuEqM/edit?tab=t.0)
-- [Publication Policy](https://drive.google.com/file/d/1jqfhtY7SFCkegMiaNU5eSP7_rA9M0u71/view?usp=drive_link)
-- [Protocol and Computational Tool Sharing Policy](https://drive.google.com/file/d/1L3Azfs4R4RWqVf5uCzDE3Ln97r-k0Jm3/view)
-- [External Data Sharing Policy](https://drive.google.com/file/d/17vN_8zcWsPNBtnLe1mOr35wqhUbuMaWI/view)
-- [Cancer Moonshot Public Access Policy](https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative/funding/public-access-policy)
-- [Associate Membership Policy](https://drive.google.com/file/d/1poxYt08kXQpkbJHDgch0EXfwEbKLGl3u/view?usp=drive_link)
-- [Guidelines for Collaboration with Industry](https://drive.google.com/file/d/1dfdUdkV3bJ61inQYVOgSHHRjsb5gTumv/view?usp=drive_link)
+- <a href="https://drive.google.com/file/d/186TMLs3L2dKrXvMQLGuEYC-7jyGHCRw3/view?usp=drive_link" target="_blank" rel="noopener noreferrer">HTAN Internal Data and Materials Sharing Agreement (DMSA) v1.1</a>
+    - <a href="https://docs.google.com/document/d/1mQQfoZIXMz_zoQ0G3K6izPr7lkY4MFJO5a9GZ1xuEqM/edit?tab=t.0" target="_blank" rel="noopener noreferrer">HTAN DMSA Appendix A – "Participating Institutions of HTAN"</a>
+- <a href="https://drive.google.com/file/d/1jqfhtY7SFCkegMiaNU5eSP7_rA9M0u71/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Publication Policy</a>
+- <a href="https://drive.google.com/file/d/1L3Azfs4R4RWqVf5uCzDE3Ln97r-k0Jm3/view" target="_blank" rel="noopener noreferrer">Protocol and Computational Tool Sharing Policy</a>
+- <a href="https://drive.google.com/file/d/17vN_8zcWsPNBtnLe1mOr35wqhUbuMaWI/view" target="_blank" rel="noopener noreferrer">External Data Sharing Policy</a>
+- <a href="https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative/funding/public-access-policy" target="_blank" rel="noopener noreferrer">Cancer Moonshot Public Access Policy</a>
+- <a href="https://drive.google.com/file/d/1poxYt08kXQpkbJHDgch0EXfwEbKLGl3u/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Associate Membership Policy</a>
+- <a href="https://drive.google.com/file/d/1dfdUdkV3bJ61inQYVOgSHHRjsb5gTumv/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Guidelines for Collaboration with Industry</a>

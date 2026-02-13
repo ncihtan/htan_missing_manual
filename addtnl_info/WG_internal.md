@@ -4,7 +4,7 @@ order: 997
 
 # Working Groups and Internal Communications
 
-Information regarding Network Working Groups and Internal Communications can be found on the [HTAN Phase 2 Synapse Wiki page](https://www.synapse.org/Synapse:syn63296487/wiki/629655).
+Information regarding Network Working Groups and Internal Communications can be found on the <a href="https://www.synapse.org/Synapse:syn63296487/wiki/629655" target="_blank" rel="noopener noreferrer">HTAN Phase 2 Synapse Wiki page</a>.
 
 !!! Note
 
