@@ -1,8 +1,8 @@
 ---
-order: 991
+order: 989
 ---
 
-# Phase 2 SpatialOmics Data Submission
+# Phase 2 SpatialOmics
 
 +++ Overview
 # Overview

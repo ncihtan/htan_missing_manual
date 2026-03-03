@@ -2,7 +2,7 @@
 order: 993
 ---
 
-# Phase 2 Clinical Data Submission
+# Phase 2 Clinical Data
 
 +++ Overview
 ## Overview

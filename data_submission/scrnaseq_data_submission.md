@@ -1,8 +1,8 @@
 ---
-order: 992
+order: 990
 ---
 
-# Phase 2 sc/snRNA-seq Data Submission
+# Phase 2 sc/snRNA-seq
 
 +++ Overview
 ## Overview
