@@ -2,7 +2,7 @@
 order: 993
 ---
 
-# Phase 2 Clinical Data Submission
+# Phase 2 Clinical Data
 
 +++ Overview
 ## Overview
@@ -30,9 +30,9 @@ MUST NOT / SHALL NOT: ❌ (denotes absolute prohibition)
 
 SHOULD / RECOMMENDED: 🌟 (denotes recommendation)
 
-SHOULD NOT / NOT RECOMMENDED: 🙅‍♂️ (denotes not recommended)
+SHOULD NOT / NOT RECOMMENDED: :no_good: (denotes not recommended)
 
-MAY / OPTIONAL: 🤷‍♀️ (denotes optional) 
+MAY / OPTIONAL: :woman-shrugging: (denotes optional) 
 !!!
 
 All HTAN data elements that capture time points are expressed as “Age in Days At” to obfuscate dates while allowing for longitudinal timelines and relative data analysis. For example, if a patient has therapy starting at X=365 days, that means the therapy started 365 days after birth. 

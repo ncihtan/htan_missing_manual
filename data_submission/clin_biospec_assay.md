@@ -2,7 +2,7 @@
 order: 994
 ---
 
-# Submitting Assay Data and Metadata
+# Data Submission Overview
 
 [Data Submission Introduction](../data_submission/overview.md) provides a general overview for submitting data and metadata to HTAN. This page provides details regarding those steps.
 

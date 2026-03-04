@@ -39,6 +39,7 @@ Written by the HTAN Data Coordinating Center (DCC), with contributions from Adam
 
 | Date       | Comment                  | Changes summary |
 |------------|--------------------------|-----------------|
+| 2026-03-06 | New data submission pages | Addition phase 2 assay pages to support R8 data submissions. |
 | 2026-02-20 | Seventh version of the manual | Major revisions and reorganization |
 | 2026-01-16 | Sixth version of the manual | Phase 2 data and metadata submission details and links |
 | 2025-12-12 | Fifth version of manual | Removal of Phase 1 data submission details; Additional details regarding Phase 2 data model and submission process. |
