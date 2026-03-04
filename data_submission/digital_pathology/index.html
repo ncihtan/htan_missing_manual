@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.825967163142">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.825970410333">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.1.0">
@@ -27,11 +27,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.1.0.825967163142" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.1.0.825970410333" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.1.0.825967163142" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.1.0.825970410333" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.1.0.825967163142" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.1.0.825970410333" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -193,15 +193,14 @@
 <p>All image data must be compiled into a single file format which is compatible with <a href="https://www.openmicroscopy.org/bio-formats/">Bio-Formats</a> or <a href="https://openslide.org/api/python/">openslide python</a>.</p>
 <p>The HTAN Data Coordinating Committee (DCC) has implemented validation criteria which checks the file extension. A subset of the most common compatible formats is currently a part of that validation.  Please see the Module-Specific Attributes in the HTAN Data Model <a href="https://htan2-data-model.readthedocs.io/en/main/docs/digitalpathology.html#module-specific-attributes" target="_blank" rel="noopener noreferrer">readthedocs</a> for a list of file formats which are currently in the data model. If your file is Bio-Formats or openslide python compatible, but not a part of the current validation list, please contact your <a href="../data_liaisons/">Data Liaison</a>.</p>
 </doc-tab>
-<doc-tab v-cloak id="check-file-headers">
-<template #title><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Check File Headers</template>
-<doc-anchor-target id="data-de-identification">
+<doc-tab v-cloak id="file-requirements">
+<template #title>File Requirements</template>
+<doc-anchor-target id="imaging-data-requirements">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#data-de-identification">#</doc-anchor-trigger>
-        <span>Data De-identification</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#imaging-data-requirements">#</doc-anchor-trigger>
+        <span>Imaging Data Requirements</span>
     </h2>
 </doc-anchor-target>
-<p>Image files often contain information in their headers, including the date of acquisition. HTAN <strong>cannot accept files with any dates in the header</strong>.  All potentially identifying information must be removed from the header.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -220,11 +219,40 @@
 <p>MUST / REQUIRED / SHALL:  <span class="docs-emoji">&#x2705;</span> (denotes absolute requirement)</p>
 <p>MUST NOT / SHALL NOT: <span class="docs-emoji">&#x274C;</span> (denotes absolute prohibition)</p>
 <p>SHOULD / RECOMMENDED: <span class="docs-emoji">&#x1F31F;</span> (denotes recommendation)</p>
-<p>SHOULD NOT / NOT RECOMMENDED: <span class="docs-emoji">&#x1F645;</span>‍<span class="docs-emoji">&#x2642;&#xFE0F;</span> (denotes not recommended)</p>
-<p>MAY / OPTIONAL: <span class="docs-emoji">&#x1F937;</span>‍<span class="docs-emoji">&#x2640;&#xFE0F;</span> (denotes optional)</p>
+<p>SHOULD NOT / NOT RECOMMENDED: <span class="docs-emoji">&#x1F645;</span> (denotes not recommended)</p>
+<p>MAY / OPTIONAL: <span class="docs-emoji">&#x1F937;&#x200D;&#x2640;&#xFE0F;</span> (denotes optional)</p>
         </div>
     </div>
 </div>
+<doc-anchor-target id="digital-pathology-level-2">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#digital-pathology-level-2">#</doc-anchor-trigger>
+        <span>Digital Pathology Level 2</span>
+    </h2>
+</doc-anchor-target>
+<p><span class="docs-emoji">&#x2705;</span>	Images MUST be provided as <a href="https://www.openmicroscopy.org/bio-formats/">Bio-Formats</a> or <a href="https://openslide.org/api/python/">openslide python</a> compatible formats.<br />
+<span class="docs-emoji">&#x2705;</span>	Imaging Level 2 data MUST consist of a single file per image/scene.<br />
+<span class="docs-emoji">&#x2705;</span>	Multiple fields of view MUST be separated into individual files.<br />
+<span class="docs-emoji">&#x1F31F;</span>	Tissue microarrays SHOULD be de-arrayed into one file per TMA core.<br />
+<span class="docs-emoji">&#x2705;</span>	Images MUST be de-identified before submission according to the center&#x27;s de-identification plan.<br />
+<span class="docs-emoji">&#x274C;</span>	Images MUST NOT contain patient identifiers including, but not limited to, name, date of birth, all HIPAA-protected identifiers, and any re-identifiable ID code other than HTAN ID.<br />
+<span class="docs-emoji">&#x274C;</span>	Images MUST NOT contain any dates (such as date of acquisition) that could facilitate reconstruction of participant identity in association with other provided metadata such as ‘Days from index to sectioning’.<br />
+<span class="docs-emoji">&#x274C;</span>	Images MUST NOT contain any dates in any image header or other location. This is a strict requirement of our downstream data repositories. Please contact your <a href="../data_liaisons/">DCC liaison</a> with any questions. This includes AcquisitionDate.<br />
+<span class="docs-emoji">&#x274C;</span>	Images MUST NOT contain visible identifying information (such as the edge of an unredacted slide label visible in the macro image).<br />
+<span class="docs-emoji">&#x2705;</span>	The center MUST check redaction by pen or sticker to ensure redacted information is not visible by contrast enhancement or other image manipulation.<br />
+<span class="docs-emoji">&#x2705;</span>	Brightfield images MUST be provided as Imaging Level 2.<br />
+<span class="docs-emoji">&#x1F31F;</span>	Brightfield images SHOULD be encoded as SamplesPerPixel = 3 and photometric interpretation RGB or YbCr.<br />
+<span class="docs-emoji">&#x1F645;</span> Brightfield images SHOULD NOT be provided as 3-channel images.</p>
+</doc-tab>
+<doc-tab v-cloak id="check-file-headers">
+<template #title><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Check File Headers</template>
+<doc-anchor-target id="data-de-identification">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#data-de-identification">#</doc-anchor-trigger>
+        <span>Data De-identification</span>
+    </h2>
+</doc-anchor-target>
+<p>Image files often contain information in their headers, including the date of acquisition. HTAN <strong>cannot accept files with any dates in the header</strong>.  All potentially identifying information must be removed from the header.</p>
 <ul>
 <li><span class="docs-emoji">&#x2705;</span>  Images <strong>MUST</strong> be de-identified before submission according to the center&#x27;s de-identification plan.</li>
 <li><span class="docs-emoji">&#x274C;</span>	  Images <strong>MUST NOT</strong> contain patient identifiers including, but not limited to, name, date of birth, all HIPAA-protected identifiers, and any re-identifiable ID code other than HTAN ID.</li>
