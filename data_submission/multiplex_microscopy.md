@@ -60,30 +60,40 @@ SHOULD NOT / NOT RECOMMENDED: :no_good: (denotes not recommended)
 MAY / OPTIONAL: :woman-shrugging: (denotes optional) 
 !!!
 
+### Channel Metadata
+✅	Level 2 Multiplexed Tissue Images must be accompanied by a channel metadata file in comma-separated value format (csv).\
+✅	Channel metadata must match channel information provided in the ome-tiff header.\
+✅	Channel metadata must be submitted prior to Imaging Level 2 data.
+
+
 ### Level 2
 Imaging Level 2 data is for images that have completed any pre-processing steps required and are ready for reuse.\
+🌟	Images SHOULD be provided as OME-TIFF.\
+✅  Imaging Level 2 data MUST consist of a single file per image/scene.\
+✅	Multiple fields of view MUST be separated into individual files.\
+🌟	Tissue microarrays SHOULD be dearrayed into one file per TMA core.\
 ✅	Multi-channel, timepoint, and z-plane images MUST  be provided as a single file.\
 ✅	Images MUST be de-identified before submission according to the center's de-identification plan.\
 ❌	Images MUST NOT contain patient identifiers including, but not limited to, name, date of birth, all HIPAA-protected identifiers, and any re-identifiable ID code other than HTAN ID.\
 ❌	Images MUST NOT contain any dates (such as date of acquisition) that could facilitate reconstruction of participant identity in association with other provided metadata such as ‘Days from index to sectioning’.\
-❌	Images MUST NOT contain any dates in any image header or other location. This is a strict requirement of our downstream data repositories. Please contact the DCC liaison with any questions.\
-🌟	Images SHOULD be provided as OME-TIFF.\
+❌	Images MUST NOT contain any dates in any image header or other location. This is a strict requirement of our downstream data repositories. Please contact your [DCC liaison](Data_Liaisons.md) with any questions.\
 🌟	OME-TIFF images SHOULD contain an image pyramid.\
 🌟	OME-TIFF images SHOULD be tiled.\
-:no_good: The smallest pyramid layer of the OME-TIFF SHOULD NOT be smaller than the tile size.\
+:no_good:	The smallest pyramid layer of the OME-TIFF SHOULD NOT be smaller than the tile size.\
 ✅	OME-TIFF images MUST contain a valid OME-XML in the ImageDescription tag of the first IFD.\
 🌟	OME-TIFF images SHOULD have informative Channel Names that match the channel metadata file.\
-:no_good: OME-TIFF images SHOULD NOT contain Structural Annotations in the OME-XML.\
+:no_good:	OME-TIFF images SHOULD NOT contain Structural Annotations in the OME-XML.\
 ❌	OME-TIFF images MUST NOT contain AcquisitionDate in the OME-XML.\
 ❌	OME-TIFF images MUST NOT contain DateTime or any other field representing the date of acquisition in the OME-XML Structural Annotations.\
 ❌	OME-TIFF images MUST NOT contain First Name, Last Name, or Email in the OME-XML Experimenters.\
+:no_good:	If you cannot provide OME-TIFF images as described above, you MUST contact your [DCC liaison](Data_Liaisons.md) before submitting data or metadata.
 
 ### Level 3
 Imaging Level 3 Segmentation data derived from Imaging Level 2 that represents cell or object segmentation.\
 ✅	Imaging Level 3 Segmentation data MUST be provided as OME-TIFF or TIFF images.\
 🌟	Imaging Level 3 Segmentation data SHOULD be a single channel with integer values representing individual objects.\
 :woman-shrugging:	Imaging Level 3 Segmentation data MAY contain multiple object types with an object type per channel.\
-❌	Imaging Level 3 Segmentation data MUST NOT contain dates or other information that could be used in conjunction with other data or metadata to reconstruct participant identity.\
+❌	Imaging Level 3 Segmentation data MUST NOT contain dates or other information that could be used in conjunction with other data or metadata to reconstruct participant identity.
 
 
 ### Level 4
@@ -98,7 +108,7 @@ Imaging Level 4 data is an object-by-feature array derived from Imaging Level 2 
 :woman-shrugging:  Imaging Level 4 data MAY contain information about object morphology or other characteristics.\
 🌟	If information about object morphology is provided it MUST be clear which attributes represent information about markers and which represent information about morphology. This may be done by clear names or positions in the table (e.g. separated by the centroid columns).\
 :woman-shrugging:	Imaging Level 4 data MAY summarize information from multiple Imaging Level 2 and Imaging Level 3 Segmentation data.\
-✅	If Imaging Level 4 data is derived from multiple parent files, a column or attribute distinguishing which rows correspond to which parent file MUST be included in the table.\
+✅	If Imaging Level 4 data is derived from multiple parent files, a column or attribute distinguishing which rows correspond to which parent file MUST be included in the table.
 
 
 +++ :warning: Check File Headers
