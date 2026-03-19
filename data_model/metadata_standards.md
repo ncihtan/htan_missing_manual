@@ -58,6 +58,7 @@ Assay file metadata corresponds to each assay file level. For example, Whole Exo
 ===
 
 +++ Phase 1
+
 The HTAN DCC maintains a set of code in github repositories (one for each Phase of HTAN) to document and validate metadata. Specific information about what attributes are collected, which attributes are required and valid values are also provided to help data contributors.  These resources may also be helpful to data users.
 
 | HTAN Phase | Github Repository | Detailed Documentation |
@@ -228,6 +229,7 @@ Support for several spatial sequencing modalities was added near the end of HTAN
 ===
 
 +++ Phase 2
+
 The HTAN DCC maintains a set of code in github repositories (one for each Phase of HTAN) to document and validate metadata. Specific information about what attributes are collected, which attributes are required and valid values are also provided to help data contributors.  These resources may also be helpful to data users.
 
 | HTAN Phase | Github Repository | Detailed Documentation |
