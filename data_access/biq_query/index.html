@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.825970410333">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828201848015">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.1.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>Google BigQuery</title>
@@ -29,13 +29,21 @@
     <meta property="og:site_name" content="HTAN">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.humantumoratlas.org/data_access/biq_query/">
+    <meta name="twitter:title" content="Google BigQuery">
+    <meta name="twitter:description" content="Google BigQuery is a massively-parallel analytics engine ideal for working with tabular data. Through our collaboration with the Institute for Systems">
+    <meta name="twitter:image" content="https://docs.humantumoratlas.org/img/big_query1.png">
+    <meta name="twitter:image:alt" content="Google BigQuery">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.1.0.825970410333" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.4.0.828201848015" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.1.0.825970410333" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.1.0.825970410333" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.828201848015" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.828201848015" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -50,7 +58,7 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.humantumoratlas.org/" class="flex items-center leading-snug text-2xl">
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">HTAN</span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Manual</span>
                 </div>
@@ -139,12 +147,7 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="google-bigquery" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#google-bigquery">#</doc-anchor-trigger>
-        <span>Google BigQuery</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="google-bigquery">Google BigQuery</h1>
 <doc-tabs>
 <doc-tab v-cloak id="introduction">
 <template #title>Introduction</template>
@@ -155,7 +158,7 @@
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
         <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
                     <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
                     <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
@@ -171,151 +174,97 @@
     </div>
 </div>
 </doc-tab>
-<doc-tab v-cloak id="metadata-tables">
+<doc-tab v-cloak id="metadata-tables-1">
 <template #title>Metadata Tables</template>
-<doc-anchor-target id="metadata-tables">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#metadata-tables">#</doc-anchor-trigger>
-        <span>Metadata tables</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="metadata-tables">Metadata tables</h2>
 <p>HTAN metadata is organized by data type and level (see <a href="../../data_model/metadata_standards/">Metadata Standards</a>), with each BigQuery table containing data from all HTAN Centers combined.</p>
-<doc-anchor-target id="accessing-metadata-from-the-data-portal">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#accessing-metadata-from-the-data-portal">#</doc-anchor-trigger>
-        <span>Accessing Metadata from the Data Portal</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="accessing-metadata-from-the-data-portal">Accessing Metadata from the Data Portal</h3>
 <p>Metadata tables can be accessed from the <strong>Atlases</strong> tab of the HTAN Data Portal. Click the icon under the <strong>Metadata</strong> column and scroll down to the <strong>Google BigQuery</strong> link at the bottom of the popup window.</p>
-<p><figure class="content-center">
-    <img src="../../img/big_query1.png" alt="HTAN Portal:  Accessing Metadata" class="rounded-image-rounded border-image-border border-image-border-width" />
+<figure class="content-center">
+    <img src="../../img/big_query1.png" alt="HTAN Portal:  Accessing Metadata" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="813" height="319" />
     <figcaption class="caption">HTAN Portal:  Accessing Metadata</figcaption>
 </figure>
-</p>
-<p><figure class="content-center">
-    <img src="../../img/big_query2.png" alt="HTAN Portal:  Linking to BiqQuery Tables" class="rounded-image-rounded border-image-border border-image-border-width" />
+<figure class="content-center">
+    <img src="../../img/big_query2.png" alt="HTAN Portal:  Linking to BiqQuery Tables" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="407" height="421" />
     <figcaption class="caption">HTAN Portal:  Linking to BiqQuery Tables</figcaption>
 </figure>
-</p>
 <p>This link will take you to the ISB-CGC Table Search UI filtered to HTAN tables. Browse the table listing to find your table of interest, and <strong>click the magnifying glass icon under Open</strong> to launch the table in the BigQuery console.</p>
 <p><figure class="content-center">
-    <img src="../../img/big_query3.png" alt="ISB-CGC:  Table Search" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../img/big_query3.png" alt="ISB-CGC:  Table Search" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="970" height="319" />
     <figcaption class="caption">ISB-CGC:  Table Search</figcaption>
 </figure>
 <figure class="content-center">
-    <img src="../../img/big_query4.png" alt="ISB-CGC:  Table Browser" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../img/big_query4.png" alt="ISB-CGC:  Table Browser" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="964" height="383" />
     <figcaption class="caption">ISB-CGC:  Table Browser</figcaption>
 </figure>
 </p>
-<doc-anchor-target id="accessing-metadata-from-the-isb-cgc-table-search-ui">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#accessing-metadata-from-the-isb-cgc-table-search-ui">#</doc-anchor-trigger>
-        <span>Accessing Metadata from the ISB-CGC Table Search UI</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="accessing-metadata-from-the-isb-cgc-table-search-ui">Accessing Metadata from the ISB-CGC Table Search UI</h3>
 <p>Alternatively, you can start at the <a href="https://isb-cgc.appspot.com/" target="_blank" rel="noopener noreferrer">ISB-CGC Table Search UI</a> and select <strong>Launch</strong> under BigQuery Table Search.</p>
-<p><figure class="content-center">
-    <img src="../../img/big_query5.png" alt="ISB-CGC:  Launch BigQuery" class="rounded-image-rounded border-image-border border-image-border-width" />
+<figure class="content-center">
+    <img src="../../img/big_query5.png" alt="ISB-CGC:  Launch BigQuery" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="326" height="500" />
     <figcaption class="caption">ISB-CGC:  Launch BigQuery</figcaption>
 </figure>
-</p>
 <p>Then filter for HTAN tables by selecting <strong>HTAN</strong> from the Program dropdown.</p>
-<p><figure class="content-center">
-    <img src="../../img/big_query6.png" alt="ISB-CGC:  Filter for HTAN Table" class="rounded-image-rounded border-image-border border-image-border-width" />
+<figure class="content-center">
+    <img src="../../img/big_query6.png" alt="ISB-CGC:  Filter for HTAN Table" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="312" height="323" />
     <figcaption class="caption">ISB-CGC:  Filter for HTAN Table</figcaption>
 </figure>
-</p>
-<doc-anchor-target id="example-query">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-query">#</doc-anchor-trigger>
-        <span>Example Query</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="example-query">Example Query</h3>
 <p>As an example, this simple query tabulates the overall distribution of gender in HTAN, as reported in the HTAN Clinical Demographics BigQuery table isb-cgc-bq.HTAN_versioned.clinical_tier1_demographics_r2. For complete details on running queries and the Biq Query syntax, refer to the <a href="https://cloud.google.com/bigquery/docs" target="_blank" rel="noopener noreferrer">Google BiqQuery Documentation</a>.</p>
-<p><figure class="content-center">
-    <img src="../../img/big_query7.png" alt="ISB-CGC:  Sample Query" class="rounded-image-rounded border-image-border border-image-border-width" />
+<figure class="content-center">
+    <img src="../../img/big_query7.png" alt="ISB-CGC:  Sample Query" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="649" height="361" />
     <figcaption class="caption">ISB-CGC:  Sample Query</figcaption>
 </figure>
-</p>
 </doc-tab>
-<doc-tab v-cloak id="linking-biospecimen-and-data-files">
+<doc-tab v-cloak id="linking-biospecimen-and-data-files-1">
 <template #title>Linking Biospecimen and Data Files</template>
-<doc-anchor-target id="linking-biospecimen-and-data-files">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#linking-biospecimen-and-data-files">#</doc-anchor-trigger>
-        <span>Linking Biospecimen and Data Files</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="linking-biospecimen-and-data-files">Linking Biospecimen and Data Files</h2>
 <p>As described on the <a href="../../data_model/identifiers/">Identifiers page</a> of this manual, the linkage between data files and biospecimen is not explicitly encoded in HTAN Identifiers. To assist data reusers in this process, HTAN maintains an ID Provenance table. Please see the <a href="../../data_model/relationships/">Relationship Model page</a> for more information.</p>
 </doc-tab>
 <doc-tab v-cloak id="single-cell-tables">
 <template #title>Single Cell Tables</template>
-<doc-anchor-target id="accessing-single-cell-tables">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#accessing-single-cell-tables">#</doc-anchor-trigger>
-        <span>Accessing Single Cell Tables</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="accessing-single-cell-tables">Accessing Single Cell Tables</h2>
 <p>We currently host multiple single cell BigQuery tables via ISB-CGC. These tables are derived from level 4 H5AD AnnData files submitted by HTAN centers.</p>
 <p>When a BigQuery table is available for a given file, a link will be visible in the <strong>View</strong> Column of the HTAN Data Portal.</p>
-<p><figure class="content-center">
-    <img src="../../img/big_query8.png" alt="HTAN Portal:  BigQuery Links" class="rounded-image-rounded border-image-border border-image-border-width" />
+<figure class="content-center">
+    <img src="../../img/big_query8.png" alt="HTAN Portal:  BigQuery Links" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="961" height="100" />
     <figcaption class="caption">HTAN Portal:  BigQuery Links</figcaption>
 </figure>
-</p>
 <p>This link will take you to the ISB-CGC Table Search UI listing for the selected single cell file. Click the magnifying glass icon under <strong>Open</strong> to launch the table in the BigQuery console.</p>
 <p><figure class="content-center">
-    <img src="../../img/big_query9.png" alt="BigQuery:  Details" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../img/big_query9.png" alt="BigQuery:  Details" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1127" height="341" />
     <figcaption class="caption">BigQuery:  Details</figcaption>
 </figure>
 <figure class="content-center">
-    <img src="../../img/big_query10.png" alt="BigQuery:  Details" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../img/big_query10.png" alt="BigQuery:  Details" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="960" height="533" />
     <figcaption class="caption">BigQuery:  Details</figcaption>
 </figure>
 </p>
-<doc-anchor-target id="example-query-1">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-query-1">#</doc-anchor-trigger>
-        <span>Example Query</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="example-query-1">Example Query</h3>
 <p>In this example, we query the single cell RNA seq-derived gene expression data for non-epithelial cells in <a href="https://www.cell.com/cell/fulltext/S0092-8674(21)01381-7" target="_blank" rel="noopener noreferrer">colon polyps published by the Vanderbilt HTAN center</a>. We filter cells to those expressing the leukocyte marker CD45, coded by gene PTPRC, and enumerate cells by their identified phenotype (B = B cell, T = T cell, END = endothelial, FIB = fibroblast, MAS = mast cell, MYE = myeloid, PLA = plasma).</p>
-<p><figure class="content-center">
-    <img src="../../img/big_query11.png" alt="Example BiqQuery on Single Cell Data" class="rounded-image-rounded border-image-border border-image-border-width" />
+<figure class="content-center">
+    <img src="../../img/big_query11.png" alt="Example BiqQuery on Single Cell Data" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="775" height="516" />
     <figcaption class="caption">Example BiqQuery on Single Cell Data</figcaption>
 </figure>
-</p>
 </doc-tab>
 <doc-tab v-cloak id="spatial-data-tables">
 <template #title>Spatial Data Tables</template>
-<doc-anchor-target id="accessing-cell-spatial-data">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#accessing-cell-spatial-data">#</doc-anchor-trigger>
-        <span>Accessing Cell Spatial Data</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="accessing-cell-spatial-data">Accessing Cell Spatial Data</h2>
 <p>We also host a number of tables that contain information on cellular locations and the estimated expression of key marker proteins derived from multiplexed imaging followed by cell segmentation.</p>
-<p><figure class="content-center">
-    <img src="../../img/big_query12.png" alt="Example BiqQuery Cell Spatial Data" class="rounded-image-rounded border-image-border border-image-border-width" />
+<figure class="content-center">
+    <img src="../../img/big_query12.png" alt="Example BiqQuery Cell Spatial Data" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="950" height="550" />
     <figcaption class="caption">Example BiqQuery Cell Spatial Data</figcaption>
 </figure>
-</p>
 </doc-tab>
-<doc-tab v-cloak id="bigquery-notebooks">
+<doc-tab v-cloak id="bigquery-notebooks-1">
 <template #title>BigQuery Notebooks</template>
-<doc-anchor-target id="bigquery-notebooks">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#bigquery-notebooks">#</doc-anchor-trigger>
-        <span>BigQuery Notebooks</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="bigquery-notebooks">BigQuery Notebooks</h2>
 <p>ISB-CGC hosts a public repository of community-generated computational notebooks. The HTAN DCC has contributed a number of R and Python notebooks, illustrating how to query, perform analyses, and generate results using the publicly available HTAN BigQuery tables.</p>
 <p>To access HTAN R and Python notebooks, visit the &#x27;HTAN Notebooks&#x27; page of the <a href="https://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/HTANNotebooks.html" target="_blank" rel="noopener noreferrer">Institute for Systems Biology Cancer Gateway in the Cloud (ISB-CGC) documentation</a></p>
-<p><figure class="content-center">
-    <img src="../../img/notebook1.png" alt="ISB-CGC:  R and Python Computational Notebooks hosted on GitHub" class="rounded-image-rounded border-image-border border-image-border-width" />
+<figure class="content-center">
+    <img src="../../img/notebook1.png" alt="ISB-CGC:  R and Python Computational Notebooks hosted on GitHub" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="737" height="290" />
     <figcaption class="caption">ISB-CGC:  R and Python Computational Notebooks hosted on GitHub</figcaption>
 </figure>
-</p>
 </doc-tab>
 </doc-tabs>
 

@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.825970410333">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828201848015">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.1.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>Metadata Standards</title>
@@ -29,13 +29,21 @@
     <meta property="og:site_name" content="HTAN">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.humantumoratlas.org/data_model/metadata_standards/">
+    <meta name="twitter:title" content="Metadata Standards">
+    <meta name="twitter:description" content="Metadata means data about data. Metadata enables both data searchability and interpretability.">
+    <meta name="twitter:image" content="https://docs.humantumoratlas.org/img/metadata_as_rdb.svg">
+    <meta name="twitter:image:alt" content="Metadata Standards">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.1.0.825970410333" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.4.0.828201848015" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.1.0.825970410333" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.1.0.825970410333" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.828201848015" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.828201848015" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -50,7 +58,7 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.humantumoratlas.org/" class="flex items-center leading-snug text-2xl">
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">HTAN</span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Manual</span>
                 </div>
@@ -139,12 +147,10 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="metadata-standards" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#metadata-standards">#</doc-anchor-trigger>
-        <span>Metadata Standards</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="metadata-standards">Metadata Standards</h1>
+<doc-tabs>
+<doc-tab v-cloak id="overview">
+<template #title>Overview</template>
 <p>Metadata means data <em>about</em> data.  Metadata enables both data searchability and interpretability.</p>
 <p>Metadata can be divided into broad categories:</p>
 <ol>
@@ -154,74 +160,48 @@
 </ol>
 <doc-panel id="conceptually-htan-metadata-can-be-thought-of-as-a-series-of-tables-in-a-relational-database" collapsed>
     <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/></g></g></svg> Conceptually, HTAN metadata can be thought of as a series of tables in a relational database.</template>
-<doc-anchor-target id="metadata-conceptual-diagram">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#metadata-conceptual-diagram">#</doc-anchor-trigger>
-        <span>Metadata Conceptual Diagram</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="metadata-conceptual-diagram">Metadata Conceptual Diagram</h2>
 <p>Although the following diagram (Figure 1) is an oversimplification, it can help one conceptualize what the HTAN Metadata is.</p>
 <ul>
 <li>Each headered rectangle in the diagram is a separate table or &quot;manifest&quot; which contains a set of attributes.</li>
-<li>Attributes in the tables include identifiers such as the HTAN_PARENT_ID which help connect the data together. <strong>Please see the <a href="../relationships/">Relationship Model Page</a> in this manual for more specific information about connecting data together.</strong><figure class="content-center">
-    <img src="../../img/metadata_as_rdb.svg" alt="Figure 1. Metadata can be conceptually thought of as a series of relational database tables" class="rounded-image-rounded border-image-border border-image-border-width" />
+<li>Attributes in the tables include identifiers such as the HTAN_PARENT_ID which help connect the data together. <strong>Please see the <a href="../relationships/">Relationship Model Page</a> in this manual for more specific information about connecting data together.</strong>
+<figure class="content-center">
+    <img src="../../img/metadata_as_rdb.svg" alt="Figure 1. Metadata can be conceptually thought of as a series of relational database tables" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1411" height="558" />
     <figcaption class="caption">Figure 1. Metadata can be conceptually thought of as a series of relational database tables</figcaption>
 </figure>
 </li>
 </ul>
 </doc-panel>
-<doc-panel id="clinical-metadata-is-organized-into-tiers" collapsed>
+<doc-panel id="clinical-metadata-is-organized-into-tiers-1" collapsed>
     <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/></g></g></svg> Clinical Metadata is organized into Tiers.</template>
-<doc-anchor-target id="clinical-metadata-is-organized-into-tiers">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#clinical-metadata-is-organized-into-tiers">#</doc-anchor-trigger>
-        <span>Clinical Metadata is organized into Tiers.</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="clinical-metadata-is-organized-into-tiers">Clinical Metadata is organized into Tiers.</h2>
 <p>Clinical metadata is organized into tiers. The structure of these tiers differs in Phase 1 and Phase 2 of HTAN. In Phase 1 there were three clinical data tiers.  In Phase 2, there are two. For both phases, Tier 1 represents clinical data which is generally common to all studies and Atlases. Higher tiers are extensions to Tier 1, some of which are cancer or study-specific.</p>
-<doc-anchor-target id="phase-2-clinical-metadata-tiers">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-2-clinical-metadata-tiers">#</doc-anchor-trigger>
-        <span>Phase 2 Clinical Metadata Tiers</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="phase-2-clinical-metadata-tiers">Phase 2 Clinical Metadata Tiers</h3>
 <p>In HTAN Phase 2, there are only two clinical metadata tiers.</p>
 <ul>
 <li>Tier 1 metadata is divided into multiple categories, including Demographics, Diagosis, Family History, Exposure, Molecular Test, Therapy, Follow Up and Vital Status.</li>
 <li>Tier 2 contains any cancer or study-specific clinical information which is not represented in Tier 1. Tier 2 is a flexible comma-separated value (csv) file. The only required attribute is HTAN Participant ID. All other attributes (columns headers) are determined by the submitting Center.</li>
 </ul>
 <p>Figure 2 provides a general representation of the model.</p>
-<p><figure class="content-center">
-    <img src="../../img/phase2_clinical_data_tiers.svg" alt="Figure 2. HTAN Phase 2 Clinical Metadata Tiers" class="rounded-image-rounded border-image-border border-image-border-width" />
+<figure class="content-center">
+    <img src="../../img/phase2_clinical_data_tiers.svg" alt="Figure 2. HTAN Phase 2 Clinical Metadata Tiers" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="847" height="475" />
     <figcaption class="caption">Figure 2. HTAN Phase 2 Clinical Metadata Tiers</figcaption>
 </figure>
-</p>
-<doc-anchor-target id="phase-1-clinical-metadata-tiers">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-1-clinical-metadata-tiers">#</doc-anchor-trigger>
-        <span>Phase 1 Clinical Metadata Tiers</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="phase-1-clinical-metadata-tiers">Phase 1 Clinical Metadata Tiers</h3>
 <p>In HTAN Phase 1, Tier 1 clinical metadata was based on the NCI&#x27;s Genomic Data Commons (GDC) clinical data model.  Phase 1 clinical data was divided into three tiers:</p>
 <ul>
 <li>Similar to HTAN Phase 2, Tier 1 metadata was divided into multiple categories, including Demographics, Diagosis, Family History, Exposure, Molecular Test, Therapy, Follow Up and Vital Status Update. However, the attributes, valid values and requirements differ between Phase 1 and Phase 2 for each of these Tier 1 clinical metadata categories.</li>
 <li>Phase 1 Tiers 2 and 3 are disease-agnostic (Tier 2) and disease-specific (Tier 3) extensions to the GDC model.</li>
 </ul>
 <p>These tiers are shown in figure 3 and are described more on the <a href="https://humantumoratlas.org/standard/clinical">Phase 1 Clinical Data Page</a>.</p>
-<p><figure class="content-center">
-    <img src="../../img/phase1_clinical_data_tiers.svg" alt="Figure 3. HTAN Phase 1 Clinical Metadata Tiers" class="rounded-image-rounded border-image-border border-image-border-width" />
+<figure class="content-center">
+    <img src="../../img/phase1_clinical_data_tiers.svg" alt="Figure 3. HTAN Phase 1 Clinical Metadata Tiers" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="960" height="720" />
     <figcaption class="caption">Figure 3. HTAN Phase 1 Clinical Metadata Tiers</figcaption>
 </figure>
-</p>
 </doc-panel>
 <doc-panel id="biospecimen-metadata-is-submitted-for-both-original-and-derived-specimen" collapsed>
     <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/></g></g></svg> Biospecimen Metadata is submitted for both original and derived specimen.</template>
-<doc-anchor-target id="original-vs-derived-biospecimen">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#original-vs-derived-biospecimen">#</doc-anchor-trigger>
-        <span>Original vs Derived Biospecimen</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="original-vs-derived-biospecimen">Original vs Derived Biospecimen</h2>
 <p>Biospecimen metadata includes the original biopsy or surgical specimen as well as any derived specimen (e.g. a tissue section or slide) which were subsequently used for an assay.</p>
 <ul>
 <li>Derived specimen connect to originating specimen via HTAN_PARENT_ID. (The derived specimen&#x27;s HTAN_PARENT_ID is the HTAN_BIOSPECIMEN_ID of the originating specimen.)</li>
@@ -230,15 +210,526 @@
 </doc-panel>
 <doc-panel id="assay-file-metadata-corresponds-to-assay-file-levels" collapsed>
     <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/></g></g></svg> Assay File Metadata corresponds to Assay File Levels.</template>
-<doc-anchor-target id="assay-file-metadata">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#assay-file-metadata">#</doc-anchor-trigger>
-        <span>Assay File Metadata</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="assay-file-metadata">Assay File Metadata</h2>
 <p>HTAN divides assay data files into levels which increase from level 1 (raw data) to level 4 (derived cohort-level data).  Please see the <a href="../file_standards/#assay-data-levels">File Standards Page</a> for more information about assay data levels.</p>
 <p>Assay file metadata corresponds to each assay file level. For example, Whole Exome Sequencing (WES) data currently has 3 file levels. As a result, there are 3 levels of WES assay metadata which are collected -- one for each file level. The metadata are referenced in this manner e.g. &quot;WES - Level 1&quot;, &quot;WES - Level 2&quot;, &quot;WES - Level 3&quot; in the HTAN Phase 2 Data Model and &quot;Bulk DNA Level 1&quot;, &quot;Bulk DNA Level 2&quot;, &quot;Bulk DNA Level 3&quot; in the HTAN Phase 1 Model.</p>
 </doc-panel>
+</doc-tab>
+<doc-tab v-cloak id="phase-1">
+<template #title>Phase 1</template>
+<p>The HTAN DCC maintains a set of code in github repositories (one for each Phase of HTAN) to document and validate metadata. Specific information about what attributes are collected, which attributes are required and valid values are also provided to help data contributors.  These resources may also be helpful to data users.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>HTAN Phase</th>
+<th>Github Repository</th>
+<th>Detailed Documentation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Phase 1</strong></td>
+<td><a href="https://github.com/ncihtan/data-models" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-primary hover:bg-button-primary-hover text-button-primary-text px-4 h-10 text-sm rounded-md">
+    <span>HTAN Phase 1 Data Model (Metadata) Github Repository</span>
+</a></td>
+<td>see below</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Please click on the panels below to download files which describe Phase 1 Metadata Attributes.</p>
+<doc-panel id="key" collapsed>
+    <template #title>KEY</template>
+<p>KEY for All downloadable Phase 1 Metadata files.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Columns Names</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Attribute</strong></td>
+<td>The name of the metadata element.</td>
+</tr>
+<tr>
+<td><strong>Manifest Name</strong></td>
+<td>Which metadata file(s) contains the attribute. Manifest Name contains a comma separated list where applicable.</td>
+</tr>
+<tr>
+<td><strong>Description</strong></td>
+<td>A description of the attribute.</td>
+</tr>
+<tr>
+<td><strong>Required</strong>:</td>
+<td>TRUE/FALSE. If the attribute was always required in the metadata file(s).</td>
+</tr>
+<tr>
+<td><strong>Conditional If</strong></td>
+<td>When not empty, indicates that the attribute was required when the condition was met.</td>
+</tr>
+<tr>
+<td><strong>Data Type</strong></td>
+<td>All values were String.</td>
+</tr>
+<tr>
+<td><strong>Valid Values</strong></td>
+<td>When not empty, the attribute must be one of the valid values in the list.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-panel>
+<doc-panel id="all-attributes" collapsed>
+    <template #title>All Attributes</template>
+<p><a href="../../assets/htan_phase1_metadata.csv">Download All Phase 1 HTAN Metadata Attributes</a></p>
+</doc-panel>
+<doc-panel id="clinical-metadata" collapsed>
+    <template #title>Clinical Metadata</template>
+<p><a href="../../assets/htan_phase1_clinical.tsv">Download Phase 1 Clinical Attributes</a></p>
+<p>Phase 1 HTAN clinical data consists of three tiers.
+Tier 1 is based on the NCI Genomic Data Commons (GDC) clinical data model, while Tiers 2 and 3 are extensions to the GDC model.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Tier</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Seven categories of clinical data, based on the GDC clinical data model.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>HTAN disease-agnostic extensions to the GDC clinical data model.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>HTAN disease-specific extensions to the GDC clinical data model.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="tier-1-clinical-data">Tier 1 Clinical Data</h3>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Category</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Demographics</td>
+<td>Data for the characterization of the patient by means of segmenting the population (e.g., characterization by age, sex, or race).</td>
+</tr>
+<tr>
+<td>Diagnosis</td>
+<td>Data from the investigation, analysis and recognition of the presence and nature of disease, condition, or injury from expressed signs and symptoms; also, the scientific determination of any kind; the concise results of such an investigation.</td>
+</tr>
+<tr>
+<td>Exposure</td>
+<td>Clinically relevant patient information not immediately resulting from genetic predispositions.</td>
+</tr>
+<tr>
+<td>Family History</td>
+<td>Record of a patient&#x27;s background regarding cancer events of blood relatives.</td>
+</tr>
+<tr>
+<td>Follow-up</td>
+<td>A visit by a patient or study participant to a medical professional. A clinical encounter that encompasses planned and unplanned trial interventions, procedures and assessments that may be performed on a subject. A visit has a start and an end, each described with a rule. The process by which information about the health status of an individual is obtained before and after a study has officially closed; an activity that continues something that has already begun or that repeats something that has already been done.</td>
+</tr>
+<tr>
+<td>Molecular Test</td>
+<td>Information pertaining to any molecular tests performed on the patient during a clinical event.</td>
+</tr>
+<tr>
+<td>Participant Vital Status Update</td>
+<td>Implemented in May 2024. This manifest is used to update a participant&#x27;s vital status if new information is available. Prior to May 2024, vital status was rewritten in the demographics manifest when updates were available.</td>
+</tr>
+<tr>
+<td>Therapy</td>
+<td>Record of the administration and intention of therapeutic agents provided to a patient to alter the course of a pathologic process.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="tier-2-and-3-clinical-data">Tier 2 and 3 Clinical Data</h3>
+<p>Tier 2 consists of <strong>disease-agnostic</strong> extensions to the GDC clinical data model.</p>
+<p>Tier 3 consists of <strong>disease-specific</strong> extensions to the GDC clinical data model. This covers additional elements for Acute Lymphoblastic Leukemia (ALL), Brain Cancer, Breast Cancer, Lung Cancer, Melanoma, Ovarian Cancer, Pancreatic Cancer, Prostate Cancer and Sarcoma.</p>
+</doc-panel>
+<doc-panel id="biospecimen" collapsed>
+    <template #title>Biospecimen</template>
+<p><a href="../../assets/htan_phase1_biospecimen.tsv">Download Phase 1 Biospecimen Attributes</a></p>
+<p>The HTAN biospecimen data model is designed to capture essential biospecimen data elements, including:</p>
+<p>Acquisition method, e.g. autopsy, biopsy, fine needle aspirate, etc.
+Topography Code, indicating site within the body, e.g. based on ICD-O-3.
+Collection information e.g. time, duration of ischemia, temperature, etc.
+Processing of parent biospecimen information e.g. fresh, frozen, etc.
+Biospecimen and derivative clinical metadata i.e. Histologic Morphology Code, e.g. based on ICD-O-3.
+Coordinates for derivative biospecimen from their parent biospecimen.
+Processing of derivative biospecimen for downstream analysis e.g. dissociation, sectioning, analyte isolation, etc.</p>
+<p>Phase 1 HTAN biospecimen metadata leveraged existing common data elements from four sources:</p>
+<p><a href="https://gdc.cancer.gov/about-data/gdc-data-processing/biospecimen-data-standardization">Genomic Data Commons (GDC)</a>
+Consortium for Molecular and Cellular Characterization of Screen-Detected Lesions (MCL)
+<a href="https://data.humancellatlas.org/metadata">Human Cell Atlas (HCA)</a>
+NCI standards described in the caDSR system</p>
+</doc-panel>
+<doc-panel id="electron-microscopy" collapsed>
+    <template #title>Electron Microscopy</template>
+<p><a href="../../assets/htan_phase1_electron_microscopy.tsv">Download Phase 1 Electron_Microscopy Attributes</a></p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Assay Type</th>
+<th>Level</th>
+<th>Definition</th>
+<th>Example Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Electron Microscopy</td>
+<td>1</td>
+<td>Raw electron microscopy data as one TIFF file per plane for a 3D image stack or per tile for a 2D large area montage.</td>
+<td>tiff</td>
+</tr>
+<tr>
+<td> </td>
+<td>2</td>
+<td>Processed electron microscopy data as one OME-TIFF image per plane or montage.</td>
+<td>ome-tiff</td>
+</tr>
+<tr>
+<td> </td>
+<td>3</td>
+<td>Segmented electron microscopy data.</td>
+<td>am, tiff</td>
+</tr>
+<tr>
+<td> </td>
+<td>4</td>
+<td>Movies or other derived files from electron microscopy data.</td>
+<td>mp4, csv</td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-panel>
+<doc-panel id="imaging" collapsed>
+    <template #title>Imaging</template>
+<p><a href="../../assets/htan_phase1_imaging.tsv">Download Phase 1 Imaging Attributes</a></p>
+<p>The HTAN data model for imaging data is based upon the <a href="https://www.miti-consortium.org/">Minimum Information about Tissue Imaging (MITI)</a> reporting guidelines. These comprise minimal metadata for highly multiplexed tissue images and were developed in consultation with methods developers, experts in imaging metadata (e.g., DICOM and OME) and multiple large-scale atlasing projects; they are guided by existing standards and accommodate most multiplexed imaging technologies and both centralized and distributed data storage.</p>
+<p>For further information on the MITI guidelines, please see the <a href="https://www.miti-consortium.org/">MITI website</a>, <a href="https://github.com/miti-consortium/MITI">specification on Github</a>, and <a href="https://www.nature.com/articles/s41592-022-01415-4">Nature Methods</a> publication.</p>
+<p>The HTAN data model for imaging was intended primarily for multiplexed imaging, such as CODEX, CyCIF, and IMC, in addition to brightfield imaging of H&amp;E stained tissues.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Assay Type</th>
+<th>Level</th>
+<th>Definition</th>
+<th>Example Data</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Imaging</td>
+<td>1</td>
+<td>Raw imaging data requiring tiling, stitching, illumination correction, registration or other pre-processing.</td>
+<td>svs, tiff</td>
+<td>usually not submitted</td>
+</tr>
+<tr>
+<td> </td>
+<td>2</td>
+<td>Imaging data compiled into a single file format, preferably a tiled and pyramidal OME-TIFF. Accompanied by a csv file containing channel metadata.</td>
+<td>ome-tiff + csv</td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>3</td>
+<td>Segmentation mask, Validated channel metadata, QC checked image.</td>
+<td>ome-tiff</td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>4</td>
+<td>An object-by-feature table (typically cell-by-marker) generated from the segmentation mask and image.</td>
+<td>csv</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-panel>
+<doc-panel id="mass-spectrometry" collapsed>
+    <template #title>Mass Spectrometry</template>
+<p><a href="../../assets/htan_phase1_mass_spectrometry.tsv">Download Phase 1 Mass Spectrometry Attributes</a></p>
+<p>The Phase 1 HTAN Mass Spectrometry Standard was developed with a focus on Proteomics data.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Assay Type</th>
+<th>Level</th>
+<th>Definition</th>
+<th>Example Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mass Spectrometry</td>
+<td>1</td>
+<td>Raw spectral data.</td>
+<td>mz5,dta,ms2,ms1,mzXML,mzML,mzData</td>
+</tr>
+<tr>
+<td> </td>
+<td>2</td>
+<td>Spectrum match peaks.</td>
+<td>Peptide spectrum match (PSM) in csv format</td>
+</tr>
+<tr>
+<td> </td>
+<td>3</td>
+<td>Peptide Group information</td>
+<td>Combined peptide spectrum as csv or tsv files</td>
+</tr>
+<tr>
+<td> </td>
+<td>4</td>
+<td>Protein Abundance.</td>
+<td>csv, tsv</td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-panel>
+<doc-panel id="proteomics" collapsed>
+    <template #title>Proteomics</template>
+<p><a href="../../assets/htan_phase1_proteomics.tsv">Download Phase 1 Proteomics Attributes</a></p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Assay Type</th>
+<th>Level</th>
+<th>Definition</th>
+<th>Example Data</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RPPA</td>
+<td>2</td>
+<td>Primary data. Array based protemics.</td>
+<td>csv</td>
+<td>(No level 1 for RPPA)</td>
+</tr>
+<tr>
+<td> </td>
+<td>3</td>
+<td>Intra-batch normalized intensities.</td>
+<td>txt,csv</td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>4</td>
+<td>Intra-batch corrected intensities.</td>
+<td>txt</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-panel>
+<doc-panel id="sequencing" collapsed>
+    <template #title>Sequencing</template>
+<p><a href="../../assets/htan_phase1_sequencing.tsv">Download Phase 1 Sequencing Attributes</a></p>
+<p>In alignment with The Cancer Genome Atlas and the NCI Genomic Data Commons, sequencing data are divided into four levels:</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Assay Type</th>
+<th>Level</th>
+<th>Definition</th>
+<th>Example Data</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sequencing</td>
+<td>1</td>
+<td>Raw data</td>
+<td>FASTQs, unaligned BAMs</td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>2</td>
+<td>Aligned primary data</td>
+<td>Aligned BAMs</td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>3</td>
+<td>Derived biomolecular data</td>
+<td>Gene expression matrix files, VCFs, etc.</td>
+<td>no level 3 for scDNA-seq and scmC-seq</td>
+</tr>
+<tr>
+<td> </td>
+<td>4</td>
+<td>Sample level summary data.</td>
+<td>t-SNE plot coordinates, etc.</td>
+<td>no level 4 for scDNA-seq, scmC-seq, Bulk DNA-seq, Bulk RNA-seq, HiC-Seq, Bulk Methylation-Seq</td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-panel>
+<doc-panel id="spatial-transcriptomics" collapsed>
+    <template #title>Spatial Transcriptomics</template>
+<p><a href="../../assets/htan_phase1_spatial_transcriptomics.tsv">Download Phase 1 Spatial Transcriptomics Attributes</a></p>
+<p>Support for several spatial sequencing modalities was added near the end of HTAN Phase 1. Spatial transcriptomics assays had platform-specific data levels which deviated from the traditional HTAN file level schema. Specifically,</p>
+<ul>
+<li>some platforms have only one experiment level instead of multiple file levels (10X Xenium ISS and Nanostring CosMx SMI); and</li>
+<li>some platforms have additional files (auxiliary or annotation metadata) which were not a part of the typical 4 level system (e.g. 10X Visium, Nanostring GeoMx DSP).</li>
+</ul>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Assay Type</th>
+<th>Level</th>
+<th>Definition</th>
+<th>Example Data</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Spatial Transcriptomics, Nanostring CosMx SMI</td>
+<td>Experiment</td>
+<td>RNA and Protein Panel assays applied as part of Nanostring CosMx Spatial Molecular Imager (SMI)</td>
+<td>experiment bundle submitted instead of multiple file levels.</td>
+<td> </td>
+</tr>
+<tr>
+<td>Spatial Transcriptomics, Nanostring GeoMx DSP</td>
+<td>1</td>
+<td>Files contain raw data output from the NanoString GeoMx DSP Pipeline. These can include RCC or DCC Files.</td>
+<td>rcc, dcc</td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>3</td>
+<td>Files contain processed data from the NanoString GeoMx DSP Pipeline. This level depends on GeoMx Level 1 and Imaging Level 2.</td>
+<td>csv</td>
+<td>Associated ome-tiff images submitted using the Imaging Level 2 manifest.</td>
+</tr>
+<tr>
+<td> </td>
+<td>DCC ROI Segment Annotation</td>
+<td>GeoMx ROI and Segment Metadata Attributes. The assayed biospecimen should be reported one per row with the associated ROI coordinates.</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>RCC ROI Segment Annotation</td>
+<td>GeoMx ROI and Segment Metadata Attributes. The assayed biospecimen should be reported one per row with the associated ROI coordinates.</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Spatial Transcriptomics, Slide-Seq</td>
+<td>1</td>
+<td>Raw sequencing files for the Slide-seq assay.</td>
+<td>tar.gz (FASTQ)</td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>2</td>
+<td>Aligned sequencing files and QC for the Slide-seq assay.</td>
+<td>BAM</td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>3</td>
+<td>Gene matrices with features and barcodes for Slide-seq as well as spatial information (bead location files).</td>
+<td>tsv, mtx.gz</td>
+<td> </td>
+</tr>
+<tr>
+<td>Spatial Transcriptomics, 10x Visium</td>
+<td>1</td>
+<td>Files contain raw RNA-seq data associated with spot/slide data.</td>
+<td>FASTQ</td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>2</td>
+<td>Alignment workflows downstream of Spatial Transcriptomics RNA-seq Level 1.</td>
+<td>Aligned BAMS</td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>3</td>
+<td>Processed data files based on Spatial Transcriptomics RNA-seq Level 2 and Spatial Transcriptomics Auxiliary files.</td>
+<td>Barcodes, features, filtered and unfiltered matrices</td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>4</td>
+<td>Processed data files based on Spatial Transcriptomics RNA-seq Level 3.</td>
+<td>Clustering, t-SNE coordinates, h5ad, RDS</td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>Auxiliary</td>
+<td>Auxiliary data associated with spot/slide analysis (aligned Images, quality control files, etc) from Spatial Transcriptomics. Additional data such as imaging, qc, and json scale factors.</td>
+<td>TIFF, JPG, PNG, JSON, HTML, etc.</td>
+<td> </td>
+</tr>
+<tr>
+<td>Spatial Transcriptomics, 10X Xenium ISS</td>
+<td>Experiment</td>
+<td>All data pertaining to the 10X Genomics Xenium In-Situ Hybridization experiment</td>
+<td>experiment bundle</td>
+<td>experiment bundle submitted instead of multiple file levels.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</doc-panel>
+</doc-tab>
+<doc-tab v-cloak id="phase-2">
+<template #title>Phase 2</template>
 <p>The HTAN DCC maintains a set of code in github repositories (one for each Phase of HTAN) to document and validate metadata. Specific information about what attributes are collected, which attributes are required and valid values are also provided to help data contributors.  These resources may also be helpful to data users.</p>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
@@ -252,25 +743,17 @@
 <tbody>
 <tr>
 <td><strong>Phase 2</strong></td>
-<td><a href="https://github.com/ncihtan/htan2-data-model" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-primary hover:bg-button-primary-hover text-button-primary-text px-4 h-10 text-sm rounded-md">
+<td><a href="https://github.com/ncihtan/htan2-data-model" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-primary hover:bg-button-primary-hover text-button-primary-text px-4 h-10 text-sm rounded-md">
     <span>HTAN Phase 2 Data Model (Metadata) Github Repository</span>
 </a></td>
-<td><a href="https://htan2-data-model.readthedocs.io/en/main/" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-primary hover:bg-button-primary-hover text-button-primary-text px-4 h-10 text-sm rounded-md">
+<td><a href="https://htan2-data-model.readthedocs.io/en/main/" class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-primary hover:bg-button-primary-hover text-button-primary-text px-4 h-10 text-sm rounded-md">
     <span>HTAN Phase 2 Data Model (Metadata) Documentation</span>
-</a></td>
-</tr>
-<tr>
-<td><strong>Phase 1</strong></td>
-<td><a href="https://github.com/ncihtan/data-models" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-primary hover:bg-button-primary-hover text-button-primary-text px-4 h-10 text-sm rounded-md">
-    <span>HTAN Phase 1 Data Model (Metadata) Github Repository</span>
-</a></td>
-<td><a href="https://humantumoratlas.org/standards" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-primary hover:bg-button-primary-hover text-button-primary-text px-4 h-10 text-sm rounded-md">
-    <span>HTAN Phase 1 Data Model (Metadata) Documentation</span>
 </a></td>
 </tr>
 </tbody>
 </table>
 </div>
+</doc-tab>
 
                 
                 <!-- Required only on API pages -->

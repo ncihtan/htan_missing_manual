@@ -1,0 +1,256 @@
+Attribute	Manifest Name	Description	Required	Conditional If	Data Type	Valid Values
+Filename	scRNA-seq Level 1,scRNA-seq Level 2,scRNA-seq Level 3,scRNA-seq Level 4,scDNA-seq Level 1,scDNA-seq Level 2,scATAC-seq Level 1,scATAC-seq Level 2,scATAC-seq Level 3,scATAC-seq Level 4,scmC-seq Level 1,scmC-seq Level 2,Bulk WES Level 1,Bulk WES Level 2,Bulk WES Level 3,Bulk Methylation-seq Level 1,Bulk Methylation-seq Level 2,Bulk Methylation-seq Level 3,Bulk RNA-seq Level 1,Bulk RNA-seq Level 2,Bulk RNA-seq Level 3,HI-C-seq Level 1,HI-C-seq Level 2,HI-C-seq Level 3	Name of a file	True		String	
+File Format	scRNA-seq Level 1,scRNA-seq Level 2,scRNA-seq Level 3,scRNA-seq Level 4,scDNA-seq Level 1,scDNA-seq Level 2,scATAC-seq Level 1,scATAC-seq Level 2,scATAC-seq Level 3,scATAC-seq Level 4,scmC-seq Level 1,scmC-seq Level 2,Bulk WES Level 1,Bulk WES Level 2,Bulk WES Level 3,Bulk Methylation-seq Level 1,Bulk Methylation-seq Level 2,Bulk Methylation-seq Level 3,Bulk RNA-seq Level 1,Bulk RNA-seq Level 2,Bulk RNA-seq Level 3,HI-C-seq Level 1,HI-C-seq Level 2,HI-C-seq Level 3	Format of a file (e.g. txt, csv, fastq, bam, etc.)	True		String	hdf5 bedgraph idx idat bam bai excel powerpoint tif tiff OME-TIFF png doc pdf fasta fastq sam vcf bcf maf bed chp cel sif tsv csv txt plink bigwig wiggle gct bgzip zip seg html mov hyperlink svs Md flagstat gtf raw msf rmd bed narrowPeak bed broadPeak bed gappedPeak avi pzfx fig xml tar R script abf bpm dat jpg locs Sentrix descriptor file Python script sav gzip sdf RData hic ab1 7z gff3 json sqlite svg sra recal tranches mtx tagAlign dup DICOM czi mex cloupe Am cell am mpg M mzML scn dcc rcc pkc sf bedpe
+HTAN Parent Biospecimen ID	scRNA-seq Level 1,scDNA-seq Level 1,scATAC-seq Level 1,scmC-seq Level 1,Bulk WES Level 1,Bulk Methylation-seq Level 1,Bulk RNA-seq Level 1,HI-C-seq Level 1,scRNA-seq Level 2	HTAN Biospecimen Identifier (eg HTANx_yyy_zzz) indicating the biospecimen(s) from which these files were derived; multiple parent biospecimen should be comma-separated	True	Is lowest level is "Yes - Is lowest level"	String	
+HTAN Data File ID	scRNA-seq Level 1,scRNA-seq Level 2,scRNA-seq Level 3,scRNA-seq Level 4,scDNA-seq Level 1,scDNA-seq Level 2,scATAC-seq Level 1,scATAC-seq Level 2,scATAC-seq Level 3,scATAC-seq Level 4,scmC-seq Level 1,scmC-seq Level 2,Bulk WES Level 1,Bulk WES Level 2,Bulk WES Level 3,Bulk Methylation-seq Level 1,Bulk Methylation-seq Level 2,Bulk Methylation-seq Level 3,Bulk RNA-seq Level 1,Bulk RNA-seq Level 2,Bulk RNA-seq Level 3,HI-C-seq Level 1,HI-C-seq Level 2,HI-C-seq Level 3	Self-identifier for this data file - HTAN ID of this file HTAN ID SOP (eg HTANx_yyy_zzz)	True		String	
+Nucleic Acid Source	scRNA-seq Level 1,scDNA-seq Level 1,scATAC-seq Level 1,scmC-seq Level 1,Bulk Methylation-seq Level 1,Bulk RNA-seq Level 1,HI-C-seq Level 1	The source of the input nucleic molecule	True		String	Single Cell Bulk Whole Cell Single Nucleus Bulk Nuclei Micro-region
+Cryopreserved Cells in Sample	scRNA-seq Level 1	Indicate if library preparation was based on revived frozen cells.	True		String	yes no
+Single Cell Isolation Method	scRNA-seq Level 1,scATAC-seq Level 1,scmC-seq Level 1	The method by which cells are isolated into individual reaction containers at a single cell resolution (e.g. wells, micro-droplets)	True		String	Microfluidics Chip Droplets FACS Plates 10x Nuclei Isolation
+Dissociation Method	scRNA-seq Level 1,scATAC-seq Level 1	The tissue dissociation method used for scRNASeq or scATAC-seq assays	True		String	gentleMACS Dounce Enzymatic Digestion Not Applicable
+Library Construction Method	scRNA-seq Level 1,scATAC-seq Level 1	Process which results in the creation of a library from fragments of DNA using cloning vectors or oligonucleotides with the role of adaptors [OBI_0000711]	True		String	Smart-seq2 Smart-SeqV4 10xV1.0 10xV1.1 10xV2 10xV3 10xV3.1 CEL-seq2 Drop-seq inDropsV2 inDropsV3 TruDrop sci-ATAC-seq Nextera XT 10x Multiome 10x FLEX 10x GEM 3' 10x GEM 5'
+Read Indicator	scRNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Indicate if this is Read 1 (R1), Read 2 (R2), Index Reads 1 (I1), Index Reads 2 (I2),  or Other	True		String	R1 R2 R1&R2 I1 I2 Other
+Read1	scRNA-seq Level 1	Read 1 content description	True		String	Cell Barcode and UMI cDNA
+Read2	scRNA-seq Level 1	Read 2 content description	True		String	Cell Barcode and UMI cDNA
+End Bias	scRNA-seq Level 1	The end of the cDNA molecule that is preferentially sequenced, e.g. 3/5 prime tag/end or the full length transcript	True		String	3 Prime 5 Prime Full Length Transcript
+Reverse Transcription Primer	scRNA-seq Level 1	An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA	True		String	Oligo-dT Poly-dT Feature barcoding Random
+Spike In	scRNA-seq Level 1,Bulk RNA-seq Level 1	A set of known synthetic RNA molecules with known sequence that are added to the cell lysis mix	True		String	ERCC Other Spike In No Spike In PhiX
+Sequencing Platform	scRNA-seq Level 1,scATAC-seq Level 1,scmC-seq Level 1,Bulk WES Level 1,Bulk Methylation-seq Level 1,Bulk RNA-seq Level 1,HI-C-seq Level 1	A platform is an object aggregate that is the set of instruments and software needed to perform a process [OBI_0000050]. Specific model of the sequencing instrument.	True		String	Illumina Next Seq 500 Illumina Next Seq 550 Illumina Next Seq 2500 Illumina NovaSeq 6000 Illumina MiSeq 454 GS FLX Titanium AB SOLiD 4 AB SOLiD 2 AB SOLiD 3 Complete Genomics Illumina HiSeq X Ten Illumina HiSeq X Five Illumina Genome Analyzer II Illumina Genome Analyzer IIx Illumina HiSeq 2000 Illumina HiSeq 2500 Illumina HiSeq 4000 Illumina NextSeq Ion Torrent PGM Ion Torrent Proton Ion Torrent S5 PacBio RS NovaSeq 6000 NovaSeqS4 Ultima Genomics UG100 Oxford Nanopore minION GridION PromethION PacBio Sequel2 Revio Illumina NextSeq 1000 Illumina NextSeq 2000 Other unknown Not Reported
+Total Number of Input Cells	scRNA-seq Level 1	Number of cells loaded/placed on plates	True		String	
+Input Cells and Nuclei	scRNA-seq Level 1	Number of cells and number of nuclei input; entry format: number, number	True		String	
+Library Preparation Days from Index	scRNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Number of days between sample for assay was received in lab and the libraries were prepared for sequencing [number]. If not applicable please enter 'Not Applicable'	False		String	
+Single Cell Dissociation Days from Index	scRNA-seq Level 1	Number of days between sample for single cell assay was received in lab and when the sample was dissociated and cells were isolated [number]. If not applicable please enter 'Not Applicable'	True		String	
+Sequencing Library Construction Days from Index	scRNA-seq Level 1	Number of days between sample for assay was received in lab and day of sequencing library construction [number]. If not applicable please enter 'Not Applicable'	True		String	
+Nucleic Acid Capture Days from Index	scRNA-seq Level 1	Number of days between sample for single cell assay was received in lab and day of nucleic acid capture part of library construction (in number of days since sample received in lab) [number]. If not applicable please enter 'Not Applicable'	True		String	
+Protocol Link	scRNA-seq Level 1,scATAC-seq Level 1,HI-C-seq Level 1	Protocols.io ID or DOI link to a free/open protocol resource describing in detail the assay protocol (e.g. surface markers used in Smart-seq, dissociation duration,  lot/batch numbers for key reagents such as primers, sequencing reagent kits, etc.) or the protocol by which the sample was obtained or generated.	True		String	
+Technical Replicate Group	scRNA-seq Level 1,scATAC-seq Level 1,scmC-seq Level 1,HI-C-seq Level 1	A common term for all files belonging to the same cell or library. Provide a numbering of each library prep batch (can differ from encapsulation and sequencing batch)	False		String	
+Empty Well Barcode	scRNA-seq Level 1	Unique cell barcode assigned to empty cells used as controls in CEL-seq2 assays.	True	Library Construction Method is "CEL-seq2"	String	
+Well Index	scRNA-seq Level 1	Indicate if protein expression (EPCAM/CD45) positive/negative data  is available for each cell in CEL-seq2 assays	False	Library Construction Method is "CEL-seq2"	String	yes no
+Feature Reference Id	scRNA-seq Level 1	Unique ID for this feature. Must not contain whitespace, quote or comma characters. Each ID must be unique and must not collide with a gene identifier from the transcriptome [https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/using/feature-bc-analysis#feature-ref]	True	Reverse Transcription Primer is "Feature barcoding"	String	
+UMI Barcode Offset	scRNA-seq Level 1	Start position of UMI barcode in the sequence. Values: number, 0 for start of read	True	Spatial Read2 is "Spatial Barcode and UMI"	String	
+UMI Barcode Length	scRNA-seq Level 1	Length of UMI barcode read (in bp): number	True	Spatial Read2 is "Spatial Barcode and UMI"	String	
+Cell Barcode and UMI	scRNA-seq Level 1,scmC-seq Level 1	Cell and transcript identifiers	False		String	
+Median UMIs per Cell Number	scRNA-seq Level 1	Number	True	Read2 is "Cell Barcode and UMI"	String	
+Cell Barcode Offset	scRNA-seq Level 1	Offset in sequence for cell barcode read (in bp): number	True	Read2 is "Cell Barcode and UMI"	String	
+Cell Barcode Length	scRNA-seq Level 1	Length of cell barcode read (in bp): number	True	Read2 is "Cell Barcode and UMI"	String	
+Valid Barcodes Cell Number	scRNA-seq Level 1	Number	True	Read2 is "Cell Barcode and UMI"	String	
+CEL-seq2	scRNA-seq Level 1	Highly-multiplexed plate-based single-cell RNA-Seq assay	False		String	
+Feature barcoding	scRNA-seq Level 1	A method for adding extra channels of information to cells by running single-cell gene expression in parallel with other assays [https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/feature-bc]	False		String	
+HTAN Parent Data File ID	scRNA-seq Level 2,scRNA-seq Level 3,scRNA-seq Level 4,scDNA-seq Level 2,scATAC-seq Level 2,scATAC-seq Level 3,scATAC-seq Level 4,scmC-seq Level 2,Bulk WES Level 2,Bulk WES Level 3,Bulk Methylation-seq Level 2,Bulk Methylation-seq Level 3,Bulk RNA-seq Level 2,Bulk RNA-seq Level 3,HI-C-seq Level 2,HI-C-seq Level 3	HTAN Data File Identifier indicating the file(s) from which these files were derived	True		String	
+scRNAseq Workflow Type	scRNA-seq Level 2,scRNA-seq Level 3,scRNA-seq Level 4	Generic name for the workflow used to analyze a data set.	True		String	CellRanger STARsolo HCA Optimus dropEST SEQC Cufflinks DEXSeq HTSeq - FPKM Cell annotation Differentiation trajectory analysis Other
+Workflow Version	scRNA-seq Level 2,scRNA-seq Level 3,scRNA-seq Level 4,scATAC-seq Level 4	Major version of the workflow (e.g. Cell Ranger v3.1)	True		String	
+scRNAseq Workflow Parameters Description	scRNA-seq Level 2,scRNA-seq Level 3,scRNA-seq Level 4	Parameters used to run the workflow. scRNA-seq level 3: e.g. Normalization and log transformation, ran empty drops or doublet detection, used filter on # genes/cell, etc. scRNA-seq Level 4: dimensionality reduction with PCA and 50 components, nearest-neighbor graph with k = 20 and Leiden clustering with resolution = 1, UMAP visualization using 50 PCA components, marker genes used to annotate cell types, information about droplet matrix (all barcodes) to cell matrix (only informative barcodes representing real cells) conversion	True		String	
+Workflow Link	scRNA-seq Level 2,scRNA-seq Level 3,scRNA-seq Level 4,scATAC-seq Level 4,Bulk RNA-seq Level 3	Link to workflow or command. DockStore.org recommended. URL	True	Pseudo Alignment Used is "Yes - Pseudo Alignment Used"	String	
+Genomic Reference	scRNA-seq Level 2,scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk WES Level 3,Bulk RNA-seq Level 2,HI-C-seq Level 1,HI-C-seq Level 2,HI-C-seq Level 3,Bulk RNA-seq Level 3	Exact version of the human genome reference used in the alignment of reads (e.g. GCF_000001405.39)	True	Pseudo Alignment Used is "Yes - Pseudo Alignment Used"	String	
+Genomic Reference URL	scRNA-seq Level 2,scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk WES Level 3,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2,Bulk RNA-seq Level 3	Link to human genome sequence (e.g. ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_34/GRCh38.primary_assembly.genome.fa.gz)	True	Pseudo Alignment Used is "Yes - Pseudo Alignment Used"	String	
+Genome Annotation URL	scRNA-seq Level 2	Link to the human genome annotation (GTF) file (e.g. ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_34/gencode.v34.annotation.gtf.gz)	True		String	
+Checksum	scRNA-seq Level 2	MD5 checksum of the BAM file	True		String	
+Whitelist Cell Barcode File Link	scRNA-seq Level 2	Link to file listing all possible cell barcodes. URL	True		String	
+Cell Barcode Tag	scRNA-seq Level 2	SAM tag for cell barcode field; please provide a valid cell barcode tag (e.g. CB:Z)	True		String	
+UMI Tag	scRNA-seq Level 2	SAM tag for the UMI field; please provide a valid UB, UMI (e.g. UB:Z or UR:Z)	True		String	
+Applied Hard Trimming	scRNA-seq Level 2	Was Hard Trimming applied	True		String	Yes - Applied Hard Trimming no
+Is lowest level	scRNA-seq Level 2,Bulk WES Level 2,Bulk RNA-seq Level 2	Denotes that the manifest represents the lowest data level submitted. Use when L1 data is missing	False		String	Yes - Is lowest level no
+Yes - Is lowest level	scRNA-seq Level 2	If manifest is lowest level require HTAN Parent Biospecimen ID	False		String	
+Data Category	scRNA-seq Level 3,Bulk RNA-seq Level 3	Specific content type of the data file.	True		String	Gene Expression Transcript Expression Exon Expression Quantification Gene Expression Quantification Isoform Expression Quantification Splice Junction Quantification Other
+Matrix Type	scRNA-seq Level 3,Bulk RNA-seq Level 3	Type of data stored in matrix.	True		String	Raw Counts Normalized Counts Scaled Counts Batch Corrected Counts
+Linked Matrices	scRNA-seq Level 3	All matrices associated with every part of a SingleCellExperiment object. Comma-delimited list of filenames	False		String	
+Cell Median Number Reads	scRNA-seq Level 3	Median number of reads per cell. Number	True		String	
+Cell Median Number Genes	scRNA-seq Level 3	Median number of genes detected per cell. Number	True		String	
+Cell Total	scRNA-seq Level 3	Number of sequenced  cells. Applies to raw counts matrix only.	True		String	
+Sequencing Batch ID	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Links samples to a specific local sequencer run. Can be string or 'null'	True		String	
+Library Layout	scDNA-seq Level 1,scmC-seq Level 1,Bulk WES Level 1,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 1	Sequencing read type	True		String	Paired End Single Read Mid-length Long Read
+Library Selection Method	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	How RNA molecules are isolated.	True		String	Hybrid Selection PCR Affinity Enrichment Poly-T Enrichment Random rRNA Depletion miRNA Size Fractionation Other
+Read Length	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	The length of the sequencing reads. Can be integer, null	True		String	
+Library Preparation Kit Name	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Name of Library Preparation Kit. String	True		String	
+Library Preparation Kit Vendor	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Vendor of Library Preparation Kit. String	True		String	
+Library Preparation Kit Version	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Version of Library Preparation Kit. String	True		String	
+Adapter Name	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Name of the sequencing adapter. String	False		String	
+Adapter Sequence	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Base sequence of the sequencing adapter. String	False		String	
+Base Caller Name	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Name of the base caller. String	False		String	
+Base Caller Version	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Version of the base caller. String	False		String	
+Flow Cell Barcode	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Flow cell barcode. Wrong or missing information may affect analysis results. String	False		String	
+Fragment Maximum Length	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Maximum length of the sequenced fragments (e.g., as predicted by Agilent Bioanalyzer). Integer	False		String	
+Fragment Mean Length	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Mean length of the sequenced fragments (e.g., as predicted by Agilent Bioanalyzer). Number	False		String	
+Fragment Minimum Length	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Minimum length of the sequenced fragments (e.g., as predicted by Agilent Bioanalyzer). Integer	False		String	
+Fragment Standard Deviation Length	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Standard deviation of the sequenced fragments length (e.g., as predicted by Agilent Bioanalyzer). Number	False		String	
+Lane Number	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	The basic machine unit for sequencing. For Illumina machines, this reflects the physical lane number. Wrong or missing information may affect analysis results. Integer	False		String	
+Library Strand	scDNA-seq Level 1,Bulk RNA-seq Level 1	Library stranded-ness.	False		String	Unstranded First Stranded Second Stranded Not Applicable
+Multiplex Barcode	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	The barcode/index sequence used. Wrong or missing information may affect analysis results. String	False		String	
+Size Selection Range	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Range of size selection. String	False		String	
+Target Depth	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	The targeted read depth prior to sequencing. Integer	False		String	
+To Trim Adapter Sequence	scDNA-seq Level 1,Bulk WES Level 1,Bulk RNA-seq Level 1	Does the user suggest adapter trimming?	False		String	Yes - Trim Adapter Sequence no
+Adapter Content	scDNA-seq Level 1,Bulk WES Level 2,Bulk RNA-seq Level 1	State classification given by FASTQC for the metric. Metric specific details about the states are available on their website.	False		String	FAIL PASS WARN unknown Not Reported
+Basic Statistics	scDNA-seq Level 1,Bulk WES Level 2,Bulk RNA-seq Level 1	State classification given by FASTQC for the metric. Metric specific details about the states are available on their website.	False		String	FAIL PASS WARN unknown Not Reported
+Encoding	scDNA-seq Level 1,Bulk WES Level 2,Bulk RNA-seq Level 1	Version of ASCII encoding of quality values found in the file. String	False		String	
+Kmer Content	scDNA-seq Level 1,Bulk RNA-seq Level 1	State classification given by FASTQC for the metric. Metric specific details about the states are available on their website.	False		String	FAIL PASS WARN unknown Not Reported
+Overrepresented Sequences	scDNA-seq Level 1,Bulk WES Level 2,Bulk RNA-seq Level 1	State classification given by FASTQC for the metric. Metric specific details about the states are available on their website.	False		String	FAIL PASS WARN unknown Not Reported
+Per Base N Content	scDNA-seq Level 1,Bulk WES Level 2,Bulk RNA-seq Level 1	State classification given by FASTQC for the metric. Metric specific details about the states are available on their website.	False		String	FAIL PASS WARN unknown Not Reported
+Per Base Sequence Content	scDNA-seq Level 1,Bulk WES Level 2,Bulk RNA-seq Level 1	State classification given by FASTQC for the metric. Metric specific details about the states are available on their website.	False		String	FAIL PASS WARN unknown Not Reported
+Per Base Sequence Quality	scDNA-seq Level 1,Bulk WES Level 2,Bulk RNA-seq Level 1	State classification given by FASTQC for the metric. Metric specific details about the states are available on their website.	False		String	FAIL PASS WARN unknown Not Reported
+Per Sequence GC Content	scDNA-seq Level 1,Bulk WES Level 2,Bulk RNA-seq Level 1	State classification given by FASTQC for the metric. Metric specific details about the states are available on their website.	False		String	FAIL PASS WARN unknown Not Reported
+Per Sequence Quality Score	scDNA-seq Level 1,Bulk WES Level 2,Bulk RNA-seq Level 1	State classification given by FASTQC for the metric. Metric specific details about the states are available on their website.	False		String	FAIL PASS WARN unknown Not Reported
+Per Tile Sequence Quality	scDNA-seq Level 1,Bulk WES Level 2,Bulk RNA-seq Level 1	State classification given by FASTQC for the metric. Metric specific details about the states are available on their website.	False		String	FAIL PASS WARN unknown Not Reported
+Percent GC Content	scDNA-seq Level 1,Bulk WES Level 2,Bulk RNA-seq Level 1	The overall %GC of all bases in all sequences. Integer	False		String	
+Sequence Duplication Levels	scDNA-seq Level 1,Bulk WES Level 2,Bulk RNA-seq Level 1	State classification given by FASTQC for the metric. Metric specific details about the states are available on their website.	False		String	FAIL PASS WARN unknown Not Reported
+Sequence Length Distribution	scDNA-seq Level 1,Bulk WES Level 2,Bulk RNA-seq Level 1	State classification given by FASTQC for the metric. Metric specific details about the states are available on their website.	False		String	FAIL PASS WARN unknown Not Reported
+Total Reads	scDNA-seq Level 1,scDNA-seq Level 2,scATAC-seq Level 1,scATAC-seq Level 2,scmC-seq Level 1,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 1,Bulk RNA-seq Level 2,HI-C-seq Level 1	Total number of reads per sample. Integer	False		String	
+QC Workflow Type	scDNA-seq Level 1,Bulk WES Level 2,Bulk RNA-seq Level 1	Generic name for the workflow used to analyze a data set. String	False		String	
+QC Workflow Version	scDNA-seq Level 1,Bulk WES Level 2,Bulk RNA-seq Level 1	Major version for a workflow. String	False		String	
+QC Workflow Link	scDNA-seq Level 1,Bulk WES Level 2,Bulk RNA-seq Level 1	Link to workflow used. String	False		String	
+Alignment Workflow Url	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	Link to workflow used for read alignment. DockStore.org recommended. String	True		String	
+Alignment Workflow Type	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	Generic name for the workflow used to analyze a data set.	True		String	BWA BWA with BQSR BWA-aln BWA-mem BWA with Mark Duplicates and BQSR STAR 2-Pass STAR 2-Pass Chimeric STAR 2-Pass Genome STAR 2-Pass Transcriptome Bowtie Bismark GSNAP BSMAP BSmooth BS-Seeker2 BS-Seeker RMAP MethylCoder BRAT-BW Pash Segemehl Bisulfighter BatMeth LAST ERNE-BS5 B-SOLANA SOCS-B BWA-meth Other Alignment Workflow None
+Index File Name	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	The name (or part of a name) of a file (of any type). String	True		String	
+Average Base Quality	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	Average base quality collected from samtools. Number	False		String	
+Average Insert Size	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	Average insert size collected from samtools. Integer	False		String	
+Average Read Length	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	Average read length collected from samtools. Integer	False		String	
+Mean Coverage	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	Mean coverage for whole genome sequencing, or mean target coverage for whole exome and targeted sequencing, collected from Picard. Number	False		String	
+Pairs On Diff CHR	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	Pairs on different chromosomes collected from samtools. Integer	False		String	
+Proportion Reads Mapped	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	Proportion of mapped reads collected from samtools. Number	False		String	
+MapQ30	scDNA-seq Level 2,scATAC-seq Level 1,scATAC-seq Level 2	Number of reads with Quality >= 30.	False		String	
+Total Uniquely Mapped	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	Number of reads that map to genome. Integer	False		String	
+Total Unmapped reads	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	Number of reads that did not map to genome. Integer	False		String	
+Proportion Reads Duplicated	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	Proportion of duplicated reads collected from samtools. Number	False		String	
+Short Reads	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	Number of reads that were too short. Integer	False		String	
+Proportion Coverage 10x	scDNA-seq Level 2,scATAC-seq Level 2,Bulk WES Level 2	Proportion of all reference bases for whole genome sequencing, or targeted bases for whole exome and targeted sequencing, that achieves 10X or greater coverage from Picard Tools.	False		String	
+Proportion Coverage 30X	scDNA-seq Level 2,scATAC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2	Proportion of all reference bases for whole genome sequencing, or targeted bases for whole exome and targeted sequencing, that achieves 30X or greater coverage from Picard Tools.	False		String	
+Proportion Targets No Coverage	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	Proportion of targets that did not reach 1X coverage over any base from Picard Tools. Number	False		String	
+Proportion Base Mismatch	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	Proportion of mismatched bases collected from samtools. Number	False		String	
+Proportion Mitochondrial Reads	scDNA-seq Level 2	Proportion of reads mapping to mitochondria.	False		String	
+Contamination	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	Fraction of reads coming from cross-sample contamination collected from GATK4. Number	False		String	
+Contamination Error	scDNA-seq Level 2,scATAC-seq Level 2,scmC-seq Level 2,Bulk WES Level 2,Bulk Methylation-seq Level 2,Bulk RNA-seq Level 2	Estimation error of cross-sample contamination collected from GATK4. Number	False		String	
+Single Nucleus Buffer	scATAC-seq Level 1,scmC-seq Level 1	Nuclei isolation buffer	True		String	NIB 10x Omni TST
+Transposition Reaction	scATAC-seq Level 1,HI-C-seq Level 1	Name of the transposase, transposon sequences	True		String	Tn5 EZ-Tn5 Tn5-059 Nextera Tn5 Diagenode-unloaded Apex-Bio Diagenode-loaded Apex-Bio In-House
+scATACseq Library Layout	scATAC-seq Level 1	Sequencing read type	True		String	scATACseq Paired End
+Nucleus Identifier	scATAC-seq Level 1,scmC-seq Level 1	Unique nuclei barcode; added at transposition step. Determines which nucleus the reads originated from	True		String	Nuclei Barcode
+Nuclei Barcode Length	scATAC-seq Level 1	Nuclei Barcode Length	True		String	
+Nuclei Barcode Read	scATAC-seq Level 1	Nuclei Barcode Read	True		String	
+scATACseq Read1	scATAC-seq Level 1	Read 1 content description	True		String	Cell Barcode and DNA Insert Sample Index and DNA Insert DNA Insert Sample Index Cell Barcode
+scATACseq Read2	scATAC-seq Level 1	Read 2 content description	True		String	Cell Barcode and DNA Insert Sample Index and DNA Insert DNA Insert Sample Index Cell Barcode
+scATACseq Read3	scATAC-seq Level 1	Read 3 content description	False		String	Cell Barcode and DNA Insert Sample Index and DNA Insert DNA Insert Sample Index Cell Barcode
+Threshold for Minimum Passing Reads	scATAC-seq Level 1,scmC-seq Level 1	Threshold for calling cells	True		String	
+Total Number of Passing Nuclei	scATAC-seq Level 1,scmC-seq Level 1	Number of nuclei sequenced	True		String	
+Median Fraction of Reads in Peaks	scATAC-seq Level 1,scmC-seq Level 1	Median fraction of reads in peaks (FRIP)	True		String	
+Median Fraction of Reads in Annotated cis DNA Elements	scATAC-seq Level 1	Median fraction of reads in annotated cis-DNA elements (FRIADE)	True		String	
+Median Passing Read Percentage	scATAC-seq Level 1,scmC-seq Level 1	Non-PCR duplicate nuclear genomic sequence reads not aligning to unanchored contigs out of total reads assigned to the nucleus barcode	True		String	
+Median Percentage of Mitochondrial Reads per Nucleus	scATAC-seq Level 1,scATAC-seq Level 2,scmC-seq Level 1	Contamination from mitochondrial sequences	True		String	
+Peaks Calling Software	scATAC-seq Level 1,scmC-seq Level 1	Generic name of peaks calling tool	True		String	
+Nuclei Barcode	scATAC-seq Level 1	Nuclei Barcode	False		String	Nuclei Barcode Read Nuclei Barcode Length
+scATACseq Paired End	scATAC-seq Level 1	A library layout type	False		String	scATACseq Read1 scATACseq Read2
+nCount Peaks	scATAC-seq Level 2,scATAC-seq Level 3	Total number of fragments in peaks	False		String	
+nFeature Peaks	scATAC-seq Level 2,scATAC-seq Level 3	Number of peaks with at least one read	False		String	
+Total Read-Pairs	scATAC-seq Level 2,scATAC-seq Level 3	Total read-pairs	False		String	
+Duplicate Read-Pairs	scATAC-seq Level 2,scATAC-seq Level 3	Number of duplicate read-pairs	False		String	
+Chimeric Read-Pairs	scATAC-seq Level 2,scATAC-seq Level 3	Number of chimerically mapped read-pairs	False		String	
+Unmapped Read-Pairs	scATAC-seq Level 2,scATAC-seq Level 3	Number of read-pairs with at least one end not mapped	False		String	
+LowMapQ	scATAC-seq Level 2,scATAC-seq Level 3	Number of read-pairs with <30 mapq on at least one end	False		String	
+Mitochondrial Read-Pairs	scATAC-seq Level 2,scATAC-seq Level 3	Number of read-pairs mapping to mitochondria and non-nuclear contigs	False		String	
+Passed Filters	scATAC-seq Level 2,scATAC-seq Level 3	Number of non-duplicate, usable read-pairs i.e. fragments	False		String	
+TSS Fragments	scATAC-seq Level 2,scATAC-seq Level 3	Number of fragments overlapping with TSS regions	False		String	
+DNase Sensitive Region Fragments	scATAC-seq Level 2,scATAC-seq Level 3	Number of fragments overlapping with DNase sensitive regions	False		String	
+Enhancer Region Fragments	scATAC-seq Level 2,scATAC-seq Level 3	Number of fragments overlapping enhancer regions	False		String	
+Promoter Region Fragments	scATAC-seq Level 2,scATAC-seq Level 3	Number of fragments overlapping promoter regions	False		String	
+On Target Fragments	scATAC-seq Level 2,scATAC-seq Level 3	Number of fragments overlapping any of TSS, enhancer, promoter and DNase hypersensitivity sites (counted with multiplicity)	False		String	
+Blacklist Region Fragments	scATAC-seq Level 2,scATAC-seq Level 3	Number of fragments overlapping blacklisted regions	False		String	
+Peak Region Fragments	scATAC-seq Level 2,scATAC-seq Level 3	Number of fragments overlapping peaks	False		String	
+Peak Region Cutsites	scATAC-seq Level 2,scATAC-seq Level 3	Number of ends of fragments in peak regions	False		String	
+Nucleosome Signal	scATAC-seq Level 2,scATAC-seq Level 3	Nucleosome signal score (strength of the nucleosome signal per cell, computed as the ratio of fragments between 147 bp and 294 bp (mononucleosome) to fragments < 147 bp (nucleosome-free))	False		String	
+Nucleosome Percentile	scATAC-seq Level 2,scATAC-seq Level 3	Percentile rank of nucleosome score	False		String	
+TSS Enrichment	scATAC-seq Level 2,scATAC-seq Level 3	Transcription start site (TSS) enrichment score	False		String	
+TSS Percentile	scATAC-seq Level 2,scATAC-seq Level 3	Percentile rank of TSS score	False		String	
+Pct Reads in Peaks	scATAC-seq Level 2,scATAC-seq Level 3	Percentage of reads in peaks	False		String	
+Blacklist Ratio	scATAC-seq Level 2,scATAC-seq Level 3	Ratio of reads in blacklist regions	False		String	
+Seurat Clusters	scATAC-seq Level 2,scATAC-seq Level 3	Clusters of cells by a shared nearest neighbor (SNN) modularity optimization based clustering algorithm	False		String	
+nCount RNA	scATAC-seq Level 2,scATAC-seq Level 3	Total number of fragments in genes	False		String	
+nFeature RNA	scATAC-seq Level 2,scATAC-seq Level 3	Number of genes detected in cell	False		String	
+MACS2 Seqnames	scATAC-seq Level 2,scATAC-seq Level 3	Chromosome id	False		String	
+MACS2 Start	scATAC-seq Level 2,scATAC-seq Level 3	Genomic starting position in MACS2	False		String	
+MACS2 End	scATAC-seq Level 2,scATAC-seq Level 3	Genomic ending position in MACS2	False		String	
+MACS2 Width	scATAC-seq Level 2,scATAC-seq Level 3	Width of the peak in bases in MACS2	False		String	
+MACS2 Strand	scATAC-seq Level 2,scATAC-seq Level 3	DNA stand aligned with in MACS2	False		String	
+MACS2 Name	scATAC-seq Level 2,scATAC-seq Level 3	Name of the peak in MACS2	False		String	
+MACS2 Score	scATAC-seq Level 2,scATAC-seq Level 3	Peak score (proportional to q-value) in MACS2	False		String	
+MACS2 Fold Change	scATAC-seq Level 2,scATAC-seq Level 3	Fold enrichment for this peak summit against random Poisson distribution with local lambda in MACS2	False		String	
+MACS2 Neg Log10 pvalue Summit	scATAC-seq Level 2,scATAC-seq Level 3	Negative log10 p-value for the peak summit in MACS2	False		String	
+MACS2 Neg Log10 qvalue Summit	scATAC-seq Level 2,scATAC-seq Level 3	Negative log10 q-value for the peak summit in MACS2	False		String	
+MACS2 Relative Summit Position	scATAC-seq Level 2,scATAC-seq Level 3	Position of the peak summit related to the start position in MACS2	False		String	
+scATAC-seq Object ID	scATAC-seq Level 3	Orig.Ident or scATAC-seq Object ID	False		String	
+scATACseq Workflow Type	scATAC-seq Level 4	Generic name for the workflow used to analyze a data set.	True		String	
+scATACseq Workflow Parameters Description	scATAC-seq Level 4	Parameters used to run the scATAC-seq workflow.	True		String	
+scmCseq Read1	scmC-seq Level 1	Read 1 content description	True		String	Cell Barcode and UMI cDNA
+scmCseq Read2	scmC-seq Level 1	Read 2 content description	True		String	Cell Barcode and UMI cDNA
+scmCseq Read3	scmC-seq Level 1	Read 3 content description	True		String	Cell Barcode and UMI cDNA
+Single Nucleus Capture	scmC-seq Level 1	Nuclei isolation method	False		String	Plates 10x droplet
+Bisulfite Conversion	scmC-seq Level 1,Bulk Methylation-seq Level 1	Name of the kit used in bisulfite conversion.	True		String	Zimo EZ DNA Methylation Kit Zimo EZ-96 DNA Methylation Shallow Kit Zimo EZ-96 DNA Methylation Deep Kit NEBNext Enzymatic Methyl-seq Kit Agilent SureSelectXT Methyl-Seq
+Target Capture Kit	Bulk WES Level 1	Description that can uniquely identify a target capture kit. Suggested value is a combination of vendor, kit name, and kit version.	True		String	Not Applicable Custom Targets File Provided Custom AmpliSeq Cancer Hotspot GENIE-MDA Augmented Panel v1 - 46 Genes Custom GENIE-DFCI OncoPanel - 275 Genes Custom GENIE-DFCI Oncopanel - 300 Genes Custom GENIE-DFCI Oncopanel - 447 Genes Custom HaloPlex DLBCL Panel - 370 Genes Custom Ion AmpliSeq Hotspot GENIE-MOSC3 Augmented Panel - 74 Genes Custom Large Construct Capture TARGET-OS Panel - 8 Genes Custom MSK IMPACT Panel - 341 Genes Custom MSK IMPACT Panel - 410 Genes Custom MSK IMPACT Panel - 468 Genes Custom Myeloid GENIE-VICC Panel - 37 Genes Custom Personalis ACEcp VAREPOP-APOLLO Panel v2 Custom PGDX SureSelect CancerSelect VAREPOP-APOLLO Panel - 203 Genes Custom PGDX SureSelect CancerSelect VAREPOP-APOLLO Panel - 88 Genes Custom SeqCap EZ HGSC VCRome v2.1 ER Augmented v1 Custom SeqCap EZ HGSC VCRome v2.1 ER Augmented v2 Custom SeqCap EZ TARGET-OS Panel - 7.0 Mb Custom Solid Tumor GENIE-VICC Panel - 34 Genes Custom SureSelect CGCI-BLGSP Panel - 4.6 Mb Custom SureSelect CGCI-HTMCP-CC KMT2D And Hotspot Panel - 37.0 Kb Custom SureSelect CGCI-HTMCP-CC Panel - 19.7 Mb Custom SureSelect GENIE-UHN Panel - 555 Genes Custom SureSelect Human All Exon v1.1 Plus 3 Boosters Custom SureSelect TARGET-AML_NBL_WT Panel - 2.8 Mb Custom Twist Broad Exome v1.0 - 35.0 Mb Custom Twist Broad PanCancer Panel - 396 Genes Foundation Medicine T5a Panel - 322 Genes Foundation Medicine T7 Panel - 429 Genes Ion AmpliSeq Cancer Hotspot Panel v2 Ion AmpliSeq Comprehensive Cancer Panel Nextera DNA Exome Nextera Rapid Capture Exome v1.2 SeqCap EZ HGSC VCRome v2.1 SeqCap EZ Human Exome v2.0 SeqCap EZ Human Exome v3.0 SureSelect Human All Exon v3 SureSelect Human All Exon v4 SureSelect Human All Exon v5 SureSelect Human All Exon v5 + UTR TruSeq Amplicon Cancer Panel TruSeq Exome Enrichment - 62 Mb TruSeq RNA Exome TruSight Myeloid Sequencing Panel xGen Exome Research Panel v1.0 xGen Universal Blocking Oligo – TS HT-i5 - 25 rxn 25 rxn xGen Universal Blocking Oligo – TS HT-i7 SureSelect Human All Exon v6 unknown
+MSI Workflow Link	Bulk WES Level 2,Bulk RNA-seq Level 2	Link to method workflow (or command) used in estimating the MSI. URL	False		String	
+MSI Score	Bulk WES Level 2,Bulk RNA-seq Level 2	Numeric score denoting the aligned reads file's MSI score from MSIsensor. Number	False		String	
+MSI Status	Bulk WES Level 2,Bulk RNA-seq Level 2	MSIsensor determination of either microsatellite stability or instability.	False		String	MSI MSI-low MSI-high MSS
+Germline Variants Workflow URL	Bulk WES Level 3	Link to workflow document, e.g. Github, DockStore.org recommended	True		String	
+Germline Variants Workflow Type	Bulk WES Level 3	Generic name for the workflow used to analyze a data set	False		String	GATK4 Other Germline Variants Workflow Type None
+Somatic Variants Workflow URL	Bulk WES Level 3	Generic name for the workflow used to analyze a data set.	True		String	
+Somatic Variants Workflow Type	Bulk WES Level 3	Generic name for the workflow used to analyze a data set.	False		String	CaVEMan GATK4 MuTect2 MuSE Pindel SomaticSniper VarScan2 Other Somatic Variants Workflow Type None
+Somatic Variants Sample Type	Bulk WES Level 3	Is the sample case or control in somatic variant analysis	True		String	Case Sample Control Sample Not Applicable
+Structural Variant Workflow URL	Bulk WES Level 3	Link to workflow document. DockStore.org recommended. URL	True		String	
+Structural Variant Workflow Type	Bulk WES Level 3	Generic name for the workflow used to analyze a data set.	False		String	BRASS GATK4 CNV CNVkit Other Structural Variant Workflow Type None
+Replicate Type	Bulk Methylation-seq Level 1	A common term for all files belonging to the same sample. We suggest using a stable sample accession from a biosample archive like BioSamples.	True		String	Technical replicate Biological replicate Not Applicable
+Bulk Methylation Assay Type	Bulk Methylation-seq Level 1	Assay types normally determine genomic coverage	True		String	Whole genome Targeted Genome Beadchip Array
+Total DNA Input	Bulk Methylation-seq Level 1	Overall number of reads for a given sample in digits (microgram, nanogram).	False		String	
+Trimmer	Bulk Methylation-seq Level 2	Software used for trimming	True		String	FASTX toolkit SolexaQA Btrim Cutadapt Kraken PRINSEQ Adapter removal Trim Galore! ConDeTri ERNE-FILTER Trimmo-matic
+Bulk Methylation Genomic Reference	Bulk Methylation-seq Level 2	The human genome reference used in the alignment of reads	True		String	HG19 HG38 T2T CHM13
+Duplicate Removal Software	Bulk Methylation-seq Level 2	Software used for remove duplicate reads	True		String	Samtools sort picard MarkDuplicates
+Proportion of Minimum CpG Coverage 10X	Bulk Methylation-seq Level 2	Proportion of all reference bases for whole genome sequencing, or targeted sequencing, that achieves 10X or greater coverage per CpG.	False		String	
+DMC Calling Tool	Bulk Methylation-seq Level 3	Software used for calling differentially methylated CpG (DMC) and differentially methylated region (DMR)	True		String	MethylKit BSmooth BiSeq MethylSig DSS MOABS DSS-single metilene MACAU MethylDackel
+DMC Calling Workflow URL	Bulk Methylation-seq Level 3	Generic name for the workflow used to analyze a data set	True		String	
+DMR Calling Tool	Bulk Methylation-seq Level 3	Software used for calling differentially methylated CpG (DMC) and differentially methylated region (DMR)	True		String	MethylKit BSmooth BiSeq MethylSig DSS MOABS DSS-single metilene MACAU
+DMR Calling Workflow URL	Bulk Methylation-seq Level 3	Generic name for the workflow used to analyze a data set	True		String	
+pUC19 methylation ratio	Bulk Methylation-seq Level 3	Methylation ratio of mostly methylated pUC19 control, as a percentage	True		String	
+Lambda methylation ratio	Bulk Methylation-seq Level 3	Methylation ratio of mostly unmethylated lambda control, as a percentage	True		String	
+DMC data file format	Bulk Methylation-seq Level 3	Format of the data files	True		String	BED bedGraph
+DMR data file Format	Bulk Methylation-seq Level 3	Format of the data files.	True		String	BED bedGraph
+Micro-region Seq Platform	Bulk RNA-seq Level 1	The platform used for micro-regional RNA sequencing (if applicable)	False		String	Rarecyte Pick-Seq Laser Capture Microdissection
+ROI Tag	Bulk RNA-seq Level 1	The tag or grouping used to identify the ROI in micro-regional RNA sequencing (if applicable). Must match the ROI tag within the count matrix in level 3.	False		String	
+Transcript Integrity Number	Bulk RNA-seq Level 1	Used to describe the quality of the starting material, esp. in regards to FFPE samples. Number	False		String	
+RIN	Bulk RNA-seq Level 1	A numerical assessment of the integrity of RNA based on the entire electrophoretic trace of the RNA sample including the presence or absence of degradation products. Number	False		String	
+DV200	Bulk RNA-seq Level 1	Represents the percentage of RNA fragments that are >200 nucleotides in size. Number	False		String	
+Pseudo Alignment Used	Bulk RNA-seq Level 3	Pseudo aligners such as Kallisto or Salmon do not produce aligned reads BAM files. True indicates pseudoalignment was used.	True		String	Yes - Pseudo Alignment Used no
+Expression Units	Bulk RNA-seq Level 3	How quantities are corrected for gene length	True		String	TPM RPKM FPKM Counts Other NA
+Fusion Gene Detected	Bulk RNA-seq Level 3	Was a fusion gene identified?	False		String	Yes - Fusion Gene Detected no unknown
+Fusion Gene Identity	Bulk RNA-seq Level 3	The gene symbols of fused genes.	False		String	EWS-FLI EWS-ERG SYT-SSX1 SYT-SSX2 EWS-WT1 Other Fusion Gene
+Crosslinking Condtion	HI-C-seq Level 1	Detailed condition for DNA crosslinking	True		String	
+DNA Digestion Condition	HI-C-seq Level 1	Enzymes and treatment length/temperature for genome digestion	True		String	
+Nuclei Permeabilization Method	HI-C-seq Level 1	Detergent and treatment condition for nuclei permeabilization and crosslinking softening	True		String	
+Ligation Condition	HI-C-seq Level 1	Name of ligase and condition for proximity ligation	True		String	
+Biotin Enrichment	HI-C-seq Level 1	Whether biotin is used for enriching ligation product	True		String	yes no
+DNA Input Amount	HI-C-seq Level 1	Amount of DNA for library construction, in nanograms.	True		String	
+Aligned Read Length	HI-C-seq Level 2,scRNA-seq Level 2	Read length used for alignment if hard trimming was applied	True	Applied Hard Trimming is "Yes - Applied Hard Trimming"	String	
+Tool	HI-C-seq Level 2	Were any software or computational tools generated for this content	True		String	yes no
+Resolution	HI-C-seq Level 2	Binning size used for generating contact matrix, in basepair.	True		String	
+Normalization Method	HI-C-seq Level 2	Description of Normalization Process	False		String	
+Stripe Calling	HI-C-seq Level 3	Tool used for identifying architectural stripe-forming, interaction hotspots.	True		String	MACS2 Other
+Loop Window	HI-C-seq Level 3	Binning size used for calling significant dot interactions (loops)	True		String	
+Stripe Window	HI-C-seq Level 3	Binning size used for calling significant architectural stripes. Can be an integer or comma-separated list of integers indicating bin size and sliding window size if different.	True		String	
+Loop Calling	HI-C-seq Level 3	Tool used for identifying loop interactions	True		String	HiCCUPS Cooltools Other
+cDNA	scRNA-seq Level 1,scmC-seq Level 1	Complementary DNA. A DNA copy of an mRNA or complex sample of mRNAs, made using reverse transcriptase	False		String	
+ERCC	scRNA-seq Level 1	The External RNA Controls Consortium (ERCC) spike in set is commonly used in single-cell experiments for normalization	False		String	
+Yes - Applied Hard Trimming	scRNA-seq Level 2	Hard Trimming was applied	False		String	
+Yes - Trim Adapter Sequence	scDNA-seq Level 1	Trim adapter sequence	False		String	Adapter Trimmer Name Adapter Trimmer Version Adapter Trimmer Options
+Other Alignment Workflow	scDNA-seq Level 2	Other Alignment Workflow	False		String	
+Other Germline Variants Workflow Type	Bulk WES Level 3	Other Germline Variants Workflow Type	False		String	
+Other Somatic Variants Workflow Type	Bulk WES Level 3	Other Somatic Variants Workflow Type	False		String	
+Other Structural Variant Workflow Type	Bulk WES Level 3	Other Structural Variant Workflow Type	False		String	
+Targeted Genome	Bulk Methylation-seq Level 1	Assay for analyzing specific mutations in a given sample	False		String	MeDIP RRBS
+Beadchip Array	Bulk Methylation-seq Level 1	Assay that uses beads to target a specific locus on the genome.	False		String	HM27K HM450K
+Yes - Pseudo Alignment Used	Bulk RNA-seq Level 3	Pseudo aligner was used	False		String	
+Yes - Fusion Gene Detected	Bulk RNA-seq Level 3	A fusion gene was detected	False		String	
+Other Fusion Gene	Bulk RNA-seq Level 3	Other fusion gene detected.	False		String	
+cDNA Offset	scRNA-seq Level 1	Offset in sequence for cDNA read (in bp): number	True	Spatial Read2 is "cDNA"	String	
+cDNA Length	scRNA-seq Level 1	Length of cDNA read (in bp): number	True	Spatial Read2 is "cDNA"	String	
+Spike In Concentration	scRNA-seq Level 1	The final concentration or dilution (for commercial sets) of the spike in mix [PMID:21816910]	True	Spike In is "ERCC"	String	
+Adapter Trimmer Name	scDNA-seq Level 1	Name of adapter trimmer	False		String	
+Adapter Trimmer Version	scDNA-seq Level 1	Version of the adapter trimmer	False		String	
+Adapter Trimmer Options	scDNA-seq Level 1	Options used by adapter trimmer	False		String	
+Custom Alignment Workflow	scDNA-seq Level 2	Specify the name of a custom alignment workflow	True	Alignment is "Other Alignment Workflow"	String	
+Custom Germline Variants Workflow Type	Bulk WES Level 3	Specify the name of a custom alignment workflow	True	Germline is "Other"	String	
+Custom Somatic Variants Workflow Type	Bulk WES Level 3	Specify the name of a custom workflow name	True	Somatic is "Other"	String	
+Custom Structural Variant Workflow Type	Bulk WES Level 3	Specify the name of a custom workflow name	True	Structural is "Other"	String	
+Software and Version	Bulk RNA-seq Level 3	Name of software used to generate expression values. String	True	Pseudo Alignment Used is "Yes - Pseudo Alignment Used"	String	
+Specify Other Fusion Gene	Bulk RNA-seq Level 3	Specify fusion gene detected, if not in list	False	Fusion Gene Identity is "Other Fusion Gene"	String	

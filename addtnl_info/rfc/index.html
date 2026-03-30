@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.825970410333">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828201848015">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.1.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>The RFC Process and Data Model Changes</title>
@@ -25,13 +25,19 @@
     <meta property="og:site_name" content="HTAN">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.humantumoratlas.org/addtnl_info/rfc/">
+    <meta name="twitter:title" content="The RFC Process and Data Model Changes">
+    <meta name="twitter:description" content="The HTAN Data Model is expected to evolve with advances in science. This evolution is a community-driven, peer-reviewed process, where members of a working">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.1.0.825970410333" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.4.0.828201848015" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.1.0.825970410333" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.1.0.825970410333" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.828201848015" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.828201848015" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -46,7 +52,7 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.humantumoratlas.org/" class="flex items-center leading-snug text-2xl">
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">HTAN</span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Manual</span>
                 </div>
@@ -135,45 +141,20 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="the-rfc-process-and-data-model-changes" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#the-rfc-process-and-data-model-changes">#</doc-anchor-trigger>
-        <span>The RFC Process and Data Model Changes</span>
-    </h1>
-</doc-anchor-target>
-<doc-anchor-target id="rfc-overview">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#rfc-overview">#</doc-anchor-trigger>
-        <span>RFC Overview</span>
-    </h2>
-</doc-anchor-target>
+<h1 id="the-rfc-process-and-data-model-changes">The RFC Process and Data Model Changes</h1>
+<h2 id="rfc-overview">RFC Overview</h2>
 <p>The HTAN Data Model is expected to evolve with advances in science.  This evolution is a community-driven, peer-reviewed process, where members of a working group will first assess established community data standards and create a request for comment (RFC) document soliciting community feedback.</p>
 <p>Once an RFC is closed and an assay is available for data submission, the final data model is documented in this manual (<a href="../../data_model/overview/">Data Model</a>) and detailed documentation of metadata requirements is provided in the  <a href="https://htan2-data-model.readthedocs.io/en/main/" target="_blank" rel="noopener noreferrer">HTAN Phase 2 Data Model (Metadata) Documentation</a>.</p>
-<doc-anchor-target id="data-model-changes">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#data-model-changes">#</doc-anchor-trigger>
-        <span>Data Model Changes</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="data-model-changes">Data Model Changes</h2>
 <p>The following are requests which require changes to the Data Model and may result in the initiation of a RFC:</p>
 <ul>
 <li>New assay types which are expected to be used frequently by multiple centers.</li>
 <li>New metadata templates or additional required metadata fields which should be validated.</li>
 </ul>
 <p>HTAN members should contact their <a href="../../data_submission/data_liaisons/">data liaison</a> for help determining whether a Data Model change is needed and how to make a Data Model change request.</p>
-<doc-anchor-target id="rfc-process">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#rfc-process">#</doc-anchor-trigger>
-        <span>RFC Process</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="rfc-process">RFC Process</h2>
 <p>Once a new assay type or a set of needed Data Model changes are identified, an RFC is drafted. For the initial development of the HTAN Data Model in Phase 1, the RFC process started with the creation of a Working Group comprised of DCC members and PIs as well as HTAN Center co-authors. This process is outlined in <doc-anchor-trigger to="#phase-1-rfc-process----initial-data-model-development">RFC Process -- Initial Model Development</doc-anchor-trigger>. In Phase 2, a more streamlined RFC Process has been adopted to facilitate <doc-anchor-trigger to="#phase-2-rfc-process----data-model-refinements">Data Model Refinements</doc-anchor-trigger>.</p>
-<doc-anchor-target id="phase-2-rfc-process----data-model-refinements">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-2-rfc-process----data-model-refinements">#</doc-anchor-trigger>
-        <span>Phase 2 RFC Process -- Data Model Refinements</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="phase-2-rfc-process----data-model-refinements">Phase 2 RFC Process -- Data Model Refinements</h3>
 <ol>
 <li>A <strong>DCC Owner</strong> is assigned. The <strong>DCC Owner</strong> is responsible for all aspects of the RFC process, including creating the initial draft of the RFC, integrating community feedback, finalizing the RFC and documenting RFC implementation and changes.  The DCC Owner is also the primary point of contact for the specified RFC.</li>
 <li><strong>A first draft of an RFC Google Document is created</strong> by the DCC Owner. If the RFC involves new assay types or HTAN Center requests, the DCC Owner works with HTAN Centers to understand requirements as a part of the drafting process.</li>
@@ -182,12 +163,7 @@
 <li>After a designated period of time, the <strong>RFC is closed</strong>.  Feedback from HTAN community is no longer accepted. The content of the RFC will be reflected in the respective version of the HTAN Data Model used for validating metadata files uploaded to the DCC.</li>
 <li><strong>The new or modified metadata template is available in Synapse.</strong></li>
 </ol>
-<doc-anchor-target id="phase-1-rfc-process----initial-data-model-development">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-1-rfc-process----initial-data-model-development">#</doc-anchor-trigger>
-        <span>Phase 1 RFC Process -- Initial Data Model Development</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="phase-1-rfc-process----initial-data-model-development">Phase 1 RFC Process -- Initial Data Model Development</h3>
 <ol>
 <li><strong>A working group is organized</strong> by the Data Coordinating Center (DCC).  As a part of this process, the following people are also designated:
 <ul>

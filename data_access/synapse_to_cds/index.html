@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.825970410333">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828201848015">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.1.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>Accessing Synapse Open Access Data in SB-CGC</title>
@@ -25,14 +25,20 @@
     <meta property="og:site_name" content="HTAN">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.humantumoratlas.org/data_access/synapse_to_cds/">
+    <meta name="twitter:title" content="Accessing Synapse Open Access Data in SB-CGC">
+    <meta name="twitter:description" content="Seven Bridges Cancer Genomics Cloud (SB-CGC) is a cloud platform for the analysis and storage of large cancer datasets.">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.1.0.825970410333" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.4.0.828201848015" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.1.0.825970410333" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.1.0.825970410333" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=4.1.0.825970410333" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.828201848015" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.828201848015" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=4.4.0.828201848015" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -47,7 +53,7 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.humantumoratlas.org/" class="flex items-center leading-snug text-2xl">
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">HTAN</span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Manual</span>
                 </div>
@@ -136,20 +142,10 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="accessing-synapse-open-access-data-in-sb-cgc" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#accessing-synapse-open-access-data-in-sb-cgc">#</doc-anchor-trigger>
-        <span>Accessing Synapse Open Access Data in SB-CGC</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="accessing-synapse-open-access-data-in-sb-cgc">Accessing Synapse Open Access Data in SB-CGC</h1>
 <p><a href="https://www.cancergenomicscloud.org/" target="_blank" rel="noopener noreferrer">Seven Bridges Cancer Genomics Cloud (SB-CGC)</a> is a cloud platform for the analysis and storage of large cancer datasets.</p>
 <p>HTAN’s open-access data, including most datasets, is hosted on Synapse and can be loaded into SB-CGC using the following instructions. Note that open-access Level 2 images are available separately through the National Cancer Institutes&#x27;s <a href="../cds_cgc/">General Commons (GC)</a>.</p>
-<doc-anchor-target id="video-walkthrough">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#video-walkthrough">#</doc-anchor-trigger>
-        <span>Video walkthrough</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="video-walkthrough">Video walkthrough</h2>
 <p><a href="https://us02web.zoom.us/clips/share/JNSyNG3rPRoWVYjWrYNiV-Z9Tv-TYIKdb54YLB6pk6CRhhnEQ0g14a4-2hItZXGOYXq3CzcSVjgNTL7HMhHjUm72.cd78QzhYRY4j02Mw">Watch video walkthrough on Zoom</a></p>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
     <iframe src="https://us02web.zoom.us/clips/embed/JNSyNG3rPRoWVYjWrYNiV-Z9Tv-TYIKdb54YLB6pk6CRhhnEQ0g14a4-2hItZXGOYXq3CzcSVjgNTL7HMhHjUm72.cd78QzhYRY4j02Mw" 
@@ -158,28 +154,13 @@
     </iframe>
 </div>
 <hr>
-<doc-anchor-target id="step-by-step-guide">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#step-by-step-guide">#</doc-anchor-trigger>
-        <span>Step-by-Step Guide</span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="1-start-a-data-studio-instance">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#1-start-a-data-studio-instance">#</doc-anchor-trigger>
-        <span>1. Start a Data Studio Instance</span>
-    </h3>
-</doc-anchor-target>
+<h2 id="step-by-step-guide">Step-by-Step Guide</h2>
+<h3 id="1-start-a-data-studio-instance">1. Start a Data Studio Instance</h3>
 <ol>
 <li>Go to <a href="https://cancergenomicscloud.org" target="_blank" rel="noopener noreferrer">CancerGenomicsCloud.org</a>.</li>
 <li>Log in and launch a Data Studio instance with JupyterLab.</li>
 </ol>
-<doc-anchor-target id="2-install-and-configure-synapse-client">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#2-install-and-configure-synapse-client">#</doc-anchor-trigger>
-        <span>2. Install and Configure Synapse Client</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="2-install-and-configure-synapse-client">2. Install and Configure Synapse Client</h3>
 <ol>
 <li>Open the Terminal in JupyterLab.</li>
 <li><p>Install the Synapse client (if not already installed) by typing:</p>
@@ -206,33 +187,18 @@
 </ul>
 </li>
 </ol>
-<doc-anchor-target id="3-select-files-from-the-htan-data-portal">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#3-select-files-from-the-htan-data-portal">#</doc-anchor-trigger>
-        <span>3. Select Files from the HTAN Data Portal</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="3-select-files-from-the-htan-data-portal">3. Select Files from the HTAN Data Portal</h3>
 <ol>
 <li>Visit the <a href="https://data.humantumoratlas.org/explore" target="_blank" rel="noopener noreferrer">HTAN Data Portal Explore Page</a><a href=""></a> and find the data files you need (e.g., single-cell RNA-seq data in H5AD format).</li>
 <li>Click the purple “Download selected files” button for the chosen files.</li>
 <li>Copy the download commands (e.g., <code translate="no" v-pre>synapse get syn1234</code>).</li>
 </ol>
-<doc-anchor-target id="4-download-files-into-the-data-studio-instance">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#4-download-files-into-the-data-studio-instance">#</doc-anchor-trigger>
-        <span>4. Download Files into the Data Studio Instance</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="4-download-files-into-the-data-studio-instance">4. Download Files into the Data Studio Instance</h3>
 <ol>
 <li>Paste the copied download commands into the JupyterLab Terminal.</li>
 <li>Verify that the files are in the workspace directory. You can now use these files within notebooks in the Data Studio instance.</li>
 </ol>
-<doc-anchor-target id="5-move-files-to-output-folder">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#5-move-files-to-output-folder">#</doc-anchor-trigger>
-        <span>5. Move Files to Output Folder</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="5-move-files-to-output-folder">5. Move Files to Output Folder</h3>
 <ul>
 <li><p>Move files to the <code translate="no" v-pre>output-files</code> directory to ensure they sync with your CGC project:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
@@ -240,23 +206,13 @@
 </doc-codeblock></div>
 </li>
 </ul>
-<doc-anchor-target id="6-stop-data-studio-instance">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#6-stop-data-studio-instance">#</doc-anchor-trigger>
-        <span>6. Stop Data Studio Instance</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="6-stop-data-studio-instance">6. Stop Data Studio Instance</h3>
 <ol>
 <li>Stop the Data Studio instance to trigger synchronization.</li>
 <li>Check your project files on CGC; the downloaded files should now be available for further use.</li>
 </ol>
 <hr>
-<doc-anchor-target id="useful-links">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#useful-links">#</doc-anchor-trigger>
-        <span>Useful Links</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="useful-links">Useful Links</h2>
 <ul>
 <li><a href="https://cancergenomicscloud.org" target="_blank" rel="noopener noreferrer">SevenBridges CGC</a><a href=""></a></li>
 <li><a href="https://synapse.org" target="_blank" rel="noopener noreferrer">Synapse</a></li>

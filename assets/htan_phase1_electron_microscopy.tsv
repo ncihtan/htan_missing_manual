@@ -1,0 +1,34 @@
+Attribute	Manifest Name	Description	Required	Conditional If	Data Type	Valid Values
+Filename	Electron Microscopy Level 1,Electron Microscopy Level 2,Electron Microscopy Level 3,Electron Microscopy Level 4	Name of a file	True		String	
+File Format	Electron Microscopy Level 1,Electron Microscopy Level 2,Electron Microscopy Level 3,Electron Microscopy Level 4	Format of a file (e.g. txt, csv, fastq, bam, etc.)	True		String	hdf5 bedgraph idx idat bam bai excel powerpoint tif tiff OME-TIFF png doc pdf fasta fastq sam vcf bcf maf bed chp cel sif tsv csv txt plink bigwig wiggle gct bgzip zip seg html mov hyperlink svs Md flagstat gtf raw msf rmd bed narrowPeak bed broadPeak bed gappedPeak avi pzfx fig xml tar R script abf bpm dat jpg locs Sentrix descriptor file Python script sav gzip sdf RData hic ab1 7z gff3 json sqlite svg sra recal tranches mtx tagAlign dup DICOM czi mex cloupe Am cell am mpg M mzML scn dcc rcc pkc sf bedpe
+HTAN Parent Biospecimen ID	Electron Microscopy Level 1	HTAN Biospecimen Identifier (eg HTANx_yyy_zzz) indicating the biospecimen(s) from which these files were derived; multiple parent biospecimen should be comma-separated	True	Is lowest level is "Yes - Is lowest level"	String	
+HTAN Data File ID	Electron Microscopy Level 1,Electron Microscopy Level 2,Electron Microscopy Level 3,Electron Microscopy Level 4	Self-identifier for this data file - HTAN ID of this file HTAN ID SOP (eg HTANx_yyy_zzz)	True		String	
+EM method	Electron Microscopy Level 1	Electron microscopy method used	True		String	SEM FIB-SEM SBF-SEM AT TEM ET cryo ET ssTEM
+EM signal or contrast mech	Electron Microscopy Level 1	How the electron microscopy signal is generated from the sample	True		String	BSE SE phase bright-field dark-field
+EM instrument	Electron Microscopy Level 1	Make and model of the EM instrument used	True		String	
+Protocol Link	Electron Microscopy Level 1	Protocols.io ID or DOI link to a free/open protocol resource describing in detail the assay protocol (e.g. surface markers used in Smart-seq, dissociation duration,  lot/batch numbers for key reagents such as primers, sequencing reagent kits, etc.) or the protocol by which the sample was obtained or generated.	True		String	
+Software and Version	Electron Microscopy Level 1	Name of software used to generate expression values. String	True	Pseudo Alignment Used is "Yes - Pseudo Alignment Used"	String	
+SizeX	Electron Microscopy Level 1	Size of image: X dimension (in pixels). Integer >= 1	True		String	
+SizeY	Electron Microscopy Level 1	Size of image: Y dimension (in pixels). Integer >= 1	True		String	
+SizeC	Electron Microscopy Level 1	Number of channels. Integer >= 1	True		String	
+SizeZ	Electron Microscopy Level 1	Size of image: Z dimension (in pixels). Integer >= 1	True		String	
+PhysicalSizeX	Electron Microscopy Level 1	Physical size (X-dimension) of a pixel. Units are set by PhysicalSizeXUnit. Floating point value > 0.	True		String	
+PhysicalSizeY	Electron Microscopy Level 1	Physical size (Y-dimension) of a pixel. Units are set by PhysicalSizeYUnit. Floating point value > 0.	True		String	
+PhysicalSizeZ	Electron Microscopy Level 1	Physical size (Z-dimension) of a pixel. Units are set by PhysicalSizeZUnit. Floating point value > 0.	True		String	
+EM dwell or exposure time	Electron Microscopy Level 1	Duration in microseconds (µs) of electron beam data collection per pixel or frame	False		String	
+EM voltage	Electron Microscopy Level 1	Accelerating voltage in kiloelectronvolts (keV)	False		String	
+EM beam current	Electron Microscopy Level 1	Beam current in nanoamps (nA)	False		String	
+EM spot size	Electron Microscopy Level 1	Beam spot size in micrometers (µm)	False		String	
+EM stage tilt	Electron Microscopy Level 1	Physical stage tilt in degrees with respect to the electron beam	False		String	
+EM signal processing	Electron Microscopy Level 1	SNR improvement strategies used	False		String	None line integration frame integration frame averaging
+EM contrast type	Electron Microscopy Level 1,Electron Microscopy Level 2	Does the image use standard SEM contrast or TEM contrast	False		String	SEM TEM
+Tile overlap X	Electron Microscopy Level 1,Electron Microscopy Level 2	Percentage of image overlap to allow tile stitching in x direction	True		String	
+Tile overlap Y	Electron Microscopy Level 1,Electron Microscopy Level 2	Percentage of image overlap to allow tile stitching in x direction	True		String	
+HTAN Parent Data File ID	Electron Microscopy Level 2,Electron Microscopy Level 3,Electron Microscopy Level 4	HTAN Data File Identifier indicating the file(s) from which these files were derived	True		String	
+Imaging Object Class	Electron Microscopy Level 3	Defines the structure that the mask delineates	True		String	nucleus cytoplasm plasma membrane whole cell spot Imaging Object Class Other
+Comment	Electron Microscopy Level 4	Free text field (generally for QC comment)	False	Passed QC is "No - Channels QC"	String	
+PhysicalSizeXUnit	Electron Microscopy Level 1	The units of the physical size of a pixel. See OME enumeration of allowed values for the UnitsLength attribute -- default: microns (um)	True		String	cm mm µm nm Å
+PhysicalSizeYUnit	Electron Microscopy Level 1	The units of the physical size of a pixel. See OME enumeration of allowed values for the UnitsLength attribute -- default: microns (um)	True		String	cm mm µm nm Å
+PhysicalSizeZUnit	Electron Microscopy Level 1	The units of the physical size of a pixel. See OME enumeration of allowed values for the UnitsLength attribute -- default: microns (um)	True		String	cm mm µm nm Å
+Imaging Object Class Other	Electron Microscopy Level 3	Imaging Object Class Other	False		String	
+Imaging Object Class Description	Electron Microscopy Level 3	Free text description of object class [string]	True	Imaging Object Class is "Imaging Object Class Other"	String	

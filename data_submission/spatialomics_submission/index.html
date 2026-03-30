@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.825970410333">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828201848015">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.1.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>Phase 2 SpatialOmics</title>
@@ -29,13 +29,21 @@
     <meta property="og:site_name" content="HTAN">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.humantumoratlas.org/data_submission/spatialomics_submission/">
+    <meta name="twitter:title" content="Phase 2 SpatialOmics">
+    <meta name="twitter:description" content="SpatialOmics is defined as spatially resolved sequencing and sequence-hybridization based omics technologies which molecular profiling of tissues while">
+    <meta name="twitter:image" content="https://docs.humantumoratlas.org/img/phase_2_spatial_omics.svg">
+    <meta name="twitter:image:alt" content="Phase 2 SpatialOmics">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.1.0.825970410333" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.4.0.828201848015" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.1.0.825970410333" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.1.0.825970410333" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.828201848015" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.828201848015" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -50,7 +58,7 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.humantumoratlas.org/" class="flex items-center leading-snug text-2xl">
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">HTAN</span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Manual</span>
                 </div>
@@ -139,29 +147,14 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="phase-2-spatialomics" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-2-spatialomics">#</doc-anchor-trigger>
-        <span>Phase 2 SpatialOmics</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="phase-2-spatialomics">Phase 2 SpatialOmics</h1>
 <doc-tabs>
-<doc-tab v-cloak id="overview">
+<doc-tab v-cloak id="overview-1">
 <template #title>Overview</template>
-<doc-anchor-target id="overview">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#overview">#</doc-anchor-trigger>
-        <span>Overview</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="overview">Overview</h1>
 <p>SpatialOmics is defined as spatially resolved sequencing and sequence-hybridization based omics technologies which molecular profiling of tissues while preserving spatial context. Please see <doc-anchor-trigger to="#covered-assays">covered assays</doc-anchor-trigger> and <doc-anchor-trigger to="#out-of-scopecovered-in-a-separate-standard">out of scope</doc-anchor-trigger> for specific assays covered by the SpatialOmics standard.</p>
 <p>Metadata requirements are documented in the HTAN Data Model <a href="https://htan2-data-model.readthedocs.io/en/main/" target="_blank" rel="noopener noreferrer">readthedocs</a> pages. This part of the manual describes <strong>file requirements</strong> for SpatialOmics data.</p>
-<doc-anchor-target id="covered-assays">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#covered-assays">#</doc-anchor-trigger>
-        <span>Covered Assays</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="covered-assays">Covered Assays</h2>
 <p><strong>Spot-based capture assays</strong> <br />
 These methods capture transcripts via physical arrayed spots or beads with spatial barcodes:</p>
 <ul>
@@ -195,12 +188,7 @@ This includes assays that capture spatially resolved:</p>
 <li>Multi-omic profiles (e.g., transcriptome + proteome)</li>
 <li>Spot-based capture assays</li>
 </ul>
-<doc-anchor-target id="out-of-scopecovered-in-a-separate-standard">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#out-of-scopecovered-in-a-separate-standard">#</doc-anchor-trigger>
-        <span>Out of Scope/Covered in a separate standard</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="out-of-scopecovered-in-a-separate-standard">Out of Scope/Covered in a separate standard</h2>
 <p><strong>Non-spatial transcriptomics</strong> <br />
 Bulk RNA-seq
 Single-cell RNA-seq (scRNA-seq)</p>
@@ -249,20 +237,14 @@ Covered in the Digital Pathology RFC</p>
 </table>
 </div>
 <p>H&amp;E or multiplex immunofluorescence (MIF) image metadata is captured in separate digital pathology or multiplex tissue imaging templates. These may be connected via attributes in the SpatialOmics metadata or they can be linked through shared biospecimen IDs.</p>
-<p><figure class="content-center">
-    <img src="../../img/phase_2_spatial_omics.svg" alt="HTAN Phase 2 SpatialOmics Data Levels" class="rounded-image-rounded border-image-border border-image-border-width" />
+<figure class="content-center">
+    <img src="../../img/phase_2_spatial_omics.svg" alt="HTAN Phase 2 SpatialOmics Data Levels" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="854" height="484" />
     <figcaption class="caption">HTAN Phase 2 SpatialOmics Data Levels</figcaption>
 </figure>
-</p>
 </doc-tab>
 <doc-tab v-cloak id="required-files">
 <template #title>Required Files</template>
-<doc-anchor-target id="required-components">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#required-components">#</doc-anchor-trigger>
-        <span>Required Components</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="required-components">Required Components</h2>
 <p>For each spatial assay, contributors must provide the following:</p>
 <p><strong>Processed assay output bundle (Level 3)</strong></p>
 <ul>
@@ -284,12 +266,7 @@ Covered in the Digital Pathology RFC</p>
 <li>Sequencing and protein panels should be submitted as separate tables or filtered by Target_Type.</li>
 <li>Applies to assays like Xenium, CosMx, and Stereo-CITE.</li>
 </ul>
-<doc-anchor-target id="example-level-3-bundles">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-level-3-bundles">#</doc-anchor-trigger>
-        <span>Example Level 3 bundles</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="example-level-3-bundles">Example Level 3 bundles</h3>
 <p>If you do not see your platform in the examples below and need more information, please contact your data liaison.</p>
 <p><strong>10x Genomics Visium / Visium HD</strong> <br />
 Typical output:</p>
@@ -342,12 +319,7 @@ Typical output:</p>
 </doc-tab>
 <doc-tab v-cloak id="optional-files">
 <template #title>Optional Files</template>
-<doc-anchor-target id="optional-or-situational-components">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#optional-or-situational-components">#</doc-anchor-trigger>
-        <span>Optional or Situational Components</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="optional-or-situational-components">Optional or Situational Components</h2>
 <p><strong>Level 1 data – bundle of Raw data (FASTQs)</strong></p>
 <ul>
 <li>Not required and contents not standardized.</li>

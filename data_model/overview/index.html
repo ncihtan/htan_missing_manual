@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.825970410333">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828201848015">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.1.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>Data Model Introduction</title>
@@ -29,13 +29,21 @@
     <meta property="og:site_name" content="HTAN">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.humantumoratlas.org/data_model/overview/">
+    <meta name="twitter:title" content="Data Model Introduction">
+    <meta name="twitter:description" content="All HTAN Centers are required to encode their data and metadata in a common HTAN Data Model. The HTAN Data Model is created via a community Request for">
+    <meta name="twitter:image" content="https://docs.humantumoratlas.org/img/what_is_a_data_model.svg">
+    <meta name="twitter:image:alt" content="Data Model Introduction">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.1.0.825970410333" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.4.0.828201848015" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.1.0.825970410333" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.1.0.825970410333" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.828201848015" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.828201848015" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -50,7 +58,7 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.humantumoratlas.org/" class="flex items-center leading-snug text-2xl">
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">HTAN</span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Manual</span>
                 </div>
@@ -139,12 +147,7 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="data-model-introduction" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#data-model-introduction">#</doc-anchor-trigger>
-        <span>Data Model Introduction</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="data-model-introduction">Data Model Introduction</h1>
 <p>All HTAN Centers are required to encode their data and metadata in a <strong>common HTAN Data Model</strong>. The HTAN Data Model is created via a community Request for Comment (RFC) process, with participation from all HTAN Centers, and covers clinical, biospecimen, genomic, transcriptomic, proteomic, imaging and spatial profiling data.</p>
 <p>The HTAN Data Model encompasses <strong>Metadata Standards</strong>, <strong>File Standards</strong>, <strong>Identifiers</strong> and a <strong>Relationship Model</strong>.</p>
 <doc-panel id="what-do-we-mean-by-data-model" collapsed>
@@ -155,11 +158,10 @@
 <li><strong>Identifiers</strong> for participants, biospecimen and files indicate which HTAN Center contributed the data and provide a mechanism for relating different data files to each other. For this reason, HTAN has specific requirements for HTAN identifiers.</li>
 <li>The <strong>Relationship Model</strong> describes how related data are connected to each other such as which specimens were used to produce data from a particular assay.</li>
 </ul>
-<p><figure class="content-center">
-    <img src="../../img/what_is_a_data_model.svg" alt="HTAN Data Model Components" class="rounded-image-rounded border-image-border border-image-border-width" />
+<figure class="content-center">
+    <img src="../../img/what_is_a_data_model.svg" alt="HTAN Data Model Components" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1702" height="530" />
     <figcaption class="caption">HTAN Data Model Components</figcaption>
 </figure>
-</p>
 </doc-panel>
 <p>HTAN has had two phases:</p>
 <ul>

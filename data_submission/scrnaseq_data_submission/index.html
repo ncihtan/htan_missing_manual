@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.1.0.825970410333">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828201848015">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.1.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>Phase 2 sc/snRNA-seq</title>
@@ -29,13 +29,21 @@
     <meta property="og:site_name" content="HTAN">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://docs.humantumoratlas.org/data_submission/scrnaseq_data_submission/">
+    <meta name="twitter:title" content="Phase 2 sc/snRNA-seq">
+    <meta name="twitter:description" content="In HTAN Phase 2, the following files are submitted for single cell/single nuclei RNA-sequencing (sc/snRNA-seq) data:">
+    <meta name="twitter:image" content="https://docs.humantumoratlas.org/img/anndata_schema.svg">
+    <meta name="twitter:image:alt" content="Phase 2 sc/snRNA-seq">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.1.0.825970410333" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.4.0.828201848015" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.1.0.825970410333" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.1.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.1.0.825970410333" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.828201848015" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.828201848015" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -50,7 +58,7 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://docs.humantumoratlas.org/" class="flex items-center leading-snug text-2xl">
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">HTAN</span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Manual</span>
                 </div>
@@ -139,21 +147,11 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="phase-2-scsnrna-seq" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#phase-2-scsnrna-seq">#</doc-anchor-trigger>
-        <span>Phase 2 sc/snRNA-seq</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="phase-2-scsnrna-seq">Phase 2 sc/snRNA-seq</h1>
 <doc-tabs>
-<doc-tab v-cloak id="overview">
+<doc-tab v-cloak id="overview-1">
 <template #title>Overview</template>
-<doc-anchor-target id="overview">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#overview">#</doc-anchor-trigger>
-        <span>Overview</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="overview">Overview</h2>
 <p>In HTAN Phase 2, the following files are submitted for single cell/single nuclei RNA-sequencing (sc/snRNA-seq) data:</p>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
@@ -186,14 +184,9 @@
 <p>Metadata requirements are documented in the HTAN Data Model <a href="https://htan2-data-model.readthedocs.io/en/main/" target="_blank" rel="noopener noreferrer">readthedocs</a> pages. This part of the manual describes <strong>file requirements</strong> for level 3_4 h5ad files.</p>
 <p>The HTAN h5ad (AnnData 0.10) requirements are modeled after CELLxGENE&#x27;s requirements.  They also include three attributes developed by the Human Cell Atlas (HCA). Please see the <doc-anchor-trigger to="#background-h5ad-files-cellxgene-human-cell-atlas">Background</doc-anchor-trigger> section below for more information about h5ad (AnnData 0.10) files, CELLxGENE and the HCA.</p>
 </doc-tab>
-<doc-tab v-cloak id="required-file-attributes">
+<doc-tab v-cloak id="required-file-attributes-1">
 <template #title>Required File Attributes</template>
-<doc-anchor-target id="required-file-attributes">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#required-file-attributes">#</doc-anchor-trigger>
-        <span>Required File Attributes</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="required-file-attributes">Required File Attributes</h3>
 <p>Similar to CELLxGENE&#x27;s <a href="https://cellxgene.cziscience.com/docs/032__Contribute%20and%20Publish%20Data" target="_blank" rel="noopener noreferrer">Dataset Requirements</a>, level 3_4 sc/snRNA-seq h5ad files must contain the following attributes. Please see <a href="https://github.com/ncihtan/h5ad/blob/main/exemplars/HTAN_h5ad_exemplar_2025_03_03.h5ad" target="_blank" rel="noopener noreferrer">rHTAN_h5ad_exemplar_2025_03_03.h5ad</a> for an example file which meets these requirements.</p>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
@@ -304,36 +297,20 @@
 </table>
 </div>
 </doc-tab>
-<doc-tab v-cloak id="htan-h5ad-file-validation">
+<doc-tab v-cloak id="htan-h5ad-file-validation-1">
 <template #title>HTAN h5ad File Validation</template>
-<doc-anchor-target id="htan-h5ad-file-validation">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#htan-h5ad-file-validation">#</doc-anchor-trigger>
-        <span>HTAN h5ad File Validation</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="htan-h5ad-file-validation">HTAN h5ad File Validation</h3>
 <p>The HTAN Data Coordinating Center (DCC) has released a PyPi package called <a href="https://pypi.org/project/HTAN-h5ad-validate/" target="_blank" rel="noopener noreferrer">HTAN-h5ad-validator</a> with which Centers can validate their sc/snRNA-seq h5ad files. Sage Bionetworks will run the validator on sc/snRNA-seq h5ad files submitted to Synapse.</p>
 </doc-tab>
-<doc-tab v-cloak id="background-h5ad-files-cellxgene-human-cell-atlas">
+<doc-tab v-cloak id="background-h5ad-files-cellxgene-human-cell-atlas-1">
 <template #title>Background: h5ad files, CELLxGENE, Human Cell Atlas</template>
-<doc-anchor-target id="background-h5ad-files-cellxgene-human-cell-atlas">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#background-h5ad-files-cellxgene-human-cell-atlas">#</doc-anchor-trigger>
-        <span>Background: h5ad files, CELLxGENE, Human Cell Atlas</span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="h5ad-anndata-010-brief-overview">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#h5ad-anndata-010-brief-overview">#</doc-anchor-trigger>
-        <span>h5ad (AnnData 0.10) brief overview</span>
-    </h3>
-</doc-anchor-target>
+<h2 id="background-h5ad-files-cellxgene-human-cell-atlas">Background: h5ad files, CELLxGENE, Human Cell Atlas</h2>
+<h3 id="h5ad-anndata-010-brief-overview">h5ad (AnnData 0.10) brief overview</h3>
 <p>Please see <a href="https://anndata.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener noreferrer">AnnData’s documentation</a> for a more detailed description of the AnnData object.</p>
-<p><figure class="content-center">
-    <img src="../../img/anndata_schema.svg" alt="From https://raw.githubusercontent.com/scverse/anndata/main/docs/_static/img/anndata_schema.svg" class="rounded-image-rounded border-image-border border-image-border-width" />
+<figure class="content-center">
+    <img src="../../img/anndata_schema.svg" alt="From https://raw.githubusercontent.com/scverse/anndata/main/docs/_static/img/anndata_schema.svg" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="200" height="195" />
     <figcaption class="caption">From https://raw.githubusercontent.com/scverse/anndata/main/docs/_static/img/anndata_schema.svg</figcaption>
 </figure>
-</p>
 <p>For HTAN’s purposes, the following parts of the AnnData object are of interest:</p>
 <ul>
 <li>.X - a matrix with counts where rows are cells and columns are genes.</li>
@@ -342,12 +319,7 @@
 <li>obsm - one or more numpy ndarrays with cell embeddings.</li>
 </ul>
 <p>CELLxGENE requires that raw data are submitted.  Normalized data may also be submitted.</p>
-<doc-anchor-target id="cellxgene">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#cellxgene">#</doc-anchor-trigger>
-        <span>CELLxGENE</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="cellxgene">CELLxGENE</h3>
 <p>The HTAN DCC submits sc/snRNA-seq data to <a href="https://cellxgene.cziscience.com" target="_blank" rel="noopener noreferrer">CELLxGENE</a>, a tool developed by the Chan Zuckerberg Initiative (CZI) to visualize and explore single cell and spatial data. The DCC submits data to CellxGene in h5ad (AnnData 0.10) format. CELLxGENE’s schema requires:</p>
 <ul>
 <li>use of Ensembl gene IDs.</li>
@@ -356,12 +328,7 @@
 <li>use of specific ontologies for many of the required attributes (i.e. cell ontology).</li>
 </ul>
 <p>The HTAN requirements for h5ad files are modeled after CELLxGENE&#x27;s <a href="https://cellxgene.cziscience.com/docs/032__Contribute%20and%20Publish%20Data" target="_blank" rel="noopener noreferrer">Dataset Requirements</a>.</p>
-<doc-anchor-target id="human-cell-atlas-hca">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#human-cell-atlas-hca">#</doc-anchor-trigger>
-        <span>Human Cell Atlas (HCA)</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="human-cell-atlas-hca">Human Cell Atlas (HCA)</h3>
 <p>The Human Cell Atlas (HCA) is a large repository of single cell data from healthy subjects.  It provides  <a href="https://docs.google.com/document/d/1SsHZweG_kqerCAPNbQF7gQHNBDRqOsNZWzaWXZIKwTE/edit?usp=sharin" target="_blank" rel="noopener noreferrer">standards for single-cell data submission</a> which adopt most of the CELLxGENE schema, but also include additional fields.  Aligning HTAN data with CELLxGENE will potentially facilitate data integration with other consortia such as the HCA.  The HTAN requirements include three HCA attributes in addition to CELLxGENE required attributes.</p>
 </doc-tab>
 </doc-tabs>
