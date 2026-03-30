@@ -35,10 +35,6 @@ Each HTAN Center/TNP controls their own namespaces, and therefore owns all ident
 HTAN Centers/TNPs may choose to use integer blocks to assign groups.  For example, University of San Francisco may have four clinical sites, and may wish to reserve HTA200_1 to HTA200_1000 for all patients from site 1, and HTA200_1001 to HTA200_2000 for all patients from site 2.  These blocks are entirely up to the research project and not managed by the DCC. The assigned integers in a set of identifiers need not be consecutive. 
 !!!
 
-!!!
-<a href="https://en.wikipedia.org/wiki/Leading_zero" target="_blank" rel="noopener noreferrer">Leading zeros</a> (e.g. HTA209_**0**1) should **not** be used in the ID. 
-!!!
-
 ### Step 2b [optional]: If needed, assign HTAN identifiers for external controls
 
 Each external control participant or blank biospecimen in your atlas, if present,  must also have a unique HTAN Identifier.  These identifiers are meant only for participants without precancerous or cancerous lesions, and therefore explicitly indicate lack of HTAN-relevant clinical data within the identifier itself.  These participant identifiers look like:
@@ -70,7 +66,7 @@ HTA209_1_B1\
 HTA209_1_B3\
 HTA209_1_B8
 
-Analogous to research participant IDs, the unique integer value following `<participant_id>_B` is determined entirely by the source HTAN Center/TNP.  The ID must not have <a href="https://en.wikipedia.org/wiki/Leading_zero" target="_blank" rel="noopener noreferrer">leading zeros</a>. Additional underscores are allowed after Binteger. For example, HTA209_1_B1_234 would be allowed. However, IDs must be less than 50 characters in length.
+Analogous to research participant IDs, the unique integer value following `<participant_id>_B` is determined entirely by the source HTAN Center/TNP. Additional underscores are allowed after Binteger. For example, HTA209_1_B1_234 would be allowed. However, IDs must be less than 50 characters in length.
 
 #### Data Files
 Data files that result from biospecimens have identifiers which follow the pattern:
@@ -85,7 +81,7 @@ For example, if an assay was performed on a biospecimen from the same Yale Lymph
 HTA209_1_D12\
 HTA209_1_D15
 
-Analogous to research participant IDs, the unique integer value following `<participant_id>_D` is determined entirely by the source HTAN Center/TNP.  The ID must not have <a href="https://en.wikipedia.org/wiki/Leading_zero" target="_blank" rel="noopener noreferrer">leading zeros</a>. Additional underscores are allowed after Dinteger. For example, HTA209_1_D12_234 would be allowed. However, IDs must be less than 50 characters in length.
+Analogous to research participant IDs, the unique integer value following `<participant_id>_D` is determined entirely by the source HTAN Center/TNP. Additional underscores are allowed after Dinteger. For example, HTA209_1_D12_234 would be allowed. However, IDs must be less than 50 characters in length.
 
 !!! Special Case Identifers
 If a single biospecimen or data file is derived from multiple participants, the file identifier must contain a wildcard string, e.g. ‘0000’, after the HTAN center identifier. For example:
@@ -126,9 +122,6 @@ Each HTAN Center/TNP controls their own namespaces, and therefore owns all ident
 HTAN Centers/TNPs may choose to use integer blocks to assign groups.  For example, CHOP may have four clinical sites, and may wish to reserve HTA4_1 to HTA4_1000 for all patients from site 1, and HTA4_1001 to HTA4_2000 for all patients from site 2.  These blocks are entirely up to the research project and not managed by the DCC. The assigned integers in a set of identifiers need not be consecutive. 
 !!!
 
-!!!
-<a href="https://en.wikipedia.org/wiki/Leading_zero" target="_blank" rel="noopener noreferrer">Leading zeros</a> (e.g. HTA3_01) should **not** be used in the ID. 
-!!!
 
 ### Step 2b [optional]: If needed, assign HTAN identifiers for external controls
 
@@ -150,7 +143,7 @@ Derivative entities include anything derived from a research participant, includ
 
 `<derivative_entity_id>`	::= `<participant_id>_integer`
 
-Analogous to research participant IDs, the unique integer value following `<participant_id>` is determined entirely by the source HTAN Center/TNP.  The ID must not have <a href="https://en.wikipedia.org/wiki/Leading_zero" target="_blank" rel="noopener noreferrer">leading zeros</a>. 
+Analogous to research participant IDs, the unique integer value following `<participant_id>` is determined entirely by the source HTAN Center/TNP.  
 
 !!! Special Case Identifers
 If a single data file is derived from multiple participants, the file identifier can contain a wildcard string, e.g. ‘0000’, after the HTAN center identifier. For example:
