@@ -48,13 +48,28 @@ For large file uploads, Synapse also provides guidance regarding uploading data 
 
 ### Submit Metadata
 
-Synapse provides a curator within its platform for creating and managing metadata. Please see <a href="https://docs.synapse.org/synapse-docs/managing-metadata-with-curator" target="_blank" rel="noopener noreferrer">their documenation</a> for information about using the curator.
+Synapse provides a curator within its platform for creating and managing metadata. Please see <a href="https://docs.synapse.org/synapse-docs/managing-metadata-with-curator" target="_blank" rel="noopener noreferrer">their documenation</a> for information about using the curator. 
 
 In the Synapse system, metadata can be **File-based** (associated with a data file) or **Record-based**. Please see <a href="https://docs.synapse.org/synapse-docs/managing-metadata-with-curator#About" target="_blank" rel="noopener noreferrer">Synapse's Documentation</a> for more information about these terms.
 
 For HTAN: \
 **Record-based** metadata includes the Clinical and Biospecimen modules of the HTAN2 Data Model. \
 **File-based** metadata includes all other modules in the HTAN2 Data Model.
+
+!!! :bug: Report A Bug
+If you run into an issue, have a question, or would like to request a new feature for Curator, please submit a support ticket to the [Synapse Help Desk](https://sagebionetworks.jira.com/servicedesk/customer/portal/9).
+
+To help us resolve your issue faster, please use the following format:
+
+1. **Synapse Project ID**(e.g. syn12345678) Provide the Synapse Project ID associated with the issue.
+2. **Data Folder Syn ID** (e.g. syn12345678) Include the Synapse ID for the relevant data folder.
+3. **URL of Curator Session** (e.g. https://synapse.org/Grid:default?sessionId=MTE4NTQ1OA%3D%3D&taskId=1234)
+4. **Issue Being Experienced** Clearly describe the problem, including what happened and what you expected to happen.
+5. **Steps to Reproduce the Bug** List the exact steps needed to reproduce the issue so that the team can investigate it reliably.
+6. **Supporting Evidence** Attach a video recording or screenshots that show the issue. Visual evidence is strongly encouraged and can help speed up troubleshooting.
+
+For questions related to specifically to HTAN or the HTAN Data Model, please submit a ticket to the [HTAN Help Desk](https://sagebionetworks.jira.com/servicedesk/customer/portal/1). 
+!!!
 
 ## Useful Links and Guides
 
