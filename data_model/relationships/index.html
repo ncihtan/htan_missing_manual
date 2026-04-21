@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828208290796">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830102705539">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.4.0">
+    <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
     <title>Relationship Model</title>
     <meta name="title" content="Relationship Model">
-    <meta name="description" content="HTAN Centers have multiple research participants, who have donated biospecimens (see Figure below). Metadata submitted by HTAN Centers allows one to trace">
+    <meta name="description" content="HTAN Centers have multiple research participants, who have donated biospecimens (see Figure below). Metadata submitted by HTAN Centers allows one to trace back any data file to the donated biospecimen.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.humantumoratlas.org/data_model/relationships/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://docs.humantumoratlas.org/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.humantumoratlas.org/data_model/relationships/">
     <meta property="og:title" content="Relationship Model">
-    <meta property="og:description" content="HTAN Centers have multiple research participants, who have donated biospecimens (see Figure below). Metadata submitted by HTAN Centers allows one to trace">
+    <meta property="og:description" content="HTAN Centers have multiple research participants, who have donated biospecimens (see Figure below). Metadata submitted by HTAN Centers allows one to trace back any data file to the donated biospecimen.">
     <meta property="og:image" content="https://docs.humantumoratlas.org/img/phase2_id_provenance_explained.svg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -33,17 +34,20 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://docs.humantumoratlas.org/data_model/relationships/">
     <meta name="twitter:title" content="Relationship Model">
-    <meta name="twitter:description" content="HTAN Centers have multiple research participants, who have donated biospecimens (see Figure below). Metadata submitted by HTAN Centers allows one to trace">
+    <meta name="twitter:description" content="HTAN Centers have multiple research participants, who have donated biospecimens (see Figure below). Metadata submitted by HTAN Centers allows one to trace back any data file to the donated biospecimen.">
     <meta name="twitter:image" content="https://docs.humantumoratlas.org/img/phase2_id_provenance_explained.svg">
     <meta name="twitter:image:alt" content="Relationship Model">
 
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://docs.humantumoratlas.org/data_model/relationships.md">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.4.0.828208290796" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.5.3.830102705539" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.828208290796" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.828208290796" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.3.830102705539" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.3.830102705539" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -143,9 +147,11 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
+                <doc-page-actions></doc-page-actions>
+
                 <!-- Page content  -->
 <h1 id="relationship-model">Relationship Model</h1>
 <p>HTAN Centers have multiple research participants, who have donated biospecimens (see Figure below). <a href="../data_model/data_levels.md#metadata">Metadata</a> submitted by HTAN Centers allows one to trace back any data file to the donated biospecimen. Data may be derived directly from the original biospecimen or from subsamples/assayed samples. Via metadata, <a href="../data_model/data_levels.md#assay-data-levels">Level 1 raw data files</a> are often directly linked to the corresponding assayed biospecimen, whereas processed <a href="../data_model/data_levels.md#assay-data-levels">Level 2-4 data files</a> are linked to lower level parent data files. Connecting a given data file to the originating biospecimen often requires following the ID relationships (ID Provenance) contained within metadata.</p>
@@ -160,11 +166,14 @@
 <h2 id="biospecimen-attribute-definitions">Biospecimen Attribute Definitions</h2>
 <p>Given the complexity of biospecimen relationships, we&#x27;ve adopted the following nomenclature to describe biospecimen lineages:</p>
 <ul>
-<li><p><strong>Originating Biospecimen</strong>: the biopsied or resected biospecimen from the patient from which the assay data were derived</p>
+<li>
+<p><strong>Originating Biospecimen</strong>: the biopsied or resected biospecimen from the patient from which the assay data were derived</p>
 </li>
-<li><p><strong>Assayed Biospecimen</strong>: the biospecimen directly assayed using the experimental platform</p>
+<li>
+<p><strong>Assayed Biospecimen</strong>: the biospecimen directly assayed using the experimental platform</p>
 </li>
-<li><p><strong>Biospecimen Path</strong>: path of biospecimens from Originating to Assayed; comma-separated</p>
+<li>
+<p><strong>Biospecimen Path</strong>: path of biospecimens from Originating to Assayed; comma-separated</p>
 </li>
 </ul>
 <h2 id="provenance-table-construction">Provenance Table Construction</h2>
@@ -264,6 +273,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Relationship Model", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Relationship Model", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/data_model/relationships.md" }</script>
 </body>
 </html>

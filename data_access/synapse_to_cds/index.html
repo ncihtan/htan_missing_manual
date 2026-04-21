@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828208290796">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830102705539">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.4.0">
+    <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
     <title>Accessing Synapse Open Access Data in SB-CGC</title>
@@ -16,6 +16,7 @@
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.humantumoratlas.org/data_access/synapse_to_cds/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://docs.humantumoratlas.org/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -31,14 +32,17 @@
     <meta name="twitter:title" content="Accessing Synapse Open Access Data in SB-CGC">
     <meta name="twitter:description" content="Seven Bridges Cancer Genomics Cloud (SB-CGC) is a cloud platform for the analysis and storage of large cancer datasets.">
 
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://docs.humantumoratlas.org/data_access/synapse_to_cds.md">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.4.0.828208290796" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.5.3.830102705539" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.828208290796" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.828208290796" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=4.4.0.828208290796" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.3.830102705539" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.3.830102705539" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=4.5.3.830102705539" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -138,9 +142,11 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
+                <doc-page-actions></doc-page-actions>
+
                 <!-- Page content  -->
 <h1 id="accessing-synapse-open-access-data-in-sb-cgc">Accessing Synapse Open Access Data in SB-CGC</h1>
 <p><a href="https://www.cancergenomicscloud.org/" target="_blank" rel="noopener noreferrer">Seven Bridges Cancer Genomics Cloud (SB-CGC)</a> is a cloud platform for the analysis and storage of large cancer datasets.</p>
@@ -163,7 +169,7 @@
 <h3 id="2-install-and-configure-synapse-client">2. Install and Configure Synapse Client</h3>
 <ol>
 <li>Open the Terminal in JupyterLab.</li>
-<li><p>Install the Synapse client (if not already installed) by typing:</p>
+<li>Install the Synapse client (if not already installed) by typing:
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-bash"><code v-pre class="language-bash">pip install synapseclient</code></pre>
 </doc-codeblock></div>
@@ -177,13 +183,12 @@
 </li>
 <li>Configure Synapse client with the Token:
 <ul>
-<li><p>In the JupyterLab Terminal, type:</p>
+<li>In the JupyterLab Terminal, type:
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-bash"><code v-pre class="language-bash">synapse config</code></pre>
 </doc-codeblock></div>
 </li>
-<li><p>When prompted, enter your Synapse username (optional) and paste the token.</p>
-</li>
+<li>When prompted, enter your Synapse username (optional) and paste the token.</li>
 </ul>
 </li>
 </ol>
@@ -200,7 +205,7 @@
 </ol>
 <h3 id="5-move-files-to-output-folder">5. Move Files to Output Folder</h3>
 <ul>
-<li><p>Move files to the <code translate="no" v-pre>output-files</code> directory to ensure they sync with your CGC project:</p>
+<li>Move files to the <code translate="no" v-pre>output-files</code> directory to ensure they sync with your CGC project:
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-bash"><code v-pre class="language-bash">cp &lt;filename&gt; ../output-files</code></pre>
 </doc-codeblock></div>
@@ -285,6 +290,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Accessing Synapse Open Access Data in SB-CGC", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Accessing Synapse Open Access Data in SB-CGC", level: 2, icon: "file", hasPrism: true, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/data_access/synapse_to_cds.md" }</script>
 </body>
 </html>
