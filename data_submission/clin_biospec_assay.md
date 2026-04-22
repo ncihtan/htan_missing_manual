@@ -43,9 +43,13 @@ For each data release, the HTAN Data Coordinating Center (DCC) will create a set
 - v#_stage; and
 - v#_release.
 
-For example, the folders v8_ingest, v8_stage and v8_release were added to each Center's Synapse Project for the first Phase 2 HTAN data release (v8). When the DCC is ready to accept data for release v9, new folders (v9_ingest, v9_stage and v9_release) will be added to each HTAN Center's Synapse Project.
+!!! **HTAN Centers only use the ingest folder.**
+**HTAN Centers** upload their data to the appropriate location within the **ingest folder**.  The stage and release folders are then used by the DCC to track data which have passed all validation tests (stage) and data which were released to a data portal (release).
+!!!
 
-**HTAN Centers** upload their data to the appropriate location within the **ingest folder**.  The stage and release folders are then used by the DCC to track data which have passed all validation tests (stage) and data which were released to a data portal (release). 
+For example, the folders v8_ingest, v8_stage and v8_release were added to each Center's Synapse Project for the first Phase 2 HTAN data release (v8). When the DCC is ready to accept data for release v9, new folders (v9_ingest, v9_stage and v9_release) will be added to each HTAN Center's Synapse Project. **The DCC will notify and guide HTAN Centers to the correct folder when data upload is open for a particular release.**
+
+ 
 
 ![Figure 2. HTAN Synapse Folder Structure](../img/Synapse_Data_Folders.svg){ style="width: 60%;"}
 
