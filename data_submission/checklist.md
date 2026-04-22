@@ -1,5 +1,5 @@
 ---
-order: 999
+order: 998
 ---
 
 # HTAN Checklist for Acceptance of Data

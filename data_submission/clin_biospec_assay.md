@@ -1,19 +1,21 @@
 ---
-order: 994
+order: 1000
 ---
 
 # Data Submission Overview
 
 [Data Submission Introduction](../data_submission/overview.md) provides a general overview for submitting data and metadata to HTAN. This page provides details regarding those steps.
 
-## Data Submission Steps
-1. [Complete Pre-submission Tasks](#pre-submission-tasks)
-2. [Submit Data Files](#submit-data-files)
-4. [Submit Metadata](#submit-metadata)
++++ Overview
+### Data Submission Steps
+1. Complete Pre-submission Tasks;
+2. Submit Data; and
+3. Submit Metadata;
 
-Please read the rest of this page for more information about each of these steps.
-![HTAN Data Submission Process](../img/Data_submission.svg){ style="width: 60%;" }
+An HTAN Center uploads data to its HTAN Synapse Project. The project is organized into versioned folders which are tied to the HTAN Data Model. Please see the other tabs on this page for more information about Synapse Project organization and each of the data submission steps. 
+![Figure 1. HTAN Data Submission Process](../img/Data_submission.svg){ style="width: 50%;" }
 
++++ Pre-submission Tasks
 ### Pre-submission Tasks
 
 - [ ] Have at least one user with Certified User status on Synapse.
@@ -34,21 +36,44 @@ Please read the rest of this page for more information about each of these steps
 
 > **Please review your data to ensure that it does not contain PHI.** The HTAN DCC cannot accept data with PHI, including dates less than a year. For example, dates in metadata must be converted to [days from birth](../data_submission/dates.md) and all image files must have PHI removed from file headers.
 
-### Submit Data Files
++++ Synapse Project Organization 
+### HTAN Center Folder Structure
+For each data release, the HTAN Data Coordinating Center (DCC) will create a set of 3 folders (Figure 2):
+- v#_ingest;
+- v#_stage; and
+- v#_release.
 
-Data files can be transferred using the Synapse User Interface (Synapse UI) or programmatically. 
+!!! **HTAN Centers only use the ingest folder.**
+**HTAN Centers** upload their data to the appropriate location within the **ingest folder**.  The stage and release folders are then used by the DCC to track data which have passed all validation tests (stage) and data which were released to a data portal (release).
+!!!
+
+For example, the folders v8_ingest, v8_stage and v8_release were added to each Center's Synapse Project for the first Phase 2 HTAN data release (v8). When the DCC is ready to accept data for release v9, new folders (v9_ingest, v9_stage and v9_release) will be added to each HTAN Center's Synapse Project. **The DCC will notify and guide HTAN Centers to the correct folder when data upload is open for a particular release.**
+
+ 
+
+![Figure 2. HTAN Synapse Folder Structure](../img/Synapse_Data_Folders.svg){ style="width: 60%;"}
+
+Within the ingest folder, there are subfolders which are tied to the HTAN Data Model. For example, at the time of the v8 release, Clinical and Biospecimen records were supported as well as the following assays: Digital Pathology, Multiplex Microscopy, sc/snRNA-sequencing, SpatialOmics and Whole Exome Sequencing (WES). As a result, subfolders for each data type exist within the ingest folder as shown in Figure 3.
+
+![Figure 3. v8_ingest Subfolders](../img/Synapse_Ingest_Subfolders.svg){ style="width: 30%;" }
+
++++ Submit Data
+### Upload Data Files
+
+Data files can be transferred to the appropriate Synapse folder either by using the Synapse User Interface (Synapse UI) or programmatically. 
 
 - To upload files using the Synapse User Interface, follow Synapse's <a href="https://docs.synapse.org/synapse-docs/uploading-and-organizing-data-into-projects-files-and-folders#Uploading-a-File-via-the-Synapse-UI" target="_blank" rel="noopener noreferrer">Uploading a File (via Synapse UI)</a> directions.
 - To upload the files programmatically, please follow Synapse's <a href="https://docs.synapse.org/synapse-docs/uploading-and-organizing-data-into-projects-files-and-folders#Uploading-a-File-Programmatically" target="_blank" rel="noopener noreferrer">Uploading a File Programmatically</a> directions. Contributors are encouraged to use the Python client for programmatic uploads.  
 
-For large file uploads, Synapse also provides guidance regarding uploading data in bulk in <a href="https://python-docs.synapse.org/en/stable/tutorials/python/upload_data_in_bulk/" target="_blank" rel="noopener noreferrer">this tutorial</a>.  
+For large file uploads, Synapse also provides guidance in <a href="https://python-docs.synapse.org/en/stable/tutorials/python/upload_data_in_bulk/" target="_blank" rel="noopener noreferrer">this tutorial</a> regarding uploading data in bulk.  
 
 !!! If you upload files to Synapse programmatically using the python client, please use synapseclient version 3.0.0 or higher. 
 !!!
 
++++ Submit Metadata
 ### Submit Metadata
 
-Synapse provides a curator within its platform for creating and managing metadata. Please see <a href="https://docs.synapse.org/synapse-docs/managing-metadata-with-curator" target="_blank" rel="noopener noreferrer">their documenation</a> for information about using the curator. 
+Synapse provides a curator within its platform for creating and managing metadata. Please see <a href="https://docs.synapse.org/synapse-docs/managing-metadata-with-curator" target="_blank" rel="noopener noreferrer">their documentation</a> for information about using the curator. Please see the [Metadata Standards](../data_model/metadata_standards.md) page of this manual for more information about Phase 2 HTAN Metadata requirements. 
 
 In the Synapse system, metadata can be **File-based** (associated with a data file) or **Record-based**. Please see <a href="https://docs.synapse.org/synapse-docs/managing-metadata-with-curator#About" target="_blank" rel="noopener noreferrer">Synapse's Documentation</a> for more information about these terms.
 
@@ -71,6 +96,7 @@ To help the Curator team review and resolve issues efficiently:
 - Attach screenshots or a short video whenever possible.
 !!!
 
++++ Useful Links
 ## Useful Links and Guides
 
 ### Synapse
@@ -79,3 +105,4 @@ To help the Curator team review and resolve issues efficiently:
 
 ### Understanding the HTAN Data Model
 - To understand the general structure of the HTAN Data Model and HTAN Identifiers, please see the [HTAN Data Model](../data_model/overview.md) section of this manual.
++++
