@@ -99,4 +99,7 @@ To help the Curator team review and resolve issues efficiently:
 
 ### Understanding the HTAN Data Model
 - To understand the general structure of the HTAN Data Model and HTAN Identifiers, please see the [HTAN Data Model](../data_model/overview.md) section of this manual.
+
+### Publication Guidance
+- The [Submitting Publications](../addtnl_info/publications.md) page provides suggested data availability statements for a manuscript as well as information about how submitted data is linked to your publication. 
 +++

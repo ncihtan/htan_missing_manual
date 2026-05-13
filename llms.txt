@@ -59,7 +59,7 @@
 ## Additional Information
 
 - [Submitting Tools and Protocols](https://docs.humantumoratlas.org/addtnl_info/tool_protocol.md): The HTAN Portal Analysis Tools page lists computational tools developed or used to support HTAN research projects. The Data Coordinating Center (DCC) regularly checks HTAN pre-prints and publications for new HTAN Tools to add to the page.
-- [Submitting Publications](https://docs.humantumoratlas.org/addtnl_info/publications.md): To facilitate data sharing and adherence to FAIR (Findability, Accessibility, Interoperability, and Reusability) principles, the HTAN portal provides links to specimen files used in publications.
+- [Submitting Publications](https://docs.humantumoratlas.org/addtnl_info/publications.md): The HTAN Data Coordinating Center (DCC) supports HTAN Center publications in the following ways:
 - [Governance and Policy](https://docs.humantumoratlas.org/addtnl_info/governance.md): Responsible data sharing requires transparent governance approaches to ensure data contributors, data curators, and data consumers are empowered to share and use data effectively.
 - [HTAN Data Usage Analytics](https://docs.humantumoratlas.org/addtnl_info/usage_analytics.md): The HTAN portal is used by thousands of people each month all over the world:
 - [Working Groups and Internal Communications](https://docs.humantumoratlas.org/addtnl_info/wg_internal.md): Information regarding Network Working Groups and Internal Communications can be found on the HTAN Phase 2 Synapse Wiki page.
