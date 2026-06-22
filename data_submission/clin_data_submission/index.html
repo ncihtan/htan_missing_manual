@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.832012744004">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.835468278409">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.5.3">
+    <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
     <title>Phase 2 Clinical Data</title>
@@ -43,11 +43,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.5.3.832012744004" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.835468278409" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.3.832012744004" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.3.832012744004" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.835468278409" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.835468278409" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -271,6 +271,23 @@
 }
 </style>
 <p>Table 1. Longitudinal Clinical and Biospecimen Data</p>
+<retype-table copy-text="| Timepoint | Metadata Category | Number of records per participant | Requirement | Anchoring time point |
+|-----------|-------------------|-----------------------------|-----------|--------|
+| &lt;span class=&quot;deep-pink-cell&quot;&gt;Baseline | Demographics | 1 | Required | None |
+| &lt;span class=&quot;deep-pink-cell&quot;&gt;Baseline | Diagnosis | 1 per lesion/tumor being described | Required | AGE_IN_DAYS_AT_DIAGNOSIS |
+| &lt;span class=&quot;deep-pink-cell&quot;&gt;Baseline | Vital Status | 1 per observation | Required | AGE_IN_DAYS_AT_DIAGNOSIS |
+| &lt;span class=&quot;deep-pink-cell&quot;&gt;Baseline | Exposure | 1 | Optional | None |
+| &lt;span class=&quot;deep-pink-cell&quot;&gt;Baseline | Family History | 1 | Optional | None |
+| &lt;span class=&quot;deep-pink-cell&quot;&gt;Baseline | Molecular Test | 1 per molecular test | Optional | AGE_IN_DAYS_AT_MOLECULAR_TEST_START |
+| &lt;span class=&quot;deep-pink-cell&quot;&gt;Baseline | Therapy | 1 per therapy type administered | Optional | AGE_IN_DAYS_AT_TREATMENT_START |
+|&lt;span class=&quot;blue-cell&quot;&gt;Surgery, Biopsy[^1] | Biospecimen | 1 record per biospecimen | Required | AGE_IN_DAYS_AT_SPECIMEN_COLLECTION |
+| &lt;span class=&quot;green-cell&quot;&gt;Scheduled Follow-up Timepoints | Followup | 1 per observation | Required | AGE_IN_DAYS_AT_FOLLOWUP |
+| &lt;span class=&quot;green-cell&quot;&gt;Scheduled Follow-up Timepoints | Vital Status |  1 per observation | Optional | AGE_IN_DAYS_AT_LAST_KNOWN_SURVIVAL_STATUS |
+| &lt;span class=&quot;green-cell&quot;&gt;Scheduled Follow-up Timepoints | Diagnosis | 1 per *new* lesion/tumor | Optional | AGE_IN_DAYS_AT_DIAGNOSIS |
+| &lt;span class=&quot;green-cell&quot;&gt;Scheduled Follow-up Timepoints | Molecular Test | 1 per *new* molecular test | Optional | AGE_IN_DAYS_AT_MOLECULAR_TEST_START |
+| &lt;span class=&quot;green-cell&quot;&gt;Scheduled Follow-up Timepoints | Therapy | 1 per *new* therapy type administered | Optional | AGE_IN_DAYS_AT_TREATMENT_START |
+| &lt;span class=&quot;indigo-cell&quot;&gt;Unscheduled Follow-up Timepoints | Vital Status |  1 per observation | Optional | AGE_IN_DAYS_AT_LAST_KNOWN_SURVIVAL_STATUS |
+| &lt;span class=&quot;indigo-cell&quot;&gt;Unscheduled Follow-up Timepoints | Molecular Test | 1 per *new* molecular test | Optional | AGE_IN_DAYS_AT_MOLECULAR_TEST_START |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -391,6 +408,7 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 </doc-tab>
 </doc-tabs>
 <div class="retype-footnotes">
