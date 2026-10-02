@@ -2,9 +2,9 @@
 order: 997
 ---
 
-# Data Liaisons
+# Data Liaisons and Wranglers
 
-Upon joining HTAN, Centers are assigned a data liaison from the DCC.  Trans-Network Projects (TNPs) are also assigned liaisons. The DCC liaisons assist each of the research centers in successfully uploading data and metadata files.  
+Upon joining HTAN, Centers are assigned a Data Liaison from the DCC.  Trans-Network Projects (TNPs) are also assigned liaisons. The DCC liaisons assist each of the research centers in successfully uploading data and metadata files.  In addition, Centers are expected to name a Data Wrangler, who is a single Authorized Individual responsible for working with the DCC Data Liaison to coordinate the successful uploading of data and metadata files.
 
 ## Phase 2 Liaisons
 
