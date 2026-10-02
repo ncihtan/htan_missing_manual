@@ -6,8 +6,8 @@ Upon joining HTAN, Centers are assigned a data liaison from the DCC.  Trans-Netw
 
 | Atlas | Awardee Organization | Atlas ID | Liaison | Email |
 |-------|-----------------|----------|---------|-------|
-| HTAN2_Skin_PCA | UCSF | HTA200 | Adam Taylor | adam.taylor@sagebase.org |
-| HTAN2_Pancreas_PCA | OHSU  | HTA201 | Adam Taylor | adam.taylor@sagebase.org |
+| HTAN2_Skin_PCA | UCSF | HTA200 | Adam Taylor | aditi.gopalan@sagebase.org, chelsea.nayan@sagebase.org |
+| HTAN2_Pancreas_PCA | OHSU  | HTA201 | Adam Taylor | aditi.gopalan@sagebase.org, chelsea.nayan@sagebase.org |
 | HTAN2_Glioma_PCA | CalTech | HTA202 | Ino de Bruijn | debruiji@mskcc.org |
 | HTAN2_Gastric_PCA | MD Anderson | HTA203 | Robert Gentleman | rgentlem@ds.dfci.harvard.edu |
 | HTAN2_Myeloma_PCA | DFCI | HTA204 | Robert Gentleman | rgentlem@ds.dfci.harvard.edu |
@@ -27,10 +27,10 @@ Upon joining HTAN, Centers are assigned a data liaison from the DCC.  Trans-Netw
 | HTAN CHOP | HTA4 | Ino de Bruijn | debruiji@mskcc.org |
 | HTAN DFCI | HTA5 |Robert Gentleman | rgentlem@ds.dfci.harvard.edu | 
 | HTAN Duke | HTA6 | Ino de Bruijn | debruiji@mskcc.org |
-| HTAN HMS | HTA7 | Adam Taylor | adam.taylor@sagebase.org |
+| HTAN HMS | HTA7 | Adam Taylor | aditi.gopalan@sagebase.org, chelsea.nayan@sagebase.org |
 | HTAN MSK | HTA8 | Ino de Bruijn | debruiji@mskcc.org |
-| HTAN OHSU | HTA9 | Adam Taylor | adam.taylor@sagebase.org |
-| HTAN Stanford | HTA10 | Adam Taylor | adam.taylor@sagebase.org |
+| HTAN OHSU | HTA9 | Adam Taylor | aditi.gopalan@sagebase.org, chelsea.nayan@sagebase.org |
+| HTAN Stanford | HTA10 | Adam Taylor | aditi.gopalan@sagebase.org, chelsea.nayan@sagebase.org |
 | HTAN Vanderbilt | HTA11 | Dar'ya Pozhidayeva | dpozhida@systemsbiology.org |
 | HTAN WUSTL | HTA12 | Dar'ya Pozhidayeva | dpozhida@systemsbiology.org |
 | TNP SARDANA | HTA13 | Vesteinn Thorsson | thorsson@isbscience.org |
