@@ -6,6 +6,8 @@ order: 1000
 
 All HTAN Centers are required to encode their data and metadata in a **common HTAN Data Model**. The HTAN Data Model is created via a community Request for Comment (RFC) process, with participation from all HTAN Centers, and covers clinical, biospecimen, genomic, transcriptomic, proteomic, imaging and spatial profiling data.
 
+> If you'd like to jump into the details, we also have an up-to-date specification of [HTAN Phase 2 Data Model](https://htan2-data-model.readthedocs.io/en/main/index.html).
+
 The HTAN Data Model encompasses **Metadata Standards**, **File Standards**, **Identifiers** and a **Relationship Model**. 
 
 ==- :icon-light-bulb: What do we mean by "Data Model"
