@@ -7,6 +7,8 @@ Only HTAN Centers and Associate Members can submit data to HTAN repositories. Th
 
 :exclamation: *Prior to submitting data, all data must be de-identified.  Please see [Data De-identification](../data_submission/Data_Deidentification.md) for more information.*
 
+> For data wranglers desiring a quick step-by-step guide for getting set up for data submissions, please see our [Guide for Data Wranglers](https://docs.google.com/document/d/1msJvvZKgVpuo6z3SetYWo5eQKxfVGPAwKXPFRtWojOc/edit?tab=t.0#heading=h.r5dp5sba8083) 
+
 
 ## Phase 2 Data and Metadata Submission
 In HTAN Phase 2, data and metadata submission are centralized within the Synapse platform which is developed and maintained by <a href="https://sagebionetworks.org/" target="_blank" rel="noopener noreferrer">Sage Bionetworks</a>. 
